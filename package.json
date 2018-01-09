@@ -13,8 +13,7 @@
         "test": "bash ./scripts/test.sh",
         "test-once": "bash ./scripts/test.sh once",
         "test-watch": "bash ./scripts/test.sh watch",
-        "travis": "bash ./scripts/travis.sh",
-        "deploy": "bash ./scripts/deploy.sh"
+        "travis": "bash ./scripts/travis.sh"
     },
     "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
     "license": "MIT",
