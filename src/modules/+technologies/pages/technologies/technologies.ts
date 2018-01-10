@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { ComponentBase } from 'utils/components';
 
 @Component({
-    templateUrl: './home.html',
-    styleUrls: ['./home.scss']
+    templateUrl: './technologies.html',
+    styleUrls: ['./technologies.scss']
 })
-export class HomeComponent extends ComponentBase {
+export class TechnologiesComponent extends ComponentBase {
     constructor() {
         super();
     }

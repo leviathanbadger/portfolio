@@ -1,9 +1,6 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Provider } from '@angular/core';
 
-//Providers
-import { GithubService } from './github.service';
-
-const module_providers = [GithubService];
+const module_providers: Provider[] = [];
 
 @NgModule({
     providers: [...module_providers]

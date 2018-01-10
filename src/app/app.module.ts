@@ -8,9 +8,6 @@ import { AppComponent } from './pages/app/app';
 import { LayoutComponent } from './pages/layout/layout';
 import { HomeComponent } from './pages/home/home';
 
-import { AboutComponent } from './pages/about/about';
-import { ContactComponent } from './pages/contact/contact';
-
 import { NotFoundComponent } from './pages/not-found/not-found';
 
 import { PageHeaderComponent } from './components/page-header/page-header';
@@ -24,7 +21,6 @@ import { SharedModule } from 'shared/shared.module';
 import { BrowserModule } from "@angular/platform-browser";
 
 const module_exports = [AppComponent, LayoutComponent, HomeComponent,
-                        AboutComponent, ContactComponent,
                         NotFoundComponent,
                         
                         PageHeaderComponent, PageFooterComponent, PageNavComponent];
