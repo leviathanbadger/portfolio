@@ -1,3 +1,3 @@
 
 
-export {};
+export * from './project.service';

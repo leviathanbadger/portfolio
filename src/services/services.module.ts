@@ -1,6 +1,10 @@
 import { NgModule, Provider } from '@angular/core';
 
-const module_providers: Provider[] = [];
+import { ProjectService } from './project.service';
+
+const module_providers: Provider[] = [
+    ProjectService
+];
 
 @NgModule({
     providers: [...module_providers]

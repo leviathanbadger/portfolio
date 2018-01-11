@@ -1,3 +1,21 @@
 <h1>Projects</h1>
 
-Here's a list of projects!
+<div *ngIf="(projectsObservable | async) as projects; else stillLoading">
+    <ng-container *ngIf="projects.length; else noProjects">
+        <div *ngFor="let project of projects">
+            <h3 class="proj-name">{{project.name}}</h3>
+            <p class="proj-desc">{{project.description}}</p>
+            <p class="proj-links">
+                <a *ngFor="let link of project.links" [href]="link[1]" class="proj-link">{{link[0]}}</a>
+            </p>
+        </div>
+    </ng-container>
+    
+    <ng-template #noProjects>
+        For some reason, we didn't find any projects.
+    </ng-template>
+</div>
+
+<ng-template #stillLoading>
+    <loading-spinner></loading-spinner>
+</ng-template>
