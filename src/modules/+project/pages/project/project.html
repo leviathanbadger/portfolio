@@ -1,17 +1,27 @@
 <div class="container" *ngLet="(projectObservable | async) as project">
     <div class="row">
-        <div class="col-12">
-            <ng-container *ngIf="!!project; else notFound">
+        <ng-container *ngIf="!!project; else notFound">
+            <div class="col-md-4">
+                <img class="mt-3 project-thumbnail" [src]="project.thumbnailSrc" [alt]="project.name">
+            </div>
+            
+            <div class="col-md-8">
                 <h1 class="mt-3">{{project.name}}</h1>
                 
                 <p>{{project.description}}</p>
-            </ng-container>
-            
-            <ng-template #notFound>
+                
+                <p>
+                    <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
+                </p>
+            </div>
+        </ng-container>
+        
+        <ng-template #notFound>
+            <div class="col-12">
                 <h1 class="mt-3">Project Not Found</h1>
                 
                 <p>Did you type in the URL correctly?</p>
-            </ng-template>
-        </div>
+            </div>
+        </ng-template>
     </div>
 </div>

@@ -19,7 +19,7 @@ export class Project {
         return this._slug;
     }
     get thumbnailSrc() {
-        return this._thumbnailSrc || 'https://placehold.it/286x180';
+        return this._thumbnailSrc || 'https://placehold.it/430x270';
     }
     get description() {
         return this._desc;
