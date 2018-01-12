@@ -1,0 +1,12 @@
+
+
+.card.link-card {
+    cursor: pointer;
+    
+    & .card-title {
+        color: #007bff;
+    }
+    &:hover .card-title {
+        color: #0056b3;
+    }
+}

@@ -1,17 +1,22 @@
-<nav>
-    <a [routerLink]="['/']">
-        brandonslade.me
-    </a>
-    |
-    <a [routerLink]="['/projects']">
-        Projects
-    </a>
-    |
-    <a [routerLink]="['/technologies']">
-        Technologies
-    </a>
-    |
-    <a [routerLink]="['/resume']">
-        R&eacute;sum&eacute;
-    </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" [routerLink]="['/']">brandonslade.me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/projects']">Projects</a>
+                </li>
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/technologies']">Technologies</a>
+                </li>
+                <li class="nav-item" [routerLinkActive]="['active']">
+                    <a class="nav-link" [routerLink]="['/resume']">R&eacute;sum&eacute;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
