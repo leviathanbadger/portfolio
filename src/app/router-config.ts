@@ -11,7 +11,7 @@ export const routerConfig: Routes = [
         {path: 'technologies', loadChildren: '../modules/+technologies/technologies.module#TechnologiesModule'},
         {path: 'project', pathMatch: 'full', redirectTo: 'projects'},
         {path: 'projects', loadChildren: '../modules/+projects/projects.module#ProjectsModule'},
-        {path: 'project/:project-slug', loadChildren: '../modules/+project/project.module#ProjectModule'},
+        {path: 'project/:projectSlug', loadChildren: '../modules/+project/project.module#ProjectModule'},
         {path: '**', component: NotFoundComponent}
     ]}
 ];

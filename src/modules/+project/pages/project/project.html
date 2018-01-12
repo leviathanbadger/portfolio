@@ -1,9 +1,17 @@
-<div class="container">
+<div class="container" *ngLet="(projectObservable | async) as project">
     <div class="row">
         <div class="col-12">
-            <h1 class="mt-3">Project</h1>
+            <ng-container *ngIf="!!project; else notFound">
+                <h1 class="mt-3">{{project.name}}</h1>
+                
+                <p>{{project.description}}</p>
+            </ng-container>
             
-            <p>Here's a project!</p>
+            <ng-template #notFound>
+                <h1 class="mt-3">Project Not Found</h1>
+                
+                <p>Did you type in the URL correctly?</p>
+            </ng-template>
         </div>
     </div>
 </div>

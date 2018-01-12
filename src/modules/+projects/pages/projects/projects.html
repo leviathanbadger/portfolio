@@ -8,14 +8,14 @@
     <div class="row" *ngIf="(projectsObservable | async) as projects; else stillLoading">
         <ng-container *ngIf="projects.length; else noProjects">
             <div class="col-md-4 mt-3" *ngFor="let project of projects">
-                <div class="card link-card" [routerLink]="['/project', project.name]">
-                    <img class="card-img-top" src="https://placehold.it/286x180" [alt]="project.name">
+                <div class="card link-card" [routerLink]="['/project', project.slug]">
+                    <img class="card-img-top" [src]="project.thumbnailSrc" [alt]="project.name">
                     <div class="card-body">
                         <h5 class="card-title">
                             {{project.name}}
                         </h5>
                         <p class="card-text">{{project.description}}</p>
-                        <a [routerLink]="['/project', project.name]" class="btn btn-primary">Details</a>
+                        <a [routerLink]="['/project', project.slug]" class="btn btn-primary">Details</a>
                         <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
                     </div>
                 </div>

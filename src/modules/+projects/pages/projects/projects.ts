@@ -20,7 +20,7 @@ export class ProjectsComponent extends ComponentBase {
     ngOnInit() {
         super.ngOnInit();
         
-        this.projectsObservable = Observable.fromPromise(this.projectService.find()).pipe(
+        this.projectsObservable = Observable.fromPromise(this.projectService.findAll()).pipe(
             startWith<Project[] | null>(null)
         );
     }
