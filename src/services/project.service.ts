@@ -3,11 +3,11 @@ import { Project } from 'models';
 
 const allProjects: Project[] = [
     new Project(
-        'GitSupport.io',
+        'DocSource.io',
         null,
         'Github-integrated developer documentation tool',
         [
-            ['Demo', 'https://gitsupport.io/']
+            ['Demo', 'https://docsource.io/']
         ]
     ),
     new Project(
