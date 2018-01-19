@@ -27,4 +27,9 @@ export class Project {
     get links() {
         return this._links;
     }
+    
+    matchFilter(filter: string) {
+        filter = filter.toLowerCase();
+        return this.name.toLowerCase().indexOf(filter) !== -1 || this.description.toLowerCase().indexOf(filter) !== -1;
+    }
 }

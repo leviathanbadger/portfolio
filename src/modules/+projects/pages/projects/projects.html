@@ -5,9 +5,15 @@
         </div>
     </div>
     
-    <div class="row" *ngIf="(projectsObservable | async) as projects; else stillLoading">
+    <div class="row">
+        <div class="col-12">
+            <input type="text" [(ngModel)]="filter" class="form-control project-filter" placeholder="Search" />
+        </div>
+    </div>
+    
+    <div class="row" *ngIf="(projectsObservable | async) as projects; else stillLoading" [@projectChangeIdx]="projectChangeIdx">
         <ng-container *ngIf="projects.length; else noProjects">
-            <div class="col-md-4 mt-3" *ngFor="let project of projects">
+            <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects">
                 <div class="card link-card" [routerLink]="['/project', project.slug]">
                     <img class="card-img-top" [src]="project.thumbnailSrc" [alt]="project.name">
                     <div class="card-body">

@@ -8,13 +8,14 @@ import { NgLet } from './directives/ng-let.directive';
 //Imports
 import { CommonModule } from "@angular/common";
 import { HttpModule } from "@angular/http";
+import { FormsModule } from '@angular/forms';
 
 export const module_exports = [LoadingSpinnerComponent,
                                
                                NgLet];
 
-const imported_modules = [CommonModule, HttpModule];
-export const exported_modules = [CommonModule, HttpModule];
+const imported_modules = [CommonModule, HttpModule, FormsModule];
+export const exported_modules = [CommonModule, HttpModule, FormsModule];
 
 @NgModule({
     declarations: [...module_exports],

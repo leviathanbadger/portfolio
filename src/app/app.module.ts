@@ -18,7 +18,7 @@ import { PageNavComponent } from './components/page-nav/page-nav';
 import { routerConfig } from './router-config';
 import { ServicesModule } from 'services/services.module';
 import { SharedModule } from 'shared/shared.module';
-import { BrowserModule } from "@angular/platform-browser";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const module_exports = [AppComponent, LayoutComponent, HomeComponent,
                         NotFoundComponent,
@@ -27,7 +27,7 @@ const module_exports = [AppComponent, LayoutComponent, HomeComponent,
 
 @NgModule({
     declarations: [...module_exports],
-    imports: [RouterModule.forRoot(routerConfig), ServicesModule, SharedModule.forRoot(), BrowserModule],
+    imports: [RouterModule.forRoot(routerConfig), ServicesModule, SharedModule.forRoot(), BrowserAnimationsModule],
     bootstrap: [AppComponent]
 })
 export class AppModule {
