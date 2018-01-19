@@ -8,7 +8,7 @@ import { ComponentBase } from 'utils/components';
 import { ProjectService } from 'services';
 import { Project } from 'models';
 
-const FILTER_DEBOUNCE_MILLIS = 200;
+const FILTER_DEBOUNCE_MILLIS = 500;
 
 const HIDE_FLEX = {
     'max-width': '0',
@@ -74,7 +74,11 @@ export class ProjectsComponent extends ComponentBase {
             map(([projects, filter]) => {
                 this.projectChangeIdx++;
                 if (!projects || !filter) return projects;
-                return projects.filter(proj => proj.matchFilter(filter));
+                return projects
+                    .map(proj => proj.matchFilter(filter))
+                    .sort(kvp => -kvp.relevance)
+                    .filter(kvp => kvp.relevance >= .5)
+                    .map(kvp => kvp.project);
             })
         );
     }
