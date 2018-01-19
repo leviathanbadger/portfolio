@@ -8,7 +8,6 @@ export const routerConfig: Routes = [
     {path: '', component: LayoutComponent, children: [
         {path: '', component: HomeComponent, pathMatch: 'full'},
         {path: 'resume', loadChildren: '../modules/+resume/resume.module#ResumeModule'},
-        {path: 'technologies', loadChildren: '../modules/+technologies/technologies.module#TechnologiesModule'},
         {path: 'project', pathMatch: 'full', redirectTo: 'projects'},
         {path: 'projects', loadChildren: '../modules/+projects/projects.module#ProjectsModule'},
         {path: 'project/:projectSlug', loadChildren: '../modules/+project/project.module#ProjectModule'},
