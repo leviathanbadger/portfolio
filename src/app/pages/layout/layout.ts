@@ -29,6 +29,10 @@ import { ComponentBase } from 'utils/components';
                     style({ transform: 'translateX(-100%)' })
                 ]),
                 animate('.5s ease', style({ transform: 'translateX(100%)' }))
+            ]),
+            transition('* => *', [
+                style({ opacity: 0 }),
+                animate('.5s ease-in', style({ opacity: 1 }))
             ])
         ])
     ]
@@ -43,6 +47,8 @@ export class LayoutComponent extends ComponentBase {
     
     routeTypeObservable: Observable<string>;
     
+    private uniqueCounter = 0;
+    
     ngOnInit() {
         super.ngOnInit();
         
@@ -52,10 +58,9 @@ export class LayoutComponent extends ComponentBase {
             startWith(this.startSnapshot.snapshot),
             map(snapshot => {
                 while (snapshot.firstChild) snapshot = snapshot.firstChild;
-                return (snapshot && snapshot.data) || {};
-            }),
-            map(data => data.routeType || 'default'),
-            distinctUntilChanged()
+                let data = (snapshot && snapshot.data) || {};
+                return data.routeType || `unique${this.uniqueCounter++}`;
+            })
         );
     }
 }
