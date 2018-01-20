@@ -3,7 +3,7 @@ import { Directive, ViewContainerRef, TemplateRef, EmbeddedViewRef, Input } from
 @Directive({
     selector: '[ngLet]'
 })
-export class NgLet {
+export class NgLetDirective {
     constructor(private _viewContainer: ViewContainerRef, private _templateRef: TemplateRef<NgLetContext>) {
         this._context = new NgLetContext();
     }

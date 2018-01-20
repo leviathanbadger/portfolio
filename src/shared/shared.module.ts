@@ -4,7 +4,8 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner';
 import { PageFooterComponent } from './components/page-footer/page-footer';
 
-import { NgLet } from './directives/ng-let.directive';
+import { NgLetDirective } from './directives/ng-let.directive';
+import { AutofocusDirective } from './directives/autofocus.directive';
 
 //Imports
 import { CommonModule } from "@angular/common";
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
 export const module_exports = [LoadingSpinnerComponent,
                                PageFooterComponent,
                                
-                               NgLet];
+                               AutofocusDirective,
+                               NgLetDirective];
 
 const imported_modules = [CommonModule, HttpModule, FormsModule];
 export const exported_modules = [CommonModule, HttpModule, FormsModule];
