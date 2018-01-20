@@ -2,6 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 
 //Declarations
 import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner';
+import { PageFooterComponent } from './components/page-footer/page-footer';
 
 import { NgLet } from './directives/ng-let.directive';
 
@@ -11,6 +12,7 @@ import { HttpModule } from "@angular/http";
 import { FormsModule } from '@angular/forms';
 
 export const module_exports = [LoadingSpinnerComponent,
+                               PageFooterComponent,
                                
                                NgLet];
 

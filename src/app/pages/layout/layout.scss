@@ -1,0 +1,9 @@
+
+
+main {
+    position: relative;
+    &.animation-parent {
+        width: 100%;
+        position: absolute;
+    }
+}

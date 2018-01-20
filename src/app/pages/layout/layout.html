@@ -1,5 +1,6 @@
 <page-header></page-header>
-<main>
-    <router-outlet></router-outlet>
+<main [@routeType]="(routeTypeObservable | async) || 'default'">
+    <div class="animation-parent">
+        <router-outlet></router-outlet>
+    </div>
 </main>
-<page-footer></page-footer>

@@ -1,41 +1,44 @@
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="mt-3">Projects</h1>
+<div class="section tile-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="mt-3">Projects</h1>
+            </div>
         </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-12">
-            <input type="text" [(ngModel)]="filter" class="form-control project-filter" placeholder="Search" />
+        
+        <div class="row">
+            <div class="col-12">
+                <input type="text" [(ngModel)]="filter" class="form-control project-filter" placeholder="Search" />
+            </div>
         </div>
-    </div>
-    
-    <div class="row" *ngIf="(projectsObservable | async) as projects; else stillLoading" [@projectChangeIdx]="projectChangeIdx">
-        <ng-container *ngIf="projects.length; else noProjects">
-            <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects">
-                <div class="card link-card" [routerLink]="['/project', project.slug]">
-                    <img class="card-img-top" [src]="project.thumbnailSrc" [alt]="project.name">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            {{project.name}}
-                        </h5>
-                        <p class="card-text">{{project.description}}</p>
-                        <a [routerLink]="['/project', project.slug]" class="btn btn-primary">Details</a>
-                        <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
+        
+        <div class="row" *ngIf="(projectsObservable | async) as projects; else stillLoading" [@projectChangeIdx]="projectChangeIdx">
+            <ng-container *ngIf="projects.length; else noProjects">
+                <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects">
+                    <div class="card link-card" [routerLink]="['/project', project.slug]">
+                        <img class="card-img-top" [src]="project.thumbnailSrc" [alt]="project.name">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                {{project.name}}
+                            </h5>
+                            <p class="card-text">{{project.description}}</p>
+                            <a [routerLink]="['/project', project.slug]" class="btn btn-primary">Details</a>
+                            <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </ng-container>
+            </ng-container>
+            
+            <ng-template #noProjects>
+                <div class="col-12">
+                    <p>For some reason, we didn't find any projects.</p>
+                </div>
+            </ng-template>
+        </div>
         
-        <ng-template #noProjects>
-            <div class="col-12">
-                <p>For some reason, we didn't find any projects.</p>
-            </div>
+        <ng-template #stillLoading>
+            <loading-spinner></loading-spinner>
         </ng-template>
     </div>
-    
-    <ng-template #stillLoading>
-        <loading-spinner></loading-spinner>
-    </ng-template>
+    <page-footer></page-footer>
 </div>

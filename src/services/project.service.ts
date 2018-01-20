@@ -141,7 +141,6 @@ export class ProjectService {
     }
     
     async findBySlug(slug: string): Promise<Project | null> {
-        console.log(`Finding project with slug "${slug}"`);
         let projects = await this.findAll();
         return projects.find(proj => proj.slug === slug) || null;
     }
