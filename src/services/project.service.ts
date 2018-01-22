@@ -29,7 +29,14 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Worms-Warcraft',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/worms-warcraft-0-sm.png'
+            ],
+            images: [
+                '/assets/images/worms-warcraft-0-lg.png'
+            ]
+        },
         'Warcraft-themed realtime networked Worms clone',
         ['unity', 'c#', 'destructible-terrain', 'multiplayer'],
         [
@@ -47,7 +54,18 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Procedural Continent Generator',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/continents-0-sm.png',
+                '/assets/images/continents-1-sm.png',
+                '/assets/images/continents-2-sm.png'
+            ],
+            images: [
+                '/assets/images/continents-0-lg.png',
+                '/assets/images/continents-1-lg.png',
+                '/assets/images/continents-2-lg.png'
+            ]
+        },
         'Procedural content generation tech demo',
         ['typescript', 'webpack', 'procedural-terrain', 'procedural-generation'],
         [
@@ -66,7 +84,18 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Game Engine Physics',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/physics-demo-0-sm.png',
+                '/assets/images/physics-demo-1-sm.png',
+                '/assets/images/physics-demo-2-sm.png'
+            ],
+            images: [
+                '/assets/images/physics-demo-0-lg.png',
+                '/assets/images/physics-demo-1-lg.png',
+                '/assets/images/physics-demo-2-lg.png'
+            ]
+        },
         'A tech demo showcasing rigidbody physics in my custom HTML5 engine',
         ['typescript', 'physics', 'game-engine', 'html5', 'springs'],
         [
@@ -76,7 +105,18 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Boulder Physics Game',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/boulder-game-0-sm.png',
+                '/assets/images/boulder-game-1-sm.png',
+                '/assets/images/boulder-game-2-sm.png'
+            ],
+            images: [
+                '/assets/images/boulder-game-0-lg.png',
+                '/assets/images/boulder-game-1-lg.png',
+                '/assets/images/boulder-game-2-lg.png'
+            ]
+        },
         'A small game showcasing rigidbody physics in my custom HTML5 engine',
         ['typescript', 'physics', 'game'],
         [
@@ -86,7 +126,16 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Angular Vector Editor',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/vector-editor-0-sm.png',
+                '/assets/images/vector-editor-1-sm.png'
+            ],
+            images: [
+                '/assets/images/vector-editor-0-lg.png',
+                '/assets/images/vector-editor-1-lg.png'
+            ]
+        },
         'A frontend vector graphic editor created using Angular',
         ['typescript', 'angular', 'svg', 'html5', 'local-storage'],
         [
@@ -120,7 +169,7 @@ const allProjects: Project[] = [
         ['typescript', 'open-source', 'node', 'express', 'socket-io', 'web-framework', 'decorators', 'server'],
         [
             ['Source', 'https://github.com/miter-framework/miter'],
-            ['Demo', 'https://gitsupport.io/github/miter-framework/miter']
+            ['Docs', 'https://gitsupport.io/github/miter-framework/miter']
         ]
     ),
     new Project(
