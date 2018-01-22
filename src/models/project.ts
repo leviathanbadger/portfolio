@@ -1,14 +1,23 @@
 
 
+export type ImageSource = string | { thumbnails: string[], images: string[] };
+
 export class Project {
     constructor(
         private _name: string,
-        private _thumbnailSrc: string | null,
+        _images: ImageSource | null,
         private _desc: string,
         private _technologies: string[],
         private _links: [string, string][]
     ) {
         this._slug = this._name.split(/[^a-zA-Z0-9]/).filter(Boolean).join('-').toLowerCase();
+        
+        if (!_images) _images = { thumbnails: [], images: [] };
+        else if (typeof _images === 'string') _images = { thumbnails: [_images], images: [_images] };
+        [this._thumbnails, this._images] = [_images.thumbnails, _images.images];
+        
+        if (!this._thumbnails.length) this._thumbnails.push('https://placehold.it/430x270');
+        if (!this._images.length) this._images.push('https://placehold.it/430x270');
     }
     
     private _slug: string;
@@ -19,9 +28,6 @@ export class Project {
     get slug() {
         return this._slug;
     }
-    get thumbnailSrc() {
-        return this._thumbnailSrc || 'https://placehold.it/430x270';
-    }
     get description() {
         return this._desc;
     }
@@ -30,6 +36,15 @@ export class Project {
     }
     get links() {
         return this._links;
+    }
+    
+    private _thumbnails: string[];
+    get thumbnails() {
+        return this._thumbnails;
+    }
+    private _images: string[];
+    get images() {
+        return this._images;
     }
     
     matchFilter(filter: string): { project: Project, relevance: number } {

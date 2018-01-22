@@ -4,7 +4,16 @@ import { Project } from 'models';
 const allProjects: Project[] = [
     new Project(
         'DocSource.io',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/docsource-0-sm.png',
+                '/assets/images/docsource-1-sm.png'
+            ],
+            images: [
+                '/assets/images/docsource-0-lg.png',
+                '/assets/images/docsource-1-lg.png'
+            ]
+        },
         'Github-integrated developer documentation tool',
         ['typescript', 'angular', 'express', 'node', 'webpack', 'github-api', 'socket-io', 'web-sockets', 'sass', 'production'],
         [
