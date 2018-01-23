@@ -22,10 +22,25 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Collide (game)',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/collide-0-sm.png',
+                '/assets/images/collide-1-sm.png',
+                '/assets/images/collide-2-sm.png',
+                '/assets/images/collide-3-sm.png'
+            ],
+            images: [
+                '/assets/images/collide-0-lg.png',
+                '/assets/images/collide-1-lg.png',
+                '/assets/images/collide-2-lg.png',
+                '/assets/images/collide-3-lg.png'
+            ]
+        },
         'Spacial puzzle block-slider game',
         ['typescript', 'game-engine', 'html5', 'webpack', 'steam-api', 'production', 'opengl', 'game', 'nw.js', 'greenworks', 'svg', 'three.js'],
-        []
+        [
+            // ['Store', '']
+        ]
     ),
     new Project(
         'Worms-Warcraft',
@@ -154,7 +169,16 @@ const allProjects: Project[] = [
     ),
     new Project(
         'Artificial Intelligence Playground',
-        null,
+        {
+            thumbnails: [
+                '/assets/images/ai-playground-0-sm.png',
+                '/assets/images/ai-playground-1-sm.png'
+            ],
+            images: [
+                '/assets/images/ai-playground-0-lg.png',
+                '/assets/images/ai-playground-1-lg.png'
+            ]
+        },
         'A tech demo showcasing various AI behaviors in my custom HTML5 engine',
         ['typescript', 'html5', 'ai', 'artificial-intelligence', 'flocking', 'pathfinding', 'a*', 'a-star'],
         [
