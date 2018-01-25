@@ -1,0 +1,4 @@
+<div>
+    <img *ngIf="!!currentSrc" [src]="currentSrc" [alt]="alt" />
+    <img *ngIf="!!lastSrc" [@lastSrc]="currentSrc" class="lastImage" [src]="lastSrc" [alt]="alt" />
+</div>

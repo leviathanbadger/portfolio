@@ -1,0 +1,14 @@
+
+
+div {
+    position: relative;
+}
+img {
+    width: 100%;
+}
+.lastImage {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: 10;
+}

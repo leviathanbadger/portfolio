@@ -16,7 +16,9 @@
             <ng-container *ngIf="projects.length; else noProjects">
                 <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects">
                     <div class="card link-card" [routerLink]="['/project', project.slug]">
-                        <img class="card-img-top" [src]="project.thumbnails[0]" [alt]="project.name">
+                        <div class="card-img-top">
+                            <alternating-img [src]="project.thumbnails" [alt]="project.name"></alternating-img>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">
                                 {{project.name}}
