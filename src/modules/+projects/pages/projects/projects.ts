@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { trigger, transition, animate, style, stagger, query } from '@angular/animations';
 import { Observable } from 'rxjs/Observable';
 import { ReplaySubject } from "rxjs/ReplaySubject";
@@ -59,6 +59,8 @@ export class ProjectsComponent extends ComponentBase {
         super();
     }
     
+    @ViewChild('filterEl') filterEl: ElementRef;
+    
     ngOnInit() {
         super.ngOnInit();
         
@@ -94,6 +96,11 @@ export class ProjectsComponent extends ComponentBase {
     }
     private filterSubject = new ReplaySubject<string>(1);
     filterObservable: Observable<string>;
+    
+    clearFilter() {
+        this.filter = '';
+        if (this.filterEl && this.filterEl.nativeElement) this.filterEl.nativeElement.focus();
+    }
     
     projectsObservable: Observable<Project[] | null>;
     projectChangeIdx = 0;

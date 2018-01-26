@@ -14,3 +14,23 @@
 .section {
     width: 100%;
 }
+
+.project-filter-wrapper {
+    padding: 1em;
+    position: relative;
+    
+    & > .btn-clear-filter {
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        color: black;
+        opacity: .5;
+        transition: .2s opacity;
+        
+        &:hover {
+            color: black;
+            text-decoration: none;
+            opacity: 1;
+        }
+    }
+}

@@ -7,8 +7,11 @@
         </div>
         
         <div class="row">
-            <div class="col-12">
-                <input type="text" [(ngModel)]="filter" class="form-control project-filter" placeholder="Search" autofocus />
+            <div class="col-12 project-filter-wrapper">
+                <input type="text" [(ngModel)]="filter" class="form-control project-filter" placeholder="Search" autofocus #filterEl />
+                <button *ngIf="!!filter" class="btn btn-link btn-clear-filter" (click)="clearFilter()">
+                    &#10005;
+                </button>
             </div>
         </div>
         
