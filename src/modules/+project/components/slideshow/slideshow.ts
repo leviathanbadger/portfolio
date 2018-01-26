@@ -25,6 +25,8 @@ export class SlideshowComponent extends ComponentBase {
     }
     
     @Input() items: SlideshowItemT[];
+    @Input() shouldAutofocus: boolean = true;
+    @Input() autofocusDelay: number = 0;
     
     currentIdx = 0;
     

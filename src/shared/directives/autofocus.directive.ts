@@ -8,16 +8,27 @@ export class AutofocusDirective {
     
     private _autofocus: boolean = true;
     @Input() 
-    set autofocus(val: string) {
-        this._autofocus = val == '' || val == 'autofocus' || val == 'true';
+    set autofocus(val: string | boolean) {
+        if (typeof val === 'string') val = (['', 'autofocus', 'true'].indexOf(val) !== -1);
+        this._autofocus = val;
     }
-    get autofocus(): string {
-        return this._autofocus ? 'autofocus' : 'false';
+    get autofocus(): string | boolean {
+        return this._autofocus;
     }
     
+    @Input() autofocusDelay: number = 0;
+    
     private isVisible: boolean = false;
-    ngAfterContentChecked() {
+    private autofocusTimeout: any = null;
+    ngAfterViewInit() {
+        if (this.autofocusDelay > 0) {
+            this.autofocusTimeout = setTimeout(() => this.activateAutofocus(), this.autofocusDelay);
+        }
+        else this.activateAutofocus();
+    }
+    private activateAutofocus() {
         if (!this._autofocus) return;
+        this.autofocusTimeout = null;
         let input = <HTMLInputElement>this.el.nativeElement;
         if (this.isVisible === false && input.offsetParent !== null) {
             this.isVisible = true;
@@ -25,6 +36,13 @@ export class AutofocusDirective {
         }
         else if (this.isVisible === true && input.offsetParent === null) {
             this.isVisible = false;
+        }
+    }
+    
+    ngOnDestroy() {
+        if (this.autofocusTimeout) {
+            clearTimeout(this.autofocusTimeout);
+            this.autofocusTimeout = null;
         }
     }
 }

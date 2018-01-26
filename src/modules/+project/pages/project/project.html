@@ -1,5 +1,10 @@
 <div class="section tile" *ngLet="(projectObservable | async) as project">
-    <slideshow *ngIf="!!project" [items]="slideshowItemsObservable | async"></slideshow>
+    <slideshow
+      *ngIf="!!project"
+      [items]="slideshowItemsObservable | async"
+      [shouldAutofocus]="true"
+      [autofocusDelay]="600">
+    </slideshow>
     
     <div class="container">
         <div class="row">
