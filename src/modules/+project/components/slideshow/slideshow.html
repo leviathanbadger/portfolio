@@ -1,9 +1,5 @@
 <div class="slideshow-backdrop">
     <div class="container" [@pullFromBottom]="items">
-        <div class="row">
-            <div class="capture-keyboard-events" tabindex="0" [autofocus]="shouldAutofocus" [autofocusDelay]="autofocusDelay" (keydown)="onKeyDown($event)"></div>
-            <div class="col-12 slideshow-spacer"></div>
-        </div>
         <div *ngFor="let item of items; let i = index" class="row slideshow-item">
             <div [ngSwitch]="item.type" class="col-12" [style.transform]="'translateX(' + ((i - currentIdx) * 100) + '%)'" [style.opacity]="i === currentIdx ? 1 : .2">
                 <ng-container *ngSwitchCase="'image'">
@@ -13,6 +9,15 @@
                 <ng-container *ngSwitchCase="'video'">
                     Video
                 </ng-container>
+            </div>
+        </div>
+        <div class="row no-flex">
+            <div
+              class="col-12 slideshow-spacer capture-keyboard-events"
+              tabindex="0"
+              [autofocus]="shouldAutofocus"
+              [autofocusDelay]="autofocusDelay"
+              (keydown)="onKeyDown($event)">
             </div>
         </div>
     </div>
