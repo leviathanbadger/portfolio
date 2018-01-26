@@ -5,6 +5,7 @@ import { map, switchMap } from 'rxjs/operators';
 import { ComponentBase } from 'utils/components';
 import { ProjectService } from "services";
 import { Project } from "models";
+import { SlideshowItemT } from "../../components/slideshow/slideshow";
 
 @Component({
     templateUrl: './project.html',
@@ -25,7 +26,19 @@ export class ProjectComponent extends ComponentBase {
             map(params => params.get('projectSlug')),
             switchMap(slug => this.projectService.findBySlug(slug || ''))
         );
+        
+        this.slideshowItemsObservable = this.projectObservable.pipe(
+            map(proj => {
+                if (!proj) return [];
+                return proj.images.map(img => <SlideshowItemT>({
+                    type: 'image',
+                    src: img
+                }));
+            })
+        );
     }
     
     projectObservable: Observable<Project | null>;
+    
+    slideshowItemsObservable: Observable<SlideshowItemT[]>;
 }

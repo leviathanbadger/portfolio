@@ -22,7 +22,7 @@ function getIntervalMillis() {
         ])
     ]
 })
-export class AlternatingImage extends ComponentBase {
+export class AlternatingImageComponent extends ComponentBase {
     constructor() {
         super();
     }

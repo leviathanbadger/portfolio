@@ -1,12 +1,10 @@
-<div class="section tile">
-    <div class="container" *ngLet="(projectObservable | async) as project">
+<div class="section tile" *ngLet="(projectObservable | async) as project">
+    <slideshow *ngIf="!!project" [items]="slideshowItemsObservable | async"></slideshow>
+    
+    <div class="container">
         <div class="row">
             <ng-container *ngIf="!!project; else notFound">
-                <div class="col-md-4">
-                    <img class="mt-3 project-thumbnail" [src]="project.images[0]" [alt]="project.name">
-                </div>
-                
-                <div class="col-md-8">
+                <div class="col-12">
                     <h1 class="mt-3">{{project.name}}</h1>
                     
                     <p>{{project.description}}</p>

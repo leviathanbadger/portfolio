@@ -1,7 +1,7 @@
 import { Directive, Input, ElementRef } from '@angular/core';
 
 @Directive({
-    selector: 'input[autofocus],textarea[autofocus],button[autofocus]'
+    selector: 'input[autofocus],textarea[autofocus],button[autofocus],[tabindex][autofocus]'
 })
 export class AutofocusDirective {
     constructor(private el: ElementRef) { }

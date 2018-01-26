@@ -1,0 +1,18 @@
+<div class="slideshow-backdrop" tabindex="0" autofocus (keydown)="onKeyDown($event)">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 slideshow-spacer"></div>
+        </div>
+        <div *ngFor="let item of items; let i = index" class="row slideshow-item">
+            <div [ngSwitch]="item.type" class="col-12" [style.transform]="'translateX(' + ((i - currentIdx) * 100) + '%)'" [style.opacity]="i === currentIdx ? 1 : .2">
+                <ng-container *ngSwitchCase="'image'">
+                    <img [src]="item.src" />
+                </ng-container>
+                
+                <ng-container *ngSwitchCase="'video'">
+                    Video
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>
