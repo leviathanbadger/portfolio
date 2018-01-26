@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { trigger, transition, animate, style } from '@angular/animations';
+import { trigger, transition, animate, style, query, stagger } from '@angular/animations';
 import { ComponentBase } from 'utils/components';
 import areEqual = require('lodash.isequal');
 
@@ -17,7 +17,17 @@ export type SlideshowItemT = SlideshowImageItemT | SlideshowVideoItemT;
 @Component({
     selector: 'slideshow[items]',
     templateUrl: './slideshow.html',
-    styleUrls: ['./slideshow.scss']
+    styleUrls: ['./slideshow.scss'],
+    animations: [
+        trigger('pullFromBottom', [
+            transition('* => *', [
+                query('.slideshow-item:enter', [
+                    style({ transform: 'translateY(100%)' }),
+                    stagger('300ms', animate('.5s 100ms ease-in', style({ transform: 'translateY(0%)' })))
+                ], { optional: true })
+            ])
+        ])
+    ]
 })
 export class SlideshowComponent extends ComponentBase {
     constructor() {
@@ -31,8 +41,6 @@ export class SlideshowComponent extends ComponentBase {
     currentIdx = 0;
     
     onKeyDown(e: KeyboardEvent) {
-        console.log(e);
-        
         let handled = false;
         if (e.key === 'ArrowLeft' && this.movePreviousItem()) handled = true;
         else if (e.key === 'ArrowRight' && this.moveNextItem()) handled = true;

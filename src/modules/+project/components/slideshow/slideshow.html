@@ -1,6 +1,7 @@
-<div class="slideshow-backdrop" tabindex="0" [autofocus]="shouldAutofocus" [autofocusDelay]="autofocusDelay" (keydown)="onKeyDown($event)">
-    <div class="container">
+<div class="slideshow-backdrop">
+    <div class="container" [@pullFromBottom]="items">
         <div class="row">
+            <div class="capture-keyboard-events" tabindex="0" [autofocus]="shouldAutofocus" [autofocusDelay]="autofocusDelay" (keydown)="onKeyDown($event)"></div>
             <div class="col-12 slideshow-spacer"></div>
         </div>
         <div *ngFor="let item of items; let i = index" class="row slideshow-item">
