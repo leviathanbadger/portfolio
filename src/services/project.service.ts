@@ -15,7 +15,7 @@ const allProjects: Project[] = [
             ]
         },
         'Github-integrated developer documentation tool',
-        ['typescript', 'angular', 'express', 'node', 'webpack', 'github-api', 'socket-io', 'web-sockets', 'sass', 'production'],
+        ['typescript', 'angular', 'express', 'node', 'webpack', 'github-api', 'socket-io', 'web-sockets', 'sass', 'production', 'website', 'ci'],
         [
             ['Demo', 'https://docsource.io/']
         ]
@@ -37,7 +37,7 @@ const allProjects: Project[] = [
             ]
         },
         'Spacial puzzle block-slider game',
-        ['typescript', 'game-engine', 'html5', 'webpack', 'steam-api', 'production', 'opengl', 'game', 'nw.js', 'greenworks', 'svg', 'three.js'],
+        ['typescript', 'game-engine', 'html5', 'webpack', 'steam-api', 'production', 'commercial', 'opengl', 'game', 'nw.js', 'greenworks', 'svg', 'three.js', 'ci'],
         [
             // ['Store', '']
         ]
@@ -62,9 +62,19 @@ const allProjects: Project[] = [
         'Asynchronous SPA Router',
         null,
         'Promise-based asynchronous SPA router and dependency loader',
-        ['typescript', 'webpack', 'sass', 'nightwatch', 'node'],
+        ['typescript', 'webpack', 'sass', 'nightwatch', 'node', 'website', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/capstone-spa-router']
+        ]
+    ),
+    new Project(
+        'brandonslade.me',
+        null,
+        'A project portfolio website demonstrating competency in web technologies and Angular 2+',
+        ['typescript', 'angular', 'webpack', 'sass', 'production', 'portfolio', 'resume', 'website', 'ci', 'animations'],
+        [
+            ['Source', 'https://github.com/aboveyou00/portfolio'],
+            ['Demo', 'http://brandonslade.me/']
         ]
     ),
     new Project(
@@ -112,7 +122,7 @@ const allProjects: Project[] = [
             ]
         },
         'A tech demo showcasing rigidbody physics in my custom HTML5 engine',
-        ['typescript', 'physics', 'game-engine', 'html5', 'springs'],
+        ['typescript', 'physics', 'game-engine', 'html5', 'springs', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/GAT310'],
             ['Demo', 'https://blslade-neumont.github.io/GAT310/']
@@ -152,7 +162,7 @@ const allProjects: Project[] = [
             ]
         },
         'A frontend vector graphic editor created using Angular',
-        ['typescript', 'angular', 'svg', 'html5', 'local-storage'],
+        ['typescript', 'angular', 'svg', 'html5', 'local-storage', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/final-web-app'],
             ['Demo', 'https://blslade-neumont.github.io/final-web-app/']
@@ -162,7 +172,7 @@ const allProjects: Project[] = [
         'HTML5 Game Engine',
         null,
         '2D game engine created for browser environments',
-        ['typescript', 'html5', 'game-engine', 'physics'],
+        ['typescript', 'html5', 'game-engine', 'physics', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/agile-html5-engine']
         ]
@@ -180,7 +190,7 @@ const allProjects: Project[] = [
             ]
         },
         'A tech demo showcasing various AI behaviors in my custom HTML5 engine',
-        ['typescript', 'html5', 'ai', 'artificial-intelligence', 'flocking', 'pathfinding', 'a*', 'a-star'],
+        ['typescript', 'html5', 'ai', 'artificial-intelligence', 'flocking', 'pathfinding', 'a*', 'a-star', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/GAT420'],
             ['Demo', 'https://blslade-neumont.github.io/GAT420/']
@@ -190,7 +200,7 @@ const allProjects: Project[] = [
         'Miter Web Framework',
         null,
         'A backend web framework built on Node.JS and Express, using Typescript',
-        ['typescript', 'open-source', 'node', 'express', 'socket-io', 'web-framework', 'decorators', 'server'],
+        ['typescript', 'open-source', 'node', 'express', 'socket-io', 'web-framework', 'decorators', 'server', 'ci'],
         [
             ['Source', 'https://github.com/miter-framework/miter'],
             ['Docs', 'https://gitsupport.io/github/miter-framework/miter']
