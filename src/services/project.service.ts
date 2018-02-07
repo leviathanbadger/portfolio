@@ -205,31 +205,7 @@ const allProjects: Project[] = [
             ['Source', 'https://github.com/miter-framework/miter'],
             ['Docs', 'https://gitsupport.io/github/miter-framework/miter']
         ],
-        `
-### Example Code
-
-\`\`\`typescript
-import { Miter, Controller, Get, Request, Response } from 'miter';
-
-@Controller()
-class HomeController {
-    
-    @Get('/')
-    public async home(req: Request, res: Response) {
-        res.status(200).send("You've arrived!");
-    }
-    
-}
-
-Miter.launch({
-    name: 'simple-server',
-    port: 8080,
-    router: {
-        controllers: [HomeController]
-    }
-});
-\`\`\`
-        `
+        require('projects/miter-web-framework.md')
     ),
     new Project(
         'OpenGL Game Engine',

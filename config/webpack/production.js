@@ -9,6 +9,9 @@ let clientConfig = require('./client-config');
 let $style = {
     loader: 'style-loader'
 };
+let $raw = {
+    loader: 'raw-loader'
+};
 let $toString = {
     loader: 'to-string-loader'
 };
@@ -62,7 +65,8 @@ let devConfig = {
             { test: /\.css$/, loaders: [$toString, $trim, $css] },
             { test: /\.html$/, loaders: [$trim] },
             { test: /\.scss$/, loaders: [$style, $trim, $sass], exclude: /(app|modules|shared)(\/|\\)./ },
-            { test: /(app|modules|shared)(\/|\\).+\.scss$/, loaders: [$toString, $trim, $sass] }
+            { test: /(app|modules|shared)(\/|\\).+\.scss$/, loaders: [$toString, $trim, $sass] },
+            { test: /\.md$/, loaders: [$toString, $raw] }
         ]
     }
 };
