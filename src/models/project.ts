@@ -8,7 +8,8 @@ export class Project {
         _images: ImageSource | null,
         private _desc: string,
         private _technologies: string[],
-        private _links: [string, string][]
+        private _links: [string, string][],
+        private _fullDesc: string = ''
     ) {
         this._slug = this._name.split(/[^a-zA-Z0-9]/).filter(Boolean).join('-').toLowerCase();
         
@@ -36,6 +37,10 @@ export class Project {
     }
     get links() {
         return this._links;
+    }
+    
+    get fullDescription() {
+        return this._fullDesc;
     }
     
     private _thumbnails: string[];

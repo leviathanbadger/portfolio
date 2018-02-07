@@ -7,24 +7,40 @@ import { PageFooterComponent } from './components/page-footer/page-footer';
 import { NgLetDirective } from './directives/ng-let.directive';
 import { AutofocusDirective } from './directives/autofocus.directive';
 
+import { MarkdownPipe } from './pipes/markdown.pipe';
+import { SafePipe } from './pipes/safe.pipe';
+
 //Imports
 import { CommonModule } from "@angular/common";
 import { HttpModule } from "@angular/http";
 import { FormsModule } from '@angular/forms';
 
-export const module_exports = [LoadingSpinnerComponent,
-                               PageFooterComponent,
-                               
-                               AutofocusDirective,
-                               NgLetDirective];
-
-const imported_modules = [CommonModule, HttpModule, FormsModule];
-export const exported_modules = [CommonModule, HttpModule, FormsModule];
-
 @NgModule({
-    declarations: [...module_exports],
-    imports: [...imported_modules],
-    exports: [...module_exports, ...exported_modules]
+    declarations: [
+        LoadingSpinnerComponent,
+        PageFooterComponent,
+        
+        AutofocusDirective,
+        NgLetDirective,
+        
+        MarkdownPipe,
+        SafePipe
+    ],
+    imports: [
+        CommonModule, HttpModule, FormsModule
+    ],
+    exports: [
+        LoadingSpinnerComponent,
+        PageFooterComponent,
+        
+        AutofocusDirective,
+        NgLetDirective,
+        
+        MarkdownPipe,
+        SafePipe,
+        
+        CommonModule, HttpModule, FormsModule
+    ]
 })
 export class SharedModule {
     static forRoot(): ModuleWithProviders {
