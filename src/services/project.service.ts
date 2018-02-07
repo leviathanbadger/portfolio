@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Project } from 'models';
 
+// tslint:disable:no-var-requires
+
 const allProjects: Project[] = [
     new Project(
         'DocSource.io',

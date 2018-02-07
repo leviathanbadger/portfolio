@@ -116,11 +116,9 @@ export class MarkdownPipe implements PipeTransform {
                 return {
                     tagName: 'img',
                     attribs: <{[key: string]: string}> {src: `//placehold.it/${attribs.width || 400}x${attribs.height || 300}?text=Embedded+Content`}
-                }
-            }
-            sanitizeOpts.transform
+                };
+            };
         }
-        merge(sanitizeOpts, SANITIZE_OPTIONS)
         result = sanitizeHtml(result, sanitizeOpts);
         
         cache.set(key, result);
