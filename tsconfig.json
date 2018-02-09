@@ -25,7 +25,8 @@
             "core-js",
             "lodash.clonedeep",
             "node",
-            "pluralize"
+            "pluralize",
+            "jquery"
         ]
     },
     "exclude": [

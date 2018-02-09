@@ -1,3 +1,4 @@
+let { ProvidePlugin } = require('webpack');
 var path = require('path');
 
 // Our Webpack Defaults
@@ -11,6 +12,13 @@ var defaultConfig = {
         chunkFilename: '[id].chunk.js'
     },
     
+    plugins: [
+        new ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        })
+    ],
+    
     resolve: {
         modules: [
             path.join(__dirname, '../../node_modules'),
@@ -18,6 +26,9 @@ var defaultConfig = {
             path.join(__dirname, '../../public/assets'),
             path.join(__dirname, '../../')
         ],
+        alias: {
+            'jquery': 'jquery/src/jquery'
+        },
         extensions: ['.ts', '.js']
     },
     

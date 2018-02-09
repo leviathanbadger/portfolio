@@ -6,3 +6,6 @@ declare module '@aboveyou00/markdown-it' {
     declare var MarkdownIt: any;
     export = MarkdownIt;
 }
+
+declare const $: JQueryStatic;
+declare const jQuery: JQueryStatic;
