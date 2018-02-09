@@ -20,7 +20,8 @@ const allProjects: Project[] = [
         ['typescript', 'angular', 'express', 'node', 'webpack', 'github-api', 'socket-io', 'web-sockets', 'sass', 'production', 'website', 'ci'],
         [
             ['Demo', 'https://docsource.io/']
-        ]
+        ],
+        require('projects/docsource-io.md')
     ),
     new Project(
         'Collide (game)',
@@ -42,7 +43,8 @@ const allProjects: Project[] = [
         ['typescript', 'game-engine', 'html5', 'webpack', 'steam-api', 'production', 'commercial', 'opengl', 'game', 'nw.js', 'greenworks', 'svg', 'three.js', 'ci'],
         [
             // ['Store', '']
-        ]
+        ],
+        require('projects/collide-game.md')
     ),
     new Project(
         'Worms-Warcraft',
@@ -58,7 +60,8 @@ const allProjects: Project[] = [
         ['unity', 'c#', 'destructible-terrain', 'multiplayer'],
         [
             ['Source', 'https://github.com/blslade-neumont/worms-warcraft']
-        ]
+        ],
+        require('projects/worms-warcraft.md')
     ),
     new Project(
         'Asynchronous SPA Router',
@@ -67,7 +70,8 @@ const allProjects: Project[] = [
         ['typescript', 'webpack', 'sass', 'nightwatch', 'node', 'website', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/capstone-spa-router']
-        ]
+        ],
+        require('projects/capstone-spa-router.md')
     ),
     new Project(
         'brandonslade.me',
@@ -77,7 +81,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/aboveyou00/portfolio'],
             ['Demo', 'http://brandonslade.me/']
-        ]
+        ],
+        require('projects/portfolio.md')
     ),
     new Project(
         'Procedural Continent Generator',
@@ -98,7 +103,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/blslade-neumont/procedural-continent-generator'],
             ['Demo', 'https://blslade-neumont.github.io/procedural-continent-generator/']
-        ]
+        ],
+        require('projects/procedural-continent-generator.md')
     ),
     new Project(
         'Minecraft Music Mod',
@@ -107,7 +113,8 @@ const allProjects: Project[] = [
         ['java', 'minecraft', 'mod', 'music-analysis'],
         [
             ['Source', 'https://github.com/blslade-neumont/music-mod']
-        ]
+        ],
+        require('projects/minecraft-music-mod.md')
     ),
     new Project(
         'Game Engine Physics',
@@ -128,7 +135,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/blslade-neumont/GAT310'],
             ['Demo', 'https://blslade-neumont.github.io/GAT310/']
-        ]
+        ],
+        require('projects/game-engine-physics.md')
     ),
     new Project(
         'Boulder Physics Game',
@@ -149,7 +157,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/blslade-neumont/physics-game-final'],
             ['Demo', 'https://blslade-neumont.github.io/physics-game-final/']
-        ]
+        ],
+        require('projects/boulder-physics-game.md')
     ),
     new Project(
         'Angular Vector Editor',
@@ -168,7 +177,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/blslade-neumont/final-web-app'],
             ['Demo', 'https://blslade-neumont.github.io/final-web-app/']
-        ]
+        ],
+        require('projects/angular-vector-editor.md')
     ),
     new Project(
         'HTML5 Game Engine',
@@ -177,7 +187,8 @@ const allProjects: Project[] = [
         ['typescript', 'html5', 'game-engine', 'physics', 'ci'],
         [
             ['Source', 'https://github.com/blslade-neumont/agile-html5-engine']
-        ]
+        ],
+        require('projects/html5-game-engine.md')
     ),
     new Project(
         'Artificial Intelligence Playground',
@@ -196,7 +207,8 @@ const allProjects: Project[] = [
         [
             ['Source', 'https://github.com/blslade-neumont/GAT420'],
             ['Demo', 'https://blslade-neumont.github.io/GAT420/']
-        ]
+        ],
+        require('projects/ai-playground.md')
     ),
     new Project(
         'Miter Web Framework',
@@ -216,7 +228,8 @@ const allProjects: Project[] = [
         ['c++', 'opengl', 'game-engine', 'multithreaded'],
         [
             ['Source', 'https://github.com/aboveyou00/GL-VR-Engine']
-        ]
+        ],
+        require('projects/opengl-game-engine.md')
     ),
     new Project(
         'Dungeon Crawler',
@@ -225,7 +238,8 @@ const allProjects: Project[] = [
         ['c#', 'opengl', 'game-engine', 'multiplayer', 'multithreaded', 'procedural-generation', '3d', 'game'],
         [
             ['Source', 'https://github.com/aboveyou00/dungeon_crawler']
-        ]
+        ],
+        require('projects/dungeon-crawler.md')
     )
 ];
 
