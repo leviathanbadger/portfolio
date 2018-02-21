@@ -1,4 +1,8 @@
-<div>
-    <img *ngIf="!!currentSrc" [src]="currentSrc" [alt]="alt" />
+<div *ngIf="!!currentSrc; else noImage">
+    <img [src]="currentSrc" [alt]="alt" />
     <img *ngIf="!!lastSrc" [@lastSrc]="currentSrc" class="lastImage" [src]="lastSrc" [alt]="alt" />
 </div>
+
+<ng-template #noImage>
+    <div class="placeholder-gradient" [style.background]="createBackgroundGradient()"></div>
+</ng-template>

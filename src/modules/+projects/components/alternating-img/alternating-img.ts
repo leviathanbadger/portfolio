@@ -9,6 +9,16 @@ function getIntervalMillis() {
     return Math.floor(NEXT_IMAGE_INTERVAL_MIN_MILLIS + Math.random() * (NEXT_IMAGE_INTERVAL_MAX_MILLIS - NEXT_IMAGE_INTERVAL_MIN_MILLIS));
 }
 
+const POSSIBLE_GRADIENT_DIRECTIONS = ['bottom', 'right', 'bottom', 'right', 'bottom right'];
+function randomGradientDirection() {
+    return POSSIBLE_GRADIENT_DIRECTIONS[Math.floor(Math.random() * POSSIBLE_GRADIENT_DIRECTIONS.length)];
+}
+
+const POSSIBLE_COLORS = ['lightskyblue', 'greenyellow', 'darkorchid', 'goldenrod', 'firebrick', 'midnightblue', 'dodgerblue', 'mediumseagreen', 'orangered', 'peru'];
+function randomColor() {
+    return POSSIBLE_COLORS[Math.floor(Math.random() * POSSIBLE_COLORS.length)];
+}
+
 @Component({
     selector: 'alternating-img[src]',
     templateUrl: './alternating-img.html',
@@ -25,6 +35,7 @@ function getIntervalMillis() {
 export class AlternatingImageComponent extends ComponentBase {
     constructor() {
         super();
+        while (this.toColor == this.fromColor) this.toColor = randomColor();
     }
     
     private _sources: string[];
@@ -58,5 +69,12 @@ export class AlternatingImageComponent extends ComponentBase {
             this.updateSrcInterval = null;
         }
         this.updateSrcInterval = setInterval(() => this.updateCurrentSrc(), getIntervalMillis());
+    }
+    
+    private toDirection: string = randomGradientDirection();
+    private fromColor: string = randomColor();
+    private toColor: string = randomColor();
+    createBackgroundGradient() {
+        return `linear-gradient(to ${this.toDirection}, ${this.fromColor}, ${this.toColor})`;
     }
 }

@@ -16,9 +16,6 @@ export class Project {
         if (!_images) _images = { thumbnails: [], images: [] };
         else if (typeof _images === 'string') _images = { thumbnails: [_images], images: [_images] };
         [this._thumbnails, this._images] = [_images.thumbnails, _images.images];
-        
-        if (!this._thumbnails.length) this._thumbnails.push('https://placehold.it/430x270');
-        if (!this._images.length) this._images.push('https://placehold.it/430x270');
     }
     
     private _slug: string;
