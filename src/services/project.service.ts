@@ -42,7 +42,7 @@ const allProjects: Project[] = [
         'Spacial puzzle block-slider game',
         ['typescript', 'game-engine', 'html5', 'webpack', 'steam-api', 'production', 'commercial', 'opengl', 'game', 'nw.js', 'greenworks', 'svg', 'three.js', 'ci'],
         [
-            // ['Store', '']
+            ['Store', 'http://store.steampowered.com/app/725910/Collide/']
         ],
         require('projects/collide-game.md')
     ),
