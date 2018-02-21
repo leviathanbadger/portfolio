@@ -47,6 +47,24 @@ const allProjects: Project[] = [
         require('projects/collide-game.md')
     ),
     new Project(
+        'Turbo Winner (game)',
+        {
+            thumbnails: [
+                '/assets/images/turbo-winner-0-sm.png'
+            ],
+            images: [
+                '/assets/images/turbo-winner-0-lg.png'
+            ]
+        },
+        'Free top-down bounty-hunter MMO game',
+        ['typescript', 'game-engine', 'html5', 'webpack', 'production', 'game', 'ci', 'mmo', 'networked'],
+        [
+            ['Source', 'https://github.com/blslade-neumont/turbo-winner'],
+            ['Demo', 'https://turbo-winner.surge.sh/']
+        ],
+        require('projects/turbo-winner.md')
+    ),
+    new Project(
         'Worms-Warcraft',
         {
             thumbnails: [
