@@ -1,0 +1,35 @@
+
+
+$section-height: calc(100vh - 73px);
+
+.banner-image {
+    height: $section-height;
+    background: linear-gradient(to bottom, white, lightblue);
+    
+    .banner-content {
+        position: relative;
+        height: $section-height;
+        background: rgba(255, 255, 255, .3);
+        
+        & > .banner-left {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 60%;
+            transform: translateY(-50%);
+            text-align: right;
+        }
+        
+        & > .banner-right {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            right: 0%;
+            transform: translateY(-50%);
+            
+            .profile-icons > * {
+                margin-right: .5em;
+            }
+        }
+    }
+}
