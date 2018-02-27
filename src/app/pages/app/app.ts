@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { ComponentBase } from 'utils/components';
 
 @Component({
@@ -7,7 +8,10 @@ import { ComponentBase } from 'utils/components';
     styleUrls: ['./app.scss']
 })
 export class AppComponent extends ComponentBase {
-    constructor() {
+    constructor(
+        router: Router
+    ) {
         super();
+        (<any>window).router = router;
     }
 }
