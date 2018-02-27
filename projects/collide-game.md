@@ -1,6 +1,6 @@
 ### Sold on Steam!
 
-The store page will be publicly visible mid-February, and the game will be released for sale on March 15th.
+The game will be released for sale on March 15th on Steam.
 Below is a copy of the description that's visible on the store page.
 
 ### Steam Store Description
