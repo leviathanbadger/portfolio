@@ -14,3 +14,5 @@ yarn-error.log
 .suo
 /bin/
 /obj/
+
+docs
