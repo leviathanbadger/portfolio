@@ -1,10 +1,15 @@
 let { ProvidePlugin } = require('webpack');
 var path = require('path');
 
+var stats = {
+    warningsFilter: /System.import/
+};
+
 // Our Webpack Defaults
 var defaultConfig = {
     devtool: 'cheap-module-source-map',
     cache: true,
+    mode: 'development',
     
     output: {
         filename: '[name].bundle.js',
@@ -42,6 +47,11 @@ var defaultConfig = {
         Buffer: false,
         clearImmediate: false,
         setImmediate: false
+    },
+    
+    stats,
+    devServer: {
+        stats
     }
 };
 module.exports = defaultConfig;
