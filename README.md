@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/aboveyou00/portfolio.svg?branch=master)](https://travis-ci.org/aboveyou00/portfolio)
+[![Build Status](https://travis-ci.org/leviathanbadger/portfolio.svg?branch=master)](https://travis-ci.org/leviathanbadger/portfolio)
 
-# aboveyou00/portfolio
+# leviathanbadger/portfolio
 
 A portfolio project showcasing Brandon Slade's project work.
 

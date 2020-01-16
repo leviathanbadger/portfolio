@@ -5,6 +5,25 @@ import { Project } from 'models';
 
 const allProjects: Project[] = [
     new Project(
+        'Project Boggs',
+        {
+            thumbnails: [
+                '/assets/images/project-boggs-0-sm.png',
+                '/assets/images/project-boggs-1-sm.png'
+            ],
+            images: [
+                '/assets/images/project-boggs-0-lg.png',
+                '/assets/images/project-boggs-1-lg.png'
+            ]
+        },
+        'Internal application to route EVV information to EVV providers',
+        ['typescript', 'aurelia', 'hangfire', 'asp.net core', '.net core', '.net standard', 'sass', 'production', 'website', 'teamcity', 'octopus', 'highcharts', 'nlog', 'kibana'],
+        [
+            ['Axxess', 'https://www.axxess.com/']
+        ],
+        require('projects/project-boggs.md')
+    ),
+    new Project(
         'DocSource.io',
         {
             thumbnails: [
