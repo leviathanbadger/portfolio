@@ -1,5 +1,5 @@
 {
-    "name": "@aboveyou00/portfolio",
+    "name": "@leviathanbadger/portfolio",
     "version": "0.0.0",
     "description": "A portfolio project showcasing Brandon Slade's project work",
     "scripts": {
@@ -88,14 +88,14 @@
     "keywords": [
         "angular",
         "portfolio",
-        "aboveyou00"
+        "leviathanbadger"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/aboveyou00/portfolio.git"
+        "url": "git+https://github.com/leviathanbadger/portfolio.git"
     },
     "bugs": {
-        "url": "https://github.com/aboveyou00/portfolio/issues"
+        "url": "https://github.com/leviathanbadger/portfolio/issues"
     },
-    "homepage": "https://github.com/aboveyou00/portfolio#readme"
+    "homepage": "https://github.com/leviathanbadger/portfolio#readme"
 }
