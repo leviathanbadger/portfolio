@@ -33,3 +33,39 @@
     &.strong, & > .degree { font-weight: bold; }
   }
 }
+
+.certification-list {
+  & > * {
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    &:hover {
+      outline: 1px solid lightgray;
+
+      & .details {
+        opacity: 1;
+      }
+    }
+
+    & img {
+      width: auto;
+      height: 140px;
+    }
+    & .details {
+      color: gray;
+      text-decoration: none;
+      font-size: smaller;
+      text-align: center;
+      opacity: 0;
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    margin-bottom: -2em;
+  }
+}
