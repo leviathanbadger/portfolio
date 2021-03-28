@@ -44,12 +44,12 @@ const allProjects: Project[] = [
     'Project Boggs',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/project-boggs-0-sm.png',
-        'https://www.brandonslade.me/assets/images/project-boggs-1-sm.png'
+        '/assets/images/project-boggs-0-sm.png',
+        '/assets/images/project-boggs-1-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/project-boggs-0-lg.png',
-        'https://www.brandonslade.me/assets/images/project-boggs-1-lg.png'
+        '/assets/images/project-boggs-0-lg.png',
+        '/assets/images/project-boggs-1-lg.png'
       ]
     },
     'Internal application to route EVV information to EVV providers',
@@ -63,12 +63,12 @@ const allProjects: Project[] = [
     'DocSource.io',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/docsource-0-sm.png',
-        'https://www.brandonslade.me/assets/images/docsource-1-sm.png'
+        '/assets/images/docsource-0-sm.png',
+        '/assets/images/docsource-1-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/docsource-0-lg.png',
-        'https://www.brandonslade.me/assets/images/docsource-1-lg.png'
+        '/assets/images/docsource-0-lg.png',
+        '/assets/images/docsource-1-lg.png'
       ]
     },
     'Github-integrated developer documentation tool',
@@ -82,16 +82,16 @@ const allProjects: Project[] = [
     'Collide (game)',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/collide-0-sm.png',
-        'https://www.brandonslade.me/assets/images/collide-1-sm.png',
-        'https://www.brandonslade.me/assets/images/collide-2-sm.png',
-        'https://www.brandonslade.me/assets/images/collide-3-sm.png'
+        '/assets/images/collide-0-sm.png',
+        '/assets/images/collide-1-sm.png',
+        '/assets/images/collide-2-sm.png',
+        '/assets/images/collide-3-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/collide-0-lg.png',
-        'https://www.brandonslade.me/assets/images/collide-1-lg.png',
-        'https://www.brandonslade.me/assets/images/collide-2-lg.png',
-        'https://www.brandonslade.me/assets/images/collide-3-lg.png'
+        '/assets/images/collide-0-lg.png',
+        '/assets/images/collide-1-lg.png',
+        '/assets/images/collide-2-lg.png',
+        '/assets/images/collide-3-lg.png'
       ]
     },
     'Spacial puzzle block-slider game',
@@ -105,10 +105,10 @@ const allProjects: Project[] = [
     'Turbo Winner (game)',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/turbo-winner-0-sm.png'
+        '/assets/images/turbo-winner-0-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/turbo-winner-0-lg.png'
+        '/assets/images/turbo-winner-0-lg.png'
       ]
     },
     'Free top-down bounty-hunter MMO game',
@@ -123,10 +123,10 @@ const allProjects: Project[] = [
     'Worms-Warcraft',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/worms-warcraft-0-sm.png'
+        '/assets/images/worms-warcraft-0-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/worms-warcraft-0-lg.png'
+        '/assets/images/worms-warcraft-0-lg.png'
       ]
     },
     'Warcraft-themed realtime networked Worms clone',
@@ -161,14 +161,14 @@ const allProjects: Project[] = [
     'Procedural Continent Generator',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/continents-0-sm.png',
-        'https://www.brandonslade.me/assets/images/continents-1-sm.png',
-        'https://www.brandonslade.me/assets/images/continents-2-sm.png'
+        '/assets/images/continents-0-sm.png',
+        '/assets/images/continents-1-sm.png',
+        '/assets/images/continents-2-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/continents-0-lg.png',
-        'https://www.brandonslade.me/assets/images/continents-1-lg.png',
-        'https://www.brandonslade.me/assets/images/continents-2-lg.png'
+        '/assets/images/continents-0-lg.png',
+        '/assets/images/continents-1-lg.png',
+        '/assets/images/continents-2-lg.png'
       ]
     },
     'Procedural content generation tech demo',
@@ -193,14 +193,14 @@ const allProjects: Project[] = [
     'Game Engine Physics',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/physics-demo-0-sm.png',
-        'https://www.brandonslade.me/assets/images/physics-demo-1-sm.png',
-        'https://www.brandonslade.me/assets/images/physics-demo-2-sm.png'
+        '/assets/images/physics-demo-0-sm.png',
+        '/assets/images/physics-demo-1-sm.png',
+        '/assets/images/physics-demo-2-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/physics-demo-0-lg.png',
-        'https://www.brandonslade.me/assets/images/physics-demo-1-lg.png',
-        'https://www.brandonslade.me/assets/images/physics-demo-2-lg.png'
+        '/assets/images/physics-demo-0-lg.png',
+        '/assets/images/physics-demo-1-lg.png',
+        '/assets/images/physics-demo-2-lg.png'
       ]
     },
     'A tech demo showcasing rigidbody physics in my custom HTML5 engine',
@@ -215,14 +215,14 @@ const allProjects: Project[] = [
     'Boulder Physics Game',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/boulder-game-0-sm.png',
-        'https://www.brandonslade.me/assets/images/boulder-game-1-sm.png',
-        'https://www.brandonslade.me/assets/images/boulder-game-2-sm.png'
+        '/assets/images/boulder-game-0-sm.png',
+        '/assets/images/boulder-game-1-sm.png',
+        '/assets/images/boulder-game-2-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/boulder-game-0-lg.png',
-        'https://www.brandonslade.me/assets/images/boulder-game-1-lg.png',
-        'https://www.brandonslade.me/assets/images/boulder-game-2-lg.png'
+        '/assets/images/boulder-game-0-lg.png',
+        '/assets/images/boulder-game-1-lg.png',
+        '/assets/images/boulder-game-2-lg.png'
       ]
     },
     'A small game showcasing rigidbody physics in my custom HTML5 engine',
@@ -237,12 +237,12 @@ const allProjects: Project[] = [
     'Angular Vector Editor',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/vector-editor-0-sm.png',
-        'https://www.brandonslade.me/assets/images/vector-editor-1-sm.png'
+        '/assets/images/vector-editor-0-sm.png',
+        '/assets/images/vector-editor-1-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/vector-editor-0-lg.png',
-        'https://www.brandonslade.me/assets/images/vector-editor-1-lg.png'
+        '/assets/images/vector-editor-0-lg.png',
+        '/assets/images/vector-editor-1-lg.png'
       ]
     },
     'A frontend vector graphic editor created using Angular',
@@ -267,12 +267,12 @@ const allProjects: Project[] = [
     'Artificial Intelligence Playground',
     {
       thumbnails: [
-        'https://www.brandonslade.me/assets/images/ai-playground-0-sm.png',
-        'https://www.brandonslade.me/assets/images/ai-playground-1-sm.png'
+        '/assets/images/ai-playground-0-sm.png',
+        '/assets/images/ai-playground-1-sm.png'
       ],
       images: [
-        'https://www.brandonslade.me/assets/images/ai-playground-0-lg.png',
-        'https://www.brandonslade.me/assets/images/ai-playground-1-lg.png'
+        '/assets/images/ai-playground-0-lg.png',
+        '/assets/images/ai-playground-1-lg.png'
       ]
     },
     'A tech demo showcasing various AI behaviors in my custom HTML5 engine',

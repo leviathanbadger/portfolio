@@ -1,0 +1,8 @@
+{
+  "/assets/**": {
+    "target": "https://www.brandonslade.me",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}
