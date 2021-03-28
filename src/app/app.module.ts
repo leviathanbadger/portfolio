@@ -12,7 +12,7 @@ import { PageNavComponent } from './components/page-nav/page-nav.component';
 
 //Imports
 import { AppRoutingModule } from './app-routing.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SharedModule } from 'src/shared/shared.module';
 
@@ -29,7 +29,7 @@ import { SharedModule } from 'src/shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
+    // NgbModule, //Disabling this until I need it; then I can add more specific modules
     FontAwesomeModule,
     SharedModule.forRoot()
   ],
