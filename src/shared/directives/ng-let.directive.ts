@@ -1,31 +1,34 @@
 import { Directive, ViewContainerRef, TemplateRef, EmbeddedViewRef, Input } from '@angular/core';
 
 @Directive({
-    selector: '[ngLet]'
+  selector: '[ngLet]'
 })
 export class NgLetDirective {
-    constructor(private _viewContainer: ViewContainerRef, private _templateRef: TemplateRef<NgLetContext>) {
-        this._context = new NgLetContext();
+  constructor(
+    private _viewContainer: ViewContainerRef,
+    private _templateRef: TemplateRef<NgLetContext>
+  ) {
+    this._context = new NgLetContext();
+  }
+
+  private _context: NgLetContext;
+  private _viewRef: EmbeddedViewRef<NgLetContext> | null = null;
+
+  @Input()
+  set ngLet(val: any) {
+    this._context.$implicit = this._context.ngLet = val;
+    this.updateView();
+  }
+
+  private updateView() {
+    if (!this._viewRef && this._templateRef) {
+      this._viewContainer.clear();
+      this._viewRef = this._viewContainer.createEmbeddedView(this._templateRef, this._context);
     }
-    
-    private _context: NgLetContext;
-    private _viewRef: EmbeddedViewRef<NgLetContext>;
-    
-    @Input()
-    set ngLet(val: any) {
-        this._context.$implicit = this._context.ngLet = val;
-        this.updateView();
-    }
-    
-    private updateView() {
-        if (!this._viewRef && this._templateRef) {
-            this._viewContainer.clear();
-            this._viewRef = this._viewContainer.createEmbeddedView(this._templateRef, this._context);
-        }
-    }
+  }
 }
 
 export class NgLetContext {
-    public $implicit: any = null;
-    public ngLet: any = null;
+  public $implicit: any = null;
+  public ngLet: any = null;
 }

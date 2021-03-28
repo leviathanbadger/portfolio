@@ -2,48 +2,44 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 
 //Declarations
 import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner';
-import { PageFooterComponent } from './components/page-footer/page-footer';
-
-import { NgLetDirective } from './directives/ng-let.directive';
 import { AutofocusDirective } from './directives/autofocus.directive';
-
+import { NgLetDirective } from './directives/ng-let.directive';
 import { MarkdownPipe } from './pipes/markdown.pipe';
-import { SafePipe } from './pipes/safe.pipe';
+import { BypassSecurityPipe } from './pipes/bypass-security.pipe';
 
 //Imports
 import { CommonModule } from "@angular/common";
-import { HttpModule } from "@angular/http";
 import { FormsModule } from '@angular/forms';
+import { ProjectService } from './services/project.service';
 
 @NgModule({
-    declarations: [
-        LoadingSpinnerComponent,
-        PageFooterComponent,
-        
-        AutofocusDirective,
-        NgLetDirective,
-        
-        MarkdownPipe,
-        SafePipe
-    ],
-    imports: [
-        CommonModule, HttpModule, FormsModule
-    ],
-    exports: [
-        LoadingSpinnerComponent,
-        PageFooterComponent,
-        
-        AutofocusDirective,
-        NgLetDirective,
-        
-        MarkdownPipe,
-        SafePipe,
-        
-        CommonModule, HttpModule, FormsModule
-    ]
+  declarations: [
+    LoadingSpinnerComponent,
+    AutofocusDirective,
+    NgLetDirective,
+    MarkdownPipe,
+    BypassSecurityPipe
+  ],
+  imports: [
+    CommonModule,
+    FormsModule
+  ],
+  exports: [
+    LoadingSpinnerComponent,
+    AutofocusDirective,
+    NgLetDirective,
+    MarkdownPipe,
+    BypassSecurityPipe,
+
+    CommonModule,
+    FormsModule
+  ]
 })
 export class SharedModule {
-    static forRoot(): ModuleWithProviders {
-        return { ngModule: SharedModule };
-    }
+  static forRoot(): ModuleWithProviders<SharedModule> {
+    return {
+      ngModule: SharedModule,
+      providers: [ProjectService]
+    };
+  }
 }

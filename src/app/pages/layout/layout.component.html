@@ -1,0 +1,9 @@
+<bls-page-header></bls-page-header>
+
+<main [@routeType]="(routeType$ | async) || 'initial'">
+  <div class="animation-parent">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
+<bls-page-footer></bls-page-footer>

@@ -1,0 +1,35 @@
+
+
+.resume {
+  font-family: Cambria;
+
+  .title {
+    margin: 3em 0;
+    text-align: center;
+    & .links {
+      .link-separator:before {
+        content: '|';
+        display: inline-block;
+        padding: 0 .5em;
+      }
+    }
+  }
+
+  .section {
+    margin-bottom: 3em;
+
+    & h3 {
+      font-family: Calibri;
+      font-size: larger;
+      font-weight: 500;
+      color: grey;
+      margin: 1em 0;
+      width: 100%;
+      border-bottom: 1px solid lightgrey;
+    }
+  }
+
+  .line {
+    &.strong, & > .degree { font-weight: bold; }
+  }
+}

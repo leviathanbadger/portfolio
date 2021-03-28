@@ -1,0 +1,13 @@
+
+
+$section-height: calc(100vh - 72.8px - 60.8px);
+
+main {
+  position: relative;
+  min-height: $section-height;
+
+  &.animation-parent {
+    width: 100%;
+    position: absolute;
+  }
+}

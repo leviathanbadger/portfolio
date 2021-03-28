@@ -2,16 +2,20 @@
     "version": "0.1.0",
     "configurations": [
         {
-            "name": "Launch index.html (disable sourcemaps)",
+            "name": "Launch project (Firefox)",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:4200/",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch project (Chrome)",
             "type": "chrome",
             "request": "launch",
             "sourceMaps": true,
             "smartStep": true,
-            "url": "http://localhost:8080/",
-            "sourceMapPathOverrides": {
-                "webpack:///./~/*": "${workspaceRoot}/node_modules/*",
-                "webpack:///./src/*": "${workspaceRoot}/src/*"
-            }
+            "url": "http://localhost:4200/"
         }
     ]
 }

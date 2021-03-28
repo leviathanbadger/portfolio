@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
 
-import { ResumeComponent } from './pages/resume/resume';
+//Declarations
+import { ResumeComponent } from './pages/resume/resume.component';
 
 //Imports
-import { routerConfig } from './router-config';
-import { SharedModule } from 'shared/shared.module';
+import { RoutingModule } from './routing-module';
+import { SharedModule } from 'src/shared/shared.module';
 
 @NgModule({
-    declarations: [ResumeComponent],
-    imports: [RouterModule.forChild(routerConfig), SharedModule.forRoot()],
-    exports: [ResumeComponent]
+  declarations: [ResumeComponent],
+  imports: [RoutingModule, SharedModule],
+  exports: [ResumeComponent]
 })
-export class ResumeModule {
-}
+export class ResumeModule { }

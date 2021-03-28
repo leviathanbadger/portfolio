@@ -1,8 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
 
+/* Importing Bootstrap SCSS file. */
 
-@import 'theme';
-
+@import './theme';
 @import '~bootstrap/scss/bootstrap';
-@import '~highlight.js/styles/github-gist';
 
 @import 'to-organize';
