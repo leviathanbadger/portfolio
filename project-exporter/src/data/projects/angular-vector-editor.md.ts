@@ -1,4 +1,4 @@
-### Angular Vector Editor
+export default `### Angular Vector Editor
 
 This project was created for a school project in about a week.
 It's a frontend app that uses Angular to create a simple vector graphic editor.
@@ -13,4 +13,4 @@ to Angular development.
 
 In addition, I had the experience of importing and using two custom Angular components
 that I'd never used before: a drag and drop list ordering component,
-and a color picker that is non-blocking and slightly more fancy than the browsers' default.
+and a color picker that is non-blocking and slightly more fancy than the browsers' default.`;

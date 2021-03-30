@@ -1,4 +1,4 @@
-### Boulder Physics Game
+export default `### Boulder Physics Game
 
 This game was created as my final project in a game physics class.
 It uses the custom HTML5 engine that I spent several months building,
@@ -23,4 +23,4 @@ to insanely challenging.
 To see a more thorough demo of features I added to this physics engine,
 go [here][physics_demo].
 
-[physics_demo]: /project/game-engine-physics
+[physics_demo]: /project/game-engine-physics`;

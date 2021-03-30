@@ -1,4 +1,4 @@
-### Sold on Steam!
+export default `### Sold on Steam!
 
 The game will be released for sale on March 15th on Steam.
 Below is a copy of the description that's visible on the store page.
@@ -33,4 +33,4 @@ Using the in-game _Level Editor,_ players can create unique maps and share the l
 As you create your own levels, try sharing them with other skilled players
 to see what "par" really is for each of your puzzles.
 
-> Get from point A to B then C. Wait, isn't D next? No, that's a trap. It must be E. Alright, now how do I get from here to the finish?
+> Get from point A to B then C. Wait, isn't D next? No, that's a trap. It must be E. Alright, now how do I get from here to the finish?`;

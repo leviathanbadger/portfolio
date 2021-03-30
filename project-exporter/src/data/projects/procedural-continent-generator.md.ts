@@ -1,4 +1,4 @@
-### Cellular Automata
+export default `### Cellular Automata
 
 One of the first concepts that initially helped me get into programming
 when I was younger was the idea of "Cellular Automata." (Singular "Cellular Automaton.")
@@ -21,4 +21,4 @@ landmasses that could eventually be used in a game or a digitally created artfor
 
 To learn more about cellular automata, click [here][cellular_automata].
 
-[cellular_automata]: https://en.wikipedia.org/wiki/Cellular_automaton
+[cellular_automata]: https://en.wikipedia.org/wiki/Cellular_automaton`;

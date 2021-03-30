@@ -1,4 +1,4 @@
-### Capstone Project Fall 2017
+export default `### Capstone Project Fall 2017
 
 I was a student at Neumont University (now called [Neumont College of Computer Science][neumont])
 from September 2015 to August 2018 (expected graduation date.)
@@ -10,4 +10,4 @@ For me, the result was a fully-asynchronous, lazy-loaded single-page-application
 It solves some of the pain points that I have noticed in existing professional frontend
 SPA routers (such as that of Angular or React.)
 
-[neumont]: https://www.neumont.edu/
+[neumont]: https://www.neumont.edu/`;

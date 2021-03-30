@@ -1,4 +1,4 @@
-### Turbo Winner
+export default `### Turbo Winner
 
 Project Codename Turbo Winner is an online, networked, massively-multiplayer game.
 It is top-down bounty-hunter game. Players join and are randomly assigned a target to find and kill.
@@ -15,4 +15,4 @@ Project Turbo Winner was created as a group project. The group members are:
 
 - Brandon Slade
 - Justin Furtado
-- Michael Vanderlip
+- Michael Vanderlip`;

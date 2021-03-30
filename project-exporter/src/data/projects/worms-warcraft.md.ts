@@ -1,4 +1,4 @@
-### Two Beloved Games
+export default `### Two Beloved Games
 
 Worms Warcraft is a personal project created by merging two of my and my friends' favorite games.
 Graphical assets and general gameplay style were taken from the old-style Worms games (Team17);
@@ -17,4 +17,4 @@ This was created as a personal project, to help me learn Unity networking,
 and as a tech demo for pixel-based destructible terrain.
 
 Partly because I don't have any right to use these assets, I am not hosting a demo for this game online.
-If you see me in person, you can ask me to show it off and I'll try to find it and blow off the dust.
+If you see me in person, you can ask me to show it off and I'll try to find it and blow off the dust.`;

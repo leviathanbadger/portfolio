@@ -1,4 +1,4 @@
-### Html5 Game Engine
+export default `### Html5 Game Engine
 
 This is my latest iteration of game engines. It is built using web technologies,
 which allows me to focus more on the design of the engine and less on the low-level
@@ -27,4 +27,4 @@ Here are a few projects created using various iterations of this engine:
 [turbo_winner]: /project/turbo-winner-game
 [engine_physics]: /project/game-engine-physics
 [boulder_physics]: /project/boulder-physics-game
-[ai_playground]: /project/artificial-intelligence-playground
+[ai_playground]: /project/artificial-intelligence-playground`;

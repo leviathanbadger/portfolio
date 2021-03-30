@@ -1,4 +1,4 @@
-### Dungeon Crawler
+export default `### Dungeon Crawler
 
 This is one of the first projects that I (and one of my friends) created at Neumont
 College of Computer Science. We decided to work on a personal project together
@@ -14,4 +14,4 @@ raw Windows sockets to communicate back and forth. We created our own 3d rigidbo
 physics system that worked at least half the time.
 
 This engine was eventually deprecated by a C++ engine that we created later in our
-time at Neumont that fixed many of the design flaws of this one.
+time at Neumont that fixed many of the design flaws of this one.`;

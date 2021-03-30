@@ -1,4 +1,4 @@
-### AI Playground
+export default `### AI Playground
 
 This playground was created using my HTML5 game engine.
 It was built using an early iteration, so there were no physics, and I had to
@@ -10,4 +10,4 @@ artificial fog of war, finite state machines, and various other, smaller behavio
 The end result is not a game, but it is still entertaining to watch the various spawned
 creatures navigate the game world.
 
-In the demo, the controls are labeled in the top-left corner of the screen.
+In the demo, the controls are labeled in the top-left corner of the screen.`;

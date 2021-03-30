@@ -1,4 +1,4 @@
-### Minecraft Music Mod
+export default `### Minecraft Music Mod
 
 In one of my projects at school, the requirement was to create a piece of software
 that used music as a core element. For example, some people chose to create
@@ -10,4 +10,4 @@ but is very strong when you attack to the beat. As I'm not very creative with na
 the result is called "Minecraft Music Mod."
 
 The mod was created for an older version of minecraft, and it has since been deprecated
-by changes to newer versions of the game.
+by changes to newer versions of the game.`;

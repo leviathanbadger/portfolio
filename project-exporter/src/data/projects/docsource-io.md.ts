@@ -1,4 +1,4 @@
-### What is DocSource?
+export default `### What is DocSource?
 
 [DocSource.io][docsource] is a documentation tool build for developer teams.
 It integrates with GitHub so that when you log in, all of your Git repositories are in one place
@@ -14,4 +14,4 @@ own or have contributed to on GitHub. You can also manually add projects to the 
 Developers can easily jump between documentation for their projects and organizations,
 or they can open a repository on GitHub with a single click.
 
-[docsource]: https://docsource.io/
+[docsource]: https://docsource.io/`;

@@ -1,4 +1,4 @@
-### Summary
+export default `### Summary
 
 Project Boggs is an internal application that I worked on when I worked at Axxess.
 It includes three components:
@@ -19,4 +19,4 @@ It includes three components:
 
 Project Boggs has continuous integration, testing, and deployment through a combination
 of TeamCity and Octopus. TeamCity builds the application and tests it,
-while Octopus deploys it.
+while Octopus deploys it.`;
