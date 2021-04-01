@@ -54,8 +54,8 @@ jobs:
 
           aws s3 cp ${DRYRUN:+--dryrun} dist/bls-portfolio/index.html s3://brandonslade-me/dist/index.html \
               --storage-class INTELLIGENT_TIERING \
-              --cache-control max-age=30
+              --cache-control max-age=10
 
           aws s3 cp ${DRYRUN:+--dryrun} dist/bls-portfolio/3rdpartylicenses.txt s3://brandonslade-me/dist/3rdpartylicenses.txt \
               --storage-class INTELLIGENT_TIERING \
-              --cache-control max-age=30
+              --cache-control max-age=10
