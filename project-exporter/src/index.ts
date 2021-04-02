@@ -19,7 +19,7 @@ async function main() {
     await upsertProject(ddb, proj);
   }
 
-  console.log(`Hello, World! There are ${allProjects.length} projects!`);
+  console.log(`Converted ${allProjects.length} projects!`);
 }
 
 async function upsertProject(ddb: DynamoDBClient, proj: PortfolioProject) {

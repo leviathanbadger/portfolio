@@ -50,11 +50,11 @@ export class Project {
   }
 
   toPortfolioProject(): PortfolioProject {
-    let images: { Image?: string, Thumbnail?: string }[] = [];
+    let images: { Href?: string, Thumbnail?: string }[] = [];
     for (let q = 0; q < Math.max(this.images.length, this.thumbnails.length); q++) {
-      let img = q < this.images.length ? this.images[q] : undefined;
+      let href = q < this.images.length ? this.images[q] : undefined;
       let thumb = q < this.thumbnails.length ? this.thumbnails[q] : undefined;
-      let entry = { Image: img, Thumbnail: thumb };
+      let entry = { Href: href, Thumbnail: thumb };
       images.push(entry);
     }
     return {
