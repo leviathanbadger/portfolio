@@ -1,6 +1,8 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResultV2 } from 'aws-lambda';
 import { DynamoDBClient, ScanCommand } from '@aws-sdk/client-dynamodb';
 import { unmarshall } from '@aws-sdk/util-dynamodb';
+import { Project } from 'models/project';
+import { convertToProjectDto } from './models/project-dto';
 
 export async function lambdaHandler(event: APIGatewayProxyEvent): Promise<APIGatewayProxyResultV2> {
   const ddb = new DynamoDBClient({
@@ -15,7 +17,7 @@ export async function lambdaHandler(event: APIGatewayProxyEvent): Promise<APIGat
   try {
     const results = await ddb.send(command);
     console.info(`Scanned table. There were ${results.Items!.length} items returned of ${results.Count}`);
-    const items = results.Items!.map(item => unmarshall(item));
+    const items = results.Items!.map(item => convertToProjectDto(<Project>unmarshall(item)));
     return {
       statusCode: 200,
       headers: {
