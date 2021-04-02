@@ -1,5 +1,12 @@
-name: Build/Deploy
-on: [push]
+name: Build/Deploy Frontend
+on:
+  push:
+    paths:
+      - 'frontend/**'
+
+defaults:
+  run:
+    working-directory: frontend
 
 jobs:
   build:
@@ -26,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: prod-dist
-          path: dist
+          path: frontend/dist
           if-no-files-found: error
 
   deploy-prod:
@@ -44,7 +51,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: prod-dist
-          path: dist
+          path: frontend/dist
       - name: Publish build artifact to S3
         run: |
           aws s3 sync ${DRYRUN:+--dryrun} dist/bls-portfolio/ s3://brandonslade-me/dist/ \

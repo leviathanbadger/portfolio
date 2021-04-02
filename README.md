@@ -1,27 +1,24 @@
-# BlsPortfolio
+# portfolio - brandonslade.me
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+This repo contains all of the code that is used to power my personal portfolio site, brandonslade.me.
 
-## Development server
+## frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Frontend application, written in Angular. Hosted statically in an AWS S3 bucket, then distributed via CloudFront.
 
-## Code scaffolding
+Note about proxies: most of the assets required are stored directly on the S3 bucket, rather than in this repo.
+I am a firm believer that binary files should _not_ be placed in repositories, _if at all possible_.
+Because of that, the /api and /assets folders are proxied for local development to the production site: https://brandonslade.me.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## api
 
-## Build
+API server in the form of a single containerized lambda function; used with a proxy endpoint in an AWS API Gateway.
+Hosted on the /api path in the same CloudFront distribution as the frontend.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The data for the API server (for hosting project details, for example) is hosted in AWS DynamoDB tables.
 
-## Running unit tests
+## project-exporter
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+A utility project used to load a DynamoDB table intended to contain project details with the initial projects.
+Eventually the frontend will support users/authentication, and the API will handle create/edit operations
+directly. For now this is how projects are added to the table.
