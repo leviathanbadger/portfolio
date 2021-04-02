@@ -1,7 +1,7 @@
 {
-  "name": "brandonslade.me-get-projects",
+  "name": "brandonslade-me-api",
   "version": "1.0.0",
-  "description": "Get a list of all portfolio projects from DynamoDB",
+  "description": "Lambda function for all brandonslade.me API endpoints (proxied through AWS API Gateway)",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
