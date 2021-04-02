@@ -11,6 +11,7 @@ import { BypassSecurityPipe } from './pipes/bypass-security.pipe';
 import { CommonModule } from "@angular/common";
 import { FormsModule } from '@angular/forms';
 import { ProjectService } from './services/project.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectService } from './services/project.service';
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   exports: [
     LoadingSpinnerComponent,

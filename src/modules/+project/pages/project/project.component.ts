@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
-import { Project } from 'src/shared/models/project';
+import { ManagedProject } from 'src/shared/models/project';
 import { SlideshowItem } from '../../components/slideshow/slideshow.component';
 
 @Component({
@@ -11,7 +11,7 @@ import { SlideshowItem } from '../../components/slideshow/slideshow.component';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent {
-  project$!: Observable<Project | null>;
+  project$!: Observable<ManagedProject | null>;
 
   slideshowItems$!: Observable<SlideshowItem[]>;
 

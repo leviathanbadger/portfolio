@@ -1,9 +1,9 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { trigger, transition, animate, style, stagger, query } from '@angular/animations';
-import { Observable, ReplaySubject, combineLatest } from 'rxjs';
-import { map, startWith, debounceTime, distinctUntilChanged } from 'rxjs/operators';;
+import { Observable, ReplaySubject } from 'rxjs';
+import { map, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';;
 import { ProjectService } from 'src/shared/services/project.service';
-import { Project } from 'src/shared/models/project';
+import { ManagedProject } from 'src/shared/models/project';
 
 const FILTER_DEBOUNCE_MILLIS = 500;
 
@@ -51,7 +51,7 @@ const SHOW_FLEX = {
 })
 export class ProjectsComponent {
   filter$!: Observable<string>;
-  projects$!: Observable<Project[] | null>;
+  projects$!: Observable<ManagedProject[] | null>;
 
   constructor(
     private projectService: ProjectService
@@ -66,15 +66,11 @@ export class ProjectsComponent {
       distinctUntilChanged()
     );
 
-    this.projects$ = combineLatest([this.projectService.findAll(), this.filter$]).pipe(
-      map(([projects, filter]) => {
+    this.projects$ = this.filter$.pipe(
+      switchMap(filter => this.projectService.searchProjects(filter)),
+      map(projects => {
         this.projectChangeIdx++;
-        if (!projects || !filter) return projects;
-        return projects
-          .map(proj => proj.matchFilter(filter))
-          .sort(kvp => -kvp.relevance)
-          .filter(kvp => kvp.relevance >= .5)
-          .map(kvp => kvp.project);
+        return projects;
       })
     );
   }

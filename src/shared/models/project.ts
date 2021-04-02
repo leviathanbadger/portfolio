@@ -2,23 +2,36 @@
 
 export type ImageSource = string | { thumbnails: string[], images: string[] };
 
-export class Project {
+export type Project = {
+  slug: string,
+  name: string,
+  images: {
+    thumbnail?: string,
+    href?: string
+  }[],
+  description: string,
+  tags: string[],
+  links: {
+    name: string,
+    href: string
+  }[],
+  body: string
+};
+
+export class ManagedProject {
   constructor(
+    private _slug: string,
     private _name: string,
     _images: ImageSource | null,
     private _desc: string,
     private _technologies: string[],
-    private _links: [string, string][],
+    private _links: (readonly [string, string])[],
     private _fullDesc: string = ''
   ) {
-    this._slug = this._name.split(/[^a-zA-Z0-9]/).filter(Boolean).join('-').toLowerCase();
-
     if (!_images) _images = { thumbnails: [], images: [] };
     else if (typeof _images === 'string') _images = { thumbnails: [_images], images: [_images] };
     [this._thumbnails, this._images] = [_images.thumbnails, _images.images];
   }
-
-  private _slug: string;
 
   get name() {
     return this._name;
@@ -49,7 +62,15 @@ export class Project {
     return this._images;
   }
 
-  matchFilter(filter: string): { project: Project, relevance: number } {
+  static fromProject(proj: Project): ManagedProject {
+    const allImages = proj.images || [];
+    let imageHrefs = allImages.map(img => img.href!).filter(Boolean);
+    let thumbnails = proj.images.map(img => img.thumbnail!).filter(Boolean);
+    let links = proj.links.map(link => [link.name, link.href] as const);
+    return new ManagedProject(proj.slug, proj.name, { images: imageHrefs, thumbnails }, proj.description, proj.tags || [], links || [], proj.body);
+  }
+
+  matchFilter(filter: string): { project: ManagedProject, relevance: number } {
     filter = filter.toLowerCase();
     let terms = filter.split(' ');
     let searchName = this.name.toLowerCase();

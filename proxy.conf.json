@@ -1,6 +1,12 @@
 {
   "/assets/**": {
-    "target": "https://www.brandonslade.me",
+    "target": "https://brandonslade.me",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  },
+  "/api/**": {
+    "target": "https://brandonslade.me",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "info"
