@@ -1,0 +1,21 @@
+name: Boulder Physics Game
+images:
+  thumbnails:
+    - /assets/images/boulder-game-0-sm.png
+    - /assets/images/boulder-game-1-sm.png
+    - /assets/images/boulder-game-2-sm.png
+  images:
+    - /assets/images/boulder-game-0-lg.png
+    - /assets/images/boulder-game-1-lg.png
+    - /assets/images/boulder-game-2-lg.png
+description: A small game showcasing rigidbody physics in my custom HTML5 engine
+tags:
+  - typescript
+  - physics
+  - game
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/physics-game-final
+  - name: Demo
+    href: https://blslade-neumont.github.io/physics-game-final/
+pathToBody: projects/bodies/boulder-physics-game.md

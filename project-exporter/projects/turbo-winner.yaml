@@ -1,0 +1,23 @@
+name: Turbo Winner (game)
+images:
+  thumbnails:
+    - /assets/images/turbo-winner-0-sm.png
+  images:
+    - /assets/images/turbo-winner-0-lg.png
+description: Free top-down bounty-hunter MMO game
+tags:
+  - typescript
+  - game-engine
+  - html5
+  - webpack
+  - production
+  - game
+  - ci
+  - mmo
+  - networked
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/turbo-winner
+  - name: Demo
+    href: https://turbo-winner.surge.sh/
+pathToBody: projects/bodies/turbo-winner.md

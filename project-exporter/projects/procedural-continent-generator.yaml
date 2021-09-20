@@ -1,0 +1,22 @@
+name: Procedural Continent Generator
+images:
+  thumbnails:
+    - /assets/images/continents-0-sm.png
+    - /assets/images/continents-1-sm.png
+    - /assets/images/continents-2-sm.png
+  images:
+    - /assets/images/continents-0-lg.png
+    - /assets/images/continents-1-lg.png
+    - /assets/images/continents-2-lg.png
+description: Procedural content generation tech demo
+tags:
+  - typescript
+  - webpack
+  - procedural-terrain
+  - procedural-generation
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/procedural-continent-generator
+  - name: Demo
+    href: https://blslade-neumont.github.io/procedural-continent-generator/
+pathToBody: projects/bodies/procedural-continent-generator.md

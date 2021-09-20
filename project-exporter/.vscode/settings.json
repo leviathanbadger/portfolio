@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "./projects/project.schema.json": "projects/*"
+  }
+}

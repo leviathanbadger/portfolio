@@ -1,0 +1,27 @@
+name: Houdini Daily Practice
+description: Daily practice to master the Houdini procedural modeling app
+images:
+  thumbnails:
+    - /assets/images/houdini-practice-0-sm.png
+    - /assets/images/houdini-practice-1-sm.png
+    - /assets/images/houdini-practice-2-sm.png
+    - /assets/images/houdini-practice-3-sm.png
+  images:
+    - /assets/images/houdini-practice-0-lg.png
+    - /assets/images/houdini-practice-1-lg.png
+    - /assets/images/houdini-practice-2-lg.png
+    - /assets/images/houdini-practice-3-lg.png
+tags:
+  - houdini
+  - hscript
+  - vex
+  - procedural
+  - modeling
+  - game
+  - game-assets
+links:
+  - name: Practice
+    href: https://brandonslade.me/houdini-practice
+  - name: Houdini
+    href: https://www.sidefx.com/products/houdini/
+pathToBody: projects/bodies/houdini-practice.md

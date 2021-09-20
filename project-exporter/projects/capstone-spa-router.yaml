@@ -1,0 +1,14 @@
+name: Asynchronous SPA Router
+description: Promise-based asynchronous SPA router and dependency loader
+tags:
+  - typescript
+  - webpack
+  - sass
+  - nightwatch
+  - node
+  - website
+  - ci
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/capstone-spa-router
+pathToBody: projects/bodies/capstone-spa-router.md

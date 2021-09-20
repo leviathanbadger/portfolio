@@ -1,0 +1,22 @@
+name: Angular Vector Editor
+images:
+  thumbnails:
+    - /assets/images/vector-editor-0-sm.png
+    - /assets/images/vector-editor-1-sm.png
+  images:
+    - /assets/images/vector-editor-0-lg.png
+    - /assets/images/vector-editor-1-lg.png
+description: A frontend vector graphic editor created using Angular
+tags:
+  - typescript
+  - angular
+  - svg
+  - html5
+  - local-storage
+  - ci
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/final-web-app
+  - name: Demo
+    href: https://blslade-neumont.github.io/final-web-app/
+pathToBody: projects/bodies/angular-vector-editor.md

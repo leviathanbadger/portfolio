@@ -1,0 +1,11 @@
+name: Kubernetes Autoscaling by RabbitMQ Queue
+description: A technique to autoscale kubernetes deployments using RabbitMQ queues as external scaling metrics
+tags:
+  - kubernetes
+  - rabbitmq
+  - prometheus
+  - autoscaling
+links:
+  - name: VPay
+    href: https://www.vpayusa.com/
+pathToBody: projects/bodies/kubernetes-rabbit-autoscaling.md

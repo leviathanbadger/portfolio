@@ -1,0 +1,11 @@
+name: Minecraft Music Mod
+description: A Minecraft mod that adds a rythm-based guitar sword that does more damage on the beat
+tags:
+  - java
+  - minecraft
+  - mod
+  - music-analysis
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/music-mod
+pathToBody: projects/bodies/minecraft-music-mod.md

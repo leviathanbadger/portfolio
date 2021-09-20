@@ -1,21 +1,32 @@
-import { PortfolioProject } from "./portfolio-project";
+import { readFile } from 'fs/promises';
+import { PortfolioProject } from './portfolio-project.js';
+import { ProjectManifest } from './project-manifest.js';
 
 export type ImageSource = string | { thumbnails: string[], images: string[] };
 
 export class Project {
   constructor(
     private _name: string,
+    _slug: string | null,
     _images: ImageSource | null,
     private _desc: string,
     private _technologies: string[],
     private _links: [string, string][],
     private _fullDesc: string = ''
   ) {
-    this._slug = this._name.split(/[^a-zA-Z0-9]/).filter(Boolean).join('-').toLowerCase();
+    if (!_slug) {
+      _slug = this._name.split(/[^a-zA-Z0-9]/).filter(Boolean).join('-').toLowerCase();
+    }
+    this._slug = _slug;
 
     if (!_images) _images = { thumbnails: [], images: [] };
     else if (typeof _images === 'string') _images = { thumbnails: [_images], images: [_images] };
     [this._thumbnails, this._images] = [_images.thumbnails, _images.images];
+  }
+
+  static async fromManifest(manifest: ProjectManifest): Promise<Project> {
+    let fullDesc = (await readFile(manifest.pathToBody)).toString();
+    return new Project(manifest.name, manifest.slug || null, manifest.images || null, manifest.description, manifest.tags, manifest.links.map(link => [link.name, link.href] as [string, string]), fullDesc);
   }
 
   private _slug: string;

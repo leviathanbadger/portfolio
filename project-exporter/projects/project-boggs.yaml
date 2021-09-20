@@ -1,0 +1,28 @@
+name: Project Boggs
+images:
+  thumbnails:
+    - /assets/images/project-boggs-0-sm.png
+    - /assets/images/project-boggs-1-sm.png
+  images:
+    - /assets/images/project-boggs-0-lg.png
+    - /assets/images/project-boggs-1-lg.png
+description: Internal application to route EVV information to EVV providers
+tags:
+  - typescript
+  - aurelia
+  - hangfire
+  - asp.net core
+  - .net core
+  - .net standard
+  - sass
+  - production
+  - website
+  - teamcity
+  - octopus
+  - highcharts
+  - nlog
+  - kibana
+links:
+  - name: Axxes
+    href: https://www.axxess.com/
+pathToBody: projects/bodies/project-boggs.md

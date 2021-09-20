@@ -1,0 +1,19 @@
+name: brandonslade.me
+description: A project portfolio website demonstrating competency in web technologies and Angular
+tags:
+  - typescript
+  - angular
+  - webpack
+  - sass
+  - production
+  - portfolio
+  - resume
+  - website
+  - ci
+  - animations
+links:
+  - name: Source
+    href: https://github.com/aboveyou00/portfolio
+  - name: Demo
+    href: https://brandonslade.me/
+pathToBody: projects/bodies/portfolio.md

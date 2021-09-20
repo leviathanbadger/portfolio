@@ -1,0 +1,12 @@
+name: HTML5 Game Engine
+description: 2D game engine created for browser environments
+tags:
+  - typescript
+  - html5
+  - game-engine
+  - physics
+  - ci
+links:
+  - name: Source
+    href: https://github.com/leviathanbadger/html5-game-engine
+pathToBody: projects/bodies/html5-game-engine.md

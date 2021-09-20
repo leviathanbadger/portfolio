@@ -1,0 +1,16 @@
+name: Worms-Warcraft
+images:
+  thumbnails:
+    - /assets/images/worms-warcraft-0-sm.png
+  images:
+    - /assets/images/worms-warcraft-0-lg.png
+description: Warcraft-themed realtime networked Worms clone
+tags:
+  - unity
+  - c#
+  - destructible-terrain
+  - multiplayer
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/worms-warcraft
+pathToBody: projects/bodies/worms-warcraft.md

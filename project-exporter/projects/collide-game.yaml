@@ -1,0 +1,32 @@
+name: Collide (game)
+images:
+  thumbnails:
+    - /assets/images/collide-0-sm.png
+    - /assets/images/collide-1-sm.png
+    - /assets/images/collide-2-sm.png
+    - /assets/images/collide-3-sm.png
+  images:
+    - /assets/images/collide-0-lg.png
+    - /assets/images/collide-1-lg.png
+    - /assets/images/collide-2-lg.png
+    - /assets/images/collide-3-lg.png
+description: Spacial puzzle block-slider game
+tags:
+  - typescript
+  - game-engine
+  - html5
+  - webpack
+  - steam-api
+  - production
+  - commercial
+  - opengl
+  - game
+  - nw.js
+  - greenworks
+  - svg
+  - three.js
+  - ci
+links:
+  - name: Store
+    href: http://store.steampowered.com/app/725910/Collide/
+pathToBody: projects/bodies/collide-game.md

@@ -1,0 +1,29 @@
+name: LabDog
+images:
+  thumbnails:
+    - /assets/images/labdog-0-sm.png
+    - /assets/images/labdog-1-sm.png
+    - /assets/images/labdog-2-sm.png
+    - /assets/images/labdog-3-sm.png
+  images:
+    - /assets/images/labdog-0-lg.png
+    - /assets/images/labdog-1-lg.png
+    - /assets/images/labdog-2-lg.png
+    - /assets/images/labdog-3-lg.png
+description: A security gating app built to help achieve HITRUST compliance
+tags:
+  - typescript
+  - angular
+  - rxjs
+  - asp.net core
+  - .net core
+  - production
+  - security-gate
+  - compliance
+  - docker
+  - gitlab
+  - fontawesome
+links:
+  - name: VPay
+    href: https://www.vpayusa.com
+pathToBody: projects/bodies/labdog.md

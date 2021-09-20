@@ -1,0 +1,24 @@
+name: Game Engine Physics
+images:
+  thumbnails:
+    - /assets/images/physics-demo-0-sm.png
+    - /assets/images/physics-demo-1-sm.png
+    - /assets/images/physics-demo-2-sm.png
+  images:
+    - /assets/images/physics-demo-0-lg.png
+    - /assets/images/physics-demo-1-lg.png
+    - /assets/images/physics-demo-2-lg.png
+description: A tech demo showcasing rigidbody physics in my custom HTML5 engine
+tags:
+  - typescript
+  - physics
+  - game-engine
+  - html5
+  - springs
+  - ci
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/GAT310
+  - name: Demo
+    href: https://blslade-neumont.github.io/GAT310/
+pathToBody: projects/bodies/game-engine-physics.md

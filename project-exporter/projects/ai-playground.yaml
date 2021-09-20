@@ -1,0 +1,25 @@
+name: Artificial Intelligence Playground
+images:
+  thumbnails:
+    - /assets/images/ai-playground-0-sm.png
+    - /assets/images/ai-playground-1-sm.png
+  images:
+    - /assets/images/ai-playground-0-lg.png
+    - /assets/images/ai-playground-1-lg.png
+description: A tech demo showcasing various AI behaviors in my custom HTML5 engine
+tags:
+  - typescript
+  - html5
+  - ai
+  - artificial-intelligence
+  - flocking
+  - pathfinding
+  - a*
+  - a-star
+  - ci
+links:
+  - name: Source
+    href: https://github.com/blslade-neumont/GAT420
+  - name: Demo
+    href: https://blslade-neumont.github.io/GAT420/
+pathToBody: projects/bodies/ai-playground.md
