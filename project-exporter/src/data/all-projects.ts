@@ -1,5 +1,8 @@
 import { Project } from '../models/project';
 
+import houdiniPracticeMd from './projects/houdini-practice.md';
+import kubernetesRabbitAutoscalingMd from './projects/kubernetes-rabbit-autoscaling.md';
+import labdogMd from './projects/labdog.md';
 import projectBoggsMd from './projects/project-boggs.md';
 import docsourceIoMd from './projects/docsource-io.md';
 import collideGameMd from './projects/collide-game.md';
@@ -19,6 +22,63 @@ import openglGameEngineMd from './projects/opengl-game-engine.md';
 import dungeonCrawlerMd from './projects/dungeon-crawler.md';
 
 export const allProjects: Project[] = [
+  new Project(
+    'Houdini Daily Practice',
+    {
+      thumbnails: [
+        '/assets/images/houdini-practice-0-sm.png',
+        '/assets/images/houdini-practice-1-sm.png',
+        '/assets/images/houdini-practice-2-sm.png',
+        '/assets/images/houdini-practice-3-sm.png'
+      ],
+      images: [
+        '/assets/images/houdini-practice-0-lg.png',
+        '/assets/images/houdini-practice-1-lg.png',
+        '/assets/images/houdini-practice-2-lg.png',
+        '/assets/images/houdini-practice-3-lg.png'
+      ]
+    },
+    'Daily practice to  master the Houdini procedural modeling app',
+    ['houdini', 'hscript', 'vex', 'procedural', 'modeling', 'game', 'game-assets'],
+    [
+      ['Practice', 'https://brandonslade.me/houdini-practice'],
+      ['Houdini', 'https://www.sidefx.com/products/houdini/']
+    ],
+    houdiniPracticeMd
+  ),
+  new Project(
+    'Kubernetes Autoscaling by RabbitMQ Queue',
+    null,
+    'A technique to autoscale kubernetes deployments using RabbitMQ queues as external scaling metrics',
+    ['kubernetes', 'rabbitmq', 'prometheus', 'autoscaling'],
+    [
+      ['VPay', 'https://www.vpayusa.com/']
+    ],
+    kubernetesRabbitAutoscalingMd
+  ),
+  new Project(
+    'LabDog',
+    {
+      thumbnails: [
+        '/assets/images/labdog-0-sm.png',
+        '/assets/images/labdog-1-sm.png',
+        '/assets/images/labdog-2-sm.png',
+        '/assets/images/labdog-3-sm.png'
+      ],
+      images: [
+        '/assets/images/labdog-0-lg.png',
+        '/assets/images/labdog-1-lg.png',
+        '/assets/images/labdog-2-lg.png',
+        '/assets/images/labdog-3-lg.png'
+      ]
+    },
+    'A security gating app built to help achieve HITRUST compliance',
+    ['typescript', 'angular', 'rxjs', 'asp.net core', '.net core', 'production', 'security-gate', 'compliance', 'docker', 'gitlab', 'fontawesome'],
+    [
+      ['VPay', 'https://www.vpayusa.com/']
+    ],
+    labdogMd
+  ),
   new Project(
     'Project Boggs',
     {
@@ -132,7 +192,7 @@ export const allProjects: Project[] = [
     ['typescript', 'angular', 'webpack', 'sass', 'production', 'portfolio', 'resume', 'website', 'ci', 'animations'],
     [
       ['Source', 'https://github.com/aboveyou00/portfolio'],
-      ['Demo', 'http://brandonslade.me/']
+      ['Demo', 'https://brandonslade.me/']
     ],
     portfolioMd
   ),
