@@ -29,8 +29,7 @@ async function upsertProject(ddb: DynamoDBClient, proj: PortfolioProject) {
   });
 
   try {
-    const result = await ddb.send(command);
-    console.log('Result:', result);
+    await ddb.send(command);
   }
   catch (err) {
     console.error(err);
