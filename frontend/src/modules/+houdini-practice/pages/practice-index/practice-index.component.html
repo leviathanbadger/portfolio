@@ -1,0 +1,25 @@
+<div class="section tile-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="mt-3">Houdini Daily Practice</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngIf="(dailyPractice$ | async) as dailyPractices; else stillLoading">
+      <div class="col-md-4 mt-3 should-animate" *ngFor="let practice of dailyPractices">
+        <div class="card link-card" [routerLink]="['/', 'houdini-practice', practice.id]">
+          <div class="card-body">
+            <h5 class="card-title">
+              {{practice.name}}
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #stillLoading>
+      <bls-loading-spinner></bls-loading-spinner>
+    </ng-template>
+  </div>
+</div>

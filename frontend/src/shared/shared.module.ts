@@ -11,6 +11,7 @@ import { BypassSecurityPipe } from './pipes/bypass-security.pipe';
 import { CommonModule } from "@angular/common";
 import { FormsModule } from '@angular/forms';
 import { ProjectService } from './services/project.service';
+import { HoudiniPracticeService } from './services/houdini-practice.service';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -41,7 +42,7 @@ export class SharedModule {
   static forRoot(): ModuleWithProviders<SharedModule> {
     return {
       ngModule: SharedModule,
-      providers: [ProjectService]
+      providers: [ProjectService, HoudiniPracticeService]
     };
   }
 }

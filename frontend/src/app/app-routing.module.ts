@@ -12,6 +12,7 @@ const routes: Routes = [
     {path: 'project', pathMatch: 'full', redirectTo: 'projects'},
     {path: 'projects', loadChildren: () => import('../modules/+projects/projects.module').then(m => m.ProjectsModule)},
     {path: 'projects/:projectSlug', loadChildren: () => import('../modules/+project/project.module').then(m => m.ProjectModule)},
+    {path: 'houdini-practice', loadChildren: () => import('../modules/+houdini-practice/houdini-practice.module').then(m => m.HoudiniPracticeModule)},
     {path: '**', component: NotFoundComponent}
   ]}
 ];
