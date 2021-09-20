@@ -1,13 +1,13 @@
-name: Export Projects
+name: Export Data
 on:
   push:
     paths:
-      - 'project-exporter/**'
-      - '.github/workflows/project-exporter.yml'
+      - 'data-exporter/**'
+      - '.github/workflows/data-exporter.yml'
 
 defaults:
   run:
-    working-directory: project-exporter
+    working-directory: data-exporter
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: prod-dist
-          path: project-exporter/dist
+          path: data-exporter/dist
           if-no-files-found: error
 
   deploy-prod:
@@ -54,6 +54,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: prod-dist
-          path: project-exporter/dist
+          path: data-exporter/dist
       - name: Sync projects with PortfolioProjects table
         run: npm run start

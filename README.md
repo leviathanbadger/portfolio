@@ -17,8 +17,8 @@ Hosted on the /api path in the same CloudFront distribution as the frontend.
 
 The data for the API server (for hosting project details, for example) is hosted in AWS DynamoDB tables.
 
-## project-exporter
+## data-exporter
 
-A utility project used to load a DynamoDB table intended to contain project details with the initial projects.
+A utility project used to load DynamoDB tables with initial data. (Projects, houdini daily practice, etc.)
 Eventually the frontend will support users/authentication, and the API will handle create/edit operations
-directly. For now this is how projects are added to the table.
+directly. For now this is how resources are added to the tables.

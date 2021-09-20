@@ -1,7 +1,7 @@
 {
-  "name": "project-exporter",
+  "name": "data-exporter",
   "version": "1.0.0",
-  "description": "Export portfolio projects to DynamoDB",
+  "description": "Export portfolio projects and other data to DynamoDB",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
