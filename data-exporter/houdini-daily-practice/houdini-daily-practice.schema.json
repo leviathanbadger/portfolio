@@ -10,9 +10,6 @@
     "name": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
     "description": {
       "type": "string"
     },
@@ -81,6 +78,7 @@
     "id",
     "name",
     "description",
+    "date",
     "thumbnails",
     "assets",
     "pathToBody"

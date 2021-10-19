@@ -6,7 +6,7 @@ thumbnails:
   - /assets/images/houdini-daily-practice/33/thumbnail-0.png
 assets:
   - type: video
-    src: https://www.youtube.com/embed/...
+    src: https://www.youtube.com/embed/eb2B3ImrqBw
   - type: image
     src: /assets/images/houdini-daily-practice/33/render-0.png
-pathToBody: houdini-daily-practice/bodies/0033-dna.md
+pathToBody: houdini-daily-practice/bodies/0033-campfire.md
