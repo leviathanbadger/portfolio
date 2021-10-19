@@ -1,4 +1,4 @@
-import { Project } from './project';
+import { Project } from './project.js';
 
 export type ProjectDto = {
   slug: string,
@@ -20,13 +20,13 @@ export function convertToProjectDto(proj: Project): ProjectDto {
   return {
     slug: proj.Slug,
     name: proj.Name,
-    images: proj.Images.map(img => ({
+    images: (proj.Images || []).map(img => ({
       thumbnail: img.Thumbnail,
       href: img.Href
     })),
     description: proj.Description,
-    tags: [...proj.Tags],
-    links: proj.Links.map(link => ({
+    tags: [...(proj.Tags || [])],
+    links: (proj.Links || []).map(link => ({
       name: link.Name,
       href: link.Href
     })),
