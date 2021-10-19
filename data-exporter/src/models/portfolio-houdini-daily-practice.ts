@@ -7,12 +7,12 @@ export type PortfolioHoudiniDailyPractice = {
   Date: string,
   Thumbnails: string[],
   Assets: {
-    Type?: 'image' | 'video',
-    Src?: string
+    Type: 'image' | 'video',
+    Src: string
   }[],
   ReferenceAssets: {
-    Type?: 'image' | 'video',
-    Src?: string
+    Type: 'image' | 'video',
+    Src: string
   }[],
   Tags: Set<string>,
   Links: {

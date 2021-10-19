@@ -7,4 +7,11 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/23/render-0.png
+tags:
+  - sops
+  - vops
+  - creative
+  - heightfield
+  - terrain
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0023-hilly-terrain.md

@@ -9,4 +9,8 @@ assets:
     src: /assets/images/houdini-daily-practice/25/output-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/25/input-0.png
+tags:
+  - sops
+  - hda
+  - vops
 pathToBody: houdini-daily-practice/bodies/0025-procedural-house.md

@@ -10,4 +10,8 @@ assets:
 referenceAssets:
   - type: video
     src: https://www.youtube.com/embed/dCllIgUmtB0
+tags:
+  - sops
+  - reference
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0007-biplane.md

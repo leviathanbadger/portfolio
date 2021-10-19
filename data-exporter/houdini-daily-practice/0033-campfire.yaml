@@ -9,4 +9,13 @@ assets:
     src: https://www.youtube.com/embed/eb2B3ImrqBw
   - type: image
     src: /assets/images/houdini-daily-practice/33/render-0.png
+tags:
+  - sops
+  - vops
+  - dops
+  - rbd
+  - pyro
+  - creative
+  - animation
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0033-campfire.md

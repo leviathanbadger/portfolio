@@ -1,7 +1,7 @@
 ### Creepy Rig (Day 4)
 
 I re-implemented the animation control rig (because I updated the model yesterday), added IK
-for legs and arms, and added "look-at" target for eyes; but I lost the screenshot for that day.
+for legs and arms, and added "look-at" target for eyes.
 
 For much of this, I'm following along with this [tutorial][fur_dude_tutorial].
 

@@ -7,4 +7,7 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/5/render-0.png
+tags:
+  - sops
+  - hda
 pathToBody: houdini-daily-practice/bodies/0005-chain.md

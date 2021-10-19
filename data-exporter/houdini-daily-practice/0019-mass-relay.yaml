@@ -12,4 +12,9 @@ referenceAssets:
     src: /assets/images/houdini-daily-practice/19/reference-0.png
   - type: video
     src: https://www.youtube.com/embed/BDq4a6PqAvM
+tags:
+  - sops
+  - reference
+  - mantra
+  - animation
 pathToBody: houdini-daily-practice/bodies/0019-mass-relay.md

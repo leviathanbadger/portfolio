@@ -9,4 +9,12 @@ assets:
     src: https://www.youtube.com/embed/Y8prfoP15uo
   - type: image
     src: /assets/images/houdini-daily-practice/32/render-0.png
+tags:
+  - sops
+  - vops
+  - dops
+  - wiresolver
+  - creative
+  - animation
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0032-dna.md

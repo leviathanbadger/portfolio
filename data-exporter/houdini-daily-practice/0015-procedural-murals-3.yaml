@@ -12,4 +12,10 @@ assets:
 referenceAssets:
   - type: image
     src: /assets/images/houdini-daily-practice/15/reference-0.png
+tags:
+  - sops
+  - creative
+  - hda
+  - animation
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0015-procedural-murals-3.md

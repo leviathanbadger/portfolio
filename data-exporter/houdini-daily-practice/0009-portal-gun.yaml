@@ -13,4 +13,8 @@ referenceAssets:
 links:
   - name: Portal 2 on Steam
     href: https://store.steampowered.com/app/620/Portal_2/
+tags:
+  - sops
+  - reference
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0009-portal-gun.md

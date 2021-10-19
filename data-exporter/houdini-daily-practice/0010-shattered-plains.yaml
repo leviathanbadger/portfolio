@@ -13,4 +13,9 @@ assets:
 links:
   - name: The Stormlight Archive
     href: https://www.brandonsanderson.com/the-stormlight-archive-series/
+tags:
+  - sops
+  - creative
+  - volumetric
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0010-shattered-plains.md

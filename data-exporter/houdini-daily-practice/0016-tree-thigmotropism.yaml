@@ -13,4 +13,9 @@ assets:
     src: /assets/images/houdini-daily-practice/16/render-1.png
   - type: image
     src: /assets/images/houdini-daily-practice/16/render-2.png
+tags:
+  - sops
+  - creative
+  - labs
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0016-tree-thigmotropism.md

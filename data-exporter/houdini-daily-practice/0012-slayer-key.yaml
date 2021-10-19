@@ -10,4 +10,11 @@ assets:
 referenceAssets:
   - type: image
     src: /assets/images/houdini-daily-practice/12/reference-0.png
+tags:
+  - sops
+  - reference
+  - mantra
+links:
+  - name: Doom Eternal
+    href: https://bethesda.net/en/game/doom
 pathToBody: houdini-daily-practice/bodies/0012-slayer-key.md

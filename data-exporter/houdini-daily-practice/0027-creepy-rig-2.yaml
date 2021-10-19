@@ -9,4 +9,15 @@ assets:
     src: /assets/images/houdini-daily-practice/27/output-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/27/output-2.png
+tags:
+  - sops
+  - kinefx
+  - tutorial
+  - animationrig
+  - ik
+  - captureweights
+  - hda
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/tutorials/kinefx-rigging-fur-dude/
 pathToBody: houdini-daily-practice/bodies/0027-creepy-rig-2.md

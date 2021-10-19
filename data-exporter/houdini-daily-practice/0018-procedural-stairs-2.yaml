@@ -7,4 +7,9 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/18/render-0.png
+tags:
+  - sops
+  - creative
+  - hda
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0018-procedural-stairs-2.md

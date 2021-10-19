@@ -18,4 +18,8 @@ referenceAssets:
     src: /assets/images/houdini-daily-practice/13/reference-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/13/reference-1.png
+tags:
+  - sops
+  - creative
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0013-procedural-murals.md

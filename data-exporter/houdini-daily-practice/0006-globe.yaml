@@ -7,4 +7,8 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/6/render-0.png
+tags:
+  - sops
+  - creative
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0006-globe.md

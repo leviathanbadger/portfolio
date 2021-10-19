@@ -9,4 +9,11 @@ assets:
     src: https://www.youtube.com/embed/sjgsy_cHe3A
   - type: image
     src: /assets/images/houdini-daily-practice/20/render-0.png
+tags:
+  - sops
+  - creative
+  - volumetric
+  - vops
+  - animation
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0020-chattering-skull.md

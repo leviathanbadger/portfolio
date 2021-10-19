@@ -7,4 +7,15 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/24/render-0.png
+tags:
+  - sops
+  - vops
+  - creative
+  - heightfield
+  - terrain
+  - hda
+  - dops
+  - wiresolver
+  - volumetric
+  - mantra
 pathToBody: houdini-daily-practice/bodies/0024-procedural-power-line.md
