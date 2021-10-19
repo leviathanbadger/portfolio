@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://brandonslade.me/assets/schemas/houdini-daily-practice.schema.json",
+  "title": "Houdini Daily Practice",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "thumbnails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "referenceAssets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "pathToBody": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "description",
+    "thumbnails",
+    "assets",
+    "pathToBody"
+  ]
+}

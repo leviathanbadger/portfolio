@@ -1,0 +1,13 @@
+id: 7
+name: Biplane
+description: Biplane (incomplete)
+date: 2021-09-08
+thumbnails:
+  - /assets/images/houdini-daily-practice/7/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/7/render-0.png
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/dCllIgUmtB0
+pathToBody: houdini-daily-practice/bodies/0007-biplane.md

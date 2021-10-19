@@ -1,0 +1,15 @@
+id: 15
+name: Procedural Murals Day 3
+description: Procedural Murals (Day 3)
+date: 2021-09-16
+thumbnails:
+  - /assets/images/houdini-daily-practice/15/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/15/render-0.png
+  - type: video
+    src: https://www.youtube.com/embed/YYUSW2nbStE
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/15/reference-0.png
+pathToBody: houdini-daily-practice/bodies/0015-procedural-murals-3.md

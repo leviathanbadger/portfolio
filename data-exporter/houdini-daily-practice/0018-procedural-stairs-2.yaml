@@ -1,0 +1,10 @@
+id: 18
+name: Procedural Stairs Day 2
+description: Procedural Stairs (Day 2)
+date: 2021-09-21
+thumbnails:
+  - /assets/images/houdini-daily-practice/18/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/18/render-0.png
+pathToBody: houdini-daily-practice/bodies/0018-procedural-stairs-2.md

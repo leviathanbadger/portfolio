@@ -1,5 +1,6 @@
 {
   "yaml.schemas": {
-    "./projects/project.schema.json": "projects/*"
+    "./projects/project.schema.json": "projects/*",
+    "./houdini-daily-practice/houdini-daily-practice.schema.json": "houdini-daily-practice/*"
   }
 }

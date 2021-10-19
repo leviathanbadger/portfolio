@@ -1,0 +1,10 @@
+id: 28
+name: Creepy Rig Day 3
+description: Creepy rig (day 3)
+date: 2021-10-13
+thumbnails:
+  - /assets/images/houdini-daily-practice/28/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/28/output-0.png
+pathToBody: houdini-daily-practice/bodies/0028-creepy-rig-3.md

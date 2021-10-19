@@ -1,0 +1,12 @@
+id: 25
+name: Procedural House
+description: Procedural house (day 1)
+date: 2021-10-10
+thumbnails:
+  - /assets/images/houdini-daily-practice/25/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/25/output-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/25/input-0.png
+pathToBody: houdini-daily-practice/bodies/0025-procedural-house.md

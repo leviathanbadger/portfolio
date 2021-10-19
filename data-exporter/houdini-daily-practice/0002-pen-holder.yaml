@@ -1,0 +1,13 @@
+id: 2
+name: Pen Holder
+description: Pen holder based off of the one on my desk
+date: 2021-09-02
+thumbnails:
+  - /assets/images/houdini-daily-practice/2/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/2/render-0.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/2/reference-0.png
+pathToBody: houdini-daily-practice/bodies/0002-pen-holder.md

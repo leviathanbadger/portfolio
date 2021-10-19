@@ -1,0 +1,12 @@
+id: 21
+name: Decorative Rocks
+description: Bowl of decorative rocks
+date: 2021-10-06
+thumbnails:
+  - /assets/images/houdini-daily-practice/21/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/U9OAaZsuzzs
+  - type: image
+    src: /assets/images/houdini-daily-practice/21/render-0.png
+pathToBody: houdini-daily-practice/bodies/0021-decorative-rocks.md

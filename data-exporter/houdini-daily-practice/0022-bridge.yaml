@@ -1,0 +1,13 @@
+id: 22
+name: Bridge
+description: Water under a bridge
+date: 2021-10-07
+thumbnails:
+  - /assets/images/houdini-daily-practice/22/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/22/render-0.png
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/hjYYh8cr3dg
+pathToBody: houdini-daily-practice/bodies/0022-bridge.md

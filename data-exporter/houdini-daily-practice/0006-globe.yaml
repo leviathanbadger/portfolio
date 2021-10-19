@@ -1,0 +1,10 @@
+id: 6
+name: Globe
+description: Globe
+date: 2021-09-07
+thumbnails:
+  - /assets/images/houdini-daily-practice/6/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/6/render-0.png
+pathToBody: houdini-daily-practice/bodies/0006-globe.md

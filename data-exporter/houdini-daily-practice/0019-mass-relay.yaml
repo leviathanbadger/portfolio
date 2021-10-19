@@ -1,0 +1,15 @@
+id: 19
+name: Mass Relay
+description: Mass Relay
+date: 2021-09-22
+thumbnails:
+  - /assets/images/houdini-daily-practice/19/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/19/render-0.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/19/reference-0.png
+  - type: video
+    src: https://www.youtube.com/embed/BDq4a6PqAvM
+pathToBody: houdini-daily-practice/bodies/0019-mass-relay.md

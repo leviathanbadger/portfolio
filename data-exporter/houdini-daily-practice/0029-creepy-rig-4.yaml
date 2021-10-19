@@ -1,0 +1,10 @@
+id: 29
+name: Creepy Rig Day 4
+description: Creepy rig (day 4)
+date: 2021-10-14
+thumbnails:
+  - /assets/images/houdini-daily-practice/29/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/29/output-0.png
+pathToBody: houdini-daily-practice/bodies/0029-creepy-rig-4.md
