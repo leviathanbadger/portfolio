@@ -12,13 +12,14 @@ export async function getAllHoudiniDailyPractices(req: ProxyIntegrationEvent<unk
   });
 
   const command = new ScanCommand({
-    TableName: 'PortfolioHoudiniDailyPractices'
+    TableName: 'PortfolioHoudiniDailyPractices',
   });
 
   try {
     const results = await ddb.send(command);
     console.info(`Scanned table. There were ${results.Items!.length} items returned of ${results.Count}`);
     const items = results.Items!.map(item => convertToHoudiniDailyPracticeDto(<HoudiniDailyPractice>unmarshall(item)));
+    items.sort((a, b) => b.id - a.id); // Descending order by ID
     return {
       statusCode: 200,
       headers: {
