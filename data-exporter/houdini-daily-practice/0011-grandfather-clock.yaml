@@ -5,10 +5,10 @@ date: 2021-09-12
 thumbnails:
   - /assets/images/houdini-daily-practice/11/thumbnail-0.png
 assets:
-  - type: image
-    src: /assets/images/houdini-daily-practice/11/render-0.png
   - type: video
     src: https://www.youtube.com/embed/FU4lrfrkgjY
+  - type: image
+    src: /assets/images/houdini-daily-practice/11/render-0.png
 referenceAssets:
   - type: image
     src: /assets/images/houdini-daily-practice/11/reference-0.png
