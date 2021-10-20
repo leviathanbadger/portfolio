@@ -58,7 +58,6 @@
                     <img *ngIf="asset.type === 'image'" [src]="asset.src" />
 
                     <div class="youtube-aspect-ratio" *ngIf="asset.type === 'video' && asset.src.startsWith('https://www.youtube.com/embed/')">
-                      <!-- width="560" height="315" -->
                       <iframe [src]="asset.src | bypassSecurity:'resource-url'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                   </div>

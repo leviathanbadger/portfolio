@@ -7,13 +7,15 @@
         </ng-container>
 
         <ng-container *ngSwitchCase="'video'">
-          Video
+          <div class="youtube-aspect-ratio" *ngIf="item.src.startsWith('https://www.youtube.com/embed/')">
+            <iframe [src]="item.src | bypassSecurity:'resource-url'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </ng-container>
       </div>
     </div>
     <div class="row no-flex">
       <div
-        class="col-12 slideshow-spacer capture-keyboard-events"
+        [class]="['col-12', 'slideshow-spacer', 'capture-keyboard-events', 'aspect-ratio-' + aspectRatioType, 'current-type-' + items[currentIdx].type]"
         tabindex="0"
         [autofocus]="shouldAutofocus"
         [autofocusDelay]="autofocusDelay"

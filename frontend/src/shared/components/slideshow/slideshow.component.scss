@@ -31,10 +31,29 @@
     top: 0;
     bottom: 0;
   }
+
+  .youtube-aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    & > iframe {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
 
 .capture-keyboard-events {
   outline: none;
+
+  &.current-type-video {
+    pointer-events: none;
+  }
 }
 
 .slideshow-spacer {
