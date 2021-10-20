@@ -1,0 +1,16 @@
+id: 34
+name: Water Generator
+description: Water Generator
+date: 2021-10-19
+thumbnails:
+  - /assets/images/houdini-daily-practice/34/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/34/output-0.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - flip
+  - creative
+pathToBody: houdini-daily-practice/bodies/0034-water-generator.md
