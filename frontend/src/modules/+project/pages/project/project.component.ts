@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
 import { ManagedProject } from 'src/shared/models/project';
-import { SlideshowItem } from '../../components/slideshow/slideshow.component';
+import { SlideshowItem } from '../../../../shared/components/slideshow/slideshow.component';
 
 @Component({
   templateUrl: './project.component.html',

@@ -4,7 +4,7 @@ import { DailyPracticeComponent } from './pages/daily-practice/daily-practice.co
 import { PracticeIndexComponent } from './pages/practice-index/practice-index.component';
 
 export const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'latest', data: {routeType: 'tile'}},
+  {path: '', pathMatch: 'full', redirectTo: 'index', data: {routeType: 'tile-list'}},
   {path: 'index', component: PracticeIndexComponent, data: {routeType: 'tile-list'}},
   {path: ':practiceId', component: DailyPracticeComponent, data: {routeType: 'tile'}},
 ];
