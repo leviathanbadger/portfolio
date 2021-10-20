@@ -34,7 +34,7 @@ export class AlternatingImageComponent {
   constructor() {
     while (this.toColor == this.fromColor) this.toColor = randomColor();
   }
-  
+
   private _sources: string[] = [];
   @Input('src') set sources(val: string | string[]) {
     if (typeof val === 'string') val = [val];
@@ -44,6 +44,8 @@ export class AlternatingImageComponent {
   }
 
   @Input() alt: string = '';
+
+  @Input() aspectRatioType: string = 'normal';
 
   currentSrc: string | null = null;
   lastSrc: string | null = null;

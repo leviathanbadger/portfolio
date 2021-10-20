@@ -1,8 +1,8 @@
-<div class="img-container" *ngIf="!!currentSrc; else noImage">
+<div [class]="['img-container', 'aspect-ratio-' + aspectRatioType]" *ngIf="!!currentSrc; else noImage">
   <img [src]="currentSrc" [alt]="alt" />
   <img *ngIf="!!lastSrc" [@lastSrc]="currentSrc" class="lastImage" [src]="lastSrc" [alt]="alt" />
 </div>
 
 <ng-template #noImage>
-  <div class="placeholder-gradient" [style.background]="createBackgroundGradient()"></div>
+  <div [class]="['placeholder-gradient', 'aspect-ratio-' + aspectRatioType]" [style.background]="createBackgroundGradient()"></div>
 </ng-template>

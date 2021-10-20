@@ -17,10 +17,10 @@
 
     <div class="row" *ngIf="(projects$ | async) as projects; else stillLoading" [@projectChangeIdx]="projectChangeIdx">
       <ng-container *ngIf="projects.length; else noProjects">
-        <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects">
+        <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects; trackBy: trackBySlug">
           <div class="card link-card" [routerLink]="['/', 'projects', project.slug]">
             <div class="card-img-top">
-              <bls-alternating-img [src]="project.thumbnails" [alt]="project.name"></bls-alternating-img>
+              <bls-alternating-img [src]="project.thumbnails" [alt]="project.name" aspectRatioType="project"></bls-alternating-img>
             </div>
             <div class="card-body">
               <h5 class="card-title">

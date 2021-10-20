@@ -17,7 +17,7 @@ import { map, filter, startWith } from 'rxjs/operators';
         query('.tile', [
           style({ transform: 'translateX(100%)' })
         ]),
-        animate('.5s ease', style({ transform: 'translateX(-100%)' }))
+        animate('.2s ease', style({ transform: 'translateX(-100%)' }))
       ]),
       transition('tile => tile-list', [
         // style({ 'overflow-x': 'hidden' }),
@@ -27,11 +27,11 @@ import { map, filter, startWith } from 'rxjs/operators';
         query('.tile-list', [
           style({ transform: 'translateX(-100%)' })
         ]),
-        animate('.5s ease', style({ transform: 'translateX(100%)' }))
+        animate('.2s ease', style({ transform: 'translateX(100%)' }))
       ]),
       transition('* => *', [
         style({ opacity: 0 }),
-        animate('.5s ease-in', style({ opacity: 1 }))
+        animate('.2s ease-in', style({ opacity: 1 }))
       ])
     ])
   ]

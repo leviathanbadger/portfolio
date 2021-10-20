@@ -1,7 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { trigger, transition, animate, style, stagger, query } from '@angular/animations';
 import { Observable, ReplaySubject } from 'rxjs';
-import { map, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { tap, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
 import { ManagedProject } from 'src/shared/models/project';
 
@@ -32,17 +32,17 @@ const SHOW_FLEX = {
           style({ opacity: 0, transform: 'translateY(50px)', ...HIDE_FLEX })
         ], { optional: true }),
         query('.should-animate:not(:enter)', [
-          stagger('25ms', [
-            animate('.2s', style({ opacity: 0, transform: 'translateY(50px)' }))
+          stagger('10ms', [
+            animate('.1s', style({ opacity: 0, transform: 'translateY(50px)' }))
           ])
         ], { optional: true }),
         query('.should-animate', [
           style(HIDE_FLEX)
         ], { optional: true }),
         query('.should-animate:not(:leave)', [
-          stagger('25ms', [
+          stagger('10ms', [
             style(SHOW_FLEX),
-            animate('.2s ease-in', style({ opacity: 1, transform: 'none' }))
+            animate('.1s ease-in', style({ opacity: 1, transform: 'none' }))
           ])
         ], { optional: true })
       ])
@@ -68,10 +68,7 @@ export class ProjectIndexComponent {
 
     this.projects$ = this.filter$.pipe(
       switchMap(filter => this.projectService.searchProjects(filter)),
-      map(projects => {
-        this.projectChangeIdx++;
-        return projects;
-      })
+      tap(_ => this.projectChangeIdx++)
     );
   }
 
@@ -92,4 +89,8 @@ export class ProjectIndexComponent {
   }
 
   projectChangeIdx = 0;
+
+  public trackBySlug(index: number, item: ManagedProject) {
+    return item.slug;
+  }
 }
