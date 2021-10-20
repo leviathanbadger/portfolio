@@ -16,25 +16,27 @@
             <div class="col-md-8">
               <h1 class="mt-3">{{practice.name}}</h1>
 
-              <p class="lead">{{practice.description}}</p>
+              <p class="lead">
+                <span class="hover-metadata" [title]="practice.date">Day {{practice.id}}</span>:
+                {{practice.description}}
+              </p>
 
-              <div class="pt-4 page-content" *ngIf="practice.fullDescription" [innerHtml]="practice.fullDescription | markdown | bypassSecurity:'html'"></div>
+              <div class="pt-4 page-content" *ngIf="practice.body" [innerHtml]="practice.body | markdown | bypassSecurity:'html'"></div>
             </div>
             <div class="col-md-4">
               <div class="mt-3" *ngIf="practice.links?.length">
                 <h3 class="mt-3">Links</h3>
                 <ng-container *ngFor="let link of practice.links">
-                  <a [href]="link[1]" target="_blank" class="btn btn-primary">{{link[0]}}</a>
+                  <a [href]="link.href" target="_blank" class="btn btn-primary">{{link.name}}</a>
                   &nbsp;
                 </ng-container>
               </div>
 
-              <div *ngIf="practice.technologies?.length">
+              <div *ngIf="practice.tags?.length">
                 <h3 class="mt-3">Technologies/Tags</h3>
                 <h4>
-                  <ng-container *ngFor="let tag of practice.technologies">
+                  <ng-container *ngFor="let tag of practice.tags">
                     <a href='#' class="badge badge-pill badge-primary">{{tag}}</a>
-                    &nbsp;
                   </ng-container>
                 </h4>
               </div>
