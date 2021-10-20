@@ -35,6 +35,8 @@ export class SlideshowComponent {
   @Input()
   autofocusDelay: number = 0;
 
+  @Input() aspectRatioType: string = 'normal';
+
   currentIdx = 0;
 
   onKeyDown(e: KeyboardEvent) {
