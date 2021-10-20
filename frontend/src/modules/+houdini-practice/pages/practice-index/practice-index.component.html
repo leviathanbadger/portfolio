@@ -15,30 +15,38 @@
       </div>
     </div>
 
-    <div class="row" *ngIf="(dailyPractice$ | async) as dailyPractices; else stillLoading" [@practiceChangeIdx]="practiceChangeIdx">
-      <ng-container *ngIf="dailyPractices.length; else noPractices">
-        <div class="col-md-4 mt-3 should-animate" *ngFor="let practice of dailyPractices; trackBy: trackById">
-          <div class="card link-card" [routerLink]="['/', 'houdini-practice', practice.id]">
-            <div class="card-img-top">
-              <bls-alternating-img [src]="practice.thumbnails" [alt]="practice.name"></bls-alternating-img>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">
-                {{practice.name}}
-              </h5>
-            </div>
-          </div>
+    <div class="row" *ngIf="(dailyPractices$ | async) || (error$ | async); else initialLoadingSpinner" [class.loading]="isLoading$ | async" [@practiceChangeIdx]="practiceChangeIdx">
+      <ng-container *ngIf="(error$ | async) as error">
+        <div class="col-12">
+          <p>An error occurred: {{error}}</p>
         </div>
       </ng-container>
 
-      <ng-template #noPractices>
-        <div class="col-12">
-          <p>No Houdini practice days matched your search.</p>
-        </div>
-      </ng-template>
+      <ng-container *ngIf="(!(error$ | async)) && (dailyPractices$ | async) as dailyPractices">
+        <ng-container *ngIf="dailyPractices.length; else noPractices">
+          <div class="col-md-4 mt-3 should-animate" *ngFor="let practice of dailyPractices; trackBy: trackById">
+            <div class="card link-card" [routerLink]="['/', 'houdini-practice', practice.id]">
+              <div class="card-img-top">
+                <bls-alternating-img [src]="practice.thumbnails" [alt]="practice.name"></bls-alternating-img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  {{practice.name}}
+                </h5>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+
+        <ng-template #noPractices>
+          <div class="col-12">
+            <p>No Houdini practice days matched your search.</p>
+          </div>
+        </ng-template>
+      </ng-container>
     </div>
 
-    <ng-template #stillLoading>
+    <ng-template #initialLoadingSpinner>
       <bls-loading-spinner></bls-loading-spinner>
     </ng-template>
   </div>

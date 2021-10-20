@@ -15,33 +15,41 @@
       </div>
     </div>
 
-    <div class="row" *ngIf="(projects$ | async) as projects; else stillLoading" [@projectChangeIdx]="projectChangeIdx">
-      <ng-container *ngIf="projects.length; else noProjects">
-        <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects; trackBy: trackBySlug">
-          <div class="card link-card" [routerLink]="['/', 'projects', project.slug]">
-            <div class="card-img-top">
-              <bls-alternating-img [src]="project.thumbnails" [alt]="project.name" aspectRatioType="project"></bls-alternating-img>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">
-                {{project.name}}
-              </h5>
-              <p class="card-text">{{project.description}}</p>
-              <a [routerLink]="['/', 'projects', project.slug]" class="btn btn-primary">Details</a>
-              <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
-            </div>
-          </div>
+    <div class="row" *ngIf="(projects$ | async) || (error$ | async); else initialLoadingSpinner" [class.loading]="isLoading$ | async" [@projectChangeIdx]="projectChangeIdx">
+      <ng-container *ngIf="(error$ | async) as error">
+        <div class="col-12">
+          <p>An error occurred: {{error}}</p>
         </div>
       </ng-container>
 
-      <ng-template #noProjects>
-        <div class="col-12">
-          <p>No projects matched your search.</p>
-        </div>
-      </ng-template>
+      <ng-container *ngIf="(!(error$ | async)) && (projects$ | async) as projects">
+        <ng-container *ngIf="projects.length; else noProjects">
+          <div class="col-md-4 mt-3 should-animate" *ngFor="let project of projects; trackBy: trackBySlug">
+            <div class="card link-card" [routerLink]="['/', 'projects', project.slug]">
+              <div class="card-img-top">
+                <bls-alternating-img [src]="project.thumbnails" [alt]="project.name" aspectRatioType="project"></bls-alternating-img>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  {{project.name}}
+                </h5>
+                <p class="card-text">{{project.description}}</p>
+                <a [routerLink]="['/', 'projects', project.slug]" class="btn btn-primary">Details</a>
+                <a *ngFor="let link of project.links" [href]="link[1]" target="_blank" class="btn btn-default">{{link[0]}}</a>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+
+        <ng-template #noProjects>
+          <div class="col-12">
+            <p>No projects matched your search.</p>
+          </div>
+        </ng-template>
+      </ng-container>
     </div>
 
-    <ng-template #stillLoading>
+    <ng-template #initialLoadingSpinner>
       <bls-loading-spinner></bls-loading-spinner>
     </ng-template>
   </div>

@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { map, shareReplay } from 'rxjs/operators';
+import { map, shareReplay, startWith } from 'rxjs/operators';
 import { Project, ManagedProject } from '../models/project';
+import { Result } from '../models/result';
 
 @Injectable()
 export class ProjectService {
-  private allProjects$!: Observable<ManagedProject[]>;
+  private allProjects$!: Observable<Result<ManagedProject[]>>;
 
   constructor(
     private http: HttpClient
@@ -17,31 +18,42 @@ export class ProjectService {
   private init() {
     this.allProjects$ = this.http.get<Project[]>('/api/projects').pipe(
       map(projects => {
-        return projects.map(ManagedProject.fromProject);
+        return {
+          isLoading: false,
+          isError: false,
+          result: projects.map(ManagedProject.fromProject)
+        } as Result<ManagedProject[]>;
       }),
+      startWith({ isLoading: true } as Result<ManagedProject[]>),
       shareReplay(1)
     );
   }
 
-  getAllProjects(): Observable<ManagedProject[]> {
+  getAllProjects(): Observable<Result<ManagedProject[]>> {
     return this.allProjects$;
   }
-  searchProjects(filter: string): Observable<ManagedProject[]> {
+  searchProjects(filter: string): Observable<Result<ManagedProject[]>> {
     // TODO: query on API instead
     return this.getAllProjects().pipe(
-      map(projects => {
-        if (!filter) return projects;
-        return projects
+      map(projects_r => {
+        if (projects_r.isLoading || projects_r.isError) return projects_r;
+        if (!filter) return projects_r;
+        let projects = (projects_r.result || [])
           .map(proj => proj.matchFilter(filter))
           .sort(kvp => -kvp.relevance)
           .filter(kvp => kvp.relevance >= .5)
           .map(kvp => kvp.project);
+        return { isLoading: false, isError: false, result: projects };
       })
     );
   }
-  findBySlug(slug: string): Observable<ManagedProject | null> {
-    return this.allProjects$.pipe(
-      map(projects => projects.find(proj => proj.slug === slug) || null)
+  findBySlug(slug: string): Observable<Result<ManagedProject>> {
+    return this.getAllProjects().pipe(
+      map(projects_r => {
+        if (projects_r.isLoading || projects_r.isError) return projects_r;
+        let project = (projects_r.result || []).find(proj => proj.slug === slug) || null;
+        return { isLoading: false, isError: false, result: project };
+      })
     );
   }
 }

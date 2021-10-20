@@ -1,9 +1,10 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { trigger, transition, animate, style, stagger, query } from '@angular/animations';
 import { Observable, ReplaySubject } from 'rxjs';
-import { tap, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { map, tap, filter, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { HoudiniPracticeService } from 'src/shared/services/houdini-practice.service';
 import { HoudiniDailyPractice } from 'src/shared/models/houdini-daily-practice';
+import { isResultDoneLoading, isResultResolved, Result } from 'src/shared/models/result';
 
 const FILTER_DEBOUNCE_MILLIS = 500;
 
@@ -51,7 +52,10 @@ const SHOW_FLEX = {
 })
 export class PracticeIndexComponent {
   filter$!: Observable<string>;
-  dailyPractice$!: Observable<HoudiniDailyPractice[] | null>;
+  dailyPracticesResult$!: Observable<Result<HoudiniDailyPractice[]>>;
+  dailyPractices$!: Observable<HoudiniDailyPractice[] | null>;
+  isLoading$!: Observable<boolean>;
+  error$!: Observable<string | null>;
 
   constructor(
     private houdiniPracticeService: HoudiniPracticeService
@@ -66,9 +70,26 @@ export class PracticeIndexComponent {
       distinctUntilChanged()
     );
 
-    this.dailyPractice$ = this.filter$.pipe(
+    this.dailyPracticesResult$ = this.filter$.pipe(
       switchMap(filter => this.houdiniPracticeService.searchPractices(filter)),
+    );
+
+    this.dailyPractices$ = this.dailyPracticesResult$.pipe(
+      filter(isResultResolved),
+      map(practices_r => practices_r.result! || []),
+      debounceTime(0),
       tap(_ => this.practiceChangeIdx++)
+    );
+
+    this.error$ = this.dailyPracticesResult$.pipe(
+      filter(isResultDoneLoading),
+      map(practices_r => practices_r.isError ? practices_r.error : null),
+      distinctUntilChanged()
+    );
+
+    this.isLoading$ = this.dailyPracticesResult$.pipe(
+      map(practices_r => practices_r.isLoading),
+      distinctUntilChanged()
     );
   }
 

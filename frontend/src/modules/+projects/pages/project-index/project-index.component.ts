@@ -1,9 +1,10 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { trigger, transition, animate, style, stagger, query } from '@angular/animations';
 import { Observable, ReplaySubject } from 'rxjs';
-import { tap, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { tap, map, filter, startWith, switchMap, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
 import { ManagedProject } from 'src/shared/models/project';
+import { isResultDoneLoading, isResultResolved, Result } from 'src/shared/models/result';
 
 const FILTER_DEBOUNCE_MILLIS = 500;
 
@@ -51,7 +52,10 @@ const SHOW_FLEX = {
 })
 export class ProjectIndexComponent {
   filter$!: Observable<string>;
-  projects$!: Observable<ManagedProject[] | null>;
+  projectsResult$!: Observable<Result<ManagedProject[]>>;
+  projects$!: Observable<ManagedProject[]>;
+  isLoading$!: Observable<boolean>;
+  error$!: Observable<string | null>;
 
   constructor(
     private projectService: ProjectService
@@ -66,9 +70,26 @@ export class ProjectIndexComponent {
       distinctUntilChanged()
     );
 
-    this.projects$ = this.filter$.pipe(
+    this.projectsResult$ = this.filter$.pipe(
       switchMap(filter => this.projectService.searchProjects(filter)),
+    );
+
+    this.projects$ = this.projectsResult$.pipe(
+      filter(isResultResolved),
+      map(projects_r => projects_r.result! || []),
+      debounceTime(0),
       tap(_ => this.projectChangeIdx++)
+    );
+
+    this.error$ = this.projectsResult$.pipe(
+      filter(isResultDoneLoading),
+      map(projects_r => projects_r.isError ? projects_r.error : null),
+      distinctUntilChanged()
+    );
+
+    this.isLoading$ = this.projectsResult$.pipe(
+      map(projects_r => projects_r.isLoading),
+      distinctUntilChanged()
     );
   }
 
