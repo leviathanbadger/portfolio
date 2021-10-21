@@ -1,0 +1,22 @@
+id: 35
+name: Juice Fluid Sim
+description: Ice cube falling into champaign glass
+date: 2021-10-20
+thumbnails:
+  - /assets/images/houdini-daily-practice/35/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/35/render-0.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - flip
+  - volumetric
+  - tutorial
+  - animation
+  - mantra
+links:
+  - name: Tutorial Video
+    href: https://www.youtube.com/watch?v=_6SQPc961ZE
+pathToBody: houdini-daily-practice/bodies/0035-juice-fluid-sim.md

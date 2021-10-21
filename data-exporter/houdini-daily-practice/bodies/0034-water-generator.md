@@ -1,4 +1,4 @@
-### Water Generator
+### Water Turbine
 
 This is the second time attempting something using a flip simulation (used for
 water simulations.) The first was attempting to create moving water for the

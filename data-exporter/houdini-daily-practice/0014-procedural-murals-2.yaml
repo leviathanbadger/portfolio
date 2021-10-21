@@ -1,6 +1,6 @@
 id: 14
 name: Procedural Murals Day 2
-description: Procedural Murals (Day 2)
+description: Procedural murals - supports curved geometry and cell-pattern tiles
 date: 2021-09-15
 thumbnails:
   - /assets/images/houdini-daily-practice/14/thumbnail-0.png

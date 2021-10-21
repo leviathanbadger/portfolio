@@ -1,6 +1,6 @@
 id: 26
 name: Creepy Rig Day 1
-description: Creepy rig (day 1)
+description: Initial attempt at capturing skeleton weights and rigging for character animation
 date: 2021-10-11
 thumbnails:
   - /assets/images/houdini-daily-practice/26/thumbnail-0.png

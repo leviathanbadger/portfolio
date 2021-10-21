@@ -1,6 +1,6 @@
 id: 29
 name: Creepy Rig Day 4
-description: Creepy rig (day 4)
+description: Updating the animation rig and adding a look-at control
 date: 2021-10-14
 thumbnails:
   - /assets/images/houdini-daily-practice/29/thumbnail-0.png

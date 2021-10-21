@@ -1,6 +1,6 @@
 id: 13
 name: Procedural Murals Day 1
-description: Procedural Murals (Day 1)
+description: Procedural murals - only supports flat geometry with no internal edges
 date: 2021-09-14
 thumbnails:
   - /assets/images/houdini-daily-practice/13/thumbnail-0.png

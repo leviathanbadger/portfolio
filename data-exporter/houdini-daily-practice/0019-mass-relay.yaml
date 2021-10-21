@@ -1,6 +1,6 @@
 id: 19
 name: Mass Relay
-description: Mass Relay
+description: A mass relay, from Mass Effect
 date: 2021-09-22
 thumbnails:
   - /assets/images/houdini-daily-practice/19/thumbnail-0.png
@@ -12,6 +12,9 @@ referenceAssets:
     src: /assets/images/houdini-daily-practice/19/reference-0.png
   - type: video
     src: https://www.youtube.com/embed/BDq4a6PqAvM
+links:
+  - name: Mass Effect
+    href: https://www.ea.com/games/mass-effect/mass-effect-legendary-edition
 tags:
   - sops
   - reference
