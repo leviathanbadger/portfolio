@@ -1,0 +1,18 @@
+id: 36
+name: Shardblade
+description: Shardblade from Brandon Sanderson's "The Stormlight Archive"
+date: 2021-10-21
+thumbnails:
+  - /assets/images/houdini-daily-practice/36/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/36/render-0.png
+tags:
+  - sops
+  - volumetric
+  - creative
+  - mantra
+links:
+  - name: The Stormlight Archive
+    href: https://www.brandonsanderson.com/the-stormlight-archive-series/
+pathToBody: houdini-daily-practice/bodies/0036-shardblade.md
