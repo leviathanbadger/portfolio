@@ -1,30 +1,47 @@
-
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
 
 $section-height: calc(100vh - 72.8px - 60.8px);
 
 .banner-image {
-  height: $section-height;
-  box-shadow: inset 0 0 40px 40px rgba(255, 255, 255, .3);
+  min-height: $section-height;
+  box-shadow: inset 0 0 40px 40px rgba(255, 255, 255, .4);
   background-size: cover;
   background-position: center;
 
   .banner-content {
     position: relative;
-    height: $section-height;
+    min-height: $section-height;
 
     & > .banner-right {
-      position: absolute;
-      top: 50%;
-      left: calc(45% - 45px);
+      position: relative;
       padding-left: 25px;
-      right: 0%;
-      transform: translateY(-50%);
-      background: rgba(255, 255, 255, .5);
+      background: rgba(255, 255, 255, .7);
       display: inline-block;
-      box-shadow: 0 0 10px 10px rgba(255, 255, 255, .5);
+      width: 100%;
+      margin-top: 40vh;
+      text-overflow: ellipsis;
+      white-space: nowrap;
 
       .profile-icons > * {
         margin-right: .5em;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .banner-image {
+    .banner-content {
+      & > .banner-right {
+        position: absolute;
+        margin-top: 0;
+        top: 50%;
+        left: calc(45% - 45px);
+        right: 0%;
+        transform: translateY(-50%);
+        box-shadow: 0 0 10px 10px rgba(255, 255, 255, .7);
       }
     }
   }
