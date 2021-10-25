@@ -1,14 +1,18 @@
-
+@import "../../../../styles/theme.scss";
 
 .card.link-card {
   cursor: pointer;
 
   & .card-title {
-    color: #007bff;
+    color: $primary1;
     margin-bottom: 0;
   }
   &:hover .card-title {
-    color: #0056b3;
+    color: $primary3;
+  }
+
+  & .card-body {
+    padding: .5em;
   }
 }
 
