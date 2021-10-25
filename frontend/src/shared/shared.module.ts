@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { ProjectService } from './services/project.service';
 import { HoudiniPracticeService } from './services/houdini-practice.service';
 import { HttpClientModule } from '@angular/common/http';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MarkdownModule.forChild()
   ],
   exports: [
     AlternatingImageComponent,
