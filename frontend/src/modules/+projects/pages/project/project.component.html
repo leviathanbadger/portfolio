@@ -19,7 +19,9 @@
 
               <p class="lead">{{project.description}}</p>
 
-              <div class="pt-4 page-content" *ngIf="project.fullDescription" [innerHtml]="project.fullDescription | markdown | bypassSecurity:'html'"></div>
+              <div class="pt-4 page-content" *ngIf="project.fullDescription">
+                <bls-markdown-render [src]="project.fullDescription"></bls-markdown-render>
+              </div>
             </div>
             <div class="col-md-4">
               <div class="mt-3" *ngIf="project.links?.length">

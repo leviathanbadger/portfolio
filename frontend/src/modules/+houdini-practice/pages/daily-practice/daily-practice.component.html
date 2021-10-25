@@ -22,7 +22,9 @@
                   {{practice.description}}
                 </p>
 
-                <div class="pt-4 page-content" *ngIf="practice.body" [innerHtml]="practice.body | markdown | bypassSecurity:'html'"></div>
+                <div class="pt-4 page-content" *ngIf="practice.body">
+                  <bls-markdown-render [src]="practice.body"></bls-markdown-render>
+                </div>
               </div>
               <div class="col-md-4">
                 <div class="mt-3" *ngIf="practice.links?.length">
