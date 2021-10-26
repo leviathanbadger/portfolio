@@ -1,4 +1,4 @@
-### Barrel
+### Barrel (Day 1)
 
 I wanted to get back into SOPs/digital asset creation so that I could
 start to learn UV mapping for automated processes.

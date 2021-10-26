@@ -1,6 +1,6 @@
 ### Procedural Murals
 
-This may look simpler than the others. It was not
+This may look simpler than the others. It was not.
 
 Tomorrow I'm probably going to continue on this project, see if I can:
 
