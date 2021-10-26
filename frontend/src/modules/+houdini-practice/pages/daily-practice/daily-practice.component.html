@@ -2,15 +2,6 @@
   <ng-container *ngIf="!practice_r.isLoading; else stillLoading">
     <ng-container *ngIf="!practice_r.isError; else loadError">
       <ng-container *ngIf="!!practice_r.result; else notFound">
-        <ng-container *ngLet="slideshowItems$ | async as items">
-          <bls-slideshow
-            *ngIf="items?.length"
-            [items]="items"
-            [shouldAutofocus]="true"
-            [autofocusDelay]="300">
-          </bls-slideshow>
-        </ng-container>
-
         <ng-container *ngLet="practice_r.result as practice">
           <div class="container">
             <div class="row">
@@ -21,7 +12,26 @@
                   <span class="hover-metadata" [title]="practice.date">Day {{practice.id}}</span>:
                   {{practice.description}}
                 </p>
+              </div>
+              <div class="col-md-4">
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-12">
+                <ng-container *ngLet="slideshowItems$ | async as items">
+                  <bls-slideshow
+                    *ngIf="items?.length"
+                    [items]="items"
+                    [shouldAutofocus]="true"
+                    [autofocusDelay]="300">
+                  </bls-slideshow>
+                </ng-container>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-8">
                 <div class="pt-4 page-content" *ngIf="practice.body">
                   <bls-markdown-render [src]="practice.body"></bls-markdown-render>
                 </div>

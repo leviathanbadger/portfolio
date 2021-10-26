@@ -2,15 +2,6 @@
   <ng-container *ngIf="!project_r.isLoading; else stillLoading">
     <ng-container *ngIf="!project_r.isError; else loadError">
       <ng-container *ngIf="!!project_r.result; else notFound">
-        <ng-container *ngLet="slideshowItems$ | async as items">
-          <bls-slideshow
-            *ngIf="items?.length"
-            [items]="items"
-            [shouldAutofocus]="true"
-            [autofocusDelay]="300"
-            aspectRatioType="project">
-          </bls-slideshow>
-        </ng-container>
 
         <div class="container" *ngLet="project_r.result as project">
           <div class="row">
@@ -18,7 +9,27 @@
               <h1 class="mt-3">{{project.name}}</h1>
 
               <p class="lead">{{project.description}}</p>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
 
+          <div class="row">
+            <div class="col-12">
+              <ng-container *ngLet="slideshowItems$ | async as items">
+                <bls-slideshow
+                  *ngIf="items?.length"
+                  [items]="items"
+                  [shouldAutofocus]="true"
+                  [autofocusDelay]="300"
+                  aspectRatioType="project">
+                </bls-slideshow>
+              </ng-container>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
               <div class="pt-4 page-content" *ngIf="project.fullDescription">
                 <bls-markdown-render [src]="project.fullDescription"></bls-markdown-render>
               </div>
@@ -31,7 +42,6 @@
                   &nbsp;
                 </ng-container>
               </div>
-
               <div *ngIf="project.technologies?.length">
                 <h3 class="mt-3">Technologies/Tags</h3>
                 <h4>
