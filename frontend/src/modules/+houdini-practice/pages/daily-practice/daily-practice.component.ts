@@ -15,6 +15,7 @@ export class DailyPracticeComponent {
   practiceResult$!: Observable<Result<HoudiniDailyPractice>>;
 
   slideshowItems$!: Observable<SlideshowItem[]>;
+  referenceSlideshowItems$!: Observable<SlideshowItem[]>;
 
   constructor(
     private houdiniPracticeService: HoudiniPracticeService,
@@ -33,6 +34,15 @@ export class DailyPracticeComponent {
       map(practice => {
         if (!practice) return [];
         return practice.assets;
+      })
+    );
+
+    this.referenceSlideshowItems$ = this.practiceResult$.pipe(
+      filter(isResultResolved),
+      map(practice_r => practice_r.result),
+      map(practice => {
+        if (!practice) return [];
+        return practice.referenceAssets;
       })
     );
   }

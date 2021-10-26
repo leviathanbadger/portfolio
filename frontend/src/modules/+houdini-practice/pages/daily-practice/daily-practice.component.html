@@ -59,20 +59,20 @@
 
           <ng-container *ngIf="practice.referenceAssets.length">
             <hr />
-            <div class="container">
+            <div class="container reference-assets-wrapper">
               <div class="row">
                 <div class="col-12">
                   <p class="lead">
                     Reference Assets
                   </p>
 
-                  <div class="reference-asset-wrapper" *ngFor="let asset of practice.referenceAssets">
-                    <img *ngIf="asset.type === 'image'" [src]="asset.src" />
-
-                    <div class="youtube-aspect-ratio" *ngIf="asset.type === 'video' && asset.src.startsWith('https://www.youtube.com/embed/')">
-                      <iframe [src]="asset.src | bypassSecurity:'resource-url'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
+                  <ng-container *ngLet="referenceSlideshowItems$ | async as items">
+                    <bls-slideshow
+                      *ngIf="items?.length"
+                      [items]="items"
+                      [shouldAutofocus]="false">
+                    </bls-slideshow>
+                  </ng-container>
                 </div>
               </div>
             </div>
