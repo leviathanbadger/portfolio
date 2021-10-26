@@ -22,9 +22,7 @@
                 <ng-container *ngLet="slideshowItems$ | async as items">
                   <bls-slideshow
                     *ngIf="items?.length"
-                    [items]="items"
-                    [shouldAutofocus]="true"
-                    [autofocusDelay]="300">
+                    [items]="items">
                   </bls-slideshow>
                 </ng-container>
               </div>
@@ -69,8 +67,7 @@
                   <ng-container *ngLet="referenceSlideshowItems$ | async as items">
                     <bls-slideshow
                       *ngIf="items?.length"
-                      [items]="items"
-                      [shouldAutofocus]="false">
+                      [items]="items">
                     </bls-slideshow>
                   </ng-container>
                 </div>

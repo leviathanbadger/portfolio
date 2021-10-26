@@ -30,26 +30,14 @@ export type SlideshowItem = SlideshowImageItem | SlideshowVideoItem;
 export class SlideshowComponent {
   @Input()
   items!: SlideshowItem[];
-  @Input()
-  shouldAutofocus: boolean = true;
-  @Input()
-  autofocusDelay: number = 0;
 
   @Input() aspectRatioType: string = 'normal';
 
   currentIdx = 0;
 
-  onKeyDown(e: KeyboardEvent) {
-    let handled = false;
-    if (e.key === 'ArrowLeft' && this.movePreviousItem()) handled = true;
-    else if (e.key === 'ArrowRight' && this.moveNextItem()) handled = true;
-
-    if (handled) {
-      e.stopImmediatePropagation();
-      e.preventDefault();
-    }
+  canMovePrevious() {
+    return this.currentIdx > 0;
   }
-
   movePreviousItem() {
     if (this.currentIdx > 0) {
       this.currentIdx--;
@@ -57,9 +45,23 @@ export class SlideshowComponent {
     }
     return false;
   }
+  canMoveNext() {
+    return this.currentIdx < this.items.length - 1;
+  }
   moveNextItem() {
     if (this.currentIdx < this.items.length - 1) {
       this.currentIdx++;
+      return true;
+    }
+    return false;
+  }
+
+  canMoveAny() {
+    return this.items.length > 1;
+  }
+  moveItem(item: SlideshowItem, index: number) {
+    if (index >= 0 && index < this.items.length) {
+      this.currentIdx = index;
       return true;
     }
     return false;

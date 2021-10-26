@@ -1,6 +1,6 @@
 <div class="slideshow-backdrop">
   <div class="container" [@pullFromBottom]="items">
-    <div *ngFor="let item of items; let i = index" class="row slideshow-item">
+    <div *ngFor="let item of items; let i = index" class="row slideshow-item" [class.no-pointer-events]="i !== currentIdx">
       <div [ngSwitch]="item.type" class="col-12" [style.transform]="'translateX(' + ((i - currentIdx) * 100) + '%)'" [style.opacity]="i === currentIdx ? 1 : .2">
         <ng-container *ngSwitchCase="'image'">
           <img [src]="item.src" />
@@ -13,14 +13,16 @@
         </ng-container>
       </div>
     </div>
-    <div class="row no-flex">
+    <div class="row no-flex no-pointer-events">
       <div
-        [class]="['col-12', 'slideshow-spacer', 'capture-keyboard-events', 'aspect-ratio-' + aspectRatioType, 'current-type-' + items[currentIdx].type]"
-        tabindex="0"
-        [autofocus]="shouldAutofocus"
-        [autofocusDelay]="autofocusDelay"
-        (keydown)="onKeyDown($event)">
+        [class]="['col-12', 'slideshow-spacer', 'aspect-ratio-' + aspectRatioType, 'current-type-' + items[currentIdx].type]"
+        tabindex="0">
       </div>
+    </div>
+    <div class="btn-prev" (click)="movePreviousItem()" *ngIf="canMovePrevious()"></div>
+    <div class="btn-next" (click)="moveNextItem()" *ngIf="canMoveNext()"></div>
+    <div class="nav-btn-wrapper" *ngIf="canMoveAny()">
+      <div *ngFor="let item of items; let i = index" class="btn-index" [class.current]="i === currentIdx" (click)="moveItem(item, i)"></div>
     </div>
   </div>
 </div>
