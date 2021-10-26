@@ -31,7 +31,8 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title">
-                  {{practice.name}}
+                  <span class="practice-name">{{practice.name}}</span>
+                  <span class="practice-date" [title]="practice.date">Day {{practice.id}}</span>
                 </h5>
               </div>
             </div>
