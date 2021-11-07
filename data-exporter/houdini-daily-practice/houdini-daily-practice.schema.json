@@ -16,6 +16,18 @@
     "date": {
       "type": "string"
     },
+    "next": {
+      "type": "integer"
+    },
+    "previous": {
+      "type": "integer"
+    },
+    "nextInSequence": {
+      "type": "integer"
+    },
+    "previousInSequence": {
+      "type": "integer"
+    },
     "thumbnails": {
       "type": "array",
       "items": {

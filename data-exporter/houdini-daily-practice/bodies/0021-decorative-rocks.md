@@ -1,4 +1,4 @@
-### Decorative Rocks
+### Decorative Rocks (Day 1)
 
 This took about four days to render, running almost continuously except for the
 times I was ising my personal computer for other things. (Such as other days' practice.)

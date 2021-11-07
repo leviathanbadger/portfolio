@@ -1,7 +1,10 @@
 id: 21
-name: Decorative Rocks
-description: Decorative rocks/marbles settling into a bowl
+name: Decorative Rocks Day 1
+description: Decorative rocks/marbles settling into a bowl = part 1
 date: 2021-10-06
+previous: 20
+next: 21
+nextInSequence: 45
 thumbnails:
   - /assets/images/houdini-daily-practice/21/thumbnail-0.png
 assets:
