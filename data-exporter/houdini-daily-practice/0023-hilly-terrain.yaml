@@ -2,6 +2,8 @@ id: 23
 name: Hilly Terrain
 description: Hilly terrain created to experiment with heithfields
 date: 2021-10-08
+previous: 22
+next: 24
 thumbnails:
   - /assets/images/houdini-daily-practice/23/thumbnail-0.png
 assets:

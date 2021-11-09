@@ -2,6 +2,9 @@ id: 39
 name: Barrel Day 1
 description: Procedural barrel with automatic UVs
 date: 2021-10-24
+previous: 38
+next: 40
+nextInSequence: 40
 thumbnails:
   - /assets/images/houdini-daily-practice/39/thumbnail-0.png
 assets:

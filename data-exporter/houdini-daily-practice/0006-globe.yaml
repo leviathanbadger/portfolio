@@ -2,6 +2,8 @@ id: 6
 name: Globe
 description: Untextured globe with some built-in materials
 date: 2021-09-07
+previous: 5
+next: 7
 thumbnails:
   - /assets/images/houdini-daily-practice/6/thumbnail-0.png
 assets:

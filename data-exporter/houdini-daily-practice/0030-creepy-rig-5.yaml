@@ -2,6 +2,10 @@ id: 30
 name: Creepy Rig Day 5
 description: Learning the sculpt tool even better and updating the initial model with fine head details
 date: 2021-10-15
+previous: 29
+next: 31
+previousInSequence: 29
+nextInSequence: 31
 thumbnails:
   - /assets/images/houdini-daily-practice/30/thumbnail-0.png
 assets:

@@ -2,6 +2,8 @@ id: 3
 name: Chair
 description: One of my kitchen table chairs
 date: 2021-09-04
+previous: 2
+next: 4
 thumbnails:
   - /assets/images/houdini-daily-practice/3/thumbnail-0.png
 assets:

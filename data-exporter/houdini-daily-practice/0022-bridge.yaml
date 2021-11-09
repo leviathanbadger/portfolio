@@ -2,6 +2,8 @@ id: 22
 name: Bridge
 description: Water under a bridge
 date: 2021-10-07
+previous: 21
+next: 23
 thumbnails:
   - /assets/images/houdini-daily-practice/22/thumbnail-0.png
 assets:

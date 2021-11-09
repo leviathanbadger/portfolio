@@ -2,6 +2,9 @@ id: 37
 name: Infinity War Day 1
 description: Infinity War end title card dissolving letters effect
 date: 2021-10-22
+previous: 36
+next: 38
+nextInSequence: 38
 thumbnails:
   - /assets/images/houdini-daily-practice/37/thumbnail-0.png
 assets:

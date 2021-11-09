@@ -2,6 +2,8 @@ id: 32
 name: DNA
 description: Derpy animated DNA strand being pulled off-screen
 date: 2021-10-17
+previous: 31
+next: 33
 thumbnails:
   - /assets/images/houdini-daily-practice/32/thumbnail-0.png
 assets:

@@ -2,6 +2,9 @@ id: 31
 name: Candy Cane Forest
 description: Terrain with scattered trees, except the trees are candy canes
 date: 2021-10-16
+previous: 30
+next: 31
+previousInSequence: 30
 thumbnails:
   - /assets/images/houdini-daily-practice/31/thumbnail-0.png
 assets:

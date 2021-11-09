@@ -2,6 +2,10 @@ id: 42
 name: Procedural Walkway Day 2
 description: Procedural walkway with automatic UVs - rendered with Mantra - part 2
 date: 2021-10-27
+previous: 41
+next: 43
+previousInSequence: 41
+nextInSequence: 43
 thumbnails:
   - /assets/images/houdini-daily-practice/42/thumbnail-0.png
   - /assets/images/houdini-daily-practice/42/thumbnail-1.png

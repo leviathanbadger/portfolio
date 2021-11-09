@@ -2,6 +2,9 @@ id: 40
 name: Barrel Day 2
 description: Procedural barrel with automatic UVs - rendered with Karma
 date: 2021-10-25
+previous: 39
+next: 41
+previousInSequence: 39
 thumbnails:
   - /assets/images/houdini-daily-practice/40/thumbnail-0.png
 assets:

@@ -2,6 +2,8 @@ id: 11
 name: Grandfather Clock
 description: Grandfather clock ticking animation
 date: 2021-09-12
+previous: 10
+next: 12
 thumbnails:
   - /assets/images/houdini-daily-practice/11/thumbnail-0.png
 assets:

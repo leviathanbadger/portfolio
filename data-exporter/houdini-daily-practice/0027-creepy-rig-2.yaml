@@ -2,6 +2,10 @@ id: 27
 name: Creepy Rig Day 2
 description: Initial animation rig with inverse-kinematics on the feet
 date: 2021-10-12
+previous: 26
+next: 28
+previousInSequence: 26
+nextInSequence: 28
 thumbnails:
   - /assets/images/houdini-daily-practice/27/thumbnail-0.png
 assets:

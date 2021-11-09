@@ -2,6 +2,9 @@ id: 41
 name: Procedural Walkway Day 1
 description: Procedural walkway with automatic UVs - rendered with Karma - part 1
 date: 2021-10-26
+previous: 40
+next: 42
+nextInSequence: 42
 thumbnails:
   - /assets/images/houdini-daily-practice/41/thumbnail-0.png
   - /assets/images/houdini-daily-practice/41/thumbnail-1.png

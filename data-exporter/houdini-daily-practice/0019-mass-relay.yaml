@@ -2,6 +2,8 @@ id: 19
 name: Mass Relay
 description: A mass relay, from Mass Effect
 date: 2021-09-22
+previous: 18
+next: 20
 thumbnails:
   - /assets/images/houdini-daily-practice/19/thumbnail-0.png
 assets:

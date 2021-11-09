@@ -2,6 +2,9 @@ id: 17
 name: Procedural Stairs Day 1
 description: Procedural stairs - digital asset generating stairs along a line
 date: 2021-09-18
+previous: 16
+next: 18
+nextInSequence: 18
 thumbnails:
   - /assets/images/houdini-daily-practice/17/thumbnail-0.png
 assets:

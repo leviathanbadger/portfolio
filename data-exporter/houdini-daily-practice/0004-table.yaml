@@ -2,6 +2,8 @@ id: 4
 name: Table
 description: My kitchen table
 date: 2021-09-05
+previous: 3
+next: 5
 thumbnails:
   - /assets/images/houdini-daily-practice/4/thumbnail-0.png
 assets:

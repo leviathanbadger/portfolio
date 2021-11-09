@@ -2,6 +2,8 @@ id: 16
 name: Procedural Tree
 description: Procedural tree with thigmotropism
 date: 2021-09-17
+previous: 15
+next: 17
 thumbnails:
   - /assets/images/houdini-daily-practice/16/thumbnail-0.png
   - /assets/images/houdini-daily-practice/16/thumbnail-1.png

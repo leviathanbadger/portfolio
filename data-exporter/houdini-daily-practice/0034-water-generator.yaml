@@ -2,6 +2,8 @@ id: 34
 name: Water Turbine
 description: Water turbine simulation attempt (failed)
 date: 2021-10-19
+previous: 33
+next: 35
 thumbnails:
   - /assets/images/houdini-daily-practice/34/thumbnail-0.png
 assets:

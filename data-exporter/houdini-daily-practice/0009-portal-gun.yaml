@@ -2,6 +2,8 @@ id: 9
 name: Portal Gun
 description: Aperture Science Handheld Portal Device
 date: 2021-09-10
+previous: 8
+next: 10
 thumbnails:
   - /assets/images/houdini-daily-practice/9/thumbnail-0.png
 assets:

@@ -2,6 +2,7 @@ id: 1
 name: House Key
 description: House key based off of my apartment's key
 date: 2021-09-01
+next: 2
 thumbnails:
   - /assets/images/houdini-daily-practice/1/thumbnail-0.png
 assets:

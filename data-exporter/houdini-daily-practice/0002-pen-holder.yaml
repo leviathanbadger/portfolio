@@ -2,6 +2,8 @@ id: 2
 name: Pen Holder
 description: Pen holder based off of the one on my desk
 date: 2021-09-02
+previous: 1
+next: 3
 thumbnails:
   - /assets/images/houdini-daily-practice/2/thumbnail-0.png
 assets:

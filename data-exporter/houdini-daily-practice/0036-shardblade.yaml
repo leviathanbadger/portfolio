@@ -2,6 +2,8 @@ id: 36
 name: Shardblade
 description: Shardblade from Brandon Sanderson's "The Stormlight Archive"
 date: 2021-10-21
+previous: 35
+next: 37
 thumbnails:
   - /assets/images/houdini-daily-practice/36/thumbnail-0.png
 assets:
