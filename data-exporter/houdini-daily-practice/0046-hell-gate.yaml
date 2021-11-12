@@ -3,6 +3,7 @@ name: Hell Gate
 description: Hell gate from one of the later levels in Doom Eternal
 date: 2021-11-08
 previous: 45
+next: 47
 thumbnails:
   - /assets/images/houdini-daily-practice/46/thumbnail-0.png
 assets:
