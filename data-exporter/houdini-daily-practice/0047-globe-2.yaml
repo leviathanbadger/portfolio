@@ -3,7 +3,9 @@ name: Globe Day 2
 description: Animated globe rendered with Karma XPU
 date: 2021-11-11
 previous: 46
+next: 48
 previousInSequence: 6
+nextInSequence: 48
 thumbnails:
   - /assets/images/houdini-daily-practice/47/thumbnail-0.png
 assets:
@@ -17,4 +19,5 @@ tags:
   - creative
   - karma
   - materialx
+  - uvs
 pathToBody: houdini-daily-practice/bodies/0047-globe-2.md
