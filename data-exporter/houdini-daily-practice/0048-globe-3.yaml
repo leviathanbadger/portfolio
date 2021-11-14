@@ -3,10 +3,12 @@ name: Globe Day 3
 description: Animated globe rendered with Karma XPU
 date: 2021-11-12
 previous: 47
+next: 49
 previousInSequence: 47
 thumbnails:
   - /assets/images/houdini-daily-practice/48/thumbnail-0.png
   - /assets/images/houdini-daily-practice/48/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/48/thumbnail-2.png
 assets:
   - type: video
     src: https://www.youtube.com/embed/SapWrCRcjAM
@@ -16,10 +18,14 @@ assets:
     src: /assets/images/houdini-daily-practice/48/render-1.png
   - type: image
     src: /assets/images/houdini-daily-practice/48/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/48/render-3.png
 tags:
   - sops
   - animation
   - creative
+  - lops
+  - solaris
   - karma
   - materialx
   - displacement
