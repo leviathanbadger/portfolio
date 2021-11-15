@@ -3,6 +3,7 @@ name: Ambrosia
 description: An attempt at creating a bottle of ambrosia from Hades (the game)
 date: 2021-11-13
 previous: 48
+next: 50
 thumbnails:
   - /assets/images/houdini-daily-practice/49/thumbnail-0.png
 assets:
