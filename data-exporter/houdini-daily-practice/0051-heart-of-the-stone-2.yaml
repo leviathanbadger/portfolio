@@ -3,7 +3,9 @@ name: Heart of the Stone Day 2
 description: The Heart of the Stone of Tear (from the Wheel of Time)
 date: 2021-11-15
 previous: 50
+next: 52
 previousInSequence: 50
+nextInSequence: 52
 thumbnails:
   - /assets/images/houdini-daily-practice/51/thumbnail-0.png
 assets:
