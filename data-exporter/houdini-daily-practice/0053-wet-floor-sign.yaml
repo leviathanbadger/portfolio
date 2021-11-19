@@ -1,0 +1,18 @@
+id: 53
+name: Wet Floor Sign
+description: A "Wet Floor" Sign
+date: 2021-11-18
+previous: 52
+thumbnails:
+  - /assets/images/houdini-daily-practice/53/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/53/render-0.png
+tags:
+  - sops
+  - creative
+  - solaris
+  - karma
+  - materialx
+  - uvs
+pathToBody: houdini-daily-practice/bodies/0053-wet-floor-sign.md
