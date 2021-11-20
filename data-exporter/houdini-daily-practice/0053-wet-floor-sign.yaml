@@ -1,8 +1,10 @@
 id: 53
-name: Wet Floor Sign
+name: Wet Floor Sign Day 1
 description: A "Wet Floor" Sign
 date: 2021-11-18
 previous: 52
+next: 54
+nextInSequence: 54
 thumbnails:
   - /assets/images/houdini-daily-practice/53/thumbnail-0.png
 assets:

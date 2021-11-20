@@ -1,4 +1,4 @@
-### "Wet Floor" Sign
+### "Wet Floor" Sign (Day 1)
 
 I didn't have much time today, so I modeled a "wet floor" sign.
 It was a fairly simple thing to model, although I did have a bit
