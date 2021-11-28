@@ -3,6 +3,7 @@ name: Wet Floor Sign Day 2
 description: A "Wet Floor" Sign
 date: 2021-11-19
 previous: 53
+next: 55
 previousInSequence: 53
 thumbnails:
   - /assets/images/houdini-daily-practice/54/thumbnail-0.png
@@ -21,6 +22,7 @@ tags:
   - solaris
   - karma
   - materialx
+  - lops
   - uvs
   - baketexture
 pathToBody: houdini-daily-practice/bodies/0054-wet-floor-sign-2.md
