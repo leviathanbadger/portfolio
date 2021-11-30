@@ -3,6 +3,8 @@ name: Bookshelf Day 1
 description: An empty bookshelf
 date: 2021-11-28
 previous: 54
+next: 56
+nextInSequence: 56
 thumbnails:
   - /assets/images/houdini-daily-practice/55/thumbnail-0.png
 assets:
