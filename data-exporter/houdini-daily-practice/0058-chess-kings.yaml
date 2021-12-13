@@ -3,6 +3,8 @@ name: Chess Kings
 description: Rendering two black kings for a chess board
 date: 2021-12-10
 previous: 57
+next: 59
+nextInSequence: 59
 thumbnails:
   - /assets/images/houdini-daily-practice/58/thumbnail-0.png
 assets:
