@@ -3,7 +3,9 @@ name: Chess Board
 description: Rendering a chess board
 date: 2021-12-12
 previous: 58
+next: 60
 previousInSequence: 58
+nextInSequence: 60
 thumbnails:
   - /assets/images/houdini-daily-practice/59/thumbnail-0.png
   - /assets/images/houdini-daily-practice/59/thumbnail-1.png
@@ -17,7 +19,6 @@ tags:
   - lops
   - karma
   - materialx
-  - uvs
   - tutorial
 links:
   - name: Tutorial Video
