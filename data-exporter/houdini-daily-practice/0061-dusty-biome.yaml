@@ -1,8 +1,10 @@
 id: 61
-name: Dusty Biome
+name: Dusty Biome Day 1
 description: A terrain heightfield created to mimic a dusty/deserty biome
 date: 2021-12-14
 previous: 60
+next: 62
+nextInSequence: 62
 thumbnails:
   - /assets/images/houdini-daily-practice/61/thumbnail-0.png
   - /assets/images/houdini-daily-practice/61/thumbnail-1.png
