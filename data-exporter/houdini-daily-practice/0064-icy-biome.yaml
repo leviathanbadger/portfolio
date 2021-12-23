@@ -1,0 +1,32 @@
+id: 64
+name: Icy Biome Day 1
+description: A terrain heightfield created to mimic an icy/mountain/tundra biome
+date: 2021-12-22
+previous: 63
+thumbnails:
+  - /assets/images/houdini-daily-practice/64/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/64/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/64/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/64/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/64/out_height.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/64/out_snow.png
+tags:
+  - sops
+  - terrain
+  - heightfield
+  - cops
+  - uv
+  - solaris
+  - lops
+  - karma
+  - tutorial
+  - displacement
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/community-main-menu/complete-a-z-terrain-handbook/
+pathToBody: houdini-daily-practice/bodies/0064-icy-biome.md

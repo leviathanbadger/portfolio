@@ -1,4 +1,4 @@
-### Dusty Biome
+### Dusty Biome (Day 2)
 
 Today I scattered rocks on the terrain created previously. Additionally I changed
 the render to use distortion instead of outputting the mesh directly; and I improved
