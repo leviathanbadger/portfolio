@@ -3,6 +3,7 @@ name: Icy Biome Day 2
 description: A terrain heightfield created to mimic an icy/mountain/tundra biome
 date: 2021-12-29
 previous: 64
+next: 66
 previousInSequence: 64
 thumbnails:
   - /assets/images/houdini-daily-practice/65/thumbnail-0.png

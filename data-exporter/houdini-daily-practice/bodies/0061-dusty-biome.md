@@ -1,4 +1,4 @@
-### Dusty Biome
+### Dusty Biome (Day 1)
 
 I haven't completed the last bit of the tutorial series on rendering, but despite
 that I started on a new project. I found a good tutorial series on generating
