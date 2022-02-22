@@ -1,0 +1,19 @@
+id: 70
+name: Cable Tool Day 1
+description:
+date: 2022-02-21
+previous: 69
+thumbnails:
+  - /assets/images/houdini-daily-practice/70/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/70/output-0.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - tutorial
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/tutorials/project-titan-cable-tool/
+pathToBody: houdini-daily-practice/bodies/0070-cable-tool.md
