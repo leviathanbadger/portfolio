@@ -1,0 +1,33 @@
+id: 67
+name: PC Build Day 2
+description:
+date: 2022-02-12
+previous: 66
+next: 68
+previousInSequence: 66
+thumbnails:
+  - /assets/images/houdini-daily-practice/67/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/67/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/RE61_CLQDsI
+  - type: video
+    src: https://www.youtube.com/embed/8ud6xRches8
+  - type: image
+    src: /assets/images/houdini-daily-practice/67/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/67/render-1.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/66/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/66/reference-1.png
+tags:
+  - sops
+  - solaris
+  - lops
+  - karma
+  - animation
+  - reference
+  - materialx
+pathToBody: houdini-daily-practice/bodies/0067-pc-build-2.md
