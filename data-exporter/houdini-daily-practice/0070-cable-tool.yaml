@@ -3,6 +3,8 @@ name: Cable Tool Day 1
 description:
 date: 2022-02-21
 previous: 69
+next: 71
+nextInSequence: 71
 thumbnails:
   - /assets/images/houdini-daily-practice/70/thumbnail-0.png
 assets:
