@@ -3,6 +3,7 @@ name: Cable Tool Day 3
 description: A cable tool to generate detailed draped cables with minimal input
 date: 2022-02-23
 previous: 71
+next: 73
 previousInSequence: 71
 thumbnails:
   - /assets/images/houdini-daily-practice/72/thumbnail-0.png
