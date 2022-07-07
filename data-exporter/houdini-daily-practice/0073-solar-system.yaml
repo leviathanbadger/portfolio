@@ -3,6 +3,7 @@ name: Solar System
 description: A recreation of the planets in our solar system
 date: 2022-05-09
 previous: 72
+next: 74
 thumbnails:
   - /assets/images/houdini-daily-practice/73/thumbnail-0.png
 assets:

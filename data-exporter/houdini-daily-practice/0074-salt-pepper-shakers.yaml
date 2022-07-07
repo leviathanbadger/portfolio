@@ -1,0 +1,22 @@
+id: 74
+name: Salt & Pepper Shakers
+description: Salt and Pepper shakers that I just bought modeled and rendered
+date: 2022-07-06
+previous: 73
+thumbnails:
+  - /assets/images/houdini-daily-practice/74/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/74/render-0.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/74/reference-0.png
+tags:
+  - sops
+  - hda
+  - karma
+  - solaris
+  - lops
+  - reference
+  - materialx
+pathToBody: houdini-daily-practice/bodies/0074-salt-pepper-shakers.md
