@@ -1,9 +1,11 @@
 id: 76
 name: Sky City Day 2
 description: HDA tools for a sky city scene
-date: 2022-07-07
+date: 2022-07-10
 previous: 75
+next: 77
 previousInSequence: 75
+nextInSequence: 77
 thumbnails:
   - /assets/images/houdini-daily-practice/76/thumbnail-0.png
   - /assets/images/houdini-daily-practice/76/thumbnail-1.png
@@ -19,7 +21,6 @@ tags:
   - sops
   - hda
   - reference
-  - materialx
   - dops
   - vellum
 links:
