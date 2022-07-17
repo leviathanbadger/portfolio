@@ -3,7 +3,9 @@ name: Sky City Day 3
 description: HDA tools for a sky city scene
 date: 2022-07-13
 previous: 76
+next: 78
 previousInSequence: 76
+nextInSequence: 79
 thumbnails:
   - /assets/images/houdini-daily-practice/77/thumbnail-0.png
   - /assets/images/houdini-daily-practice/77/thumbnail-1.png
