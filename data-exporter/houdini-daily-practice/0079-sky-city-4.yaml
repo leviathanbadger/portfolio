@@ -3,6 +3,7 @@ name: Sky City Day 4
 description: HDA tools for a sky city scene
 date: 2022-07-19
 previous: 78
+next: 80
 previousInSequence: 77
 thumbnails:
   - /assets/images/houdini-daily-practice/79/thumbnail-0.png
@@ -19,6 +20,7 @@ tags:
   - sops
   - hda
   - reference
+  - uvs
   - karma
   - solaris
   - lops
