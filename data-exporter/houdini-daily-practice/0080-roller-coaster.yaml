@@ -3,6 +3,8 @@ name: Roller Coaster Day 1
 description: Procedurally generated roller coaster model based on curve input
 date: 2022-07-20
 previous: 79
+next: 80
+nextInSequence: 80
 thumbnails:
   - /assets/images/houdini-daily-practice/80/thumbnail-0.png
   - /assets/images/houdini-daily-practice/80/thumbnail-1.png
