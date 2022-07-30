@@ -3,6 +3,7 @@ name: Sky City Day 5
 description: HDA tools for a sky city scene
 date: 2022-07-22
 previous: 81
+next: 83
 previousInSequence: 79
 thumbnails:
   - /assets/images/houdini-daily-practice/82/thumbnail-0.png
