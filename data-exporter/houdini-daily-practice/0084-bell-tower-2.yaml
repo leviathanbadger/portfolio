@@ -1,0 +1,33 @@
+id: 84
+name: Bell Tower Day 2
+description: Recreation of the Salmon Run Bell Tower
+date: 2022-07-30
+previous: 82
+previousInSequence: 82
+thumbnails:
+  - /assets/images/houdini-daily-practice/84/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/84/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/84/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/84/thumbnail-3.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/84/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/84/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/84/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/84/render-3.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/83/reference-0.png
+tags:
+  - sops
+  - hdri
+  - uvs
+  - reference
+  - karma
+  - solaris
+  - materialx
+  - displacement
+pathToBody: houdini-daily-practice/bodies/0084-bell-tower-2.md
