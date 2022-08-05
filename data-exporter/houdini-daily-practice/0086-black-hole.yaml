@@ -6,6 +6,8 @@ previous: 85
 thumbnails:
   - /assets/images/houdini-daily-practice/86/thumbnail-0.png
 assets:
+  - type: video
+    src: https://www.youtube.com/embed/nYFM4r3JoOc
   - type: image
     src: /assets/images/houdini-daily-practice/86/render-0.png
 tags:
