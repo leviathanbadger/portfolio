@@ -3,6 +3,7 @@ name: Bell Tower Day 3
 description: Recreation of the Salmon Run Bell Tower
 date: 2022-07-31
 previous: 84
+next: 86
 previousInSequence: 84
 thumbnails:
   - /assets/images/houdini-daily-practice/85/thumbnail-0.png
