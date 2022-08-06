@@ -1,0 +1,23 @@
+id: 87
+name: Particle Trail
+description: Random experimentation with a custom solver and a particle trail
+date: 2022-08-05
+previous: 86
+thumbnails:
+  - /assets/images/houdini-daily-practice/87/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/Jp8dI9A-nWc
+  - type: image
+    src: /assets/images/houdini-daily-practice/87/render-0.png
+tags:
+  - creative
+  - animation
+  - sops
+  - karma
+  - solaris
+  - lops
+  - hdri
+  - materialx
+  - solver
+pathToBody: houdini-daily-practice/bodies/0087-particle-trail.md

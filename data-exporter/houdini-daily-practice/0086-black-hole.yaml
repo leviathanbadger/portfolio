@@ -3,6 +3,7 @@ name: Black Hole
 description: Attempting to create a (not scientifically accurate) black hole
 date: 2022-08-04
 previous: 85
+next: 87
 thumbnails:
   - /assets/images/houdini-daily-practice/86/thumbnail-0.png
 assets:
@@ -18,6 +19,5 @@ tags:
   - solaris
   - lops
   - materialx
-  - animation
   - refraction
 pathToBody: houdini-daily-practice/bodies/0086-black-hole.md
