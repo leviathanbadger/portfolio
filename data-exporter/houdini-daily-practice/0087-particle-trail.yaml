@@ -3,6 +3,7 @@ name: Particle Trail
 description: Random experimentation with a custom solver and a particle trail
 date: 2022-08-05
 previous: 86
+next: 88
 thumbnails:
   - /assets/images/houdini-daily-practice/87/thumbnail-0.png
 assets:
