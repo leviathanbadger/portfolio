@@ -1,0 +1,31 @@
+id: 89
+name: Gas Station Day 2
+description: Gas station with a neon "open" sign
+date: 2022-08-19
+previous: 88
+previousInSequence: 88
+thumbnails:
+  - /assets/images/houdini-daily-practice/89/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/89/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/89/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/89/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/89/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/89/render-2.png
+tags:
+  - creative
+  - sops
+  - karma
+  - solaris
+  - lops
+  - materialx
+  - uvs
+  - hdri
+  - displacement
+links:
+  - name: The Sandman (Netflix)
+    href: https://www.netflix.com/title/81150303
+pathToBody: houdini-daily-practice/bodies/0089-gas-station-2.md

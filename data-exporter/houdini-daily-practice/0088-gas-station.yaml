@@ -3,6 +3,8 @@ name: Gas Station Day 1
 description: Empty building with a neon "open" sign
 date: 2022-08-06
 previous: 87
+next: 89
+nextInSequence: 89
 thumbnails:
   - /assets/images/houdini-daily-practice/88/thumbnail-0.png
   - /assets/images/houdini-daily-practice/88/thumbnail-1.png
