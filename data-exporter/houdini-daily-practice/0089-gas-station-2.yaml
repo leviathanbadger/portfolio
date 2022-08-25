@@ -3,7 +3,9 @@ name: Gas Station Day 2
 description: Gas station with a neon "open" sign
 date: 2022-08-19
 previous: 88
+next: 90
 previousInSequence: 88
+nextInSequence: 90
 thumbnails:
   - /assets/images/houdini-daily-practice/89/thumbnail-0.png
   - /assets/images/houdini-daily-practice/89/thumbnail-1.png
