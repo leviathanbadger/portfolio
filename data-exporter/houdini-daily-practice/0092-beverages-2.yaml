@@ -1,9 +1,11 @@
 id: 92
 name: Beverages Day 2
-description: Root Beer bottle for use in gas station project
+description: Various beverages for use in gas station project
 date: 2022-08-27
 previous: 91
+next: 93
 previousInSequence: 91
+nextInSequence: 93
 thumbnails:
   - /assets/images/houdini-daily-practice/92/thumbnail-0.png
   - /assets/images/houdini-daily-practice/92/thumbnail-1.png
