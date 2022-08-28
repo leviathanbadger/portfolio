@@ -1,4 +1,4 @@
-### Root Beer
+### Beverages (Day 1)
 
 Today I went to a gas station and bought 15-20 different bottles of various
 liquids. The intent was to get a variety of reference assets that I could
