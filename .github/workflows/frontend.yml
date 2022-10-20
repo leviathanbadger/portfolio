@@ -29,7 +29,7 @@ jobs:
       - name: Install NPM dependencies
         run: npm ci
       - name: Build Angular application
-        run: npm run build -- --prod
+        run: npm run build -- --configuration production
       - name: 'Upload Build Artifacts'
         uses: actions/upload-artifact@v2
         with:
