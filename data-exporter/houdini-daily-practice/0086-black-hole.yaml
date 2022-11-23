@@ -11,6 +11,9 @@ assets:
     src: https://www.youtube.com/embed/nYFM4r3JoOc
   - type: image
     src: /assets/images/houdini-daily-practice/86/render-0.png
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/9G-yBAwvQEU
 tags:
   - creative
   - animation
