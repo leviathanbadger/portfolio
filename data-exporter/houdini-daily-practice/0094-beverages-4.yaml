@@ -3,6 +3,7 @@ name: Beverages Day 4
 description: Various beverages for use in gas station project
 date: 2022-08-30
 previous: 93
+next: 95
 previousInSequence: 93
 thumbnails:
   - /assets/images/houdini-daily-practice/94/thumbnail-0.png
