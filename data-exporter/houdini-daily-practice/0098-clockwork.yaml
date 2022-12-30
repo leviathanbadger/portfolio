@@ -1,0 +1,22 @@
+id: 98
+name: Clockwork
+description: First day of working on a clockwork render
+date: 2022-12-29
+previous: 97
+thumbnails:
+  - /assets/images/houdini-daily-practice/98/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/98/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/98/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/98/render-1.png
+tags:
+  - sops
+  - uvs
+  - hda
+  - reference
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/98/reference-0.png
+pathToBody: houdini-daily-practice/bodies/0098-clockwork.md
