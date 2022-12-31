@@ -1,3 +1,12 @@
 {
-  "javascript.preferences.importModuleSpecifier": "relative"
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  }
 }

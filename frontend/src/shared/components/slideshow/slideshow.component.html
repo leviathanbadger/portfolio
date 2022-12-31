@@ -1,5 +1,5 @@
 <div class="slideshow-backdrop">
-  <div class="container" [@pullFromBottom]="items">
+  <div class="container slideshow-container max-1080p" [@pullFromBottom]="items">
     <div *ngFor="let item of items; let i = index" class="row slideshow-item" [class.no-pointer-events]="i !== currentIdx">
       <div [ngSwitch]="item.type" class="col-12" [style.transform]="'translateX(' + ((i - currentIdx) * 100) + '%)'" [style.opacity]="i === currentIdx ? 1 : .2">
         <ng-container *ngSwitchCase="'image'">
@@ -19,10 +19,18 @@
         tabindex="0">
       </div>
     </div>
-    <div class="btn-prev" (click)="movePreviousItem()" *ngIf="canMovePrevious()"></div>
-    <div class="btn-next" (click)="moveNextItem()" *ngIf="canMoveNext()"></div>
-    <div class="nav-btn-wrapper" *ngIf="canMoveAny()">
-      <div *ngFor="let item of items; let i = index" class="btn-index" [class.current]="i === currentIdx" (click)="moveItem(item, i)"></div>
+  </div>
+</div>
+
+<div class="controls-backdrop">
+  <div class="container max-1080p">
+    <div class="row">
+      &nbsp;
+      <div class="btn-prev" (click)="movePreviousItem()" *ngIf="canMovePrevious()"></div>
+      <div class="btn-next" (click)="moveNextItem()" *ngIf="canMoveNext()"></div>
+      <div class="nav-btn-wrapper" *ngIf="canMoveAny()">
+        <div *ngFor="let item of items; let i = index" class="btn-index" [class.current]="i === currentIdx" (click)="moveItem(item, i)"></div>
+      </div>
     </div>
   </div>
 </div>

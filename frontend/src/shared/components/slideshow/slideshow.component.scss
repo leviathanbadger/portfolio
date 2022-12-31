@@ -1,21 +1,26 @@
 
 
+.max-1080p {
+  max-width: 1920px;
+}
+
 .slideshow-backdrop {
   overflow: hidden;
-  background: #E0E0E0;
 
   & > .container {
-    position: relative;
+    &.slideshow-container {
+      position: relative;
 
-    & > .slideshow-item {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      & > .slideshow-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
 
-      & > .col-12 {
-        transition: .4s transform ease-in-out, .4s opacity ease-in-out;
+        & > .col-12 {
+          transition: .4s transform ease-in-out, .4s opacity ease-in-out;
+        }
       }
     }
   }
@@ -68,57 +73,65 @@
   pointer-events: none;
 }
 
-.btn-prev {
-  left: 0;
-
-  &:after {
-    content: 'Previous';
-  }
-}
-.btn-next {
-  right: 0;
-
-  &:after {
-    content: 'Next';
-  }
-}
-
-.btn-prev, .btn-next {
+.controls-backdrop {
   background: rgba(0,0,0,.8);
   color: lightgray;
   padding: .75em 1.5em;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 20pt;
-  cursor: pointer;
+  width: 100%;
+  z-index: 1;
 
-  &:hover {
-    background: #000000;
-    color: white;
+  & .container {
+    position: relative;
   }
-}
 
-.nav-btn-wrapper {
-  background: rgba(0,0,0,.8);
-  color: lightgray;
-  padding: .75em 1.5em;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  & > .btn-index {
-    display: inline-block;
-    cursor: pointer;
-
-    &.current {
-      color: white;
-    }
+  & .btn-prev {
+    left: 0;
+    float: left;
 
     &:after {
-      content: '●';
-      padding: .25em;
+      content: 'Previous';
+    }
+  }
+  & .btn-next {
+    right: 0;
+    float: right;
+
+    &:after {
+      content: 'Next';
+    }
+  }
+
+  & .btn-prev, & .btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20pt;
+    cursor: pointer;
+
+    &:hover {
+      background: #000000;
+      color: white;
+    }
+  }
+
+  & .nav-btn-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & > .btn-index {
+      display: inline-block;
+      cursor: pointer;
+
+      &.current {
+        color: white;
+      }
+
+      &:after {
+        content: '●';
+        padding: .25em;
+      }
     }
   }
 }

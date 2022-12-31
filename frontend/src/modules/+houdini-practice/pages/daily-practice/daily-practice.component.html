@@ -5,7 +5,7 @@
         <ng-container *ngLet="practice_r.result as practice">
           <div class="container">
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-12">
                 <h1 class="mt-3">{{practice.name}}</h1>
 
                 <p class="lead">
@@ -13,21 +13,19 @@
                   {{practice.description}}
                 </p>
               </div>
-              <div class="col-md-4">
-              </div>
             </div>
+          </div>
 
-            <div class="row">
-              <div class="col-12">
-                <ng-container *ngLet="slideshowItems$ | async as items">
-                  <bls-slideshow
-                    *ngIf="items?.length"
-                    [items]="items">
-                  </bls-slideshow>
-                </ng-container>
-              </div>
-            </div>
+          <div class="display-render">
+            <ng-container *ngLet="slideshowItems$ | async as items">
+              <bls-slideshow
+                *ngIf="items?.length"
+                [items]="items">
+              </bls-slideshow>
+            </ng-container>
+          </div>
 
+          <div class="container">
             <div class="row">
               <div class="col-md-8">
                 <div class="pt-4 page-content" *ngIf="practice.body">
