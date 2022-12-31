@@ -1,8 +1,10 @@
 id: 98
-name: Clockwork
+name: Clockwork Day 1
 description: First day of working on a clockwork render
 date: 2022-12-29
 previous: 97
+next: 99
+nextInSequence: 99
 thumbnails:
   - /assets/images/houdini-daily-practice/98/thumbnail-0.png
   - /assets/images/houdini-daily-practice/98/thumbnail-1.png
