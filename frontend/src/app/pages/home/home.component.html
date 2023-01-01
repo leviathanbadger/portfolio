@@ -1,27 +1,33 @@
-<div class="banner-image" [style.backgroundImage]="'url(/assets/images/profile-on-bricks-lg.png)'">
-  <div class="banner-content">
-    <div class="banner-right">
-      <h1 class="display-1">Brandon Slade</h1>
-
-      <p class="lead">
-        Senior DevOps Engineer and Software Engineer
-        <button class="ml-4 btn btn-primary" [routerLink]="['/projects']">
-          View Projects<fa-icon class="ml-2" [icon]="faArrowRight"></fa-icon>
-        </button>
-      </p>
-
-      <p class="lead">
-        Houdini Enthusiast
-        <button class="ml-4 btn btn-primary" [routerLink]="['/houdini-practice']">
-          View Practice<fa-icon class="ml-2" [icon]="faArrowRight"></fa-icon>
-        </button>
-      </p>
-
-      <p class="profile-icons">
-        <a href="https://github.com/leviathanbadger/"><fa-icon [icon]="faGithub" size="3x"></fa-icon></a>
-        <a href="https://stackoverflow.com/users/768597/leviathanbadger"><fa-icon [icon]="faStackOverflow" size="3x"></fa-icon></a>
-        <a href="https://www.linkedin.com/in/brandon-slade"><fa-icon [icon]="faLinkedin" size="3x"></fa-icon></a>
-      </p>
+<div class="banner-content">
+  <div class="banner-right">
+    <div class="hello-sticker">
+      <div class="hello-label">
+        <span class="hello">hello</span>
+        <span class="mynameis">my name is</span>
+        <h1 class="display-1 name"><span>Brandon Slade</span></h1>
+      </div>
     </div>
+
+    <p class="lead">
+      Senior DevOps Engineer and Software Engineer
+      <button class="ms-4 btn btn-primary" [routerLink]="['/projects']">
+        View Projects<fa-icon class="ms-2" [icon]="faArrowRight"></fa-icon>
+      </button>
+    </p>
+
+    <p class="lead">
+      Houdini Enthusiast
+      <button class="ms-4 btn btn-primary" [routerLink]="['/houdini-practice']">
+        View Practice<fa-icon class="ms-2" [icon]="faArrowRight"></fa-icon>
+      </button>
+    </p>
+
+    <p class="profile-icons">
+      <a href="https://github.com/leviathanbadger/"><fa-icon [icon]="faGithub" size="3x"></fa-icon></a>
+      <a href="https://stackoverflow.com/users/768597/leviathanbadger"><fa-icon [icon]="faStackOverflow" size="3x"></fa-icon></a>
+      <a href="https://www.linkedin.com/in/brandon-slade"><fa-icon [icon]="faLinkedin" size="3x"></fa-icon></a>
+    </p>
   </div>
 </div>
+
+<div class="banner-image" [style.backgroundImage]="'url(/assets/images/profile-on-bricks-lg.png)'"></div>
