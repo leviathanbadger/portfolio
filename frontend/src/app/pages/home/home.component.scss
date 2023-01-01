@@ -122,10 +122,10 @@ $section-height: calc(100vh - 45px - 8.8px - 2px - 60px);
     & > .banner-right {
       position: absolute;
       margin-top: 0;
-      top: 50%;
-      left: calc(45% - 45px);
+      top: 65%;
+      left: 60%;
       right: 0%;
-      width: calc(55% + 45px);
+      width: 40%;
       transform: translateY(-50%);
       backdrop-filter: blur(10px);
       text-overflow: ellipsis;
