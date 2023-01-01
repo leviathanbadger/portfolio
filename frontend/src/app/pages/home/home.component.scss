@@ -1,8 +1,8 @@
-@import '~bootstrap/scss/mixins';
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
 
-$section-height: calc(100vh - 72.8px - 60.8px);
+$section-height: calc(100vh - 45px - 8.8px - 2px - 60px);
 
 .banner-image {
   min-height: $section-height;

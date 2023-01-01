@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight';
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faStackOverflow } from '@fortawesome/free-brands-svg-icons/faStackOverflow';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faStackOverflow, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   templateUrl: './home.component.html',

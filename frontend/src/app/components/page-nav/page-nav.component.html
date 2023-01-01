@@ -1,22 +1,27 @@
-<nav class="navbar navbar-expand-md navbar-light bg-primary">
+<header class="px-3 pt-2 text-bg-dark border-bottom border-white">
   <div class="container">
-    <a class="navbar-brand" [routerLink]="['/']">Brandon Slade - Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="d-flex flex-wrap align-items-end justify-content-center justify-content-lg-between">
+      <div>
+        <ul class="nav nav-tabs border-bottom-0">
+          <li>
+            <a class="nav-link px-3 pb-2 text-light" [routerLink]="['/']" [routerLinkActive]="['active', 'text-dark']" [routerLinkActiveOptions]="{exact: true}">Brandon Slade - Portfolio</a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item" [routerLinkActive]="['active']">
-          <a class="nav-link" [routerLink]="['/projects']">Projects</a>
-        </li>
-        <li class="nav-item" [routerLinkActive]="['active']">
-          <a class="nav-link" [routerLink]="['/houdini-practice']">Houdini Practice</a>
-        </li>
-        <li class="nav-item" [routerLinkActive]="['active']">
-          <a class="nav-link" [routerLink]="['/resume']">R&eacute;sum&eacute;</a>
-        </li>
-      </ul>
+      <div>
+        <ul class="nav nav-tabs border-bottom-0">
+          <li>
+            <a class="nav-link px-3 pb-2 text-light" [routerLink]="['/', 'projects']" [routerLinkActive]="['active', 'text-dark']">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link px-3 pb-2 text-light" [routerLink]="['/', 'houdini-practice']" [routerLinkActive]="['active', 'text-dark']">Houdini Practice</a>
+          </li>
+          <li>
+            <a class="nav-link px-3 pb-2 text-light" [routerLink]="['/', 'resume']" [routerLinkActive]="['active', 'text-dark']">R&eacute;sum&eacute;</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</nav>
+</header>

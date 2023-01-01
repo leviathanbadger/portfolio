@@ -3,5 +3,13 @@
 footer {
   line-height: 60px;
   border-top: 1px solid lightgray;
-  text-align: center;
+}
+
+.profile-icons {
+  overflow: hidden;
+
+  & > .nav-item > a {
+    display: block;
+    transform: translate(0, 6.1px);
+  }
 }
