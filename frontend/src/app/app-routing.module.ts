@@ -11,6 +11,7 @@ const routes: Routes = [
     {path: 'resume', loadChildren: () => import('../modules/+resume/resume.module').then(m => m.ResumeModule)},
     {path: 'projects', loadChildren: () => import('../modules/+projects/projects.module').then(m => m.ProjectsModule)},
     {path: 'houdini-practice', loadChildren: () => import('../modules/+houdini-practice/houdini-practice.module').then(m => m.HoudiniPracticeModule)},
+    {path: 'sitemap', loadChildren: () => import('../modules/+sitemap/sitemap.module').then(m => m.SitemapModule)},
     {path: '**', component: NotFoundComponent}
   ]}
 ];
