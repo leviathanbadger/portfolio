@@ -22,15 +22,13 @@
   </div>
 </div>
 
-<div class="controls-backdrop">
+<div class="controls-backdrop" *ngIf="items.length > 1">
   <div class="container max-1080p">
-    <div class="row">
-      &nbsp;
-      <div class="btn-prev" (click)="movePreviousItem()" *ngIf="canMovePrevious()"></div>
-      <div class="btn-next" (click)="moveNextItem()" *ngIf="canMoveNext()"></div>
-      <div class="nav-btn-wrapper" *ngIf="canMoveAny()">
-        <div *ngFor="let item of items; let i = index" class="btn-index" [class.current]="i === currentIdx" (click)="moveItem(item, i)"></div>
-      </div>
+    &nbsp;
+    <div class="btn-prev" (click)="movePreviousItem()" *ngIf="canMovePrevious()"></div>
+    <div class="nav-btn-wrapper" *ngIf="canMoveAny()">
+      <div *ngFor="let item of items; let i = index" class="btn-index" [class.current]="i === currentIdx" (click)="moveItem(item, i)"></div>
     </div>
+    <div class="btn-next" (click)="moveNextItem()" *ngIf="canMoveNext()"></div>
   </div>
 </div>

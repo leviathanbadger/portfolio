@@ -86,7 +86,6 @@
 
   & .btn-prev {
     left: 0;
-    float: left;
 
     &:after {
       content: 'Previous';
@@ -94,7 +93,6 @@
   }
   & .btn-next {
     right: 0;
-    float: right;
 
     &:after {
       content: 'Next';
