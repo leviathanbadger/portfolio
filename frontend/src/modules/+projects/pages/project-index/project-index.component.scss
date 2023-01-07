@@ -36,3 +36,12 @@
     }
   }
 }
+
+.title {
+  position: relative;
+
+  & .button-links {
+    position: absolute;
+    right: 0;
+  }
+}
