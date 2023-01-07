@@ -1,6 +1,6 @@
 ### Vulkan-Rust Game Engine
 
-This game engine was started in late 2022, after I decided to take a few-months' hiatus from work
+This game engine was started in late 2022, after I decided to take a few months hiatus from work
 in order to relax, recover from burn out, and work on personal projects again after spending
 so long without doing so.
 
@@ -52,6 +52,9 @@ Also, again, the lighting is done exclusively with blinn-phong lighting via an a
 color and a single directional light. There is no PBR, lighting, ambient occlusion, reflection
 or refraction, or anything else to justify separating the color and lighting pass from the
 depth and motion pass. That's just planning for the future.
+
+I do have very simple instanced rendering working, as seen in the bowl of marbles screenshot.
+There isn't a great abstraction around it currently, but at least the render pipeline supports it.
 
 ### Stretch goals
 
