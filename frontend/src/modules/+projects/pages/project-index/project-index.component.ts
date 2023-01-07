@@ -28,6 +28,7 @@ const SHOW_FLEX = {
   styleUrls: ['./project-index.component.scss'],
   animations: [
     trigger('projectChangeIdx', [
+      transition(':leave', []),
       transition('* => *', [
         query('.should-animate:enter', [
           style({ opacity: 0, transform: 'translateY(50px)', ...HIDE_FLEX })
