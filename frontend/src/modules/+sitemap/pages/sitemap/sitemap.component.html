@@ -10,9 +10,17 @@
       <ul>
         <li><a [routerLink]="['/']">Home</a></li>
         <li><a [routerLink]="['/', 'resume']">R&eacute;sum&eacute;</a></li>
-        <li><a [routerLink]="['/', 'projects', 'index']">Projects (Index)</a></li>
         <li><a [routerLink]="['/', 'houdini-practice', 'index']">Houdini Practice (Index)</a></li>
         <li><a [routerLink]="['/', 'sitemap']">Sitemap</a></li>
+      </ul>
+    </div>
+
+    <div class="col-4 sitemap-section">
+      <h3 class="mt-2">Projects</h3>
+
+      <ul>
+        <li><a [routerLink]="['/', 'projects', 'index']">Projects (Index)</a></li>
+        <li><a [routerLink]="['/', 'projects', 'current']">Current Project</a></li>
       </ul>
     </div>
 
