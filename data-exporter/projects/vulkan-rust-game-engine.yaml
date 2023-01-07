@@ -1,0 +1,23 @@
+name: Vulkan-Rust Game Engine
+images:
+  thumbnails:
+    - /assets/images/vulkan-rust-0-sm.png
+    - /assets/images/vulkan-rust-1-sm.png
+    - /assets/images/vulkan-rust-2-sm.png
+  images:
+    - /assets/images/vulkan-rust-0-lg.png
+    - /assets/images/vulkan-rust-1-lg.png
+    - /assets/images/vulkan-rust-2-lg.png
+description: A work-in-progress game engine built using Vulkan and Rust
+tags:
+  - vulkan
+  - rust
+  - game-engine
+  - blinn-phong
+  - forward-rendered
+  - hdr
+  - motion-blur
+links:
+  - name: Source
+    href: https://github.com/leviathanbadger/vulkan-rust-game-engine
+pathToBody: projects/bodies/vulkan-rust-game-engine.md
