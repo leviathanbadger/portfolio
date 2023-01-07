@@ -6,6 +6,8 @@
   .title {
     margin: 3em 0;
     text-align: center;
+    position: relative;
+
     & .links {
       .link-separator:before {
         content: '|';
