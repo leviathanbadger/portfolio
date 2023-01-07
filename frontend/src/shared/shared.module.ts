@@ -16,6 +16,7 @@ import { ProjectService } from './services/project.service';
 import { HoudiniPracticeService } from './services/houdini-practice.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MarkdownModule } from 'ngx-markdown';
     CommonModule,
     FormsModule,
     HttpClientModule,
-    MarkdownModule.forChild()
+    MarkdownModule.forChild(),
+    FontAwesomeModule
   ],
   exports: [
     AlternatingImageComponent,
@@ -43,7 +45,8 @@ import { MarkdownModule } from 'ngx-markdown';
     BypassSecurityPipe,
 
     CommonModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ]
 })
 export class SharedModule {
