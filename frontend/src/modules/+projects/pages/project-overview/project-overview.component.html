@@ -1,0 +1,38 @@
+<div class="container" *ngLet="project$ | async as project">
+  <div class="row">
+    <div class="col-12">
+      <ng-container *ngLet="slideshowItems$ | async as items">
+        <bls-slideshow
+          *ngIf="items?.length"
+          [items]="items"
+          aspectRatioType="project">
+        </bls-slideshow>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="pt-4 page-content" *ngIf="project.fullDescription">
+        <bls-markdown-render [src]="project.fullDescription"></bls-markdown-render>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="mt-3" *ngIf="project.links?.length">
+        <h3 class="mt-3">Links</h3>
+        <ng-container *ngFor="let link of project.links">
+          <a [href]="link[1]" target="_blank" class="btn btn-primary">{{link[0]}}</a>
+          &nbsp;
+        </ng-container>
+      </div>
+      <div *ngIf="project.technologies?.length">
+        <h3 class="mt-3">Technologies/Tags</h3>
+        <h4>
+          <ng-container *ngFor="let tag of project.technologies">
+            <a class="badge rounded-pill text-bg-primary">{{tag}}</a>
+          </ng-container>
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+
+
+.section {
+  width: 100%;
+}
+
+.subsection-nav {
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc(999em + var(--bs-gutter-x) * 0.5);
+    display: block;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  &:before {
+    left: -999em;
+  }
+
+  &:after {
+    right: -999em;
+  }
+}

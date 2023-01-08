@@ -15,6 +15,17 @@
           </div>
         </div>
 
+        <div class="subsection-nav container mb-4">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" [routerLinkActive]="'active'" [routerLink]="['overview']">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLinkActive]="'active'" [routerLink]="['timeline']">Timeline</a>
+            </li>
+          </ul>
+        </div>
+
         <router-outlet></router-outlet>
 
       </ng-container>
