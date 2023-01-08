@@ -9,7 +9,7 @@ import { VulkanRustTimelineComponent } from './pages/vulkan-rust-timeline/vulkan
 export const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'index', data: {routeType: 'tile-list'}},
   {path: 'index', component: ProjectIndexComponent, data: {routeType: 'tile-list'}},
-  {path: 'current', pathMatch: 'full', redirectTo: 'project-game-engine', data: {routeType: 'tile'}},
+  {path: 'current', pathMatch: 'full', redirectTo: 'vulkan-rust-game-engine', data: {routeType: 'tile'}},
   {path: 'vulkan-rust-game-engine', component: VulkanRustComponent, data: {routeType: 'tile'}, children: [
     {path: '', pathMatch: 'full', redirectTo: 'overview'},
     {path: 'overview', component: ProjectOverviewComponent, data: {subsection: 'overview'}},
