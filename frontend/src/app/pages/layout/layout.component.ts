@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, RoutesRecognized, ActivatedRoute } from '@angular/router';
-import { trigger, transition, query, style, animate } from '@angular/animations';
+import { trigger, transition, query, style, animate, group, sequence, animateChild } from '@angular/animations';
 import { Observable } from 'rxjs';
 import { map, filter, startWith } from 'rxjs/operators';
 
@@ -10,28 +10,47 @@ import { map, filter, startWith } from 'rxjs/operators';
   animations: [
     trigger('routeType', [
       transition('tile-list => tile', [
-        // style({ 'overflow-x': 'hidden' }),
-        query('.tile-list, .tile', [
-          style({ position: 'absolute' })
-        ]),
-        query('.tile', [
-          style({ transform: 'translateX(100%)' })
-        ]),
-        animate('.2s ease', style({ transform: 'translateX(-100%)' }))
+        group([
+          sequence([
+            query('.tile-list, .tile', [
+              style({ position: 'absolute' })
+            ]),
+            query('.tile', [
+              style({ transform: 'translateX(100%)' })
+            ]),
+            animate('.2s ease', style({ transform: 'translateX(-100%)' }))
+          ]),
+          query('@*', [
+            animateChild()
+          ], { optional: true })
+        ])
       ]),
       transition('tile => tile-list', [
-        // style({ 'overflow-x': 'hidden' }),
-        query('.tile-list, .tile', [
-          style({ position: 'absolute' })
-        ]),
-        query('.tile-list', [
-          style({ transform: 'translateX(-100%)' })
-        ]),
-        animate('.2s ease', style({ transform: 'translateX(100%)' }))
+        group([
+          sequence([
+            query('.tile-list, .tile', [
+              style({ position: 'absolute' })
+            ]),
+            query('.tile-list', [
+              style({ transform: 'translateX(-100%)' })
+            ]),
+            animate('.2s ease', style({ transform: 'translateX(100%)' }))
+          ]),
+          query('@*', [
+            animateChild()
+          ], { optional: true })
+        ])
       ]),
       transition('* => *', [
-        style({ opacity: 0 }),
-        animate('.2s ease-in', style({ opacity: 1 }))
+        group([
+          sequence([
+            style({ opacity: 0 }),
+            animate('.2s ease-in', style({ opacity: 1 })),
+          ]),
+          query('@*', [
+            animateChild()
+          ], { optional: true })
+        ])
       ])
     ])
   ]

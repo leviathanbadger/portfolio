@@ -12,8 +12,8 @@ export const routes: Routes = [
   {path: 'current', pathMatch: 'full', redirectTo: 'project-game-engine', data: {routeType: 'tile'}},
   {path: 'vulkan-rust-game-engine', component: VulkanRustComponent, data: {routeType: 'tile'}, children: [
     {path: '', pathMatch: 'full', redirectTo: 'overview'},
-    {path: 'overview', component: ProjectOverviewComponent},
-    {path: 'timeline', component: VulkanRustTimelineComponent}
+    {path: 'overview', component: ProjectOverviewComponent, data: {subsection: 'overview'}},
+    {path: 'timeline', component: VulkanRustTimelineComponent, data: {subsection: 'timeline'}}
   ]},
   {path: ':projectSlug', component: ProjectComponent, data: {routeType: 'tile'}, children: [
     {path: '', pathMatch: 'full', redirectTo: 'overview'},
