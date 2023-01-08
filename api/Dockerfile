@@ -1,6 +1,6 @@
 
 
-FROM amazon/aws-lambda-nodejs:14 as final
+FROM amazon/aws-lambda-nodejs:16 as final
 COPY . .
 RUN npm i
 RUN npm run build -- --declaration false
