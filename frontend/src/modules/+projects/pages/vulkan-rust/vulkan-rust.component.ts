@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router, RoutesRecognized } from '@angular/router';
 import { animate, animateChild, group, query, sequence, style, transition, trigger } from '@angular/animations';
 import { Observable } from 'rxjs';
-import { filter, map, startWith } from 'rxjs/operators';
+import { filter, map, shareReplay, startWith } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
 import { ManagedProject } from 'src/shared/models/project';
 import { Result } from 'src/shared/models/result';
@@ -42,7 +42,9 @@ export class VulkanRustComponent {
   private uniqueCounter = 0;
 
   ngOnInit() {
-    this.projectResult$ = this.projectService.findBySlug('vulkan-rust-game-engine');
+    this.projectResult$ = this.projectService.findBySlug('vulkan-rust-game-engine').pipe(
+      shareReplay(1)
+    );
     this.projectProvider.projectResult$ = this.projectResult$;
 
     this.subsection$ = this.router.events.pipe(

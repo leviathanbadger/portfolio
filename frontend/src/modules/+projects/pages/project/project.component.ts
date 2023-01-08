@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
+import { distinctUntilChanged, map, shareReplay, switchMap } from 'rxjs/operators';
 import { ProjectService } from 'src/shared/services/project.service';
 import { ManagedProject } from 'src/shared/models/project';
 import { Result } from 'src/shared/models/result';
@@ -24,7 +24,9 @@ export class ProjectComponent {
   ngOnInit() {
     this.projectResult$ = this.route.paramMap.pipe(
       map(params => params.get('projectSlug')),
-      switchMap(slug => this.projectService.findBySlug(slug || ''))
+      switchMap(slug => this.projectService.findBySlug(slug || '')),
+      distinctUntilChanged(),
+      shareReplay(1)
     );
     this.projectProvider.projectResult$ = this.projectResult$;
   }
