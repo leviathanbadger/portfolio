@@ -1,1 +1,42 @@
-Timeline!
+<div class="container">
+  <div class="row g-3 align-items-center">
+    <div class="col-auto">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="includeBloopersCheckbox" [(ngModel)]="includeBloopers">
+        <label class="form-check-label" for="includeBloopersCheckbox">Include Bloopers</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" *ngIf="(timelineEvents$ | async) || (error$ | async); else initialLoadingSpinner" [class.loading]="isLoading$ | async">
+  <ng-container *ngIf="(error$ | async) as error">
+    <div class="col-12">
+      <p>An error occurred: {{error}}</p>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="(!(error$ | async)) && (timelineEvents$ | async) as timelineEvents">
+    <ng-container *ngIf="timelineEvents.length; else noEvents">
+
+      <ol>
+        <li *ngFor="let entry of timelineEvents; trackBy: trackById">
+          {{entry.name}}
+        </li>
+      </ol>
+
+      <router-outlet></router-outlet>
+
+    </ng-container>
+
+    <ng-template #noEvents>
+      <div class="col-12">
+        <p>No entries matched your search.</p>
+      </div>
+    </ng-template>
+  </ng-container>
+</div>
+
+<ng-template #initialLoadingSpinner>
+  <bls-loading-spinner></bls-loading-spinner>
+</ng-template>

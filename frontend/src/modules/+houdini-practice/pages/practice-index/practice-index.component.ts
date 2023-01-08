@@ -112,7 +112,7 @@ export class PracticeIndexComponent {
 
   practiceChangeIdx = 0;
 
-  public trackById(index: number, item: HoudiniDailyPractice) {
+  public trackById(index: number, item: { id: number }) {
     return item.id;
   }
 }

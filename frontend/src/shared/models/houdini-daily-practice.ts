@@ -1,7 +1,7 @@
 
 
 export type HoudiniDailyPractice = {
-  id: string,
+  id: number,
   // prevId: string | null,
   // nextId: string | null,
   name: string,
