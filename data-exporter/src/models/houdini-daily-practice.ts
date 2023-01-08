@@ -18,14 +18,14 @@ export class HoudiniDailyPractice {
     private _fullDesc: string = ''
   ) {
     this._thumbnails = [...thumbnails];
-    this._assets = [...assets.map(asset => ({...asset}))];
-    this._referenceAssets = [...referenceAssets.map(asset => ({...asset}))];
+    this._assets = assets.map(asset => ({...asset}));
+    this._referenceAssets = referenceAssets.map(asset => ({...asset}));
   }
 
   static async fromManifest(manifest: HoudiniDailyPracticeManifest): Promise<HoudiniDailyPractice> {
     let fullDesc = (await readFile(manifest.pathToBody)).toString();
     let links = (manifest.links || []).map(link => [link.name, link.href] as [string, string]);
-    return new HoudiniDailyPractice(manifest.id, manifest.name, manifest.description, manifest.date, manifest.thumbnails, manifest.assets, manifest.referenceAssets || [], manifest.tags, links, fullDesc);
+    return new HoudiniDailyPractice(manifest.id, manifest.name, manifest.description, manifest.date, manifest.thumbnails, manifest.assets || [], manifest.referenceAssets || [], manifest.tags, links, fullDesc);
   }
 
   get id() {

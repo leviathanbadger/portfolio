@@ -16,13 +16,13 @@ export class RustEngineTimelineEntry {
     private _links: [string, string][],
     private _fullDesc: string = ''
   ) {
-    this._assets = [...assets.map(asset => ({...asset}))];
+    this._assets = assets.map(asset => ({...asset}));
   }
 
   static async fromManifest(manifest: RustEngineTimelineEntryManifest): Promise<RustEngineTimelineEntry> {
     let fullDesc = manifest.body || (await readFile(manifest.pathToBody)).toString();
     let links = (manifest.links || []).map(link => [link.name, link.href] as [string, string]);
-    return new RustEngineTimelineEntry(manifest.id, manifest.name, manifest.description, manifest.date, manifest.isBlooper, manifest.primaryScreenshot, manifest.assets, links, fullDesc);
+    return new RustEngineTimelineEntry(manifest.id, manifest.name, manifest.description, manifest.date, manifest.isBlooper, manifest.primaryScreenshot, manifest.assets || [], links, fullDesc);
   }
 
   get id() {
