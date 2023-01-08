@@ -52,9 +52,13 @@ export class LayoutComponent {
       map(e => (<RoutesRecognized>e).state.root),
       startWith(this.startSnapshot.snapshot),
       map(snapshot => {
-        while (snapshot.firstChild) snapshot = snapshot.firstChild;
-        let data = (snapshot && snapshot.data) || {};
-        return data.routeType || `unique${this.uniqueCounter++}`;
+        let routeType = null;
+        while (snapshot.firstChild) {
+          snapshot = snapshot.firstChild;
+          let data = (snapshot && snapshot.data) || {};
+          if (!!data.routeType) routeType = data.routeType;
+        }
+        return routeType || `unique${this.uniqueCounter++}`;
       })
     );
   }
