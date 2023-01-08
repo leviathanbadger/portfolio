@@ -1,0 +1,10 @@
+id: 15
+name: 'HDR Output'
+description: 'Initial support for rendering to HDR-capable screens'
+date: 2022-12-18
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-15-2022-12-18.png
+links:
+  - name: Tone Mapping
+    href: https://64.github.io/tonemapping/
+pathToBody: rust-engine-timeline/bodies/progress-14.md

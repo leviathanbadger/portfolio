@@ -1,0 +1,17 @@
+id: 7
+name: 'OBJ Loading'
+description: 'Issue loading UVs from OBJ files'
+date: 2022-11-30
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-7-2022-11-30.png
+assets:
+  - type: image
+    src: /assets/images/rust-engine-timeline/progress-7-alt-1.png
+    alt: Rust-Vulkan tutorial-provided OBJ model rendered in my engine
+  - type: image
+    src: /assets/images/rust-engine-timeline/progress-7-alt-2.png
+    alt: Another model and material created in Adobe Substance Designer, rendered in my engine
+links:
+  - name: Die Houdini Practice
+    href: https://brandonslade.me/houdini-practice/95
+pathToBody: rust-engine-timeline/bodies/progress-6.md

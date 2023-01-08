@@ -1,0 +1,10 @@
+id: 13
+name: 'Instanced Marbles'
+description: 'Created motion blur in postprocessing render pass'
+date: 2022-12-04
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-14-2022-12-05.png
+links:
+  - name: Doom 2016 Graphics Study
+    href: https://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/
+pathToBody: rust-engine-timeline/bodies/progress-12.md

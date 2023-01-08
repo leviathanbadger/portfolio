@@ -1,0 +1,12 @@
+id: 1
+name: 'First Vulkan Render'
+description: 'Window swapchain rendered with Vulkan for the first time'
+date: 2022-11-17
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-0-2022-11-17.png
+links:
+  - name: Rust Vulkan Tutorial
+    href: https://kylemayes.github.io/vulkanalia/
+  - name: C++ Vulkan Tutorial
+    href: https://vulkan-tutorial.com/
+pathToBody: rust-engine-timeline/bodies/progress-0.md

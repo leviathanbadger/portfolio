@@ -1,0 +1,7 @@
+id: 5
+name: 'Textured Cube'
+description: 'Spinning cube with textured faces - no lighting'
+date: 2022-11-28
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-4-2022-11-28.png
+pathToBody: rust-engine-timeline/bodies/progress-4.md

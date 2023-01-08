@@ -1,0 +1,14 @@
+id: 6
+name: 'OBJ Loading Blooper'
+description: 'Issue loading UVs from OBJ files'
+date: 2022-11-30
+isBlooper: true
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-5-2022-11-30.png
+assets:
+  - type: image
+    src: /assets/images/rust-engine-timeline/progress-6-2022-11-30.png
+    alt: Incorrect UVs rendered in an attempt to diagnose OBJ loading issue
+links:
+  - name: Die Houdini Practice
+    href: https://brandonslade.me/houdini-practice/95
+pathToBody: rust-engine-timeline/bodies/progress-5.md

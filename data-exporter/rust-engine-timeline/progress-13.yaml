@@ -1,0 +1,7 @@
+id: 14
+name: 'Multiple Render Materials'
+description: 'Initial support for multiple materials and shaders in rendering scenes'
+date: 2022-12-11
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-14-2022-12-11.png
+pathToBody: rust-engine-timeline/bodies/progress-13.md

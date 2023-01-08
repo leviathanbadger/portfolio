@@ -1,0 +1,14 @@
+id: 8
+name: 'Normals and Diffuse Lighting'
+description: 'Normals and diffuse lighting from a single directional light'
+date: 2022-12-01
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-9-2022-12-01.png
+assets:
+  - type: image
+    src: /assets/images/rust-engine-timeline/progress-8-2022-12-01.png
+    alt: Die normals rendered to visualize surface texture
+links:
+  - name: Die Houdini Practice
+    href: https://brandonslade.me/houdini-practice/95
+pathToBody: rust-engine-timeline/bodies/progress-7.md

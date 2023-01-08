@@ -1,0 +1,10 @@
+id: 2
+name: 'First Cube Render'
+description: 'Model, view, projection matrices to render simple cube - no lighting'
+date: 2022-11-20
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-1-2022-11-20.png
+links:
+  - name: Jamie King Video
+    href: https://www.youtube.com/watch?v=U_RtSchYYec
+pathToBody: rust-engine-timeline/bodies/progress-1.md

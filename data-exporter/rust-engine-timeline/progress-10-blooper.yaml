@@ -1,0 +1,12 @@
+id: 11
+name: 'Instanced Rendering Blooper'
+description: 'Not sure how I got this result'
+date: 2022-12-05
+isBlooper: true
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-12-2022-12-05.png
+body: |
+  ### Color Explosion
+
+  I got this result when attempting to add instanced rendering. After half an hour I figured
+  out what I did wrong, but I have no idea why this is what was result I got from the error
+  that I made.

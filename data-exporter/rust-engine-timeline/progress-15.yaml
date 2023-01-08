@@ -1,0 +1,7 @@
+id: 16
+name: 'Specular Lighting'
+description: 'Blinn-Phong specular lighting at long last'
+date: 2022-12-19
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-15-2022-12-19.png
+pathToBody: rust-engine-timeline/bodies/progress-15.md

@@ -1,0 +1,14 @@
+id: 3
+name: 'Rotating Cube'
+description: 'Model matrix change over time'
+date: 2022-11-20
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-2-2022-11-20.png
+body: |
+  ### Spinning Cube
+
+  This is just a natural progression from the previous screenshot. All that's changed
+  is that the ModelView matrix is getting updated from frame to frame. The rotation is
+  done in a time-accurate way using the frame's delta time, but this isn't really that
+  big a deal. All of the work to accomplish it was already done for the previous
+  screenshot.

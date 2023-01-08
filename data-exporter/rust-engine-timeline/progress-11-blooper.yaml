@@ -1,0 +1,12 @@
+id: 12
+name: 'Instanced Rendering Blooper 2'
+description: 'Incorrect normal matrix'
+date: 2022-12-05
+isBlooper: true
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-12-2022-12-05.png
+body: |
+  ### Incorrect lighting calculation
+
+  I fixed most of the issues I was having with instanced rendering, but the lighting
+  calculations are still broken. Turns out I was passing the wrong matrix for the
+  normal matrix, which obviously caused some issues.

@@ -1,0 +1,10 @@
+id: 9
+name: 'Postprocessing'
+description: 'Created distortion effect in postprocessing render pass'
+date: 2022-12-03
+isBlooper: false
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-10-2022-12-03.png
+links:
+  - name: Die Houdini Practice
+    href: https://brandonslade.me/houdini-practice/95
+pathToBody: rust-engine-timeline/bodies/progress-8.md

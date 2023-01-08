@@ -1,0 +1,11 @@
+id: 4
+name: 'Indexed Rendering Blooper'
+description: 'Indexed vertices rendered without indices'
+date: 2022-11-20
+isBlooper: true
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-3-2022-11-20.png
+body: |
+  ### Indexed Cube Blooper
+
+  This is one of the reasons I like low-level graphics programming. Nowhere else do you
+  get errors like this.
