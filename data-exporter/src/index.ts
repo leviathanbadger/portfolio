@@ -9,6 +9,9 @@ import { PortfolioProject } from './models/portfolio-project.js';
 import { HoudiniDailyPracticeManifest } from './models/houdini-daily-practice-manifest.js';
 import { HoudiniDailyPractice } from './models/houdini-daily-practice.js';
 import { PortfolioHoudiniDailyPractice } from './models/portfolio-houdini-daily-practice.js';
+import { RustEngineTimelineEntryManifest } from './models/rust-engine-timeline-entry-manifest.js';
+import { RustEngineTimelineEntry } from './models/rust-engine-timeline-entry.js';
+import { PortfolioRustEngineTimelineEntry } from './models/portfolio-rust-engine-timeline-entry.js';
 
 async function loadAllProjects(): Promise<Project[]> {
   let allFilePaths = await getAllFiles('projects', { resolve: false }).toArray();
@@ -34,6 +37,18 @@ async function loadAllHoudiniDailyPractice(): Promise<HoudiniDailyPractice[]> {
   return await Promise.all(allBodies.map(body => HoudiniDailyPractice.fromManifest(body)));
 }
 
+async function loadAllRustEngineTimelineEntries(): Promise<RustEngineTimelineEntry[]> {
+  let allFilePaths = await getAllFiles('rust-engine-timeline', { resolve: false }).toArray();
+  let allManifestPaths = allFilePaths.filter(file => file.endsWith('.yaml') || file.endsWith('.yml'));
+  let bodyPromises: Promise<RustEngineTimelineEntryManifest>[] = [];
+  for (let manifestPath of allManifestPaths) {
+    let bodyPromise = readFile(manifestPath).then(body => parse(body.toString()) as RustEngineTimelineEntryManifest);
+    bodyPromises.push(bodyPromise);
+  }
+  let allBodies = await Promise.all(bodyPromises);
+  return await Promise.all(allBodies.map(body => RustEngineTimelineEntry.fromManifest(body)));
+}
+
 async function main() {
   console.log('Converting projects...');
   const allProjects = await loadAllProjects();
@@ -42,6 +57,10 @@ async function main() {
   console.log('Converting Houdini daily practices...');
   const allHoudiniPractices = await loadAllHoudiniDailyPractice();
   const convertedHoudiniPractices = allHoudiniPractices.map(proj => proj.toPortfolioHoudiniDailyPractice());
+
+  console.log('Converting Rust Engine timeline entries...');
+  const allRustEngineTimelineEntries = await loadAllRustEngineTimelineEntries();
+  const convertedRustEngineTimelineEntries = allRustEngineTimelineEntries.map(entry => entry.toPortfolioRustEngineTimelineEntry());
 
   console.log('Creating DynamoDBClient...');
   const ddb = new DynamoDBClient({
@@ -61,7 +80,13 @@ async function main() {
     await upsertHoudiniDailyPractice(ddb, practice);
   }
 
-  console.log(`Converted ${allProjects.length} projects and ${allHoudiniPractices.length} Houdini daily practices!`);
+  for (let q = 0; q < convertedRustEngineTimelineEntries.length; q++) {
+    let entry = convertedRustEngineTimelineEntries[q];
+    console.log(`Updating Rust Engine timeline entry ${q + 1} of ${convertedRustEngineTimelineEntries.length}: (${entry.Name})...`);
+    await upsertRustEngineTimelineEntry(ddb, entry);
+  }
+
+  console.log(`Converted ${allProjects.length} projects, ${allHoudiniPractices.length} Houdini daily practices, and ${convertedRustEngineTimelineEntries.length} Rust Engine timeline entries!`);
 }
 
 async function upsertProject(ddb: DynamoDBClient, proj: PortfolioProject) {
@@ -82,6 +107,20 @@ async function upsertHoudiniDailyPractice(ddb: DynamoDBClient, practice: Portfol
   const command = new PutItemCommand({
     TableName: 'PortfolioHoudiniDailyPractices',
     Item: marshall(practice, { removeUndefinedValues: true, convertEmptyValues: true })
+  });
+
+  try {
+    await ddb.send(command);
+  }
+  catch (err) {
+    console.error(err);
+  }
+}
+
+async function upsertRustEngineTimelineEntry(ddb: DynamoDBClient, entry: PortfolioRustEngineTimelineEntry) {
+  const command = new PutItemCommand({
+    TableName: 'PortfolioRustEngineTimelineEntries',
+    Item: marshall(entry, { removeUndefinedValues: true, convertEmptyValues: true })
   });
 
   try {
