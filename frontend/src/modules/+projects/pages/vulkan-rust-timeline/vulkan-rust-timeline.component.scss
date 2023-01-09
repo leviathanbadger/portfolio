@@ -7,3 +7,66 @@ input[type=checkbox] + label {
   -o-user-select:none;
   user-select:none;
 }
+
+.timeline-wrapper {
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0, .01));
+  border-bottom: 1px solid rgb(220, 220, 220);
+  overflow: hidden;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid black;
+    top: calc((200px - 80px) / 2);
+  }
+
+  & > .timeline-progress {
+    display: block;
+    position: absolute;
+    border-bottom: 4px solid red;
+    top: calc((200px - 80px - 4px) / 2);
+    width: 300vw;
+    margin-left: -300vw;
+    transition: left .5s;
+  }
+
+  & > .entry-icon {
+    position: absolute;
+    display: inline-block;
+    top: calc((200px - 80px) / 2);
+    margin-top: calc(-35px / 2);
+    margin-left: calc(-35px / 2);
+    vertical-align: middle;
+    cursor: pointer;
+    transform: scale(.5);
+    transition: left .5s, transform .2s linear 0s, color .2s linear 0s;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      border-left: 4px solid red;
+      top: 50%;
+      left: calc(50% - 2px);
+      height: 0;
+      transition: height .2s linear 0s;
+      z-index: -1;
+    }
+
+    &.active {
+      transform: scale(1);
+      color: red;
+      transition: left .5s, transform .2s linear .5s, color .2s linear .5s;
+
+      &:after {
+        height: 200px;
+        transition: height .2s linear .5s;
+      }
+    }
+  }
+}
