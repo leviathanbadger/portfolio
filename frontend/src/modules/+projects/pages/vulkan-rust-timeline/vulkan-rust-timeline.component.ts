@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { faArrowLeft, faArrowRight, faCircle, faStar } from '@fortawesome/free-solid-svg-icons';
 import { combineLatest, Observable } from 'rxjs';
-import { debounceTime, distinctUntilChanged, filter, map, shareReplay, switchMap, tap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, filter, map, shareReplay, switchMap } from 'rxjs/operators';
 import { ObservableInput } from 'src/shared/directives/observable-input.directive';
 import { isResultDoneLoading, isResultResolved, Result } from 'src/shared/models/result';
 import { RustEngineTimelineEntry } from 'src/shared/models/rust-engine-timeline-entry';
@@ -88,7 +88,6 @@ export class VulkanRustTimelineComponent implements OnInit {
 
     let selectedParam = this.route.firstChild!.paramMap.pipe(
       map(params => params.get('entryId')),
-      tap(console.log.bind(console)),
       distinctUntilChanged()
     );
 
@@ -113,7 +112,7 @@ export class VulkanRustTimelineComponent implements OnInit {
   }
   public getTimelineEventOffsetById(entries: RustEngineTimelineEntry[], id: string | null): string {
     let idx = entries.findIndex(entry => `${entry.id}` == id);
-    if (idx !== 0 && !idx) return '0px';
+    if (idx == -1) return '0px';
     return this.getTimelineEventOffsetByIndex(entries, idx);
   }
 }
