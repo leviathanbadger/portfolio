@@ -1,9 +1,9 @@
 id: 17
 name: 'Normal Map'
 description: 'Compute tangent space and adjust normals using normal map'
-date: 2022-12-19
+date: 2022-12-20
 isBlooper: false
-primaryScreenshot: /assets/images/rust-engine-timeline/progress-15-2022-12-19.png
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-16-2022-12-20.png
 links:
   - name: Normal Mapping Tutorial
     href: https://learnopengl.com/Advanced-Lighting/Normal-Mapping
