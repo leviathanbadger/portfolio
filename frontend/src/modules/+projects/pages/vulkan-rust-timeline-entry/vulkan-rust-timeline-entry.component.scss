@@ -21,6 +21,10 @@ $window-border-thickness: 2px;
     border-left: 1px solid $window-border-color;
     border-right: 1px solid $window-border-color;
     border-top: 1px solid $window-border-color;
+
+    .loading & {
+      opacity: .5;
+    }
   }
 
   & > .primary-screenshot {
@@ -28,8 +32,21 @@ $window-border-thickness: 2px;
     padding-left: $window-border-thickness;
     position: relative;
 
-    & > img {
+    & > .img-wrapper {
       width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: black;
+    }
+
+    & img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      transition: filter .3s;
+
+      .loading & {
+        filter: blur(10px);
+      }
     }
 
     &:before, &:after {
@@ -63,4 +80,13 @@ $window-border-thickness: 2px;
     border-right: 1px solid $window-border-color;
     border-bottom: 1px solid $window-border-color;
   }
+}
+
+.loading .container {
+  opacity: .5;
+}
+
+.loading .display-assets {
+  transition: filter .3s;
+  filter: blur(10px);
 }
