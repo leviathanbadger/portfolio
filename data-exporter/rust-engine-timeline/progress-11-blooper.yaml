@@ -3,7 +3,7 @@ name: 'Instanced Rendering Blooper 2'
 description: 'Incorrect normal matrix'
 date: 2022-12-05
 isBlooper: true
-primaryScreenshot: /assets/images/rust-engine-timeline/progress-12-2022-12-05.png
+primaryScreenshot: /assets/images/rust-engine-timeline/progress-13-2022-12-05.png
 body: |
   ### Incorrect lighting calculation
 
