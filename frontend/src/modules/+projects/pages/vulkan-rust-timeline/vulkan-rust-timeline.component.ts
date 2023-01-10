@@ -58,6 +58,7 @@ export class VulkanRustTimelineComponent implements OnInit {
   error$!: Observable<string | null>;
 
   selectedId$!: Observable<string | null>;
+  lastId$!: Observable<string | null>;
 
   faCircle = faCircle;
   faStar = faStar;
@@ -93,9 +94,18 @@ export class VulkanRustTimelineComponent implements OnInit {
 
     this.selectedId$ = combineLatest([selectedParam, this.timelineEvents$]).pipe(
       map(([entryId, timelineEvents]) => {
-        if (!timelineEvents) return entryId;
+        if (!timelineEvents || !timelineEvents.length) return entryId;
         if (entryId === 'latest') return `${timelineEvents[timelineEvents.length - 1].id}`;
         return entryId;
+      }),
+      distinctUntilChanged(),
+      shareReplay(1)
+    );
+
+    this.lastId$ = this.timelineEvents$.pipe(
+      map((timelineEvents) => {
+        if (!timelineEvents || !timelineEvents.length) return 'unknown';
+        return `${timelineEvents[timelineEvents.length - 1].id}`;
       }),
       distinctUntilChanged(),
       shareReplay(1)
@@ -114,5 +124,19 @@ export class VulkanRustTimelineComponent implements OnInit {
     let idx = entries.findIndex(entry => `${entry.id}` == id);
     if (idx == -1) return '0px';
     return this.getTimelineEventOffsetByIndex(entries, idx);
+  }
+
+  public getPreviousId(entries: RustEngineTimelineEntry[] | null, selectedId: string | null): number {
+    if (!entries || !entries.length || !selectedId) return -1;
+    let idx = entries.findIndex(entry => `${entry.id}` == selectedId);
+    if (idx <= 0) return -1;
+    return entries[idx - 1].id;
+  }
+
+  public getNextId(entries: RustEngineTimelineEntry[] | null, selectedId: string | null): number {
+    if (!entries || !entries.length || !selectedId) return -1;
+    let idx = entries.findIndex(entry => `${entry.id}` == selectedId);
+    if (idx >= entries.length - 1) return -1;
+    return entries[idx + 1].id;
   }
 }
