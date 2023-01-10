@@ -136,7 +136,7 @@ export class VulkanRustTimelineComponent implements OnInit {
   public getNextId(entries: RustEngineTimelineEntry[] | null, selectedId: string | null): number {
     if (!entries || !entries.length || !selectedId) return -1;
     let idx = entries.findIndex(entry => `${entry.id}` == selectedId);
-    if (idx >= entries.length - 1) return -1;
+    if (idx == -1 || idx >= entries.length - 1) return -1;
     return entries[idx + 1].id;
   }
 }
