@@ -1,0 +1,11 @@
+### Solar System (Day 2)
+
+I'm planning to create a really high-resolution render of two of my projects, then order
+a custom two-sided puzzle printed so I can assemble it in a physical form. Just on a whim.
+I haven't decided what I'll do for the second side, but the first side will be a variation
+on the solar system project I started back in May of last year.
+
+I'm changing it from being an abstract solar-system render to being a desk/office view
+with a cluttered desk, including scale models of the planets in the solar system only as
+decorations. Today I added the desk and created a material for it in Adobe Substance
+Painter.

@@ -1,0 +1,31 @@
+id: 100
+name: Solar System Day 2
+description: A recreation of the planets in our solar system
+date: 2023-02-23
+previous: 99
+previousInSequence: 73
+thumbnails:
+  - /assets/images/houdini-daily-practice/100/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/100/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/100/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/100/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/100/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/100/render-2.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/73/reference-0.png
+tags:
+  - sops
+  - karma
+  - solaris
+  - lops
+  - reference
+  - materialx
+  - uvs
+  - hdri
+  - substance-painter
+pathToBody: houdini-daily-practice/bodies/0100-solar-system-2.md

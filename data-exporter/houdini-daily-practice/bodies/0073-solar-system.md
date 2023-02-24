@@ -1,4 +1,4 @@
-### Solar System
+### Solar System (Day 1)
 
 It's my birthday, so I took some PTO. I'm trying to get back into
 the swing of things for rendering after several months away, so

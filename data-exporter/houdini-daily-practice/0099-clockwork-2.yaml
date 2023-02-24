@@ -3,6 +3,7 @@ name: Clockwork Day 2
 description: Clockwork render with Substance Painter materials and anisotropy
 date: 2022-12-30
 previous: 98
+next: 100
 previousInSequence: 98
 thumbnails:
   - /assets/images/houdini-daily-practice/99/thumbnail-0.png
