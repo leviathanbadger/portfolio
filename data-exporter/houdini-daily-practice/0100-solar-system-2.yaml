@@ -1,9 +1,11 @@
 id: 100
 name: Solar System Day 2
-description: A recreation of the planets in our solar system
+description: A cluttered desk, including solar system paperweights
 date: 2023-02-23
 previous: 99
+next: 101
 previousInSequence: 73
+nextInSequence: 101
 thumbnails:
   - /assets/images/houdini-daily-practice/100/thumbnail-0.png
   - /assets/images/houdini-daily-practice/100/thumbnail-1.png

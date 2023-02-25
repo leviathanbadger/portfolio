@@ -1,0 +1,25 @@
+### Solar System (Day 3)
+
+I'm planning to create a really high-resolution render of two of my projects, then order
+a custom two-sided puzzle printed so I can assemble it in a physical form. Just on a whim.
+I haven't decided what I'll do for the second side, but the first side will be a variation
+on the solar system project I started back in May of last year.
+
+I'm changing it from being an abstract solar-system render to being a desk/office view
+with a cluttered desk, including scale models of the planets in the solar system only as
+decorations.
+
+Today I added a mouse and mouse pad. This may seem simple, and the mouse pad _was_ simple,
+but the mouse itself defeated me. I don't like how it turned out, I think it's ugly. I ended
+up going with a combination of procedural nodes and "sculpt" nodes to try to get a somewhat
+organic shape. Instead, I got a bulbous monstrosity that looks vaguely inappropriate.
+
+I expect the keyboard to be equally difficult, although that will be for a different reason.
+That's a project for tomorrow, however.
+
+I have plans for a lot of decorations/clutter to place on the desk and surrounding area.
+I'm having a hard time deciding where to put the planets, actually. They don't really _fit_,
+even though the idea was created around them in the first place. I've got several days of
+work just to create other decorations I have planned; if I can't figure out where to put
+them then I'll probably delete them and maybe hang a "poster" on the wall with the original
+render from day 73.
