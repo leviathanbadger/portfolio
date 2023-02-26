@@ -3,7 +3,9 @@ name: Solar System Day 3
 description: A cluttered desk, including solar system paperweights
 date: 2023-02-24
 previous: 100
+next: 102
 previousInSequence: 100
+nextInSequence: 102
 thumbnails:
   - /assets/images/houdini-daily-practice/101/thumbnail-0.png
   - /assets/images/houdini-daily-practice/101/thumbnail-1.png

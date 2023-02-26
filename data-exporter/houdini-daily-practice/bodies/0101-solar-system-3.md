@@ -14,6 +14,9 @@ but the mouse itself defeated me. I don't like how it turned out, I think it's u
 up going with a combination of procedural nodes and "sculpt" nodes to try to get a somewhat
 organic shape. Instead, I got a bulbous monstrosity that looks vaguely inappropriate.
 
+Additionally, I discovered an issue causing the "roughness" property to not be set properly
+on the desk material. I fixed it so the specular highlights shouldn't be so glaring.
+
 I expect the keyboard to be equally difficult, although that will be for a different reason.
 That's a project for tomorrow, however.
 
