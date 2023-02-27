@@ -1,6 +1,6 @@
 id: 101
-name: Solar System Day 3
-description: A cluttered desk, including solar system paperweights
+name: Cluttered Desk Day 2
+description: A cluttered desk, made to render a high-res image to print a jigsaw puzzle
 date: 2023-02-24
 previous: 100
 next: 102
@@ -32,4 +32,4 @@ tags:
   - uvs
   - hdri
   - substance-painter
-pathToBody: houdini-daily-practice/bodies/0101-solar-system-3.md
+pathToBody: houdini-daily-practice/bodies/0101-desk-2.md

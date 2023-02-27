@@ -1,10 +1,9 @@
 id: 100
-name: Solar System Day 2
-description: A cluttered desk, including solar system paperweights
+name: Cluttered Desk Day 1
+description: A cluttered desk, made to render a high-res image to print a jigsaw puzzle
 date: 2023-02-23
 previous: 99
 next: 101
-previousInSequence: 73
 nextInSequence: 101
 thumbnails:
   - /assets/images/houdini-daily-practice/100/thumbnail-0.png
@@ -30,4 +29,4 @@ tags:
   - uvs
   - hdri
   - substance-painter
-pathToBody: houdini-daily-practice/bodies/0100-solar-system-2.md
+pathToBody: houdini-daily-practice/bodies/0100-desk.md
