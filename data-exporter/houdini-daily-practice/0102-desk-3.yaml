@@ -24,6 +24,8 @@ referenceAssets:
     src: /assets/images/houdini-daily-practice/73/reference-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/2/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/reference-1.png
 tags:
   - sops
   - python

@@ -19,15 +19,13 @@ assets:
     src: /assets/images/houdini-daily-practice/101/render-2.png
   - type: image
     src: /assets/images/houdini-daily-practice/101/render-3.png
-referenceAssets:
-  - type: image
-    src: /assets/images/houdini-daily-practice/73/reference-0.png
 tags:
   - sops
+  - volumetric
   - karma
   - solaris
   - lops
-  - reference
+  - creative
   - materialx
   - uvs
   - hdri

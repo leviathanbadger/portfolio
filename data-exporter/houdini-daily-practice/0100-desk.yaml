@@ -19,6 +19,8 @@ assets:
 referenceAssets:
   - type: image
     src: /assets/images/houdini-daily-practice/73/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/100/reference-0.png
 tags:
   - sops
   - karma
