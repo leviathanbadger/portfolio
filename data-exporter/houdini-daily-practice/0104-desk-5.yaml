@@ -3,6 +3,7 @@ name: Cluttered Desk Day 5
 description: A cluttered desk, made to render a high-res image to print a jigsaw puzzle
 date: 2023-02-27
 previous: 103
+next: 105
 previousInSequence: 103
 thumbnails:
   - /assets/images/houdini-daily-practice/104/thumbnail-0.png
