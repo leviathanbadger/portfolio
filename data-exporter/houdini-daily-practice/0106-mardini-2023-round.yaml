@@ -1,0 +1,31 @@
+id: 106
+name: Mardini 2023 - Round
+description: Entry into the Mardini 2023 challenge for March 1
+date: 2023-03-01
+previous: 105
+thumbnails:
+  - /assets/images/houdini-daily-practice/106/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/KkE6lwXCwYM
+  - type: image
+    src: /assets/images/houdini-daily-practice/106/render-0.png
+tags:
+  - sops
+  - volumetric
+  - metaball
+  - tops
+  - pdg
+  - cops
+  - ffmpeg
+  - lops
+  - karma
+  - solaris
+  - creative
+  - animation
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0106-mardini-2023-round.md

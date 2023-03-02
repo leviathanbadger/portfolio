@@ -3,6 +3,7 @@ name: TOPs/PDG
 description: Following a tutorial to automate generating SOPs/DOPs variations and rendering a video
 date: 2023-02-28
 previous: 104
+next: 106
 thumbnails:
   - /assets/images/houdini-daily-practice/105/thumbnail-0.png
   - /assets/images/houdini-daily-practice/105/thumbnail-1.png
