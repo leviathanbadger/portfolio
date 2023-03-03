@@ -1,0 +1,31 @@
+id: 108
+name: Mardini 2023 - Obtuse
+description: Entry into the Mardini 2023 challenge for March 3
+date: 2023-03-03
+previous: 107
+thumbnails:
+  - /assets/images/houdini-daily-practice/108/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/108/render-0.png
+tags:
+  - sops
+  - heightfield
+  - volumetric
+  - lops
+  - karma
+  - solaris
+  - tops
+  - pdg
+  - reference
+  - mardini
+  - mardini-2023
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/108/reference-0.png
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+  - name: Reference Source
+    href: https://www.reddit.com/r/wallpapers/comments/7yhprb/abandoned_satellite_field_1920_1084/
+pathToBody: houdini-daily-practice/bodies/0108-mardini-2023-obtuse.md
