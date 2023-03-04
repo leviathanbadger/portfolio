@@ -11,7 +11,7 @@ The thing I learned today that I'd never done before: cameras have a "background
 and "foreground image" parameter that can point at a COP. Additionally, the Ramp COP
 can be used to generate a radial/concentric gradient.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89146/?page=1#post-385418
