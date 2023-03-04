@@ -1,0 +1,26 @@
+id: 110
+name: Mardini 2023 - Smooth
+description: Entry into the Mardini 2023 challenge for March 5
+date: 2023-03-05
+previous: 109
+thumbnails:
+  - /assets/images/houdini-daily-practice/110/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/110/render-0.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - tops
+  - pdg
+  - creative
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0110-mardini-2023-smooth.md
