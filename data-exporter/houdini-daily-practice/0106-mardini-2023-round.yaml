@@ -11,6 +11,8 @@ assets:
     src: https://www.youtube.com/embed/KkE6lwXCwYM
   - type: image
     src: /assets/images/houdini-daily-practice/106/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
 tags:
   - sops
   - volumetric

@@ -11,6 +11,8 @@ assets:
     src: /assets/images/houdini-daily-practice/112/render-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/112/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
 tags:
   - sops
   - dops

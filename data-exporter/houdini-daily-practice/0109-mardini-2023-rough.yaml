@@ -9,6 +9,8 @@ thumbnails:
 assets:
   - type: image
     src: /assets/images/houdini-daily-practice/109/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
 tags:
   - sops
   - heightfield
