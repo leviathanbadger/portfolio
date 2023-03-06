@@ -19,7 +19,7 @@ now this result is... fine.
 I also got to play with the "point deform" SOP for the first time. It's surprisingly
 easy to use, I'll have to use it again in the future.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89154/?page=1#post-385555

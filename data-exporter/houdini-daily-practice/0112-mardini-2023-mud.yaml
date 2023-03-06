@@ -3,6 +3,7 @@ name: Mardini 2023 - Mud
 description: Entry into the Mardini 2023 challenge for March 7
 date: 2023-03-07
 previous: 111
+next: 113
 thumbnails:
   - /assets/images/houdini-daily-practice/112/thumbnail-0.png
   - /assets/images/houdini-daily-practice/112/thumbnail-1.png
@@ -11,6 +12,8 @@ assets:
     src: /assets/images/houdini-daily-practice/112/render-0.png
   - type: image
     src: /assets/images/houdini-daily-practice/112/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/112/render-2.png
   - type: image
     src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
 tags:

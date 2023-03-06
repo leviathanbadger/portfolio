@@ -1,0 +1,35 @@
+id: 113
+name: Mardini 2023 - Sand
+description: Entry into the Mardini 2023 challenge for March 8
+date: 2023-03-08
+previous: 112
+thumbnails:
+  - /assets/images/houdini-daily-practice/113/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/113/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/113/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/113/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/113/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/113/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - tops
+  - pdg
+  - creative
+  - animation
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0113-mardini-2023-sand.md
