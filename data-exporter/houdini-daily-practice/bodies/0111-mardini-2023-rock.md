@@ -24,8 +24,8 @@ So, I bit the bullet and just exported texture maps from Substance Painter. The
 contest rules technically say that textures can come from external programs so long
 as the main art is done in Houdini...
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
 [pirates-3]: https://youtu.be/fjJRksUxkno
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89182/?page=1#post-385731
