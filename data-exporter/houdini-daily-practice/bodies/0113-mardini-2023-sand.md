@@ -22,14 +22,10 @@ able to use my computer for all of that time, which seems like a very poor use o
 resources considering I'm trying to get a backlog of practices done early so I am not
 distracted from work when it starts on the 16th.
 
-I am considering attempting to use an online render farm to get the results early.
-The estimate is it would cost ~$100 to finish the render in 3 hours. It isn't really
-worth it for a personal project that isn't going to earn my any money, but it might
-be worth it as a one-off for the experience.
-
-The alternative is to significantly reduce the quality of the animation, reducing 1.
-resolution, and 2. rays per pixel. Which I may have to do for the submission. Either
-way... here are a few still frames, animation pending.
+There are two videos here. The first is a massively sped-up version (1200% faster)
+so you can watch the hourglass draining over the course of 18 seconds, instead of
+3-4 minutes. If you _do_ want to watch the full thing, that's what the second video
+is for.
 
 <!-- My entry post is [here][entry-post]. -->
 

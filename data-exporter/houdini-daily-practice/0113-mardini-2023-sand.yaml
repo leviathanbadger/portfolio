@@ -9,6 +9,10 @@ thumbnails:
   - /assets/images/houdini-daily-practice/113/thumbnail-1.png
   - /assets/images/houdini-daily-practice/113/thumbnail-2.png
 assets:
+  - type: video
+    src: https://www.youtube.com/embed/N34aTfBa4Hs
+  - type: video
+    src: https://www.youtube.com/embed/p2Pd3XuEI04
   - type: image
     src: /assets/images/houdini-daily-practice/113/render-0.png
   - type: image
@@ -26,6 +30,8 @@ tags:
   - solaris
   - tops
   - pdg
+  - ffmpeg
+  - after-effects
   - creative
   - animation
   - mardini

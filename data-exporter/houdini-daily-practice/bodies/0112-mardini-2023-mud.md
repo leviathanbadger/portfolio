@@ -23,7 +23,7 @@ a real glass shader. Then I used the COPnet to combine the images with a "chroma
 node and composite text on top of everything. All of this (the rendering & compositing)
 was done using PDG/TOPs.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89200/?page=1#post-385869
