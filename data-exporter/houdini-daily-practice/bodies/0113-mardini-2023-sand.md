@@ -27,7 +27,7 @@ so you can watch the hourglass draining over the course of 18 seconds, instead o
 3-4 minutes. If you _do_ want to watch the full thing, that's what the second video
 is for.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89223/?page=1#post-386064

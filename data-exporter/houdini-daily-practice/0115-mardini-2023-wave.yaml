@@ -3,9 +3,12 @@ name: Mardini 2023 - Wave
 description: Entry into the Mardini 2023 challenge for March 10
 date: 2023-03-10
 previous: 114
+next: 116
 thumbnails:
   - /assets/images/houdini-daily-practice/115/thumbnail-0.png
 assets:
+  - type: video
+    src: https://www.youtube.com/embed/wn_1Q_i-hWs
   - type: image
     src: /assets/images/houdini-daily-practice/115/render-0.png
   - type: image
@@ -16,6 +19,7 @@ tags:
   - lops
   - karma
   - solaris
+  - materialx
   - creative
   - animation
   - pdg

@@ -16,12 +16,12 @@ Solaris/Karma before, so I hadn't realized you have to add a "Motion Blur" node
 explicitly to actually get motion blur, even though it's enabled in the render settings
 by default.
 
-The end result looks decent in stills, but I've yet to see what it looks like in an
-animation. It's possible it'll just be weird and ugly, or animate too slow or fast.
-We'll see.
+The end result looks decent in stills, and fine in an animation. A certain part of it
+animates too fast, so you can't tell what's going on and it looks like the tiles are
+having a seizure.
 
 I said I wasn't going to do another animation this week, didn't I? Well, I lied. I do
-that a lot. Animation pending.
+that a lot.
 
 <!-- My entry post is [here][entry-post]. -->
 
