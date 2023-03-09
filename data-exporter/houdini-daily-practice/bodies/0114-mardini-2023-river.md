@@ -16,7 +16,7 @@ TOPs to render this time.
 The "S.S. Georgie" texture is created using COPs, but not procedurally. The text
 would have to be manually placed again if the UVs were to be updated.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89246/?page=1#post-386218

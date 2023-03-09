@@ -3,6 +3,7 @@ name: Mardini 2023 - Trees
 description: Entry into the Mardini 2023 challenge for March 12
 date: 2023-03-12
 previous: 116
+next: 118
 thumbnails:
   - /assets/images/houdini-daily-practice/117/thumbnail-0.png
   - /assets/images/houdini-daily-practice/117/thumbnail-1.png
@@ -24,6 +25,7 @@ tags:
   - pdg
   - tops
   - cops
+  - creative
   - mardini
   - mardini-2023
 links:
