@@ -13,8 +13,8 @@ I did. It just... doesn't look good. COPs is a powerful tool, but it's very cons
 and difficult to use programmatically.
 
 The whole project turned into a flop in my opinion. This is my least favorite entry in
-the Mardini competition, including the paper airplane animation that doesn't look like
-a paper airplane and isn't in fact an animation.
+the Mardini competition, including the paper boat animation that doesn't look like a
+paper boat and isn't in fact an animation.
 
 <!-- My entry post is [here][entry-post]. -->
 

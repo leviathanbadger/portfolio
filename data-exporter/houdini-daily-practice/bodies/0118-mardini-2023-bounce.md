@@ -33,8 +33,6 @@ way to do it in Houdini. I think I just learned it the slow way because the "Sca
 and Align" SOP is only a few years old, and many of the tutorials I've seen are older
 than that.
 
-Anyway... animation pending.
-
 <!-- My entry post is [here][entry-post]. -->
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
