@@ -23,7 +23,7 @@ having a seizure.
 I said I wasn't going to do another animation this week, didn't I? Well, I lied. I do
 that a lot.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89279/#post-386414

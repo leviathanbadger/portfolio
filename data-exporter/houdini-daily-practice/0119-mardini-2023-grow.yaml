@@ -1,0 +1,30 @@
+id: 119
+name: Mardini 2023 - Grow
+description: Entry into the Mardini 2023 challenge for March 14
+date: 2023-03-14
+previous: 118
+thumbnails:
+  - /assets/images/houdini-daily-practice/119/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/119/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/119/output-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - creative
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0119-mardini-2023-grow.md
