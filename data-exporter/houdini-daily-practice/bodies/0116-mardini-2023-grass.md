@@ -25,7 +25,7 @@ I also bit the bullet and started pulling textures from online resources that I
 didn't create but own the rights to. Reading the rules carefully, this year that _is_
 allowed, so long as Houdini is the primary tool used.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 ### Animation Fiasco
 
@@ -39,4 +39,4 @@ fix it in a future release, but it's too late for that to help in the Mardini
 competition.
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89292/?page=2#post-386645
