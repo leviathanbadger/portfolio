@@ -14,7 +14,7 @@ branch/trunk seams, subsurface scattering on leaves, etc).
 To create the leaves I used a trace node for the first time, to create geometry from a
 texture atlas containing about 15 different leaves.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89303/?page=1#post-386680

@@ -3,6 +3,7 @@ name: Mardini 2023 - Crash
 description: Entry into the Mardini 2023 challenge for March 16
 date: 2023-03-16
 previous: 120
+next: 122
 thumbnails:
   - /assets/images/houdini-daily-practice/121/thumbnail-0.png
   - /assets/images/houdini-daily-practice/121/thumbnail-1.png
@@ -29,7 +30,6 @@ tags:
   - pdg
   - tops
   - ffmpeg
-  - after-effects
   - creative
   - animation
   - mardini

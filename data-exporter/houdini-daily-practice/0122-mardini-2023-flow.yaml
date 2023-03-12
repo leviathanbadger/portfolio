@@ -1,0 +1,41 @@
+id: 122
+name: Mardini 2023 - Flow
+description: Entry into the Mardini 2023 challenge for March 17
+date: 2023-03-17
+previous: 121
+thumbnails:
+  - /assets/images/houdini-daily-practice/122/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/122/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/OkUIY4OJFDY
+  - type: image
+    src: /assets/images/houdini-daily-practice/122/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/122/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - cops
+  - dops
+  - solver
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - animation
+  - ffmpeg
+  - after-effects
+  - reference
+  - mardini
+  - mardini-2023
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/122/reference-0.png
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0122-mardini-2023-flow.md
