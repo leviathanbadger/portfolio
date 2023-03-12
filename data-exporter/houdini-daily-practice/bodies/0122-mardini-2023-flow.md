@@ -12,13 +12,11 @@ animating properties on the rendered geometry itself. It was surprisingly easy. 
 Houdini's custom file picker seems to treat the entire range of images as a single image
 when you're picking the file.
 
-I don't knoe exactly why, but there were some issues I ran into while working in the
+I don't know exactly why, but there were some issues I ran into while working in the
 COPnet to render out the timeline screen images. About half of the time, instead of
 rendering based on the geometry in the current trame, it would render based on the
 geometry in the first frame. It didn't end up being an issue when I exported the flipbook,
 but it was annoying that the composite image viewer was so inconsistent.
-
-Animation pending.
 
 <!-- My entry post is [here][entry-post]. -->
 
