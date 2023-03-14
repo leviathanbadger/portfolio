@@ -1,14 +1,23 @@
 import { ReactNode } from 'react';
+import Footer from './footer';
+import Header from './header';
 import './globals.scss';
+import './layout.scss';
 
 function App({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
-            <div className="bls-root">
-                <div className='header'>Header</div>
-                {children}
-                <div className='footer'>Footer</div>
-            </div>
+            <head></head>
+
+            <body>
+                <Header></Header>
+
+                <main>
+                    {children}
+                </main>
+
+                <Footer></Footer>
+            </body>
         </html>
     );
 }
