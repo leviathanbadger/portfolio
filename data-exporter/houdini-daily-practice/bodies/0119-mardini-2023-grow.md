@@ -16,7 +16,7 @@ The whole project turned into a flop in my opinion. This is my least favorite en
 the Mardini competition, including the paper boat animation that doesn't look like a
 paper boat and isn't in fact an animation.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89334/?page=1#post-386930
