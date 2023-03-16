@@ -22,7 +22,7 @@ sure what the legality of that is. However, I've seen it done in other contexts
 enough that I'm not particularly worried it'll be a problem here, especially using
 it respectfully.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89352/?page=1#post-387065
