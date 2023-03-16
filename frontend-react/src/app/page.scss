@@ -1,0 +1,135 @@
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+$section-height: calc(100vh - 45px - 8.8px - 2px - 60px);
+
+.banner-content > .banner-right {
+  position: relative;
+  padding-left: 25px;
+  background: rgba(255, 255, 255, .5);
+  display: inline-block;
+  width: 100%;
+  margin-top: 2em;
+
+  .profile-icons > * {
+    margin-right: .5em;
+  }
+}
+
+.hello-sticker {
+  display: inline-block;
+  margin-bottom: 40px;
+
+  & > .hello-label {
+    background: rgb(220, 0, 0);
+    border-radius: 32px;
+    padding-bottom: 32px;
+    position: relative;
+    outline: 12px solid white;
+
+    &:before {
+      content: "";
+      display: block;
+      border: 1px solid rgb(120, 120, 120);
+      border-radius: 44px;
+      position: absolute;
+      left: -12px;
+      top: -12px;
+      right: -12px;
+      bottom: -12px;
+    }
+
+    & > * {
+      display: block;
+      text-align: center;
+    }
+
+    & > .hello {
+      color: white;
+      font-weight: bold;
+      font-size: 4rem;
+      margin-bottom: -.25em;
+      text-transform: uppercase;
+    }
+
+    & > .mynameis {
+      color: white;
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    & > .name {
+      background: white;
+      margin: 0 3px;
+      padding: .25em;
+      font-family: 'Dancing Script', cursive;
+      & > span {
+        display: inline-block;
+        transform: rotate(-2deg);
+      }
+    }
+  }
+}
+
+.banner-image {
+  display: none;
+  min-height: $section-height;
+  background-size: cover;
+  background-position: center;
+}
+
+@include media-breakpoint-up(sm) {
+  .hello-sticker {
+    transform: rotate(-3deg) translate(-30px, -15px);
+  }
+
+  .banner-image {
+    display: block;
+    min-height: $section-height;
+  }
+
+  .banner-content {
+    position: absolute;
+    min-height: $section-height;
+    width: 100vw;
+    & > .banner-right {
+      position: absolute;
+      margin-top: 0;
+      top: 50%;
+      left: calc(45% - 45px);
+      right: 0%;
+      width: calc(55% + 45px);
+      transform: translateY(-50%);
+      backdrop-filter: blur(10px);
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .banner-image {
+    display: block;
+  }
+
+  .banner-content {
+    position: absolute;
+    min-height: $section-height;
+    width: 100vw;
+    & > .banner-right {
+      position: absolute;
+      margin-top: 0;
+      top: 65%;
+      left: 60%;
+      right: 0%;
+      width: 40%;
+      transform: translateY(-50%);
+      backdrop-filter: blur(10px);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
