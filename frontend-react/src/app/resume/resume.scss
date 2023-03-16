@@ -1,0 +1,78 @@
+
+
+.resume {
+  font-family: Cambria;
+
+  .title {
+    margin: 3em 0;
+    text-align: center;
+    position: relative;
+
+    & .links {
+      .link-separator:before {
+        content: '|';
+        display: inline-block;
+        padding: 0 .5em;
+      }
+    }
+
+    & .pdf-button-links {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .section {
+    margin-bottom: 3em;
+
+    & h3 {
+      font-family: Calibri;
+      font-size: larger;
+      font-weight: 500;
+      color: grey;
+      margin: 1em 0;
+      width: 100%;
+      border-bottom: 1px solid lightgrey;
+    }
+  }
+
+  .line {
+    &.strong, & > .degree { font-weight: bold; }
+  }
+}
+
+.certification-list {
+  & > * {
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    &:hover {
+      outline: 1px solid lightgray;
+
+      & .details {
+        opacity: 1;
+      }
+    }
+
+    & img {
+      width: auto;
+      height: 140px;
+    }
+    & .details {
+      color: gray;
+      text-decoration: none;
+      font-size: smaller;
+      text-align: center;
+      opacity: 0;
+    }
+  }
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    margin-bottom: -2em;
+  }
+}
