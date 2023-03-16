@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './footer.scss';
 
 function Footer() {
@@ -12,6 +13,7 @@ function Footer() {
                     </div>
 
                     <div className="d-flex col-4 justify-content-center">
+                        <Link href="/sitemap" className="ms-2 text-light">Sitemap</Link>
                     </div>
 
                     <ul className="nav profile-icons col-4 justify-content-end">
