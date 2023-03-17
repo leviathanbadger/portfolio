@@ -19,7 +19,7 @@ function Home() {
 
                     <p className="lead">
                         Senior DevOps Engineer and Software Engineer
-                        <Link href="/projects">
+                        <Link href="/projects/index">
                             <button className="ms-4 btn btn-primary">
                                 View Projects<FontAwesomeIcon icon={faArrowRight} className="ms-2" />
                             </button>
@@ -28,7 +28,7 @@ function Home() {
 
                     <p className="lead">
                         Houdini Enthusiast
-                        <Link href="/houdini-practice">
+                        <Link href="/houdini-practice/index">
                             <button className="ms-4 btn btn-primary">
                                 View Practice<FontAwesomeIcon icon={faArrowRight} className="ms-2" />
                             </button>

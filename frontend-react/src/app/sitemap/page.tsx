@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 function Sitemap() {
     return (
         <div className="container">
@@ -15,7 +14,6 @@ function Sitemap() {
                     <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/resume">R&eacute;sum&eacute;</Link></li>
-                        <li><Link href="/houdini-practice">Houdini Practice (Index)</Link></li>
                         <li><Link href="/sitemap">Sitemap</Link></li>
                     </ul>
                 </div>
@@ -28,6 +26,16 @@ function Sitemap() {
                         <li><Link href="/projects/current">Current Project</Link></li>
                         <li><Link href="/projects/vulkan-rust-game-engine/overview">Vulkan Rust Game Engine (Overview)</Link></li>
                         <li><Link href="/projects/vulkan-rust-game-engine/timeline">Vulkan Rust Game Engine (Timeline)</Link></li>
+                    </ul>
+                </div>
+
+                <div className="col-4 sitemap-section">
+                    <h3 className="mt-2">Houdini Practice</h3>
+
+                    <ul>
+                        <li><Link href="/houdini-practice/index">Houdini Practice (Index)</Link></li>
+                        <li><Link href="/houdini-practice/latest">Latest Houdini Practice</Link></li>
+                        {/* <li><Link href="/houdini-practice/125/variations">Mardini 2023 - Bulb Variations</Link></li> */}
                     </ul>
                 </div>
 
