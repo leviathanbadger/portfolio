@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import './header.scss';
 
 function getLinkClassNames(pathname: string, path: string, exact = false) {
     let names = "nav-link px-3 pb-2 text-light";

@@ -11,7 +11,8 @@ const nextConfig = {
             source: '/api/:path*',
             destination: 'https://brandonslade.me/api/:path*'
         }];
-    }
+    },
+    reactStrictMode: true
 };
 
 module.exports = nextConfig;
