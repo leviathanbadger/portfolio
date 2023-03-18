@@ -18,7 +18,7 @@ rendering based on the geometry in the current trame, it would render based on t
 geometry in the first frame. It didn't end up being an issue when I exported the flipbook,
 but it was annoying that the composite image viewer was so inconsistent.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89399/?page=1#post-387383

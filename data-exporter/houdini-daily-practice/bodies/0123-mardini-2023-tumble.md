@@ -23,7 +23,7 @@ I've done something similar with the bark shader in my most recent tree render,
 but 1. it was a single material still, just different UVs being blended; and 2. the
 Labs tree generator created the blend "mask" automatically, and I did it myself here.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89413/?page=1#post-387515

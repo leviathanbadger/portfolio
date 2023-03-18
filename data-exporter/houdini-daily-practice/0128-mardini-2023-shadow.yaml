@@ -1,0 +1,42 @@
+id: 128
+name: Mardini 2023 - Shadow
+description: Entry into the Mardini 2023 challenge for March 23
+date: 2023-03-23
+previous: 127
+next: 129
+thumbnails:
+  - /assets/images/houdini-daily-practice/128/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/128/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/128/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/GEODF5cEmxQ
+  - type: image
+    src: /assets/images/houdini-daily-practice/128/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/128/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/128/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - cops
+  - fbx
+  - kinefx
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - creative
+  - animation
+  - ffmpeg
+  - after-effects
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0128-mardini-2023-shadow.md
