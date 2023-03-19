@@ -27,7 +27,7 @@ I expected it to take a while, because if the indirect lighting, so I'm skipping
 PDG/TOPs for this practice so that I can get 5-minute interval frame updates in
 case the render crashes.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89423/?page=1#post-387596
