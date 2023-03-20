@@ -22,7 +22,7 @@ helps produce the desired effect on the light, but it blurs the other components
 light bulb, which I don't want. The previous project worked out a little better in this
 regard because most of the lights were off-screen so no light bloom is needed.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89435/?page=1#post-387690

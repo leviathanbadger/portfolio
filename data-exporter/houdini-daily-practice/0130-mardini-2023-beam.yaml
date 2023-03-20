@@ -1,0 +1,47 @@
+id: 130
+name: Mardini 2023 - Beam
+description: Entry into the Mardini 2023 challenge for March 25
+date: 2023-03-25
+previous: 129
+thumbnails:
+  - /assets/images/houdini-daily-practice/130/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/130/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/130/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/130/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/130/thumbnail-4.png
+  - /assets/images/houdini-daily-practice/130/thumbnail-5.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-4.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/130/render-5.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - volumetric
+  - dops
+  - ocean
+  - whitewater
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - cops
+  - creative
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0130-mardini-2023-beam.md
