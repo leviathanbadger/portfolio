@@ -26,7 +26,7 @@ the animation.
 Unfortunately, until the last 240 frames, I won't even have a single image to use
 in the portfolio site.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89449/?page=1#post-387823
