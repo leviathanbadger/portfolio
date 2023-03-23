@@ -33,7 +33,7 @@ I had originally planned it to look like.
 Lastly, the light pollution in the background (behind the mountains) was accomplished
 using COPs.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89464/?page=1#post-387960

@@ -1,0 +1,33 @@
+id: 132
+name: Mardini 2023 - Ancient
+description: Entry into the Mardini 2023 challenge for March 27
+date: 2023-03-27
+previous: 131
+thumbnails:
+  - /assets/images/houdini-daily-practice/132/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/132/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - displacement
+  - pdg
+  - tops
+  - reference
+  - mardini
+  - mardini-2023
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/132/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/132/reference-1.png
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/0132-mardini-2023-ancient.md
