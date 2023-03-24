@@ -5,19 +5,22 @@ import { ProjectContext } from '@/app/context';
 import Link from 'next/link';
 import './page.scss';
 import MarkdownRender from '@/components/markdown-render/markdown-render';
+import Slideshow, { SlideshowItem } from '@/components/slideshow/slideshow';
 
 function ProjectOverview() {
     const { project } = useContext(ProjectContext);
+    const slideshowItems: SlideshowItem[] = (project?.images || []).map(img => ({
+        type: 'image',
+        src: img.href!
+    }));
 
     return (
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    {/* <bls-slideshow
-                      *ngIf="items?.length"
-                      [items]="items"
-                      aspectRatioType="project">
-                    </bls-slideshow> */}
+                    {!!slideshowItems && slideshowItems.length > 0 && (
+                        <Slideshow items={slideshowItems} aspectRatioType="project"></Slideshow>
+                    )}
                 </div>
             </div>
 
