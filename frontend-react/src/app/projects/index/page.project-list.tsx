@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import './page.project-list.scss';
 import ProjectFilter from './page.project-filter';
-import { Project } from '@/models';
 import ProjectCard from './page.project-card';
+import './page.project-list.scss';
+import { Project } from '@/models';
 
 function projectMatchFilter(project: Project, filter: string): { project: Project, relevance: number } {
     filter = filter.toLowerCase();

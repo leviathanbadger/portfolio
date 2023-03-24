@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import './page.project-list.scss';
+import './page.project-card.scss';
 import { Project } from '@/models';
 import AlternatingImage from '@/components/alternating-image/alternating-image';
 

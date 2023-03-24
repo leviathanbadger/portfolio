@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import './page.scss';
 import ProjectList from './page.project-list';
 import { Project } from '@/models';
+import './page.scss';
 
 export async function getAllProjects(): Promise<Project[]> {
     const res = await fetch('https://brandonslade.me/api/projects');
