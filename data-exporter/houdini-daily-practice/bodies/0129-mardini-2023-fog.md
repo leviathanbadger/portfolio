@@ -31,7 +31,7 @@ the end result.
 By the way, each of these four frames took over an hour to render, because I did them
 on the CPU with extremely high settings to avoid having noisy fog volumes.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89510/?page=1#post-388260

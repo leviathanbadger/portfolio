@@ -38,7 +38,7 @@ added a lot more light and finally included the demon thing in the actual render
 both a shadow _and_ a reflection. So I have three videos, but I'm only uploading the
 third and final one because the other two are more of the same... just worse.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89484/?page=1#post-388083
