@@ -3,6 +3,10 @@
 .card.link-card {
   cursor: pointer;
 
+  & > .card-body {
+    padding: 1rem;
+  }
+
   & .card-title {
     color: $primary1;
   }
