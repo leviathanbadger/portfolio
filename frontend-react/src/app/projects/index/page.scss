@@ -1,40 +1,9 @@
-@import "../../theme.scss";
 
-.card.link-card {
-  cursor: pointer;
-
-  & .card-title {
-    color: $primary1;
-  }
-  &:hover .card-title {
-    color: $primary3;
-  }
-}
 
 .section {
   width: 100%;
 
   padding-bottom: 1em;
-}
-
-.project-filter-wrapper {
-  padding: 1em;
-  position: relative;
-
-  & > .btn-clear-filter {
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    color: black;
-    opacity: .5;
-    transition: .2s opacity;
-    text-decoration: none;
-
-    &:hover {
-      color: black;
-      opacity: 1;
-    }
-  }
 }
 
 .title {

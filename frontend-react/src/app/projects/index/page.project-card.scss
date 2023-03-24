@@ -1,0 +1,12 @@
+@import "../../theme.scss";
+
+.card.link-card {
+  cursor: pointer;
+
+  & .card-title {
+    color: $primary1;
+  }
+  &:hover .card-title {
+    color: $primary3;
+  }
+}

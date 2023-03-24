@@ -6,13 +6,11 @@ export function useObservable<T>(state$: Observable<T> | (() => Observable<T>), 
 
     useEffect(() => {
         if (!isObservable(state$)) state$ = state$();
-        console.log('Subscribing!');
         const subscription = state$.subscribe(state => {
             setState(state);
         });
 
         return () => {
-            console.log('Unsubscribing!');
             subscription.unsubscribe();
         };
     }, []);
