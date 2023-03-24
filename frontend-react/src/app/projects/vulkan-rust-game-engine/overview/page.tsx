@@ -1,10 +1,8 @@
-
+import ProjectOverview from '../../[slug]/overview/page';
 
 function VulkanRustOverview() {
     return (
-        <div>
-            Hello, Vulkan Rust Game Engine (overview)!
-        </div>
+        <ProjectOverview></ProjectOverview>
     );
 }
 

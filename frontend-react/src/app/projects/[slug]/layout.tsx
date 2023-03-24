@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 import { getAllProjects } from '../index/page';
 import ProjectProvider from '@/app/context/project';
 
-async function getProjectBySlug(slug: string): Promise<Project> {
+export async function getProjectBySlug(slug: string): Promise<Project> {
     const projects = await getAllProjects();
 
     const project = projects.filter(proj => proj.slug === slug)[0] || null;

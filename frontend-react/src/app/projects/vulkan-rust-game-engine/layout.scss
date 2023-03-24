@@ -1,0 +1,13 @@
+
+
+.section {
+  width: 100%;
+}
+
+.subsection-nav {
+  border-bottom: 1px solid #dee2e6;
+
+  & > .container {
+    margin-bottom: -1px;
+  }
+}
