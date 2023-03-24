@@ -3,7 +3,7 @@ import './page.scss';
 import ProjectList from './page.project-list';
 import { Project } from '@/models';
 
-async function getAllProjects(): Promise<Project[]> {
+export async function getAllProjects(): Promise<Project[]> {
     const res = await fetch('https://brandonslade.me/api/projects');
     if (!res.ok) {
         throw new Error('Failed to fetch projects.', { cause: res });
