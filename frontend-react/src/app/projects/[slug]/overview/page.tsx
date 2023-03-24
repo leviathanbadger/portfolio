@@ -1,11 +1,11 @@
 'use client';
 
 import { useContext } from 'react';
-import { ProjectContext } from '@/app/context';
 import Link from 'next/link';
-import './page.scss';
+import { ProjectContext } from '@/app/context';
 import MarkdownRender from '@/components/markdown-render/markdown-render';
 import Slideshow, { SlideshowItem } from '@/components/slideshow/slideshow';
+import './page.scss';
 
 function ProjectOverview() {
     const { project } = useContext(ProjectContext);
