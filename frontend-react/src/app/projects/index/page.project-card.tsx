@@ -1,14 +1,17 @@
 import Link from 'next/link';
 import './page.project-list.scss';
 import { Project } from '@/models';
+import AlternatingImage from '@/components/alternating-image';
 
 function ProjectCard({ project }: { project: Project }) {
+    const thumbnails = (project.images || []).filter(img => !!img.thumbnail).map(img => img.thumbnail!);
+
     return (
         <div className="col-md-4 mt-3">
             <div className="card link-card">
                 <div className="card-img-top">
                     <Link href={`/projects/${encodeURIComponent(project.slug)}`}>
-                        {/* <bls-alternating-img [src]="project.thumbnails" [alt]="project.name" aspectRatioType="project"></bls-alternating-img> */}
+                        <AlternatingImage seedStr={project.slug} sources={thumbnails} alt={project.name} aspectRatioType="project"></AlternatingImage>
                     </Link>
                 </div>
                 <div className="card-body">

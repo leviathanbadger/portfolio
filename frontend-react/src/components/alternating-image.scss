@@ -1,0 +1,57 @@
+
+
+div.alternating-image {
+  position: relative;
+
+  &.img-container {
+    & > img {
+      position: absolute;
+      width: 100%;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      padding-top: 56.25%;
+    }
+
+    &.aspect-ratio-project:after {
+      padding-top: 62.8%;
+    }
+
+    & .previousImage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      visibility: hidden;
+      z-index: 10;
+
+      &.triggerFade {
+        visibility: visible;
+        opacity: 0;
+        animation-name: fade;
+        animation-duration: .5s;
+      }
+    }
+
+    & .nextImage {
+      visibility: hidden;
+    }
+  }
+
+  &.placeholder-gradient {
+    padding-top: 56.25%;
+    background: linear-gradient(to bottom, lightskyblue, orangered);
+
+    &.aspect-ratio-project {
+      padding-top: 62.8%;
+    }
+  }
+}
+
+@keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
