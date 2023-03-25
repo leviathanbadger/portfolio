@@ -14,6 +14,7 @@ assets:
 tags:
   - sops
   - heightfield
+  - terrain
   - lops
   - karma
   - solaris

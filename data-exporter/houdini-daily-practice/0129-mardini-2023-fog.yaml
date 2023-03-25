@@ -23,6 +23,7 @@ assets:
 tags:
   - sops
   - heightfield
+  - terrain
   - volumetric
   - lops
   - karma

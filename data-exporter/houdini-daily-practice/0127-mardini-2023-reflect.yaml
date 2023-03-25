@@ -17,6 +17,7 @@ assets:
 tags:
   - sops
   - heightfield
+  - terrain
   - cops
   - lops
   - karma

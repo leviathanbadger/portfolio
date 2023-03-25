@@ -45,7 +45,7 @@ rendering in 4k with a denoiser, then using Photoshop to downsample to 1080p. Th
 minimizes the artifacts from both the noise and the denoiser without having to
 massively increase the primary samples (rays per pixel).
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89530/?page=1#post-388368
