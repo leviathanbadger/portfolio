@@ -33,7 +33,7 @@ again in future projects.
 Only two more days in Mardini. I'm expecting both of the next projects to be difficult.
 So it's probably fair to expect poor to middling results for them as well. We'll see.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89599/?page=1#post-388815

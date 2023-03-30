@@ -41,7 +41,7 @@ at least this much:
 * Mess with the render settings, textures, and materials a _lot_ more. I just threw
   it together for this one.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2023]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/89588/?page=1#post-388712
