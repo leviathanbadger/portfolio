@@ -1,0 +1,45 @@
+id: 137
+name: LPE Compositing
+description: Learning to use LPEs, LPE tags, and COP2 nodes to composite interesting lighting effects
+date: 2023-04-08
+previous: 136
+thumbnails:
+  - /assets/images/houdini-daily-practice/137/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/137/thumbnail-0-zoomed.png
+  - /assets/images/houdini-daily-practice/137/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/137/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/aj6REwc4fc0
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0-ambient.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0-diffuse.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0-specular.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0-beauty.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-0-depth.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/137/render-2.png
+tags:
+  - sops
+  - tops
+  - pdg
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lpe
+  - lpe-tags
+  - ffmpeg
+  - after-effects
+  - cops
+  - creative
+  - animation
+pathToBody: houdini-daily-practice/bodies/0137-lpe-compositing.md
