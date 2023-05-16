@@ -3,6 +3,7 @@ name: LPE Compositing
 description: Learning to use LPEs, LPE tags, and COP2 nodes to composite interesting lighting effects
 date: 2023-04-08
 previous: 136
+next: 138
 thumbnails:
   - /assets/images/houdini-daily-practice/137/thumbnail-0.png
   - /assets/images/houdini-daily-practice/137/thumbnail-0-zoomed.png

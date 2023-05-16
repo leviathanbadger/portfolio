@@ -1,0 +1,32 @@
+id: 138
+name: Starfish with Nested Dielectrics
+description: Modeling starfish ornament from Hawaii using Nested Dielectrics
+date: 2023-05-15
+previous: 137
+thumbnails:
+  - /assets/images/houdini-daily-practice/138/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/138/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/RjjEjG3eCt4
+  - type: image
+    src: /assets/images/houdini-daily-practice/138/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/138/render-1.png
+tags:
+  - sops
+  - volumetric
+  - tops
+  - pdg
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - animation
+  - ffmpeg
+  - after-effects
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/138/reference-0.png
+pathToBody: houdini-daily-practice/bodies/0138-starfish.md
