@@ -3,6 +3,7 @@ name: Starfish with Nested Dielectrics
 description: Modeling starfish ornament from Hawaii using Nested Dielectrics
 date: 2023-05-15
 previous: 137
+next: 139
 thumbnails:
   - /assets/images/houdini-daily-practice/138/thumbnail-0.png
   - /assets/images/houdini-daily-practice/138/thumbnail-1.png
