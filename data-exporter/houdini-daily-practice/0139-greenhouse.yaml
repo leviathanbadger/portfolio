@@ -3,6 +3,8 @@ name: Greenhouse Day 1
 description: Creating a greenhouse scene with procedural plants, glass, and grunge
 date: 2023-06-06
 previous: 138
+next: 140
+nextInSequence: 140
 thumbnails:
   - /assets/images/houdini-daily-practice/139/thumbnail-0.png
 assets:
