@@ -4,6 +4,8 @@ description: Creating a greenhouse scene with procedural plants, glass, and grun
 date: 2023-06-11
 previous: 139
 previousInSequence: 139
+next: 141
+nextInSequence: 141
 thumbnails:
   - /assets/images/houdini-daily-practice/140/thumbnail-0.png
 assets:
