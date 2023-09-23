@@ -3,8 +3,8 @@ name: Greenhouse Day 3
 description: Creating a greenhouse scene with procedural plants, glass, and grunge
 date: 2023-08-20
 previous: 140
-next: 142
 previousInSequence: 140
+next: 142
 thumbnails:
   - /assets/images/houdini-daily-practice/141/thumbnail-0.png
   - /assets/images/houdini-daily-practice/141/thumbnail-1.png
