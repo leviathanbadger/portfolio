@@ -1,20 +1,20 @@
-id: 143
-name: "'The Shining' Elevator Day 2"
+id: 144
+name: "'The Shining' Elevator Day 3"
 description: Recreation of the blood-filled elevator scene from 'The Shining' and 'Doctor Sleep'
-date: 2023-09-23
-previous: 142
-previousInSequence: 142
-next: 144
-nextInSequence: 144
+date: 2023-09-24
+previous: 143
+previousInSequence: 143
 thumbnails:
-  - /assets/images/houdini-daily-practice/143/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/144/thumbnail-0.png
 assets:
   - type: image
-    src: /assets/images/houdini-daily-practice/143/render-0.png
+    src: /assets/images/houdini-daily-practice/144/render-0.png
 tags:
   - fspy
   - sops
   - uvs
+  - volumetric
+  - cops
   - dops
   - vellum
   - lops
@@ -22,9 +22,10 @@ tags:
   - solaris
   - materialx
   - reference
+  - substance-painter
 referenceAssets:
   - type: image
     src: /assets/images/houdini-daily-practice/142/reference-0.png
   - type: video
     src: https://www.youtube.com/embed/Brb0rUXmMrU?start=30
-pathToBody: houdini-daily-practice/bodies/0143-elevator-2.md
+pathToBody: houdini-daily-practice/bodies/0144-elevator-3.md
