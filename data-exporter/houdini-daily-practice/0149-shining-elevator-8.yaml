@@ -3,7 +3,9 @@ name: "'The Shining' Elevator Day 8"
 description: Recreation of the blood-filled elevator scene from 'The Shining' and 'Doctor Sleep'
 date: 2023-09-30
 previous: 148
+next: 150
 previousInSequence: 148
+nextInSequence: 150
 thumbnails:
   - /assets/images/houdini-daily-practice/149/thumbnail-0.png
   - /assets/images/houdini-daily-practice/149/thumbnail-1.png
