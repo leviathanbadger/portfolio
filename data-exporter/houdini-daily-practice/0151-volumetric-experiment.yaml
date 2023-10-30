@@ -3,6 +3,7 @@ name: "Volumetric Experiment"
 description: Random experiment using various volumetric nodes
 date: 2023-10-15
 previous: 150
+next: 152
 thumbnails:
   - /assets/images/houdini-daily-practice/151/thumbnail-0.png
   - /assets/images/houdini-daily-practice/151/thumbnail-1.png
