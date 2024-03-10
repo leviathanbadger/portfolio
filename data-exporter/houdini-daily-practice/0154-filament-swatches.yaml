@@ -1,0 +1,20 @@
+id: 154
+name: "Filament Swatches"
+description: Procedural swatch models for various 3d printing materials
+date: 2023-11-10
+previous: 153
+next: 155
+thumbnails:
+  - /assets/images/houdini-daily-practice/154/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/154/print-0.png
+tags:
+  - sops
+  - tops
+  - pdg
+  - 3d-print
+  - bambu-studio
+  - x1-carbon
+  - multiple-filaments
+pathToBody: houdini-daily-practice/bodies/0154-filament-swatches.md

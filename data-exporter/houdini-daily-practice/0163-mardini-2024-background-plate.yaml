@@ -1,0 +1,39 @@
+id: 163
+name: Mardini 2024 - Background Plate
+description: Entry into the Mardini 2024 challenge for March 9
+date: 2024-03-09
+previous: 162
+next: 164
+thumbnails:
+  - /assets/images/houdini-daily-practice/163/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/163/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/9-TA32y9D5Y
+  - type: image
+    src: /assets/images/houdini-daily-practice/163/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/163/render-1.png
+tags:
+  - sops
+  - cops
+  - lops
+  - karma
+  - solaris
+  - background-plate
+  - materialx
+  - animation
+  - lpe
+  - lpe-tags
+  - pdg
+  - tops
+  - after-effects
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+  - name: Composited Video
+    href: https://www.pexels.com/video/drone-footage-of-a-landscape-covered-in-snow-3620220/
+pathToBody: houdini-daily-practice/bodies/0163-mardini-2024-background-plate.md

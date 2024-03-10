@@ -3,6 +3,7 @@ name: "Halloween Chandelier Day 1"
 description: Random experiment using various volumetric nodes
 date: 2023-10-29
 previous: 151
+next: 153
 thumbnails:
   - /assets/images/houdini-daily-practice/152/thumbnail-0.png
 assets:

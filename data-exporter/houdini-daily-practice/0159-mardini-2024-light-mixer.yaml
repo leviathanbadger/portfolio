@@ -1,0 +1,26 @@
+id: 159
+name: Mardini 2024 - Light Mixer
+description: Entry into the Mardini 2024 challenge for March 5
+date: 2024-03-05
+previous: 158
+next: 160
+thumbnails:
+  - /assets/images/houdini-daily-practice/159/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/159/render-0.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/0159-mardini-2024-light-mixer.md
