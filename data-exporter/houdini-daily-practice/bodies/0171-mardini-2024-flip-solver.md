@@ -9,8 +9,8 @@ a minimum, and then rendering a complete animation - I just took a practice resu
 that I threw away previously because the simulation went so far off the rails, cleaned
 it up a bit, and rendered a still frame from just before everything went wrong.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2024]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
 [flip-solver-sop]: https://www.sidefx.com/docs/houdini/nodes/sop/flipsolver.html
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/95019/?page=1#post-416587

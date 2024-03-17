@@ -1,0 +1,29 @@
+id: 172
+name: Mardini 2024 - APEX Animate
+description: Entry into the Mardini 2024 challenge for March 18
+date: 2024-03-18
+previous: 171
+next: 173
+thumbnails:
+  - /assets/images/houdini-daily-practice/172/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/58vK7hHCi_k
+  - type: image
+    src: /assets/images/houdini-daily-practice/172/render-0.png
+tags:
+  - sops
+  - apex
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/0172-mardini-2024-apex-animate.md
