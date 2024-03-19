@@ -10,8 +10,8 @@ Most of today needs to be spent on move prep, so I can't afford to work out all 
 many issues with this animation. I tried to go with the simplest possible scene but
 since I've never used the APEX toolset before, it ended up taking 2 hours anyway.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2024]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
 [apex-animate-sop]: https://www.sidefx.com/docs/houdini/nodes/sop/apex--sceneanimate.html
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/95027/?page=1#post-416736
