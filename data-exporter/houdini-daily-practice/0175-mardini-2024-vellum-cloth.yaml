@@ -1,0 +1,27 @@
+id: 175
+name: Mardini 2024 - Vellum Cloth
+description: Entry into the Mardini 2024 challenge for March 21
+date: 2024-03-21
+previous: 174
+next: 176
+thumbnails:
+  - /assets/images/houdini-daily-practice/175/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/175/render-0.png
+tags:
+  - sops
+  - cops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/0175-mardini-2024-vellum-cloth.md
