@@ -11,6 +11,7 @@ assets:
     src: /assets/images/houdini-daily-practice/157/render-0.png
 tags:
   - sops
+  - uvs
   - heightfield
   - lops
   - karma

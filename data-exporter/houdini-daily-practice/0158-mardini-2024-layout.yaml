@@ -11,6 +11,7 @@ assets:
     src: /assets/images/houdini-daily-practice/158/render-0.png
 tags:
   - sops
+  - uvs
   - lops
   - component-builder
   - karma

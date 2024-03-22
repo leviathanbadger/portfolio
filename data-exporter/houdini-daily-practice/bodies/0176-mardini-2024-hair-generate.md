@@ -13,9 +13,9 @@ good as it'll get.
 
 I purchased the [dog model][dog-model] previously, by RedDeer, on sketchfab.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2024]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
 [hair-generate-sop]: https://www.sidefx.com/docs/houdini/nodes/sop/hairgen.html
 [dog-model]: https://sketchfab.com/3d-models/dog-labrador-v02-59d22b6d60d74a79abf7ef8263778d88
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/95113/?page=1#post-417298
