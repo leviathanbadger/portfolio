@@ -13,8 +13,11 @@ construct any of the feathers procedurally - they're all hand-crafted using the 
 reference image below. I assume grooming feathers is even harder than grooming hair
 or fur, so I wisely "nope'd" away from that.
 
-<!-- My entry post is [here][entry-post]. -->
+The [reference image][ref-image] is by samiramay, licensed from Adobe Stock.
+
+My entry post is [here][entry-post].
 
 [mardini-2024]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
 [feather-template-sop]: https://www.sidefx.com/docs/houdini/nodes/sop/feathertemplatefromshape.html
-<!-- [entry-post]: ... -->
+[ref-image]: https://stock.adobe.com/images/beautiful-handmade-boho-dreamcatcher-with-blue-feathers-and-copy-space/419321276?prev_url=detail
+[entry-post]: https://www.sidefx.com/forum/topic/95137/?page=1#post-417465
