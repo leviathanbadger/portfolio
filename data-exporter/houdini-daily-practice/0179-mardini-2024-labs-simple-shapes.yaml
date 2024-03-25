@@ -1,0 +1,31 @@
+id: 179
+name: Mardini 2024 - LABS Simple Shapes
+description: Entry into the Mardini 2024 challenge for March 25
+date: 2024-03-25
+previous: 178
+next: 180
+thumbnails:
+  - /assets/images/houdini-daily-practice/179/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/179/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/thgTYCWTb3Y
+  - type: image
+    src: /assets/images/houdini-daily-practice/179/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/179/render-1.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/0179-mardini-2024-labs-simple-shapes.md
