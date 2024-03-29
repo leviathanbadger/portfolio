@@ -1,0 +1,25 @@
+id: 183
+name: Mardini 2024 - LABS Lot Subdivision
+description: Entry into the Mardini 2024 challenge for March 29
+date: 2024-03-29
+previous: 182
+next: 184
+thumbnails:
+  - /assets/images/houdini-daily-practice/183/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/183/render-0.png
+tags:
+  - sops
+  - volumetric
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/0183-mardini-2024-labs-lot-subdivision.md
