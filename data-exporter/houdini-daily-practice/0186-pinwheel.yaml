@@ -1,0 +1,30 @@
+id: 186
+name: Pinwheel
+description: Animated row of pinwheels
+date: 2024-07-06
+previous: 185
+thumbnails:
+  - /assets/images/houdini-daily-practice/186/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/186/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/186/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/BsvHXxfg9KA
+  - type: image
+    src: /assets/images/houdini-daily-practice/186/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/186/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/186/render-2.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - motion-blur
+  - tonemapping
+  - after-effects
+pathToBody: houdini-daily-practice/bodies/0186-pinwheel.md
