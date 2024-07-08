@@ -1,40 +1,40 @@
-id: 187
-name: Stormveil Castle Day 1
+id: 188
+name: Stormveil Castle Day 2
 description: Recreation of Stormveil Castle from Elden Ring
-date: 2024-07-07
-previous: 186
-next: 188
-nextInSequence: 188
+date: 2024-07-08
+previous: 187
+previousInSequence: 187
 thumbnails:
-  - /assets/images/houdini-daily-practice/187/thumbnail-0.png
-  - /assets/images/houdini-daily-practice/187/thumbnail-1.png
-  - /assets/images/houdini-daily-practice/187/thumbnail-2.png
-  - /assets/images/houdini-daily-practice/187/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/188/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/188/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/188/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/188/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/188/thumbnail-4.png
 assets:
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-0.png
+    src: /assets/images/houdini-daily-practice/188/render-0.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-1.png
+    src: /assets/images/houdini-daily-practice/188/render-1.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-2.png
+    src: /assets/images/houdini-daily-practice/188/render-2.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-3.png
+    src: /assets/images/houdini-daily-practice/188/render-3.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-4.png
+    src: /assets/images/houdini-daily-practice/188/render-4.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-5.png
+    src: /assets/images/houdini-daily-practice/188/render-5.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-6.png
+    src: /assets/images/houdini-daily-practice/188/render-6.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-7.png
+    src: /assets/images/houdini-daily-practice/188/render-7.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-8.png
+    src: /assets/images/houdini-daily-practice/188/render-8.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-9.png
+    src: /assets/images/houdini-daily-practice/188/render-9.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-10.png
+    src: /assets/images/houdini-daily-practice/188/render-10.png
   - type: image
-    src: /assets/images/houdini-daily-practice/187/render-11.png
+    src: /assets/images/houdini-daily-practice/188/render-11.png
 tags:
   - sops
   - lops
@@ -74,4 +74,4 @@ links:
     href: https://en.bandainamcoent.eu/elden-ring/elden-ring
   - name: Stormveil Castle
     href: https://eldenring.wiki.fextralife.com/Stormveil+Castle
-pathToBody: houdini-daily-practice/bodies/0187-stormveil-castle-1.md
+pathToBody: houdini-daily-practice/bodies/0188-stormveil-castle-2.md

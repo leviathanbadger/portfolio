@@ -8,5 +8,5 @@ _extremely_ full of detail, of a kind that I'm not really sure how to reproduce
 programmatically.
 
 Still... it's also _too much_ detail for the original game designers to have
-manually modeled by hand, so they must have done it. It's a challenge that I
-shall overcome!
+manually modeled by hand, so they must have done it procedurally in some way.
+It's a challenge that I shall overcome!
