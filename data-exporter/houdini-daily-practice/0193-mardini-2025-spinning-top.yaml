@@ -1,0 +1,42 @@
+id: 193
+name: Mardini 2025 - Spinning Top
+description: Entry into the Mardini 2025 challenge for March 1
+date: 2025-03-01
+previous: 192
+next: 194
+thumbnails:
+  - /assets/images/houdini-daily-practice/193/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/193/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/193/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/193/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/ZCQNPtC_HmQ
+  - type: video
+    src: https://www.youtube.com/embed/gR9GF-Z0Jug
+  - type: image
+    src: /assets/images/houdini-daily-practice/193/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/193/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/193/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/193/render-3.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0193-mardini-2025-spinning-top.md
