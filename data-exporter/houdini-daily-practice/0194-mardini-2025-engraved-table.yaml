@@ -1,0 +1,33 @@
+id: 194
+name: Mardini 2025 - Engraved Table
+description: Entry into the Mardini 2025 challenge for March 2
+date: 2025-03-02
+previous: 193
+next: 195
+thumbnails:
+  - /assets/images/houdini-daily-practice/194/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/194/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/194/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/194/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/194/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/194/render-2.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0194-mardini-2025-engraved-table.md
