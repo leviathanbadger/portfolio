@@ -3,7 +3,7 @@
 Today is day 3 of [Mardini 2025][mardini-2025]. The prompt for today is "ARCHITECTURE",
 in the SOPS category.
 
-For this project, I recreated an iconic setting from the [severance-show][Severance]
+For this project, I recreated an iconic setting from the [Severance][severance-show]
 TV Show. Specifically, the hallway and elevator leading down to the testing floor
 below the severed floor. This scene is significant, especially in season 2, for...
 reasons... that I won't get into because they're significant spoilers and Severance
@@ -51,8 +51,8 @@ and I didn't want to have to rerender if I didn't choose enough samples to begin
 with). The hallway shot took 1h 20m to render, and the closeup elevator shot took
 1h 27m.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2025]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
 [severance-show]: https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/99966/?page=2#post-438538
