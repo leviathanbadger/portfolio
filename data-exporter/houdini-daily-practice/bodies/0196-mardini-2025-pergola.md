@@ -30,7 +30,7 @@ New stuff:
     because I had no idea what settings to change to achieve the effect I was
     trying for.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2025]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/99979/?page=1#post-438654
