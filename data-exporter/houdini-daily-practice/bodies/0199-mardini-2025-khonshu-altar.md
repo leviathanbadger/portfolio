@@ -25,7 +25,7 @@ New stuff:
     than other organic curves for, say, a human or a dog. So I still have to pick and
     choose.)
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2025]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/100024/#post-439194

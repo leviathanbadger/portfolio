@@ -26,7 +26,7 @@ New stuff:
     I've used in the past, which is good practice for when I go back to attempt
     the growing tree project I abandoned for day 4.
 
-<!-- My entry post is [here][entry-post]. -->
+My entry post is [here][entry-post].
 
 [mardini-2025]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
-<!-- [entry-post]: ... -->
+[entry-post]: https://www.sidefx.com/forum/topic/100010/?page=1#post-439051
