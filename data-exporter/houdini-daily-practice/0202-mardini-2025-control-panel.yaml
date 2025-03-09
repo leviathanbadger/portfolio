@@ -1,0 +1,35 @@
+id: 202
+name: Mardini 2025 - Control Panel
+description: Entry into the Mardini 2025 challenge for March 10
+date: 2025-03-10
+previous: 201
+next: 203
+thumbnails:
+  - /assets/images/houdini-daily-practice/202/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/202/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/202/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/202/render-1.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - mardini
+  - mardini-2025
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/202/reference-0.png
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+  - name: Purchase Reference Model
+    href: https://www.turbosquid.com/3d-models/sci-fi-hologram-control-panel-3d-1652268
+pathToBody: houdini-daily-practice/bodies/0202-mardini-2025-control-panel.md
