@@ -4,6 +4,7 @@ description: Entry into the Mardini 2025 challenge for March 6
 date: 2025-03-06
 previous: 197
 next: 199
+nextInSequence: 207
 thumbnails:
   - /assets/images/houdini-daily-practice/198/thumbnail-0.png
 assets:
@@ -12,6 +13,8 @@ assets:
 tags:
   - sops
   - uvs
+  - dops
+  - solver
   - lops
   - karma
   - solaris

@@ -1,0 +1,41 @@
+id: 207
+name: Mardini 2025 - Caterpillar Day 2
+description: Entry into the Mardini 2025 challenge for March 15
+date: 2025-03-15
+previous: 206
+next: 208
+previousInSequence: 198
+thumbnails:
+  - /assets/images/houdini-daily-practice/207/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/207/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/207/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/lcDU2SGC81o
+  - type: image
+    src: /assets/images/houdini-daily-practice/207/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/207/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/207/render-2.png
+tags:
+  - sops
+  - uvs
+  - hda
+  - dops
+  - solver
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0207-mardini-2025-caterpillar-2.md
