@@ -12,6 +12,8 @@ assets:
 tags:
   - sops
   - uvs
+  - dops
+  - solver
   - lops
   - karma
   - solaris

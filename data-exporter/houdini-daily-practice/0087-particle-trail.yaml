@@ -12,14 +12,15 @@ assets:
   - type: image
     src: /assets/images/houdini-daily-practice/87/render-0.png
 tags:
-  - creative
-  - animation
   - sops
+  - dops
+  - solver
   - karma
   - solaris
   - lops
   - hdri
   - materialx
-  - solver
+  - creative
+  - animation
   - after-effects
 pathToBody: houdini-daily-practice/bodies/0087-particle-trail.md
