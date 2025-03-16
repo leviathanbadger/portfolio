@@ -1,0 +1,31 @@
+id: 209
+name: Mardini 2025 - Animatronic
+description: Entry into the Mardini 2025 challenge for March 17
+date: 2025-03-17
+previous: 208
+next: 210
+thumbnails:
+  - /assets/images/houdini-daily-practice/209/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/qU9NAhm-moM
+  - type: image
+    src: /assets/images/houdini-daily-practice/209/render-0.png
+tags:
+  - sops
+  - uvs
+  - sculpt
+  - kinefx
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0209-mardini-2025-animatronic.md
