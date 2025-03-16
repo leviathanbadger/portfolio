@@ -1,0 +1,38 @@
+id: 208
+name: Mardini 2025 - Cymatics
+description: Entry into the Mardini 2025 challenge for March 16
+date: 2025-03-16
+previous: 207
+next: 209
+thumbnails:
+  - /assets/images/houdini-daily-practice/208/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/208/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/qVl7kIsWxCU
+  - type: image
+    src: /assets/images/houdini-daily-practice/208/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/208/render-1.png
+tags:
+  - sops
+  - uvs
+  - dops
+  - solver
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - tutorial
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+  - name: Tutorial Video
+    href: https://www.youtube.com/watch?v=ZPL215vfNwg
+pathToBody: houdini-daily-practice/bodies/0208-mardini-2025-cymatics.md
