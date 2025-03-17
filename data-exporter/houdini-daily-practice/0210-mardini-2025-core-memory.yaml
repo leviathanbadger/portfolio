@@ -1,0 +1,52 @@
+id: 210
+name: Mardini 2025 - Core Memory
+description: Entry into the Mardini 2025 challenge for March 18
+date: 2025-03-18
+previous: 209
+next: 211
+thumbnails:
+  - /assets/images/houdini-daily-practice/210/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/210/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/210/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/210/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/z9D8ZWhCQGM
+  - type: image
+    src: /assets/images/houdini-daily-practice/210/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/210/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/210/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/210/render-3.png
+tags:
+  - sops
+  - uvs
+  - vdb
+  - volumetric
+  - dops
+  - rbd
+  - bullet
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - slap-comp
+  - glow
+  - reference
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/zAd0KtPgNoI
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+  - name: Inside Out
+    href: https://www.disneyplus.com/movies/inside-out/uzQ2ycVDi2IE?v=control
+pathToBody: houdini-daily-practice/bodies/0210-mardini-2025-core-memory.md
