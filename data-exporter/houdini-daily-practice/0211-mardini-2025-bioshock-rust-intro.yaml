@@ -1,0 +1,43 @@
+id: 211
+name: Mardini 2025 - Bioshock Rust Intro
+description: Entry into the Mardini 2025 challenge for March 19
+date: 2025-03-19
+previous: 210
+next: 212
+thumbnails:
+  - /assets/images/houdini-daily-practice/211/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/211/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/211/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/211/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/W4Xma3DyQCk
+  - type: image
+    src: /assets/images/houdini-daily-practice/211/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/211/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/211/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/211/render-3.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2025
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/8RNPV09BIzw
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0211-mardini-2025-bioshock-rust-intro.md
