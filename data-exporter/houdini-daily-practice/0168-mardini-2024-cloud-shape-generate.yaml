@@ -11,6 +11,7 @@ assets:
     src: /assets/images/houdini-daily-practice/168/render-0.png
 tags:
   - sops
+  - vdb
   - volumetric
   - lops
   - karma
