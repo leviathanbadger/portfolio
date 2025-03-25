@@ -1,0 +1,35 @@
+id: 218
+name: Mardini 2025 - Chocolate
+description: Entry into the Mardini 2025 challenge for March 26
+date: 2025-03-26
+previous: 217
+next: 219
+thumbnails:
+  - /assets/images/houdini-daily-practice/218/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/218/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/218/render-1.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - vdb
+  - dops
+  - flip
+  - rbd
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0218-mardini-2025-chocolate.md
