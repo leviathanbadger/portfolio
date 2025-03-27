@@ -1,0 +1,32 @@
+id: 219
+name: Mardini 2025 - Snow Globe
+description: Entry into the Mardini 2025 challenge for March 27
+date: 2025-03-27
+previous: 218
+next: 220
+thumbnails:
+  - /assets/images/houdini-daily-practice/219/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/219/render-0.png
+tags:
+  - sops
+  - volumetric
+  - vdb
+  - uvs
+  - dops
+  - vellum
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0219-mardini-2025-snow-globe.md
