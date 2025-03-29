@@ -1,0 +1,32 @@
+id: 221
+name: Mardini 2025 - Desert Dunes
+description: Entry into the Mardini 2025 challenge for March 29
+date: 2025-03-29
+previous: 220
+next: 222
+thumbnails:
+  - /assets/images/houdini-daily-practice/221/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/221/render-0.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - vdb
+  - dops
+  - mpm
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/0221-mardini-2025-sand-dunes.md
