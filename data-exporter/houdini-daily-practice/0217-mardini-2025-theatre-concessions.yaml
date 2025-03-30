@@ -36,11 +36,14 @@ tags:
   - solaris
   - motion-blur
   - materialx
-  - creative
+  - reference
   - animation
   - after-effects
   - mardini
   - mardini-2025
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/bx99PmlCoKU
 links:
   - name: Mardini 2025
     href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
