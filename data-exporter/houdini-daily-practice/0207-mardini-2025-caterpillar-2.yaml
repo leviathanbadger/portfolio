@@ -19,6 +19,8 @@ assets:
     src: /assets/images/houdini-daily-practice/207/render-1.png
   - type: image
     src: /assets/images/houdini-daily-practice/207/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
 tags:
   - sops
   - uvs
