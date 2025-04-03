@@ -1,9 +1,13 @@
 import { Routes } from '@angular/router';
 import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 export const routes: Routes = [{
-    component: DefaultLayoutComponent, path: '', children: [{
-        component: NotFoundComponent, path: '**'
-    }]
+    component: DefaultLayoutComponent, path: '', children: [
+        { loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent), path: '', pathMatch: 'full' },
+        { loadComponent: () => import('./pages/resume/resume.component').then(m => m.ResumeComponent), path: 'resume' },
+        { loadComponent: () => import('./pages/projects/projects.component').then(m => m.ProjectsComponent), path: 'projects' },
+        { loadComponent: () => import('./pages/houdini-practice/houdini-practice.component').then(m => m.HoudiniPracticeComponent), path: 'houdini-practice' },
+        { loadComponent: () => import('./pages/sitemap/sitemap.component').then(m => m.SitemapComponent), path: 'sitemap' },
+        { loadComponent: () => import('./pages/not-found/not-found.component').then(m => m.NotFoundComponent), path: '**' }
+    ]
 }];
