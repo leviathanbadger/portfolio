@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-houdini-practice',
+    selector: 'bls-houdini-practice',
     imports: [],
     templateUrl: './houdini-practice.component.html',
     styleUrl: './houdini-practice.component.scss'

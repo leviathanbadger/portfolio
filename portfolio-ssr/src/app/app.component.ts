@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
 import { Theme, ThemeProvider } from '../providers';
 
 @Component({
-    selector: 'app-root',
+    selector: 'bls-root',
     imports: [RouterOutlet],
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss'
