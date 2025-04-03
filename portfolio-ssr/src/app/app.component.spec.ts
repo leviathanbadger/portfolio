@@ -33,6 +33,6 @@ describe('AppComponent', () => {
         const fixture = TestBed.createComponent(AppComponent);
         await fixture.whenStable();
         const compiled = fixture.nativeElement as HTMLElement;
-        expect(compiled.querySelector('#theme')?.textContent).toContain('dark');
+        expect(compiled.querySelector('div[data-bs-theme]')?.getAttribute('data-bs-theme')).toEqual('dark');
     });
 });
