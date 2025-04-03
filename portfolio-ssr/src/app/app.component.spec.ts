@@ -1,12 +1,17 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { provideExperimentalZonelessChangeDetection } from '@angular/core';
+import { ThemeProvider } from '../providers';
+import { DarkThemeProvider } from '../providers/theme/dark-theme';
 
 describe('AppComponent', () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             imports: [AppComponent],
-            providers: [provideExperimentalZonelessChangeDetection()]
+            providers: [
+                provideExperimentalZonelessChangeDetection(),
+                { provide: ThemeProvider, useClass: DarkThemeProvider}
+            ]
         }).compileComponents();
     });
 
@@ -17,17 +22,17 @@ describe('AppComponent', () => {
         expect(app).toBeTruthy();
     });
 
-    it(`should have the 'bls-portfolio' title`, async () => {
+    it(`should have the 'dark' theme`, async () => {
         const fixture = TestBed.createComponent(AppComponent);
         await fixture.whenStable();
         const app = fixture.componentInstance;
-        expect(app.title).toEqual('bls-portfolio');
+        expect(app.theme()).toEqual('dark');
     });
 
-    it('should render title', async () => {
+    it('should render theme', async () => {
         const fixture = TestBed.createComponent(AppComponent);
         await fixture.whenStable();
         const compiled = fixture.nativeElement as HTMLElement;
-        expect(compiled.querySelector('h1')?.textContent).toContain('Hello, bls-portfolio');
+        expect(compiled.querySelector('#theme')?.textContent).toContain('dark');
     });
 });
