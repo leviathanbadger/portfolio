@@ -1,18 +1,18 @@
 import { provideExperimentalZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { HoudiniPracticeComponent } from './houdini-practice.component';
+import { ArtComponent } from './art.component';
 
-describe('HoudiniPracticeComponent', () => {
-    let component: HoudiniPracticeComponent;
-    let fixture: ComponentFixture<HoudiniPracticeComponent>;
+describe('ArtComponent', () => {
+    let component: ArtComponent;
+    let fixture: ComponentFixture<ArtComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            imports: [HoudiniPracticeComponent],
+            imports: [ArtComponent],
             providers: [provideExperimentalZonelessChangeDetection()]
         }).compileComponents();
 
-        fixture = TestBed.createComponent(HoudiniPracticeComponent);
+        fixture = TestBed.createComponent(ArtComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });
