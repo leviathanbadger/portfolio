@@ -7,7 +7,8 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "serve:ssr:bls-portfolio": "node dist/bls-portfolio/server/server.mjs"
+        "serve:ssr:bls-portfolio": "node dist/bls-portfolio/server/server.mjs",
+        "extract-i18n": "ng extract-i18n --output-path=src/locale --format=xlf"
     },
     "private": true,
     "dependencies": {
