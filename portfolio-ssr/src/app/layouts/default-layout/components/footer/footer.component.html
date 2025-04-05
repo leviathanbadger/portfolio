@@ -1,0 +1,106 @@
+<div class="bg-body-tertiary mt-3 py-3 py-lg-5 border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="navbar">
+                            <div class="navbar-brand">
+                                BLS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="copyright fs-xs opacity-50">
+                        &copy; {{ currentYear }} Brandon Slade
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <ul class="navbar-nav flex-column pb-1 mb-lg-3 align-items-end">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            [routerLink]="['/']"
+                            [routerLinkActive]="['active']"
+                            i18n="footer home text|Short text for the 'home' link in the footer"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            [routerLink]="['/', 'projects']"
+                            [routerLinkActive]="['active']"
+                            i18n="footer projects text|Short text for the 'projects' link in the footer, referencing programming projects rather than art or other kinds"
+                        >
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            [routerLink]="['/', 'art']"
+                            [routerLinkActive]="['active']"
+                            i18n="footer art text|Short text for the 'art' link in the footer, referencing primarily digital art and technical tools for creating art"
+                        >
+                            Art
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            [routerLink]="['/', 'cv']"
+                            [routerLinkActive]="['active']"
+                            i18n="footer CV text|Short text for the 'CV' link in the footer"
+                        >
+                            CV
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav flex-column align-items-end">
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            [routerLink]="['/', 'sitemap']"
+                            [routerLinkActive]="['active']"
+                            i18n="footer CV text|Short text for the 'CV' link in the footer"
+                        >
+                            Sitemap
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <ul class="navbar-nav flex-column align-items-end">
+                    <li class="nav-item">
+                        <a href="https://github.com/leviathanbadger/" class="nav-link">
+                            GitHub
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://stackoverflow.com/users/768597/leviathanbadger" class="nav-link">
+                            Stack Overflow
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/brandon-slade" class="nav-link">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
