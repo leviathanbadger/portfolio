@@ -1,1 +1,143 @@
-<p>sitemap works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1
+                class="mt-2"
+                i18n="sitemap title|Title for the sitemap page"
+            >
+                Sitemap
+            </h1>
+        </div>
+
+        <div class="col-4 sitemap-section">
+            <h3
+                class="mt-2"
+                i18n="sitemap standalone pages title|Title for the 'standalone pages' section of the sitemap"
+            >
+                Standalone Pages
+            </h3>
+
+            <ul>
+                <li>
+                    <a
+                        [routerLink]="['/']"
+                        i18n="sitemap home text|Short text for the 'home' link in the sitemap"
+                    >
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        [routerLink]="['/', 'cv']"
+                        i18n="sitemap CV text|Short text for the 'CV' link in the sitemap"
+                    >
+                        CV / R&eacute;sum&eacute;
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        [routerLink]="['/', 'sitemap']"
+                        i18n="sitemap sitemap text|Short text for the 'sitemap' link in the sitemap"
+                    >
+                        Sitemap
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-4 sitemap-section">
+            <h3
+                class="mt-2"
+                i18n="sitemap projects title|Title for the 'projects' section of the sitemap, referencing programming projects rather than art or other kinds"
+            >
+                Projects
+            </h3>
+
+            <ul>
+                <li>
+                    <a
+                        [routerLink]="['/', 'projects']"
+                        i18n="sitemap projects text|Short text for the 'projects' link in the sitemap, referencing programming projects rather than art or other kinds"
+                    >
+                        Projects (Index)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-4 sitemap-section">
+            <h3 class="mt-2">Art</h3>
+
+            <ul>
+                <li>
+                    <a
+                        [routerLink]="['/', 'art']"
+                        i18n="sitemap art text|Short text for the 'art' link in the sitemap, referencing primarily digital art and technical tools for creating art"
+                    >
+                        Art
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        [routerLink]="['/', 'art', 'houdini']"
+                        i18n="sitemap houdini text|Short text for the 'houdini practice' link in the sitemap, referencing daily practice with the Houdini3D software"
+                    >
+                        Houdini Practice (Index)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-4 sitemap-section">
+            <h3
+                class="mt-2"
+                i18n="sitemap external links title|Title for the 'external links' section of the sitemap"
+            >
+                External Links
+            </h3>
+
+            <ul>
+                <li>
+                    <a href="https://github.com/leviathanbadger/">
+                        GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://stackoverflow.com/users/768597/leviathanbadger">
+                        Stack Overflow
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/brandon-slade">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-4 sitemap-section">
+            <h3
+                class="mt-2"
+                i18n="sitemap error pages title|Title for the 'error pages' section of the sitemap"
+            >
+                Error Pages
+            </h3>
+
+            <ul>
+                <li>
+                    <a
+                        [routerLink]="['/', 'not-found']"
+                        i18n="sitemap not-found text|Short text for the '404 not found' link in the sitemap"
+                    >
+                        404 Not Found
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
