@@ -4,7 +4,7 @@
 @import 'bootstrap/scss/bootstrap';
 
 body {
-    &, & > bls-root {
+    &, & > bls-root, & > bls-root > div {
         width: 100vw;
         height: 100vh;
         margin: 0;
