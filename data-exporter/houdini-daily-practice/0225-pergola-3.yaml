@@ -1,0 +1,32 @@
+id: 225
+name: Pergola Day 3
+description: Continuation of the Pergola from Mardini 2025
+date: 2025-05-11
+previous: 224
+previousInSequence: 224
+thumbnails:
+  - /assets/images/houdini-daily-practice/225/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/225/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/225/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/225/render-1.png
+tags:
+  - sops
+  - uvs
+  - vdb
+  - heightfield
+  - dops
+  - vellum
+  - cops
+  - copernicus
+  - opencl
+  - lops
+  - karma
+  - atmosphere
+  - solaris
+  - materialx
+  - slap-comp
+  - creative
+pathToBody: houdini-daily-practice/bodies/0225-pergola-3.md
