@@ -1,0 +1,37 @@
+id: 126
+name: Mardini 2023 - Stage
+description: Entry into the Mardini 2023 challenge for March 21
+date: 2023-03-21
+previous: 125
+next: 127
+thumbnails:
+  - /assets/images/houdini-daily-practice/126/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/126/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/PdFXWqngB1s
+  - type: image
+    src: /assets/images/houdini-daily-practice/126/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/126/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/012/0126-mardini-2023-stage.md

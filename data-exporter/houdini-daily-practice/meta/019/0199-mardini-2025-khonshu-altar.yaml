@@ -1,0 +1,29 @@
+id: 199
+name: Mardini 2025 - Khonshu Altar
+description: Entry into the Mardini 2025 challenge for March 7
+date: 2025-03-07
+previous: 198
+next: 200
+thumbnails:
+  - /assets/images/houdini-daily-practice/199/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/199/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - sculpt
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/019/0199-mardini-2025-khonshu-altar.md

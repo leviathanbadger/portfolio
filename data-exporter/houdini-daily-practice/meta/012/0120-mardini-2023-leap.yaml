@@ -1,0 +1,37 @@
+id: 120
+name: Mardini 2023 - Leap
+description: Entry into the Mardini 2023 challenge for March 15
+date: 2023-03-15
+previous: 119
+next: 121
+thumbnails:
+  - /assets/images/houdini-daily-practice/120/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/120/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - heightfield
+  - terrain
+  - dops
+  - vellum
+  - cops
+  - lops
+  - karma
+  - solaris
+  - displacement
+  - materialx
+  - pdg
+  - tops
+  - reference
+  - mardini
+  - mardini-2023
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/120/reference-0.png
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/012/0120-mardini-2023-leap.md

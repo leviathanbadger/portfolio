@@ -1,0 +1,44 @@
+id: 125
+name: Mardini 2023 - Bulb
+description: Entry into the Mardini 2023 challenge for March 20
+date: 2023-03-20
+previous: 124
+next: 126
+thumbnails:
+  - /assets/images/houdini-daily-practice/125/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/125/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/125/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/125/thumbnail-3.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-4.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/render-5.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - pdg
+  - tops
+  - mardini
+  - mardini-2023
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/125/reference-0.png
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/012/0125-mardini-2023-bulb.md

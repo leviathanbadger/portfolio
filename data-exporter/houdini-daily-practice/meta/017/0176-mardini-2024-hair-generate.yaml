@@ -1,0 +1,29 @@
+id: 176
+name: Mardini 2024 - Hair Generate
+description: Entry into the Mardini 2024 challenge for March 22
+date: 2024-03-22
+previous: 175
+next: 177
+thumbnails:
+  - /assets/images/houdini-daily-practice/176/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/kUEPZVKTB9k
+  - type: image
+    src: /assets/images/houdini-daily-practice/176/render-0.png
+tags:
+  - sops
+  - grooming
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/017/0176-mardini-2024-hair-generate.md

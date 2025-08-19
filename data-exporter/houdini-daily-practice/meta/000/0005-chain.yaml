@@ -1,0 +1,15 @@
+id: 5
+name: Chain
+description: Procedural chain digital asset
+date: 2021-09-06
+previous: 4
+next: 6
+thumbnails:
+  - /assets/images/houdini-daily-practice/5/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/5/render-0.png
+tags:
+  - sops
+  - hda
+pathToBody: houdini-daily-practice/bodies/000/0005-chain.md

@@ -1,0 +1,37 @@
+id: 105
+name: TOPs/PDG
+description: Following a tutorial to automate generating SOPs/DOPs variations and rendering a video
+date: 2023-02-28
+previous: 104
+next: 106
+thumbnails:
+  - /assets/images/houdini-daily-practice/105/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/105/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/LaxyNc5pZzw
+  - type: image
+    src: /assets/images/houdini-daily-practice/105/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/105/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/105/output-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/105/output-1.png
+tags:
+  - sops
+  - dops
+  - tops
+  - pdg
+  - tutorial
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - ffmpeg
+  - cops
+  - animation
+links:
+  - name: Tutorial
+    href: https://www.sidefx.com/docs/houdini/tops/tutorial_pdgfxworkflow.html
+pathToBody: houdini-daily-practice/bodies/010/0105-tops.md

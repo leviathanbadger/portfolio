@@ -1,0 +1,32 @@
+id: 44
+name: Procedural Walkway Day 4
+description: Procedural walkway with automatic UVs - rendered with Karma - part 4
+date: 2021-11-06
+previous: 43
+next: 45
+previousInSequence: 43
+thumbnails:
+  - /assets/images/houdini-daily-practice/44/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/44/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/44/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/44/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/44/render-2.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/41/reference-0.png
+tags:
+  - reference
+  - hda
+  - lops
+  - solaris
+  - karma
+  - displacement
+  - materialx
+links:
+  - name: The Ascent
+    href: https://store.steampowered.com/app/979690/The_Ascent/
+pathToBody: houdini-daily-practice/bodies/004/0044-procedural-walkway-4.md

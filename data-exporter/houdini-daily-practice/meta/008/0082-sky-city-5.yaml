@@ -1,0 +1,41 @@
+id: 82
+name: Sky City Day 5
+description: HDA tools for a sky city scene
+date: 2022-07-22
+previous: 81
+next: 83
+previousInSequence: 79
+thumbnails:
+  - /assets/images/houdini-daily-practice/82/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/82/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/82/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/82/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/82/thumbnail-4.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/82/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/82/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/82/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/82/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/82/render-4.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/75/reference-0.png
+tags:
+  - sops
+  - hda
+  - reference
+  - uvs
+  - karma
+  - solaris
+  - lops
+  - materialx
+  - hdri
+links:
+  - name: Sky City Unreal Engine Marketplace
+    href: https://www.unrealengine.com/marketplace/en-US/product/wild-west-city-wild-west-town-wild-west-sky-city-town
+pathToBody: houdini-daily-practice/bodies/008/0082-sky-city-5.md

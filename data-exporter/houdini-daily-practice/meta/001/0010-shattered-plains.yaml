@@ -1,0 +1,24 @@
+id: 10
+name: Shattered Plains
+description: The shattered plains, from Brandon Sanderson's "The Stormlight Archive"
+date: 2021-09-11
+previous: 9
+next: 11
+thumbnails:
+  - /assets/images/houdini-daily-practice/10/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/10/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/10/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/10/render-1.png
+links:
+  - name: The Stormlight Archive
+    href: https://www.brandonsanderson.com/the-stormlight-archive-series/
+tags:
+  - sops
+  - creative
+  - volumetric
+  - mantra
+  - hdri
+pathToBody: houdini-daily-practice/bodies/001/0010-shattered-plains.md

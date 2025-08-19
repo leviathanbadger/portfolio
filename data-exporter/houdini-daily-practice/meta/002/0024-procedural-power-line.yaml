@@ -1,0 +1,23 @@
+id: 24
+name: Power Line
+description: Procedural power line digital asset using a wire simulation
+date: 2021-10-09
+previous: 23
+next: 25
+thumbnails:
+  - /assets/images/houdini-daily-practice/24/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/24/render-0.png
+tags:
+  - sops
+  - vops
+  - creative
+  - heightfield
+  - terrain
+  - hda
+  - dops
+  - wiresolver
+  - volumetric
+  - mantra
+pathToBody: houdini-daily-practice/bodies/002/0024-procedural-power-line.md

@@ -1,0 +1,18 @@
+id: 18
+name: Procedural Stairs Day 2
+description: Procedural stairs - more stair options, including backboard and variable-width stairs
+date: 2021-09-21
+previous: 17
+next: 19
+previousInSequence: 17
+thumbnails:
+  - /assets/images/houdini-daily-practice/18/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/18/render-0.png
+tags:
+  - sops
+  - creative
+  - hda
+  - mantra
+pathToBody: houdini-daily-practice/bodies/001/0018-procedural-stairs-2.md

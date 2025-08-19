@@ -1,0 +1,38 @@
+id: 141
+name: Greenhouse Day 3
+description: Creating a greenhouse scene with procedural plants, glass, and grunge
+date: 2023-08-20
+previous: 140
+previousInSequence: 140
+next: 142
+thumbnails:
+  - /assets/images/houdini-daily-practice/141/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/141/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-4.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-5.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/141/render-6.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - reference
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/139/reference-0.png
+pathToBody: houdini-daily-practice/bodies/014/0141-greenhouse-3.md

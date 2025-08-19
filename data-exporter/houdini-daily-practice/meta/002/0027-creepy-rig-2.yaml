@@ -1,0 +1,27 @@
+id: 27
+name: Creepy Rig Day 2
+description: Initial animation rig with inverse-kinematics on the feet
+date: 2021-10-12
+previous: 26
+next: 28
+previousInSequence: 26
+nextInSequence: 28
+thumbnails:
+  - /assets/images/houdini-daily-practice/27/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/27/output-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/27/output-2.png
+tags:
+  - sops
+  - kinefx
+  - tutorial
+  - animationrig
+  - ik
+  - captureweights
+  - hda
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/tutorials/kinefx-rigging-fur-dude/
+pathToBody: houdini-daily-practice/bodies/002/0027-creepy-rig-2.md

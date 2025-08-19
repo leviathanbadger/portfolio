@@ -1,0 +1,34 @@
+id: 43
+name: Procedural Walkway Day 3
+description: Procedural walkway with automatic UVs - rendered with Mantra - part 3
+date: 2021-10-28
+previous: 42
+next: 44
+previousInSequence: 42
+nextInSequence: 44
+thumbnails:
+  - /assets/images/houdini-daily-practice/43/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/43/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/43/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/43/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/43/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/43/render-2.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/41/reference-0.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - reference
+  - hda
+  - mantra
+  - bumpmap
+links:
+  - name: The Ascent
+    href: https://store.steampowered.com/app/979690/The_Ascent/
+pathToBody: houdini-daily-practice/bodies/004/0043-procedural-walkway-3.md

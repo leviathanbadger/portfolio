@@ -1,0 +1,22 @@
+id: 20
+name: Chattering Skull
+description: An animated chattering skull using volumetric fog
+date: 2021-09-23
+previous: 19
+next: 21
+thumbnails:
+  - /assets/images/houdini-daily-practice/20/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/sjgsy_cHe3A
+  - type: image
+    src: /assets/images/houdini-daily-practice/20/render-0.png
+tags:
+  - sops
+  - creative
+  - volumetric
+  - vops
+  - animation
+  - mantra
+  - after-effects
+pathToBody: houdini-daily-practice/bodies/002/0020-chattering-skull.md

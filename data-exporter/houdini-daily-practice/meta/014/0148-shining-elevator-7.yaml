@@ -1,0 +1,40 @@
+id: 148
+name: "'The Shining' Elevator Day 7"
+description: Recreation of the blood-filled elevator scene from 'The Shining' and 'Doctor Sleep'
+date: 2023-09-29
+previous: 147
+next: 149
+previousInSequence: 147
+nextInSequence: 149
+thumbnails:
+  - /assets/images/houdini-daily-practice/148/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/lynsw1F48js
+  - type: image
+    src: /assets/images/houdini-daily-practice/148/render-0.png
+tags:
+  - fspy
+  - sops
+  - uvs
+  - volumetric
+  - cops
+  - dops
+  - vellum
+  - flip
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - substance-painter
+  - pdg
+  - tops
+  - reference
+  - animation
+  - after-effects
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/142/reference-0.png
+  - type: video
+    src: https://www.youtube.com/embed/Brb0rUXmMrU?start=30
+pathToBody: houdini-daily-practice/bodies/014/0148-elevator-7.md

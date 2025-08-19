@@ -1,0 +1,25 @@
+id: 15
+name: Procedural Murals Day 3
+description: Procedural murals - now with better normals and as a digital asset
+date: 2021-09-16
+previous: 14
+next: 16
+previousInSequence: 14
+thumbnails:
+  - /assets/images/houdini-daily-practice/15/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/YYUSW2nbStE
+  - type: image
+    src: /assets/images/houdini-daily-practice/15/render-0.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/15/reference-0.png
+tags:
+  - sops
+  - creative
+  - hda
+  - animation
+  - mantra
+  - after-effects
+pathToBody: houdini-daily-practice/bodies/001/0015-procedural-murals-3.md

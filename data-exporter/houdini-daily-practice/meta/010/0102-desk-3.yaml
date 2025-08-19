@@ -1,0 +1,40 @@
+id: 102
+name: Cluttered Desk Day 3
+description: A cluttered desk, made to render a high-res image to print a jigsaw puzzle
+date: 2023-02-25
+previous: 101
+next: 103
+previousInSequence: 101
+nextInSequence: 103
+thumbnails:
+  - /assets/images/houdini-daily-practice/102/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/102/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/102/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/render-3.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/73/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/2/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/102/reference-1.png
+tags:
+  - sops
+  - python
+  - karma
+  - solaris
+  - lops
+  - reference
+  - materialx
+  - uvs
+  - hdri
+  - substance-painter
+pathToBody: houdini-daily-practice/bodies/010/0102-desk-3.md

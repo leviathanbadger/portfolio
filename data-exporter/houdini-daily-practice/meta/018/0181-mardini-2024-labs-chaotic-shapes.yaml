@@ -1,0 +1,34 @@
+id: 181
+name: Mardini 2024 - LABS Chaotic Shapes
+description: Entry into the Mardini 2024 challenge for March 27
+date: 2024-03-27
+previous: 180
+next: 182
+thumbnails:
+  - /assets/images/houdini-daily-practice/181/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/181/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/181/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/T7sl7sWCljE
+  - type: image
+    src: /assets/images/houdini-daily-practice/181/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/181/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/181/render-2.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/018/0181-mardini-2024-labs-chaotic-shapes.md

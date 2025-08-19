@@ -1,0 +1,18 @@
+id: 34
+name: Water Turbine
+description: Water turbine simulation attempt (failed)
+date: 2021-10-19
+previous: 33
+next: 35
+thumbnails:
+  - /assets/images/houdini-daily-practice/34/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/34/output-0.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - flip
+  - creative
+pathToBody: houdini-daily-practice/bodies/003/0034-water-generator.md

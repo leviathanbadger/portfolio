@@ -1,0 +1,30 @@
+id: 173
+name: Mardini 2024 - Joint Capture Biharmonic
+description: Entry into the Mardini 2024 challenge for March 19
+date: 2024-03-19
+previous: 172
+next: 174
+thumbnails:
+  - /assets/images/houdini-daily-practice/173/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/5HJI1NS4JG0
+  - type: image
+    src: /assets/images/houdini-daily-practice/173/render-0.png
+tags:
+  - sops
+  - uvs
+  - kinefx
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/017/0173-mardini-2024-joint-capture-biharmonic.md

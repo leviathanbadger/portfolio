@@ -1,0 +1,24 @@
+id: 33
+name: Campfire
+description: Campfire lit in a very creative but horrendously ugly way
+date: 2021-10-18
+previous: 32
+next: 34
+thumbnails:
+  - /assets/images/houdini-daily-practice/33/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/eb2B3ImrqBw
+  - type: image
+    src: /assets/images/houdini-daily-practice/33/render-0.png
+tags:
+  - sops
+  - vops
+  - dops
+  - rbd
+  - pyro
+  - creative
+  - animation
+  - mantra
+  - after-effects
+pathToBody: houdini-daily-practice/bodies/003/0033-campfire.md

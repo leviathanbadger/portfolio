@@ -1,0 +1,33 @@
+id: 101
+name: Cluttered Desk Day 2
+description: A cluttered desk, made to render a high-res image to print a jigsaw puzzle
+date: 2023-02-24
+previous: 100
+next: 102
+previousInSequence: 100
+nextInSequence: 102
+thumbnails:
+  - /assets/images/houdini-daily-practice/101/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/101/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/101/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/101/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/101/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/101/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/101/render-3.png
+tags:
+  - sops
+  - volumetric
+  - karma
+  - solaris
+  - lops
+  - creative
+  - materialx
+  - uvs
+  - hdri
+  - substance-painter
+pathToBody: houdini-daily-practice/bodies/010/0101-desk-2.md

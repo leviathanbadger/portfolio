@@ -1,0 +1,29 @@
+id: 96
+name: Roller Blade
+description: Roller blade material created with Substance 3D Painter
+date: 2022-12-01
+previous: 95
+next: 97
+thumbnails:
+  - /assets/images/houdini-daily-practice/96/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/96/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/96/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/96/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/96/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/96/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/96/render-3.png
+tags:
+  - reference
+  - substance-painter
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/96/reference-0.png
+links:
+  - name: Tutorial Series
+    href: https://substance3d.adobe.com/tutorials/courses/First-Steps-with-Substance-3D-Painter/youtube-mv6pg1O9vEQ
+pathToBody: houdini-daily-practice/bodies/009/0096-roller-blade.md

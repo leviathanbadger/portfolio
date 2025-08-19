@@ -1,0 +1,36 @@
+id: 203
+name: Mardini 2025 - Quilt
+description: Entry into the Mardini 2025 challenge for March 11
+date: 2025-03-11
+previous: 202
+next: 204
+thumbnails:
+  - /assets/images/houdini-daily-practice/203/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/203/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/203/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/203/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/203/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - dops
+  - vellum
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/020/0203-mardini-2025-quilt.md

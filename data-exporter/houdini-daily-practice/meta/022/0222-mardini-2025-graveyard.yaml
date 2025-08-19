@@ -1,0 +1,32 @@
+id: 222
+name: Mardini 2025 - Graveyard
+description: Entry into the Mardini 2025 challenge for March 30
+date: 2025-03-30
+previous: 221
+next: 223
+thumbnails:
+  - /assets/images/houdini-daily-practice/222/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/222/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/222/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/222/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/022/0222-mardini-2025-graveyard.md

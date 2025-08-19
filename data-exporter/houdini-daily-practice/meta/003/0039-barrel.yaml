@@ -1,0 +1,17 @@
+id: 39
+name: Barrel Day 1
+description: Procedural barrel with automatic UVs
+date: 2021-10-24
+previous: 38
+next: 40
+nextInSequence: 40
+thumbnails:
+  - /assets/images/houdini-daily-practice/39/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/39/render-0.png
+tags:
+  - sops
+  - uvs
+  - mantra
+pathToBody: houdini-daily-practice/bodies/003/0039-barrel.md

@@ -1,0 +1,25 @@
+id: 155
+name: Mardini 2024 - Spiral
+description: Entry into the Mardini 2024 challenge for March 1
+date: 2024-03-01
+previous: 154
+next: 156
+thumbnails:
+  - /assets/images/houdini-daily-practice/155/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/155/render-0.png
+tags:
+  - sops
+  - uvs
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/015/0155-mardini-2024-spiral.md

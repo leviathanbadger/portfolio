@@ -1,0 +1,45 @@
+id: 61
+name: Dusty Biome Day 1
+description: A terrain heightfield created to mimic a dusty/deserty biome
+date: 2021-12-14
+previous: 60
+next: 62
+nextInSequence: 62
+thumbnails:
+  - /assets/images/houdini-daily-practice/61/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/61/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-4.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-5.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-6.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/render-1.png # Repeated to show texture after slump
+  - type: image
+    src: /assets/images/houdini-daily-practice/61/cop-out.png
+tags:
+  - sops
+  - terrain
+  - heightfield
+  - cops
+  - uv
+  - solaris
+  - lops
+  - karma
+  - materialx
+  - tutorial
+  - hdri
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/community-main-menu/complete-a-z-terrain-handbook/
+pathToBody: houdini-daily-practice/bodies/006/0061-dusty-biome.md

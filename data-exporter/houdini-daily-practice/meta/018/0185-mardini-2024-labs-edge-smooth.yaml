@@ -1,0 +1,32 @@
+id: 185
+name: Mardini 2024 - LABS Edge Smooth
+description: Entry into the Mardini 2024 challenge for March 31
+date: 2024-03-31
+previous: 184
+next: 186
+thumbnails:
+  - /assets/images/houdini-daily-practice/185/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/bRzRXFoCrvU
+  - type: image
+    src: /assets/images/houdini-daily-practice/185/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2024/iron-heart.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - motion-blur
+  - tonemapping
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/018/0185-mardini-2024-labs-edge-smooth.md

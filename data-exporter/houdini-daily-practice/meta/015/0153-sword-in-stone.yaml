@@ -1,0 +1,27 @@
+id: 153
+name: "Sword in the Stone"
+description: King Arthur's sword in the stone, designed for 3d printing
+date: 2023-11-09
+previous: 152
+next: 154
+thumbnails:
+  - /assets/images/houdini-daily-practice/153/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/153/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/153/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/153/print-0.png
+  - type: video
+    src: https://www.youtube.com/embed/A2573DtS13s
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - 3d-print
+  - bambu-studio
+  - x1-carbon
+  - multiple-filaments
+pathToBody: houdini-daily-practice/bodies/015/0153-sword-in-stone.md

@@ -1,0 +1,34 @@
+id: 115
+name: Mardini 2023 - Wave
+description: Entry into the Mardini 2023 challenge for March 10
+date: 2023-03-10
+previous: 114
+next: 116
+thumbnails:
+  - /assets/images/houdini-daily-practice/115/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/wn_1Q_i-hWs
+  - type: image
+    src: /assets/images/houdini-daily-practice/115/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - mops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - pdg
+  - tops
+  - ffmpeg
+  - after-effects
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/011/0115-mardini-2023-wave.md

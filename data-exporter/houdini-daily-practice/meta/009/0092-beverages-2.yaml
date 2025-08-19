@@ -1,0 +1,34 @@
+id: 92
+name: Beverages Day 2
+description: Various beverages for use in gas station project
+date: 2022-08-27
+previous: 91
+next: 93
+previousInSequence: 91
+nextInSequence: 93
+thumbnails:
+  - /assets/images/houdini-daily-practice/92/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/92/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/92/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/92/render-1.png
+tags:
+  - reference
+  - sops
+  - karma
+  - solaris
+  - lops
+  - materialx
+  - uvs
+  - hdri
+  - transmission
+  - hda
+  - illustrator
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/92/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/91/reference-1.png
+pathToBody: houdini-daily-practice/bodies/009/0092-beverages-2.md

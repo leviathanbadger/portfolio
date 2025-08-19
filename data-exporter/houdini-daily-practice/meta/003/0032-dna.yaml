@@ -1,0 +1,23 @@
+id: 32
+name: DNA
+description: Derpy animated DNA strand being pulled off-screen
+date: 2021-10-17
+previous: 31
+next: 33
+thumbnails:
+  - /assets/images/houdini-daily-practice/32/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/Y8prfoP15uo
+  - type: image
+    src: /assets/images/houdini-daily-practice/32/render-0.png
+tags:
+  - sops
+  - vops
+  - dops
+  - wiresolver
+  - creative
+  - animation
+  - mantra
+  - after-effects
+pathToBody: houdini-daily-practice/bodies/003/0032-dna.md

@@ -1,0 +1,25 @@
+id: 19
+name: Mass Relay
+description: A mass relay, from Mass Effect
+date: 2021-09-22
+previous: 18
+next: 20
+thumbnails:
+  - /assets/images/houdini-daily-practice/19/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/19/render-0.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/19/reference-0.png
+  - type: video
+    src: https://www.youtube.com/embed/BDq4a6PqAvM
+links:
+  - name: Mass Effect
+    href: https://www.ea.com/games/mass-effect/mass-effect-legendary-edition
+tags:
+  - sops
+  - reference
+  - mantra
+  - animation
+pathToBody: houdini-daily-practice/bodies/001/0019-mass-relay.md

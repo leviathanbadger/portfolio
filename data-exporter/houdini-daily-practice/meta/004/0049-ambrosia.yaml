@@ -1,0 +1,30 @@
+id: 49
+name: Ambrosia
+description: An attempt at creating a bottle of ambrosia from Hades (the game)
+date: 2021-11-13
+previous: 48
+next: 50
+thumbnails:
+  - /assets/images/houdini-daily-practice/49/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/49/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/49/render-1.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/49/reference-0.png
+tags:
+  - sops
+  - reference
+  - lops
+  - solaris
+  - karma
+  - materialx
+  - displacement
+  - volumetric
+  - hdri
+links:
+  - name: Hades
+    href: https://www.supergiantgames.com/games/hades/
+pathToBody: houdini-daily-practice/bodies/004/0049-ambrosia.md

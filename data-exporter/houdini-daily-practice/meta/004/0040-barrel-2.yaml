@@ -1,0 +1,19 @@
+id: 40
+name: Barrel Day 2
+description: Procedural barrel with automatic UVs - rendered with Karma
+date: 2021-10-25
+previous: 39
+next: 41
+previousInSequence: 39
+thumbnails:
+  - /assets/images/houdini-daily-practice/40/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/40/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/40/render-1.png
+tags:
+  - lops
+  - solaris
+  - karma
+pathToBody: houdini-daily-practice/bodies/004/0040-barrel-2.md

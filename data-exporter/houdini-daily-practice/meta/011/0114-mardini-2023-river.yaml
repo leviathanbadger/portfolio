@@ -1,0 +1,27 @@
+id: 114
+name: Mardini 2023 - River
+description: Entry into the Mardini 2023 challenge for March 9
+date: 2023-03-09
+previous: 113
+next: 115
+thumbnails:
+  - /assets/images/houdini-daily-practice/114/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/114/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/011/0114-mardini-2023-river.md

@@ -1,7 +1,7 @@
 {
   "yaml.schemas": {
-    "./projects/project.schema.json": "projects/*",
-    "./houdini-daily-practice/houdini-daily-practice.schema.json": "houdini-daily-practice/*",
-    "./rust-engine-timeline/timeline.schema.json": "rust-engine-timeline/*"
+    "./projects/project.schema.json": "projects/**",
+    "./houdini-daily-practice/houdini-daily-practice.schema.json": "houdini-daily-practice/**",
+    "./rust-engine-timeline/timeline.schema.json": "rust-engine-timeline/**"
   }
 }

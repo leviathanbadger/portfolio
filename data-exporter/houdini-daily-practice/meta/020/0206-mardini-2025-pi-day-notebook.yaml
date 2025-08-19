@@ -1,0 +1,29 @@
+id: 206
+name: Mardini 2025 - Pi Day Notebook
+description: Entry into the Mardini 2025 challenge for March 14
+date: 2025-03-14
+previous: 205
+next: 207
+thumbnails:
+  - /assets/images/houdini-daily-practice/206/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/206/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/020/0206-mardini-2025-pi-day-notebook.md

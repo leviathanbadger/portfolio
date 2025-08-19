@@ -1,0 +1,39 @@
+id: 164
+name: Mardini 2024 - Karma Physical Sky
+description: Entry into the Mardini 2024 challenge for March 10
+date: 2024-03-10
+previous: 163
+next: 165
+thumbnails:
+  - /assets/images/houdini-daily-practice/164/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/zSGDtDxcScw
+  - type: image
+    src: /assets/images/houdini-daily-practice/164/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/164/week2-summary.png
+tags:
+  - sops
+  - lops
+  - ocean
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - animation
+  - audio
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+  - name: Reference Image
+    href: https://www.pexels.com/photo/body-of-water-during-golden-hour-189349/
+  - name: Ocean Waves Foley
+    href: https://pixabay.com/sound-effects/ocean-waves-112906/
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/164/reference-0.jpg
+pathToBody: houdini-daily-practice/bodies/016/0164-mardini-2024-physical-sky.md

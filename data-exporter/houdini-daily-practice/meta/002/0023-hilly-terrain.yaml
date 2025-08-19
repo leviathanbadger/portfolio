@@ -1,0 +1,19 @@
+id: 23
+name: Hilly Terrain
+description: Hilly terrain created to experiment with heithfields
+date: 2021-10-08
+previous: 22
+next: 24
+thumbnails:
+  - /assets/images/houdini-daily-practice/23/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/23/render-0.png
+tags:
+  - sops
+  - vops
+  - creative
+  - heightfield
+  - terrain
+  - mantra
+pathToBody: houdini-daily-practice/bodies/002/0023-hilly-terrain.md

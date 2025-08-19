@@ -1,0 +1,29 @@
+id: 78
+name: Groom Rubber Toy
+description: Experimenting with the grooming tools on a rubber toy model
+date: 2022-07-16
+previous: 77
+next: 79
+thumbnails:
+  - /assets/images/houdini-daily-practice/78/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/78/thumbnail-1.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/E0HIps8tqyU
+  - type: image
+    src: /assets/images/houdini-daily-practice/78/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/78/render-1.png
+tags:
+  - sops
+  - grooming
+  - karma
+  - solaris
+  - lops
+  - materialx
+  - tutorial
+  - animation
+links:
+  - name: Grooming Tutorial
+    href: https://www.sidefx.com/tutorials/introduction-to-grooming-in-houdini/
+pathToBody: houdini-daily-practice/bodies/007/0078-groom-rubber-toy.md

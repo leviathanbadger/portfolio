@@ -1,0 +1,26 @@
+id: 157
+name: Mardini 2024 - Scatter & Align
+description: Entry into the Mardini 2024 challenge for March 3
+date: 2024-03-03
+previous: 156
+next: 158
+thumbnails:
+  - /assets/images/houdini-daily-practice/157/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/157/render-0.png
+tags:
+  - sops
+  - uvs
+  - heightfield
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/015/0157-mardini-2024-scatter-align.md

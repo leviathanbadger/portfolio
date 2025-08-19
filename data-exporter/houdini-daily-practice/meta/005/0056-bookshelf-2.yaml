@@ -1,0 +1,28 @@
+id: 56
+name: Bookshelf Day 2
+description: An empty bookshelf
+date: 2021-11-29
+previous: 55
+next: 57
+previousInSequence: 55
+nextInSequence: 57
+thumbnails:
+  - /assets/images/houdini-daily-practice/56/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/56/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/56/render-1.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/55/reference-0.png
+tags:
+  - sops
+  - solaris
+  - lops
+  - karma
+  - materialx
+  - uvs
+  - reference
+  - hdri
+pathToBody: houdini-daily-practice/bodies/005/0056-bookshelf-2.md

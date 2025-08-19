@@ -1,0 +1,39 @@
+id: 166
+name: Mardini 2024 - Vellum Configure Grain
+description: Entry into the Mardini 2024 challenge for March 12
+date: 2024-03-12
+previous: 165
+next: 167
+thumbnails:
+  - /assets/images/houdini-daily-practice/166/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/166/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/166/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/ey96I2PSkLM
+  - type: image
+    src: /assets/images/houdini-daily-practice/166/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/166/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/166/render-2.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - after-effects
+  - creative
+  - animation
+  - pdg
+  - tops
+  - ffmpeg
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/016/0166-mardini-2024-vellum-configure-grain.md

@@ -1,0 +1,26 @@
+id: 168
+name: Mardini 2024 - Cloud Shape Generate
+description: Entry into the Mardini 2024 challenge for March 14
+date: 2024-03-14
+previous: 167
+next: 169
+thumbnails:
+  - /assets/images/houdini-daily-practice/168/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/168/render-0.png
+tags:
+  - sops
+  - vdb
+  - volumetric
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/016/0168-mardini-2024-cloud-shape-generate.md

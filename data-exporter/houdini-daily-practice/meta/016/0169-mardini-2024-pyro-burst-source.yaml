@@ -1,0 +1,43 @@
+id: 169
+name: Mardini 2024 - Pyro Burst Source
+description: Entry into the Mardini 2024 challenge for March 15
+date: 2024-03-15
+previous: 168
+next: 170
+thumbnails:
+  - /assets/images/houdini-daily-practice/169/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/169/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/169/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/169/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/169/thumbnail-4.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/KjtbX56uZng
+  - type: image
+    src: /assets/images/houdini-daily-practice/169/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/169/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/169/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/169/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/169/render-4.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - pyro
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/016/0169-mardini-2024-pyro-burst-source.md

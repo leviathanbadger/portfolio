@@ -1,0 +1,35 @@
+id: 196
+name: Mardini 2025 - Pergola
+description: Entry into the Mardini 2025 challenge for March 4
+date: 2025-03-04
+previous: 195
+next: 197
+nextInSequence: 224
+thumbnails:
+  - /assets/images/houdini-daily-practice/196/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/196/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/196/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/196/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - vdb
+  - dops
+  - vellum
+  - lops
+  - karma
+  - atmosphere
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2025
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/019/0196-mardini-2025-pergola.md

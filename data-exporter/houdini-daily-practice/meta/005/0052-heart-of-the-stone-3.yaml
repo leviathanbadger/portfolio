@@ -1,0 +1,26 @@
+id: 52
+name: Heart of the Stone Day 3
+description: The Heart of the Stone of Tear (from the Wheel of Time)
+date: 2021-11-16
+previous: 51
+next: 53
+previousInSequence: 51
+thumbnails:
+  - /assets/images/houdini-daily-practice/52/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/52/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/52/render-1.png
+tags:
+  - sops
+  - creative
+  - solaris
+  - karma
+  - lops
+  - materialx
+  - displacement
+links:
+  - name: The Wheel of Time
+    href: https://en.wikipedia.org/wiki/The_Wheel_of_Time
+pathToBody: houdini-daily-practice/bodies/005/0052-heart-of-the-stone-3.md

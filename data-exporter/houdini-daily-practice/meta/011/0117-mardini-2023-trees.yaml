@@ -1,0 +1,34 @@
+id: 117
+name: Mardini 2023 - Trees
+description: Entry into the Mardini 2023 challenge for March 12
+date: 2023-03-12
+previous: 116
+next: 118
+thumbnails:
+  - /assets/images/houdini-daily-practice/117/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/117/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/117/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/117/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - labs
+  - lops
+  - karma
+  - displacement
+  - solaris
+  - materialx
+  - pdg
+  - tops
+  - cops
+  - creative
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/011/0117-mardini-2023-trees.md

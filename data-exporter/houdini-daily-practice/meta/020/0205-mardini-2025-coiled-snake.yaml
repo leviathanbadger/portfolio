@@ -1,0 +1,38 @@
+id: 205
+name: Mardini 2025 - Coiled Snake
+description: Entry into the Mardini 2025 challenge for March 13
+date: 2025-03-13
+previous: 204
+next: 206
+nextInSequence: 212
+thumbnails:
+  - /assets/images/houdini-daily-practice/205/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/205/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/205/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/205/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2025/iron-heart.png
+tags:
+  - sops
+  - uvs
+  - dops
+  - vellum
+  - cops
+  - copernicus
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - mardini
+  - mardini-2025
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/205/reference-0.png
+links:
+  - name: Mardini 2025
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2025/
+pathToBody: houdini-daily-practice/bodies/020/0205-mardini-2025-coiled-snake.md

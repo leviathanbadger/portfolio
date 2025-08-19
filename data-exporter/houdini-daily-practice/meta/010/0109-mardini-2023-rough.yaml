@@ -1,0 +1,30 @@
+id: 109
+name: Mardini 2023 - Rough
+description: Entry into the Mardini 2023 challenge for March 4
+date: 2023-03-04
+previous: 108
+next: 110
+thumbnails:
+  - /assets/images/houdini-daily-practice/109/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/109/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/mardini-2023/iron-heart.png
+tags:
+  - sops
+  - heightfield
+  - terrain
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - tops
+  - pdg
+  - creative
+  - mardini
+  - mardini-2023
+links:
+  - name: Mardini 2023
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2023/
+pathToBody: houdini-daily-practice/bodies/010/0109-mardini-2023-rough.md

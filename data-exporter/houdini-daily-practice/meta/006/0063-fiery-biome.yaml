@@ -1,0 +1,35 @@
+id: 63
+name: Fiery Biome
+description: A terrain heightfield created to mimic a fiery/volcano biome
+date: 2021-12-21
+previous: 62
+next: 64
+thumbnails:
+  - /assets/images/houdini-daily-practice/63/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/63/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/63/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/63/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/63/out_basecolor.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/63/out_height.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/63/out_lava.png
+tags:
+  - sops
+  - terrain
+  - heightfield
+  - cops
+  - uv
+  - solaris
+  - lops
+  - karma
+  - tutorial
+  - displacement
+links:
+  - name: Tutorial Video
+    href: https://www.sidefx.com/community-main-menu/complete-a-z-terrain-handbook/
+pathToBody: houdini-daily-practice/bodies/006/0063-fiery-biome.md

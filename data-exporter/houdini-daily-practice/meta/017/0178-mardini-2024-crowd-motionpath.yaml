@@ -1,0 +1,47 @@
+id: 178
+name: Mardini 2024 - Crowd MotionPath
+description: Entry into the Mardini 2024 challenge for March 24
+date: 2024-03-24
+previous: 177
+next: 179
+thumbnails:
+  - /assets/images/houdini-daily-practice/178/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/178/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/178/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/178/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/zXl6IH_EXcw
+  - type: image
+    src: /assets/images/houdini-daily-practice/178/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/178/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/178/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/178/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/178/week4-summary.png
+tags:
+  - sops
+  - uvs
+  - dops
+  - agents
+  - crowds
+  - heightfield
+  - volumetric
+  - pyro
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - tonemapping
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/017/0178-mardini-2024-crowd-motionpath.md

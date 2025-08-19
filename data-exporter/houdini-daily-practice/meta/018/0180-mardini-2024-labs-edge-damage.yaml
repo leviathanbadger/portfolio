@@ -1,0 +1,25 @@
+id: 180
+name: Mardini 2024 - LABS Edge Damage
+description: Entry into the Mardini 2024 challenge for March 26
+date: 2024-03-26
+previous: 179
+next: 181
+thumbnails:
+  - /assets/images/houdini-daily-practice/180/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/180/render-0.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - tonemapping
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/018/0180-mardini-2024-labs-edge-damage.md

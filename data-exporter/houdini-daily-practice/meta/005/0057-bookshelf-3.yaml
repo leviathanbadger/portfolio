@@ -1,0 +1,32 @@
+id: 57
+name: Bookshelf Day 3
+description: An empty bookshelf
+date: 2021-12-07
+previous: 56
+next: 58
+previousInSequence: 56
+thumbnails:
+  - /assets/images/houdini-daily-practice/57/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/57/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/57/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/57/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/57/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/57/render-3.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/55/reference-0.png
+tags:
+  - sops
+  - solaris
+  - lops
+  - karma
+  - materialx
+  - uvs
+  - reference
+  - hdri
+pathToBody: houdini-daily-practice/bodies/005/0057-bookshelf-3.md

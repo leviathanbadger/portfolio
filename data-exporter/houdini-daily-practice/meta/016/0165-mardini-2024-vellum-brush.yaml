@@ -1,0 +1,30 @@
+id: 165
+name: Mardini 2024 - Vellum Brush
+description: Entry into the Mardini 2024 challenge for March 11
+date: 2024-03-11
+previous: 164
+next: 166
+thumbnails:
+  - /assets/images/houdini-daily-practice/165/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/165/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/165/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/165/render-1.png
+tags:
+  - sops
+  - uvs
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/016/0165-mardini-2024-vellum-brush.md

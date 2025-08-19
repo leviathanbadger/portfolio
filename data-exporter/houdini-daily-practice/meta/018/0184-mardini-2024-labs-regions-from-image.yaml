@@ -1,0 +1,27 @@
+id: 184
+name: Mardini 2024 - LABS Regions from Image
+description: Entry into the Mardini 2024 challenge for March 30
+date: 2024-03-30
+previous: 183
+next: 185
+thumbnails:
+  - /assets/images/houdini-daily-practice/184/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/184/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/184/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/184/render-1.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2024
+links:
+  - name: Mardini 2024
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2024/
+pathToBody: houdini-daily-practice/bodies/018/0184-mardini-2024-labs-regions-from-image.md
