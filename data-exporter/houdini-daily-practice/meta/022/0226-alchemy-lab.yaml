@@ -1,0 +1,34 @@
+id: 226
+name: Alchemy Lab
+description: A magical alchemy lab
+date: 2025-08-18
+previous: 225
+thumbnails:
+  - /assets/images/houdini-daily-practice/226/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/226/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/226/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/render-2.png
+tags:
+  - sops
+  - hda
+  - lops
+  - karma
+  - solaris
+  - creative
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/reference-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/reference-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/226/reference-2.png
+links:
+  - name: Nodevember 2024
+    href: https://nodevember.io/prompts/2024
+pathToBody: houdini-daily-practice/bodies/022/0226-alchemy-lab.md
