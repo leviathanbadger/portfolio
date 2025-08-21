@@ -3,6 +3,8 @@ name: Alchemy Lab
 description: A magical alchemy lab
 date: 2025-08-18
 previous: 225
+next: 227
+nextInSequence: 227
 thumbnails:
   - /assets/images/houdini-daily-practice/226/thumbnail-0.png
   - /assets/images/houdini-daily-practice/226/thumbnail-1.png
