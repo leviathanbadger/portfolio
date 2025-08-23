@@ -3,7 +3,9 @@ name: Alchemy Lab Day 2
 description: A magical alchemy lab
 date: 2025-08-20
 previous: 226
+next: 228
 previousInSequence: 226
+nextInSequence: 228
 thumbnails:
   - /assets/images/houdini-daily-practice/227/thumbnail-0.png
   - /assets/images/houdini-daily-practice/227/thumbnail-1.png
