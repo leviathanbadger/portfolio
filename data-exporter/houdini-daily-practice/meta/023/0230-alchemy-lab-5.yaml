@@ -1,28 +1,28 @@
-id: 229
-name: Alchemy Lab Day 4
+id: 230
+name: Alchemy Lab Day 5
 description: A magical alchemy lab
-date: 2025-08-23
-previous: 228
-next: 230
-previousInSequence: 228
-nextInSequence: 230
+date: 2025-08-24
+previous: 229
+previousInSequence: 229
 thumbnails:
-  - /assets/images/houdini-daily-practice/229/thumbnail-0.png
-  - /assets/images/houdini-daily-practice/229/thumbnail-1.png
-  - /assets/images/houdini-daily-practice/229/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/230/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/230/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/230/thumbnail-2.png
 assets:
   - type: image
-    src: /assets/images/houdini-daily-practice/229/render-0.png
+    src: /assets/images/houdini-daily-practice/230/render-0.png
   - type: image
-    src: /assets/images/houdini-daily-practice/229/render-1.png
+    src: /assets/images/houdini-daily-practice/230/render-1.png
   - type: image
-    src: /assets/images/houdini-daily-practice/229/render-2.png
+    src: /assets/images/houdini-daily-practice/230/render-2.png
 tags:
   - sops
   - uvs
   - hda
   - cops
   - copernicus
+  - dops
+  - pyro
   - lops
   - karma
   - solaris
@@ -40,4 +40,4 @@ referenceAssets:
 links:
   - name: Nodevember 2024
     href: https://nodevember.io/prompts/2024
-pathToBody: houdini-daily-practice/bodies/022/0229-alchemy-lab-4.md
+pathToBody: houdini-daily-practice/bodies/023/0230-alchemy-lab-5.md

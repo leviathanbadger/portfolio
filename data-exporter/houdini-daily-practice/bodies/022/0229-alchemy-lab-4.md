@@ -3,7 +3,7 @@
 I'm getting back into Houdini practice using the [Nodevember 2024][nodevember-2024]
 prompts. Although the prompts are meant to be completed in two days, I'm taking a more
 leisurely approach and spending a week on each prompt to ensure I don't burn myself
-out practicing while working full-time. This is the first day of the first prompt,
+out practicing while working full-time. This is the fourth day of the first prompt,
 "Alchemy Lab".
 
 Today I:
