@@ -1,0 +1,25 @@
+id: 231
+name: Pumpkin
+description: A field full of pumpkins
+date: 2026-01-01
+previous: 230
+thumbnails:
+  - /assets/images/houdini-daily-practice/231/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/231/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/231/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/231/render-1.png
+tags:
+  - sops
+  - hda
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0231-pumpkin.md
