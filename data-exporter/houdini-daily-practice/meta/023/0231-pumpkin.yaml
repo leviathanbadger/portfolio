@@ -3,6 +3,7 @@ name: Pumpkin
 description: A field full of pumpkins
 date: 2026-01-01
 previous: 230
+next: 232
 thumbnails:
   - /assets/images/houdini-daily-practice/231/thumbnail-0.png
   - /assets/images/houdini-daily-practice/231/thumbnail-1.png

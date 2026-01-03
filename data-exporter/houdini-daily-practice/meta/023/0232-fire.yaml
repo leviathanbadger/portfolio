@@ -1,0 +1,38 @@
+id: 232
+name: Fire
+description: A stylistic stovetop fire
+date: 2026-01-02
+previous: 231
+thumbnails:
+  - /assets/images/houdini-daily-practice/232/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/232/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/232/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/ZTNkQWXTfBg
+  - type: image
+    src: /assets/images/houdini-daily-practice/232/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/232/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/232/render-2.png
+tags:
+  - sops
+  - dops
+  - pyro
+  - volumetric
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - animation
+  - after-effects
+  - reference
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+  - name: "'Stove' Copernicus example"
+    href: https://www.sidefx.com/products/whats-new-in-h205/copernicus/
+pathToBody: houdini-daily-practice/bodies/023/0232-fire.md
