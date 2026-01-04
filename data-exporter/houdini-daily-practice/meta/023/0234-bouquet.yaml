@@ -1,0 +1,25 @@
+id: 234
+name: Bouquet
+description: Beauty and the Beast Rose
+date: 2026-01-04
+previous: 233
+thumbnails:
+  - /assets/images/houdini-daily-practice/234/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/234/render-0.png
+tags:
+  - sops
+  - uvs
+  - lops
+  - cops
+  - karma
+  - solaris
+  - materialx
+  - hdri
+  - tonemapping
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0234-bouquet.md
