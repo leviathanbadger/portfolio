@@ -1,0 +1,28 @@
+id: 233
+name: Ice
+description: Narnia Lamp Post
+date: 2026-01-03
+previous: 232
+thumbnails:
+  - /assets/images/houdini-daily-practice/233/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/233/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/233/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/233/render-1.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - lops
+  - cops
+  - slap-comp
+  - karma
+  - solaris
+  - materialx
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0233-ice.md
