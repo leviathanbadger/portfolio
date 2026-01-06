@@ -3,6 +3,7 @@ name: Bouquet
 description: Beauty and the Beast Rose
 date: 2026-01-04
 previous: 233
+next: 235
 thumbnails:
   - /assets/images/houdini-daily-practice/234/thumbnail-0.png
 assets:
@@ -18,7 +19,7 @@ tags:
   - materialx
   - hdri
   - tonemapping
-  - creative
+  - reference
 links:
   - name: Nodevember 2025
     href: https://www.nodevember-2025.com/

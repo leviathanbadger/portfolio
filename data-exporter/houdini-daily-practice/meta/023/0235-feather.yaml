@@ -1,0 +1,27 @@
+id: 235
+name: Feather
+description: Feather quill in an ink bottle
+date: 2026-01-05
+previous: 234
+next: 236
+thumbnails:
+  - /assets/images/houdini-daily-practice/235/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/235/render-0.png
+tags:
+  - sops
+  - uvs
+  - cops
+  - groom
+  - feathers
+  - lops
+  - cops
+  - karma
+  - solaris
+  - materialx
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0235-feather.md
