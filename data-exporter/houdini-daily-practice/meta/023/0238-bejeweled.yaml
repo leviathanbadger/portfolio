@@ -1,0 +1,41 @@
+id: 238
+name: Bejeweled
+description: An enormous pile of lucre
+date: 2026-01-08
+previous: 237
+next: 239
+thumbnails:
+  - /assets/images/houdini-daily-practice/238/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/238/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/238/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/238/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/sx5ty6WP1AQ
+  - type: image
+    src: /assets/images/houdini-daily-practice/238/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/238/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/238/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/238/render-3.png
+tags:
+  - sops
+  - uvs
+  - heightfield
+  - dops
+  - rbd
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - after-effects
+  - animation
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0238-bejeweled.md
