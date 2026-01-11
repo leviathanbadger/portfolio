@@ -1,0 +1,40 @@
+id: 240
+name: Zip
+description: Abstract spinning machinery
+date: 2026-01-10
+previous: 239
+next: 241
+thumbnails:
+  - /assets/images/houdini-daily-practice/240/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/240/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/240/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/240/thumbnail-3.png
+assets:
+  # - type: video
+  #   src: https://www.youtube.com/embed/...
+  - type: image
+    src: /assets/images/houdini-daily-practice/240/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/240/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/240/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/240/render-3.png
+tags:
+  - sops
+  - uvs
+  - hda
+  - lops
+  - cops
+  - karma
+  - solaris
+  - materialx
+  - motion-blur
+  - slap-comp
+  - creative
+  - after-effects
+  - animation
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0240-zip.md
