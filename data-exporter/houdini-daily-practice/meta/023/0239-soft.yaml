@@ -1,0 +1,40 @@
+id: 239
+name: Soft
+description: ...
+date: 2026-01-09
+previous: 238
+next: 240
+thumbnails:
+  - /assets/images/houdini-daily-practice/239/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/239/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/239/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/239/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/MfKPMKF8rIs
+  - type: image
+    src: /assets/images/houdini-daily-practice/239/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/239/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/239/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/239/render-3.png
+tags:
+  - sops
+  - cops
+  - uvs
+  - dops
+  - mpm
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - anisotropy
+  - creative
+  - after-effects
+  - animation
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/023/0239-soft.md
