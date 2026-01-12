@@ -10,8 +10,8 @@ thumbnails:
   - /assets/images/houdini-daily-practice/240/thumbnail-2.png
   - /assets/images/houdini-daily-practice/240/thumbnail-3.png
 assets:
-  # - type: video
-  #   src: https://www.youtube.com/embed/...
+  - type: video
+    src: https://www.youtube.com/embed/mrXpeiMIk_Q
   - type: image
     src: /assets/images/houdini-daily-practice/240/render-0.png
   - type: image
