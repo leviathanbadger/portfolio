@@ -1,0 +1,27 @@
+id: 242
+name: Monument
+description: The Oldest House from Control
+date: 2026-01-12
+previous: 241
+next: 243
+thumbnails:
+  - /assets/images/houdini-daily-practice/242/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/242/render-0.png
+tags:
+  - sops
+  - uvs
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+  - lens-shader
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/WhQm-ExRz60?si=03L3LzZUHlcAWBPh&t=61
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0242-monument.md
