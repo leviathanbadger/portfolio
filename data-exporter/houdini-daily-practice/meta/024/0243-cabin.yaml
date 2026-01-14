@@ -1,0 +1,27 @@
+id: 243
+name: Cabin
+description: Hagrid's hut from Harry Potter
+date: 2026-01-13
+previous: 242
+next: 244
+thumbnails:
+  - /assets/images/houdini-daily-practice/243/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/243/render-0.png
+tags:
+  - sops
+  - hda
+  - heightfield
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/243/reference-0.png
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0243-cabin.md
