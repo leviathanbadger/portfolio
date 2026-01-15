@@ -1,0 +1,29 @@
+id: 244
+name: Camp
+description: A campsite scene with a tent, chair, and campfire
+date: 2026-01-14
+previous: 243
+next: 245
+thumbnails:
+  - /assets/images/houdini-daily-practice/244/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/244/render-0.png
+tags:
+  - sops
+  - uvs
+  - heightfield
+  - volumetric
+  - dops
+  - vellum
+  - rbd
+  - pyro
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0244-camp.md
