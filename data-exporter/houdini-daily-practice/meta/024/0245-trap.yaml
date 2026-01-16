@@ -1,0 +1,26 @@
+id: 245
+name: Trap
+description: The 'Pluribus' pitri dish
+date: 2026-01-15
+previous: 244
+next: 246
+thumbnails:
+  - /assets/images/houdini-daily-practice/245/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/245/render-0.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - dops
+  - mpm
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - reference
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0245-trap.md
