@@ -1,0 +1,39 @@
+id: 246
+name: Drone
+description: Drone scanning around a toxic cave
+date: 2026-01-16
+previous: 245
+next: 247
+thumbnails:
+  - /assets/images/houdini-daily-practice/246/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/246/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/246/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/246/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/G-JFH7jNtyo
+  - type: image
+    src: /assets/images/houdini-daily-practice/246/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/246/render-1.png
+  - type: image1
+    src: /assets/images/houdini-daily-practice/246/render-2.png
+  - type: image1
+    src: /assets/images/houdini-daily-practice/246/render-3.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - heightfield
+  - lops
+  - karma
+  - solaris
+  - lens-shader
+  - materialx
+  - creative
+  - after-effects
+  - animation
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0246-drone.md
