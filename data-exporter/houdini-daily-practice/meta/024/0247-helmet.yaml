@@ -1,0 +1,25 @@
+id: 247
+name: Helmet
+description: Big Daddy model from Bioshock
+date: 2026-01-17
+previous: 246
+previousInSequence: 236
+next: 248
+thumbnails:
+  - /assets/images/houdini-daily-practice/247/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/247/output-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/247/output-1.png
+tags:
+  - sops
+  - uvs
+  - reference
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/236/reference-0.png
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0247-helmet.md
