@@ -1,0 +1,36 @@
+id: 248
+name: Rocket
+description: Outer-space closeup of the sun
+date: 2026-01-18
+previous: 247
+next: 249
+thumbnails:
+  - /assets/images/houdini-daily-practice/248/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/248/thumbnail-1.png
+assets:
+  # - type: video
+  #   src: https://www.youtube.com/embed/...
+  - type: image
+    src: /assets/images/houdini-daily-practice/248/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/248/render-1.png
+tags:
+  - sops
+  - volumetric
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - slap-comp
+  - lens-shader
+  - reference
+  - after-effects
+  - animation
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/m08TxIsFTRI
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0248-rocket.md
