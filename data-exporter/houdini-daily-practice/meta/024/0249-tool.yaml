@@ -1,0 +1,56 @@
+id: 249
+name: Tool
+description: The Hotline from Control
+date: 2026-01-19
+previous: 248
+next: 250
+thumbnails:
+  - /assets/images/houdini-daily-practice/249/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/249/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/249/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/249/thumbnail-3.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-0-cputime.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-0-primarysamples.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-1-cputime.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-1-primarysamples.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-2-cputime.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-2-primarysamples.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-3-cputime.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/249/render-3-primarysamples.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - dops
+  - vellum
+  - cops
+  - hda
+  - lops
+  - karma
+  - solaris
+  - lens-shader
+  - materialx
+  - aovs
+  - slap-comp
+  - reference
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/024/0249-tool.md

@@ -8,8 +8,6 @@ thumbnails:
   - /assets/images/houdini-daily-practice/248/thumbnail-0.png
   - /assets/images/houdini-daily-practice/248/thumbnail-1.png
 assets:
-  # - type: video
-  #   src: https://www.youtube.com/embed/...
   - type: image
     src: /assets/images/houdini-daily-practice/248/render-0.png
   - type: image
@@ -25,8 +23,6 @@ tags:
   - slap-comp
   - lens-shader
   - reference
-  - after-effects
-  - animation
 referenceAssets:
   - type: video
     src: https://www.youtube.com/embed/m08TxIsFTRI
