@@ -1,0 +1,45 @@
+id: 250
+name: Mask
+description: ...
+date: 2026-01-20
+previous: 249
+next: 251
+thumbnails:
+  - /assets/images/houdini-daily-practice/250/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/250/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/250/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/250/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/250/thumbnail-4.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/250/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/250/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/250/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/250/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/250/render-4.png
+tags:
+  - sops
+  - volumetric
+  - dops
+  - rbd
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - tops
+  - pdg
+  - cloud-rendering
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+  - name: Drop & Render
+    href: https://dropandrender.com/
+  - name: Theater Masks
+    href: https://sketchfab.com/3d-models/happy-and-sad-theater-masks-comedy-and-tragedy-ee0c1240423546f5bd6083873a7144c5
+pathToBody: houdini-daily-practice/bodies/025/0250-mask.md
