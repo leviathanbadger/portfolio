@@ -1,0 +1,42 @@
+id: 251
+name: Grimoire
+description: Magical papers fluttering to the ground
+date: 2026-01-21
+previous: 250
+next: 252
+thumbnails:
+  - /assets/images/houdini-daily-practice/251/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/251/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/251/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/251/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/Xoc5xRqT3wo
+  - type: image
+    src: /assets/images/houdini-daily-practice/251/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/251/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/251/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/251/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/251/output-0.png
+tags:
+  - sops
+  - volumetric
+  - dops
+  - vellum
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - lens-shader
+  - slap-comp
+  - cloud-rendering
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0251-grimoire.md
