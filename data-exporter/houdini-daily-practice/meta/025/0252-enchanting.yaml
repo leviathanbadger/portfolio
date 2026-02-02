@@ -1,0 +1,37 @@
+id: 252
+name: Enchanting
+description: A Dr. Strange Sling Ring effect
+date: 2026-01-24
+previous: 251
+next: 253
+thumbnails:
+  - /assets/images/houdini-daily-practice/252/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/252/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/252/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/MjoqMTW-8Mk
+  - type: image
+    src: /assets/images/houdini-daily-practice/252/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/252/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/252/render-2.png
+tags:
+  - sops
+  - dops
+  - pops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - creative
+  - aovs
+  - animation
+  - after-effects
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0252-enchanting.md
