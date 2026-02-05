@@ -1,0 +1,39 @@
+id: 253
+name: Time
+description: Camera moving through clock tower clockwork
+date: 2026-02-04
+previous: 252
+next: 254
+thumbnails:
+  - /assets/images/houdini-daily-practice/253/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/253/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/253/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/j6ed-OxPB9Q
+  - type: image
+    src: /assets/images/houdini-daily-practice/253/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/253/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/253/render-2.png
+tags:
+  - sops
+  - hda
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - reference
+  - animation
+  - after-effects
+  - aovs
+  - motion-blur
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/lqTLETOYkQg?si=uqEnNXBrw9mXI_R5&t=139
+pathToBody: houdini-daily-practice/bodies/025/0253-time.md
