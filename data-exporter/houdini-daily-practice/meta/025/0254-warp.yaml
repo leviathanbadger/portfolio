@@ -1,0 +1,40 @@
+id: 254
+name: Warp
+description: Star Wars jump to lightspeed
+date: 2026-02-05
+previous: 253
+next: 255
+thumbnails:
+  - /assets/images/houdini-daily-practice/254/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/254/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/254/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/254/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/fNP6DcNfj60
+  - type: image
+    src: /assets/images/houdini-daily-practice/254/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/254/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/254/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/254/render-3.png
+tags:
+  - sops
+  - volumetric
+  - dops
+  - solver
+  - hda
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - reference
+  - animation
+  - after-effects
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0254-warp.md
