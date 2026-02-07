@@ -1,0 +1,29 @@
+id: 255
+name: Connected
+description: Kintsugi vase
+date: 2026-02-06
+previous: 254
+next: 256
+thumbnails:
+  - /assets/images/houdini-daily-practice/255/thumbnail-0.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/haTzAfTVzQU
+  - type: image
+    src: /assets/images/houdini-daily-practice/255/render-0.png
+tags:
+  - sops
+  - volumetric
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - animation
+  - after-effects
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0255-connected.md
