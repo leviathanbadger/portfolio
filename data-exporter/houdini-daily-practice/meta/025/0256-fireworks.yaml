@@ -1,0 +1,42 @@
+id: 256
+name: Fireworks
+description: A fireworks POP simulation
+date: 2026-02-07
+previous: 255
+next: 257
+thumbnails:
+  - /assets/images/houdini-daily-practice/256/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/256/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/256/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/256/thumbnail-3.png
+  - /assets/images/houdini-daily-practice/256/thumbnail-4.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/gvsfOZJbyhk
+  - type: image
+    src: /assets/images/houdini-daily-practice/256/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/256/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/256/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/256/render-3.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/256/render-4.png
+tags:
+  - sops
+  - heightfield
+  - dops
+  - pops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - animation
+  - after-effects
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0256-fireworks.md
