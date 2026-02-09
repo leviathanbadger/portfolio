@@ -1,0 +1,36 @@
+id: 257
+name: Recursive
+description: Trippy mushroom animation with textures from reaction-diffusion
+date: 2026-02-08
+previous: 256
+next: 258
+thumbnails:
+  - /assets/images/houdini-daily-practice/257/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/257/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/257/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/EQ3Rl97LcjE
+  - type: image
+    src: /assets/images/houdini-daily-practice/257/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/257/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/257/render-2.png
+tags:
+  - sops
+  - cops
+  - reaction-diffusion
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - animation
+  - after-effects
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0257-recursive.md
