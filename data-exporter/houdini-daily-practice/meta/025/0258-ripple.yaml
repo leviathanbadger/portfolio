@@ -1,0 +1,25 @@
+id: 258
+name: Ripple
+description: Abstract art
+date: 2026-02-09
+previous: 257
+next: 259
+thumbnails:
+  - /assets/images/houdini-daily-practice/258/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/258/render-0.png
+tags:
+  - sops
+  - volumetric
+  - dops
+  - pops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/025/0258-ripple.md
