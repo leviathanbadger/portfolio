@@ -17,7 +17,8 @@ Technically this one started as a 'reference' project, not a 'creative' one, but
 a while I gave up because I couldn't get the effect I wanted so I just started going
 for something random. And despite my best efforts the end result is kinda awful. This
 is among the bottom five projects in Nodevember 2025 for sure. Glancing back, it may
-have actually been the worst if it weren't for the [[5. Feather|'feather' project]] on
+have actually been the worst if it weren't for the
+['feather' project](https://brandonslade.me/houdini-practice/235) on
 day five. However, just like that project, it failed because I was trying to do
 something that I just don't have the knowledge or experience to do, so I'm trying not
 to feel too bad about it.
