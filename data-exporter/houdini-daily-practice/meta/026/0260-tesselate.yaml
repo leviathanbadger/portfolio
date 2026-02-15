@@ -1,0 +1,30 @@
+id: 260
+name: Tesselate
+description: A prison courtyard on a foggy night after rain
+date: 2026-02-14
+previous: 259
+next: 261
+thumbnails:
+  - /assets/images/houdini-daily-practice/260/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/260/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/260/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/260/render-1.png
+tags:
+  - sops
+  - hda
+  - volumetric
+  - cops
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+links:
+  - name: Nodevember 2025
+    href: https://www.nodevember-2025.com/
+pathToBody: houdini-daily-practice/bodies/026/0260-tesselate.md
