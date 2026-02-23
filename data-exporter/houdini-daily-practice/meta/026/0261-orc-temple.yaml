@@ -1,0 +1,27 @@
+id: 261
+name: Orc Temple
+description: An orc temple, on a lake, abutting a cliff
+date: 2026-02-22
+previous: 260
+next: 262
+nextInSequence: 262
+thumbnails:
+  - /assets/images/houdini-daily-practice/261/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/261/render-0.png
+tags:
+  - sops
+  - volumetric
+  - cops
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+links:
+  - name: Nodevember 2024
+    href: https://nodevember.io/prompts/2024
+pathToBody: houdini-daily-practice/bodies/026/0261-orc-temple.md
