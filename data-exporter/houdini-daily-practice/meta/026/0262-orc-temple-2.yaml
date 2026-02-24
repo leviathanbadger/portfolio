@@ -1,0 +1,36 @@
+id: 262
+name: Orc Temple Day 2
+description: An orc temple, on a lake, abutting a cliff
+date: 2026-02-22
+previous: 261
+previousInSequence: 261
+next: 263
+nextInSequence: 263
+thumbnails:
+  - /assets/images/houdini-daily-practice/262/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/262/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/262/thumbnail-2.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/262/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/262/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/262/render-2.png
+tags:
+  - sops
+  - volumetric
+  - cops
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - tops
+  - pdg
+links:
+  - name: Nodevember 2024
+    href: https://nodevember.io/prompts/2024
+pathToBody: houdini-daily-practice/bodies/026/0262-orc-temple-2.md
