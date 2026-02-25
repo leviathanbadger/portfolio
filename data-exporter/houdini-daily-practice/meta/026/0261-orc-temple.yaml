@@ -12,6 +12,7 @@ assets:
     src: /assets/images/houdini-daily-practice/261/render-0.png
 tags:
   - sops
+  - heightfield
   - volumetric
   - cops
   - slap-comp

@@ -1,7 +1,7 @@
 id: 262
 name: Orc Temple Day 2
 description: An orc temple, on a lake, abutting a cliff
-date: 2026-02-22
+date: 2026-02-23
 previous: 261
 previousInSequence: 261
 next: 263
@@ -19,6 +19,7 @@ assets:
     src: /assets/images/houdini-daily-practice/262/render-2.png
 tags:
   - sops
+  - heightfield
   - volumetric
   - cops
   - slap-comp
