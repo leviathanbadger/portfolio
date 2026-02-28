@@ -5,7 +5,6 @@ date: 2026-02-24
 previous: 262
 previousInSequence: 262
 next: 264
-nextInSequence: 264
 thumbnails:
   - /assets/images/houdini-daily-practice/263/thumbnail-0.png
   - /assets/images/houdini-daily-practice/263/thumbnail-1.png
@@ -36,6 +35,8 @@ tags:
   - creative
   - tops
   - pdg
+  - nodevember
+  - nodevember-2024
 links:
   - name: Nodevember 2024
     href: https://nodevember.io/prompts/2024
