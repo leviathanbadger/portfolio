@@ -1,0 +1,48 @@
+id: 264
+name: Mardini 2026 - Plant
+description: Entry into the Mardini 2026 challenge for March 1
+date: 2026-03-01
+previous: 263
+next: 265
+thumbnails:
+  - /assets/images/houdini-daily-practice/264/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/264/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/264/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/264/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/5QicupktpyQ
+  - type: image
+    src: /assets/images/houdini-daily-practice/264/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/264/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/264/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/264/render-3.png
+referenceAssets:
+  - type: video
+    src: https://www.youtube.com/embed/_omg3djRFqE
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - heightfield
+  - chops
+  - cops
+  - copernicus
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - reference
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/026/0264-mardini-2026-plant.md
