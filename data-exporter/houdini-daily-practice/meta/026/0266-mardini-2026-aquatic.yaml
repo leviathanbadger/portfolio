@@ -1,0 +1,33 @@
+id: 266
+name: Mardini 2026 - Aquatic
+description: Entry into the Mardini 2026 challenge for March 3
+date: 2026-03-03
+previous: 265
+next: 267
+thumbnails:
+  - /assets/images/houdini-daily-practice/266/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/266/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/266/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/266/render-1.png
+tags:
+  - sops
+  - uvs
+  - volumetric
+  - dops
+  - rbd
+  - bullet
+  - lops
+  - karma
+  - solaris
+  - hdri
+  - materialx
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/026/0266-mardini-2026-aquatic.md
