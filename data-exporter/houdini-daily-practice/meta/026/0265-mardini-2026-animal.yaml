@@ -1,0 +1,42 @@
+id: 265
+name: Mardini 2026 - Animal
+description: Entry into the Mardini 2026 challenge for March 2
+date: 2026-03-02
+previous: 264
+next: 266
+thumbnails:
+  - /assets/images/houdini-daily-practice/265/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/265/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/265/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/T4ki3n-6oHw
+  - type: image
+    src: /assets/images/houdini-daily-practice/265/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/265/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/265/render-2.png
+referenceAssets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/265/reference-0.png
+tags:
+  - sops
+  - sculpt
+  - kinefx
+  - captureweights
+  - cops
+  - lops
+  - karma
+  - hdri
+  - solaris
+  - materialx
+  - reference
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/026/0265-mardini-2026-animal.md
