@@ -1,0 +1,40 @@
+id: 268
+name: Mardini 2026 - Environment
+description: Entry into the Mardini 2026 challenge for March 5
+date: 2026-03-05
+previous: 267
+next: 269
+thumbnails:
+  - /assets/images/houdini-daily-practice/268/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/268/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/268/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/268/thumbnail-3.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/268/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/268/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/268/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/268/render-3.png
+tags:
+  - sops
+  - heightfield
+  - volumetric
+  - vdb
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - hdri
+  - lens-shader
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/026/0268-mardini-2026-environment.md
