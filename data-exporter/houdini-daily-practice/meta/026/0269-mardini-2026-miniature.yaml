@@ -1,0 +1,29 @@
+id: 269
+name: Mardini 2026 - Miniature
+description: Entry into the Mardini 2026 challenge for March 6
+date: 2026-03-06
+previous: 268
+next: 270
+thumbnails:
+  - /assets/images/houdini-daily-practice/269/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/269/render-0.png
+tags:
+  - sops
+  - volumetric
+  - vdb
+  - hda
+  - cops
+  - slap-comp
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/026/0269-mardini-2026-miniature.md
