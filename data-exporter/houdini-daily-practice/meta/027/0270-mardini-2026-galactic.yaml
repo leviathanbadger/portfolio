@@ -1,0 +1,36 @@
+id: 270
+name: Mardini 2026 - Galactic
+description: Entry into the Mardini 2026 challenge for March 7
+date: 2026-03-07
+previous: 269
+next: 271
+thumbnails:
+  - /assets/images/houdini-daily-practice/270/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/270/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/270/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/270/render-1.png
+tags:
+  - sops
+  - hda
+  - heightfield
+  - volumetric
+  - ocean
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - hdri
+  - lens-shader
+  - cops
+  - slap-comp
+  - aovs
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0270-mardini-2026-galactic.md
