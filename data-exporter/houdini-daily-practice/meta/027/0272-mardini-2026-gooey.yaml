@@ -1,0 +1,35 @@
+id: 272
+name: Mardini 2026 - Gooey
+description: Entry into the Mardini 2026 challenge for March 9
+date: 2026-03-09
+previous: 271
+next: 273
+thumbnails:
+  - /assets/images/houdini-daily-practice/272/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/272/render-0.png
+tags:
+  - sops
+  - heightfield
+  - volumetric
+  - vdb
+  - dops
+  - ripple
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - aovs
+  - lens-shader
+  - hdri
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0272-mardini-2026-gooey.md
