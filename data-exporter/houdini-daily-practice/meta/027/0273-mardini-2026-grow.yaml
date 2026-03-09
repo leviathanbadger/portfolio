@@ -1,0 +1,43 @@
+id: 273
+name: Mardini 2026 - Grow
+description: Entry into the Mardini 2026 challenge for March 10
+date: 2026-03-10
+previous: 272
+next: 274
+thumbnails:
+  - /assets/images/houdini-daily-practice/273/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/273/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/273/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/Sw5xM01uXMs
+  - type: image
+    src: /assets/images/houdini-daily-practice/273/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/273/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/273/render-2.png
+tags:
+  - sops
+  - volumetric
+  - vdb
+  - dops
+  - solver
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - hdri
+  - lens-shader
+  - cops
+  - slap-comp
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0273-mardini-2026-grow.md
