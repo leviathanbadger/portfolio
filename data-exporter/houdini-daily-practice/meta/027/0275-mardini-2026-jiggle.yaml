@@ -1,0 +1,39 @@
+id: 275
+name: Mardini 2026 - Jiggle
+description: Entry into the Mardini 2026 challenge for March 12
+date: 2026-03-12
+previous: 274
+next: 276
+thumbnails:
+  - /assets/images/houdini-daily-practice/275/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/275/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/275/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/275/thumbnail-3.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/275/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/275/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/275/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/275/render-3.png
+tags:
+  - sops
+  - vdb
+  - volumetric
+  - dops
+  - flip
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0275-mardini-2026-jiggle.md
