@@ -1,0 +1,29 @@
+id: 276
+name: Mardini 2026 - Fur
+description: Entry into the Mardini 2026 challenge for March 13
+date: 2026-03-13
+previous: 275
+next: 277
+thumbnails:
+  - /assets/images/houdini-daily-practice/276/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/276/render-0.png
+tags:
+  - sops
+  - groom
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - portal-lights
+  - lens-shader
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0276-mardini-2026-fur.md
