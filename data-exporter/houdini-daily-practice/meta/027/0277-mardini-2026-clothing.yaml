@@ -1,0 +1,28 @@
+id: 277
+name: Mardini 2026 - Clothing
+description: Entry into the Mardini 2026 challenge for March 14
+date: 2026-03-14
+previous: 276
+next: 278
+thumbnails:
+  - /assets/images/houdini-daily-practice/277/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/277/render-0.png
+tags:
+  - sops
+  - dops
+  - vellum
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/027/0277-mardini-2026-clothing.md
