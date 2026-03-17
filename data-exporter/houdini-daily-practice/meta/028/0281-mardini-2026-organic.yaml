@@ -1,0 +1,28 @@
+id: 281
+name: Mardini 2026 - Organic
+description: Entry into the Mardini 2026 challenge for March 18
+date: 2026-03-18
+previous: 280
+next: 282
+thumbnails:
+  - /assets/images/houdini-daily-practice/281/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/281/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/281/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/281/render-1.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0281-mardini-2026-organic.md
