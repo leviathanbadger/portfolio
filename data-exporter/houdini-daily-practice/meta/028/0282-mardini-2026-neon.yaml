@@ -1,0 +1,28 @@
+id: 282
+name: Mardini 2026 - Neon
+description: Entry into the Mardini 2026 challenge for March 19
+date: 2026-03-19
+previous: 281
+next: 283
+thumbnails:
+  - /assets/images/houdini-daily-practice/282/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/282/thumbnail-1.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/282/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/282/render-1.png
+tags:
+  - sops
+  - heightfield
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0282-mardini-2026-neon.md
