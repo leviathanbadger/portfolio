@@ -1,0 +1,28 @@
+id: 283
+name: Mardini 2026 - Stylized
+description: Entry into the Mardini 2026 challenge for March 20
+date: 2026-03-20
+previous: 282
+next: 284
+thumbnails:
+  - /assets/images/houdini-daily-practice/283/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/283/render-0.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0283-mardini-2026-stylized.md
