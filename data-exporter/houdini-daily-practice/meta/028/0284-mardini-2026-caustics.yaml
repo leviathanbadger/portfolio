@@ -1,0 +1,32 @@
+id: 284
+name: Mardini 2026 - Caustics
+description: Entry into the Mardini 2026 challenge for March 21
+date: 2026-03-21
+previous: 283
+next: 285
+thumbnails:
+  - /assets/images/houdini-daily-practice/284/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/284/render-0.png
+tags:
+  - sops
+  - volumetric
+  - vdb
+  - dops
+  - mpm
+  - solver
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0284-mardini-2026-caustics.md
