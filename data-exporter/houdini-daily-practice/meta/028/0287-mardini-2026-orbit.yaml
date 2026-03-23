@@ -1,0 +1,39 @@
+id: 287
+name: Mardini 2026 - Orbit
+description: Entry into the Mardini 2026 challenge for March 23
+date: 2026-03-23
+previous: 286
+next: 288
+thumbnails:
+  - /assets/images/houdini-daily-practice/287/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/287/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/287/thumbnail-2.png
+  - /assets/images/houdini-daily-practice/287/thumbnail-3.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/ib0aG64qp9E
+  - type: image
+    src: /assets/images/houdini-daily-practice/287/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/287/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/287/render-2.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/287/render-3.png
+tags:
+  - sops
+  - cops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - motion-blur
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0287-mardini-2026-orbit.md
