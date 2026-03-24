@@ -1,0 +1,28 @@
+id: 288
+name: Mardini 2026 - Swarm
+description: Entry into the Mardini 2026 challenge for March 24
+date: 2026-03-24
+previous: 287
+next: 289
+thumbnails:
+  - /assets/images/houdini-daily-practice/288/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/288/render-0.png
+tags:
+  - sops
+  - volumetric
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - cops
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/028/0288-mardini-2026-swarm.md
