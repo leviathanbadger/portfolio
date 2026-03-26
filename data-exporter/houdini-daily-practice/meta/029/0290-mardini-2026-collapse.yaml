@@ -1,0 +1,27 @@
+id: 290
+name: Mardini 2026 - Collapse
+description: Entry into the Mardini 2026 challenge for March 26
+date: 2026-03-26
+previous: 289
+next: 291
+thumbnails:
+  - /assets/images/houdini-daily-practice/290/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/290/render-0.png
+tags:
+  - sops
+  - dops
+  - flip
+  - mpm
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/029/0290-mardini-2026-collapse.md
