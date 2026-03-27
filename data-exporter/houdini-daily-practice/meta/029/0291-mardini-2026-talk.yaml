@@ -1,0 +1,25 @@
+id: 291
+name: Mardini 2026 - Talk
+description: Entry into the Mardini 2026 challenge for March 27
+date: 2026-03-27
+previous: 290
+next: 292
+thumbnails:
+  - /assets/images/houdini-daily-practice/291/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/291/render-0.png
+tags:
+  - sops
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/029/0291-mardini-2026-talk.md
