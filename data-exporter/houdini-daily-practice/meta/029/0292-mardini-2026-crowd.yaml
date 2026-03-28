@@ -1,0 +1,40 @@
+id: 292
+name: Mardini 2026 - Crowd
+description: Entry into the Mardini 2026 challenge for March 28
+date: 2026-03-28
+previous: 291
+next: 293
+thumbnails:
+  - /assets/images/houdini-daily-practice/292/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/292/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/292/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/yoXbB_P16io
+  - type: image
+    src: /assets/images/houdini-daily-practice/292/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/292/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/292/render-2.png
+tags:
+  - sops
+  - dops
+  - rbd
+  - solver
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - lens-shader
+  - cops
+  - slap-comp
+  - animation
+  - after-effects
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/029/0292-mardini-2026-crowd.md
