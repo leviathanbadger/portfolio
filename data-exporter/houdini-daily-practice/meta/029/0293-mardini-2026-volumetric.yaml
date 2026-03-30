@@ -1,0 +1,40 @@
+id: 293
+name: Mardini 2026 - Volumetric
+description: Entry into the Mardini 2026 challenge for March 29
+date: 2026-03-29
+previous: 292
+next: 294
+thumbnails:
+  - /assets/images/houdini-daily-practice/293/thumbnail-0.png
+  - /assets/images/houdini-daily-practice/293/thumbnail-1.png
+  - /assets/images/houdini-daily-practice/293/thumbnail-2.png
+assets:
+  - type: video
+    src: https://www.youtube.com/embed/207EphE-4s4
+  - type: image
+    src: /assets/images/houdini-daily-practice/293/render-0.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/293/render-1.png
+  - type: image
+    src: /assets/images/houdini-daily-practice/293/render-2.png
+tags:
+  - sops
+  - volumetric
+  - vdb
+  - heightfield
+  - cops
+  - slap-comp
+  - flow-solver
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - creative
+  - animation
+  - after-effects
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/029/0293-mardini-2026-volumetric.md
