@@ -1,0 +1,28 @@
+id: 294
+name: Mardini 2026 - Motion Blur
+description: Entry into the Mardini 2026 challenge for March 30
+date: 2026-03-30
+previous: 293
+next: 295
+thumbnails:
+  - /assets/images/houdini-daily-practice/294/thumbnail-0.png
+assets:
+  - type: image
+    src: /assets/images/houdini-daily-practice/294/render-0.png
+tags:
+  - sops
+  - hda
+  - lops
+  - karma
+  - solaris
+  - materialx
+  - motion-blur
+  - lens-shader
+  - slap-comp
+  - creative
+  - mardini
+  - mardini-2026
+links:
+  - name: Mardini 2026
+    href: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+pathToBody: houdini-daily-practice/bodies/029/0294-mardini-2026-motion-blur.md
