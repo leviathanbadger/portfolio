@@ -40,4 +40,11 @@ New stuff:
 
 HDRI is from PolyHaven. GreyscaleGorilla only has a few free HDRI, and none of them are suitable for this project.
 
+**Edit**: I'm repurposing this project to submit for day 31, 'refract'. I'm too burned
+out to create a new one right now, but happily 'caustics' and 'refract' basically fit
+the same project ideas.
+
+My entry post is [here][entry-post].
+
 [mardini-2026]: https://www.sidefx.com/community-main-menu/contests-jams/mardini-2026/
+[entry-post]: https://www.sidefx.com/forum/topic/103486/?page=2#post-457578
